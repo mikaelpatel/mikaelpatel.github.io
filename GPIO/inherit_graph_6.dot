@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SRPI\< DATA_PIN, CLOCK\l_PIN, BIT_ORDER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da4/classSRPI.html"];
+}
