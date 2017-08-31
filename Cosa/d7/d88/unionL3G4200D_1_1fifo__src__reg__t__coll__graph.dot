@@ -1,0 +1,6 @@
+digraph "L3G4200D::fifo_src_reg_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{L3G4200D::fifo_src\l_reg_t\n|+ as_uint8\l+ FSS\l+ EMPTY\l+ OVRN\l+ WTM\l+ @155\l|+ fifo_src_reg_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

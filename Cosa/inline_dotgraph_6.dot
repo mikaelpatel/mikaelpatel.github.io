@@ -1,0 +1,31 @@
+
+digraph full_cycle {
+  R_START -> R_START [label="00"];
+  R_START -> R_CW_BEGIN [label="01"];
+  R_START -> R_CCW_BEGIN [label="10"];
+  R_START -> R_START [label="11"];
+  R_CW_FINAL -> R_CW_NEXT [label="00"];
+  R_CW_FINAL -> R_START [label="01"];
+  R_CW_FINAL -> R_CW_FINAL [label="10"];
+  R_CW_FINAL -> R_START [label="11,DIR_CW"];
+  R_CW_BEGIN -> R_CW_NEXT [label="00"];
+  R_CW_BEGIN -> R_CW_BEGIN [label="01"];
+  R_CW_BEGIN -> R_START [label="10"];
+  R_CW_BEGIN -> R_START [label="11"];
+  R_CW_NEXT -> R_CW_NEXT [label="00"];
+  R_CW_NEXT -> R_CW_BEGIN [label="01"];
+  R_CW_NEXT -> R_CW_FINAL [label="10"];
+  R_CW_NEXT -> R_START [label="11"];
+  R_CCW_BEGIN -> R_CCW_NEXT [label="00"];
+  R_CCW_BEGIN -> R_START [label="01"];
+  R_CCW_BEGIN -> R_CCW_BEGIN [label="10"];
+  R_CCW_BEGIN -> R_START [label="11"];
+  R_CCW_FINAL -> R_CCW_NEXT [label="00"];
+  R_CCW_FINAL -> R_CCW_FINAL [label="01"];
+  R_CCW_FINAL -> R_START [label="10"];
+  R_CCW_FINAL -> R_START [label="01,DIR_CCW"];
+  R_CCW_NEXT -> R_CCW_NEXT [label="00"];
+  R_CCW_NEXT -> R_CCW_FINAL [label="01"];
+  R_CCW_NEXT -> R_CCW_BEGIN [label="10"];
+  R_CCW_NEXT -> R_START [label="11"];
+}

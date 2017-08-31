@@ -1,0 +1,6 @@
+digraph "CC3000::hci_evnt_wlan_ioctl_get_scan_results_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CC3000::hci_evnt_wlan\l_ioctl_get_scan_results_t\n|+ status\l+ network_id\l+ scan_status\l+ valid\l+ rssi\l+ wlan_security\l+ ssid_name_length\l+ entry_time\l+ ssid\l+ bssid\l+ reserved\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

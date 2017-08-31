@@ -1,0 +1,8 @@
+digraph "FAT16::fbs_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FAT16::fbs_t\n|+ jmpToBootCode\l+ oemName\l+ driveNumber\l+ reserved1\l+ bootSignature\l+ volumeSerialNumber\l+ volumeLabel\l+ fileSystemType\l+ bootCode\l+ bootSectorSig0\l+ bootSectorSig1\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +bpb" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{FAT16::bpb_t\n|+ bytesPerSector\l+ sectorsPerCluster\l+ reservedSectorCount\l+ fatCount\l+ rootDirEntryCount\l+ totalSectors16\l+ mediaType\l+ sectorsPerFat16\l+ sectorsPerTrtack\l+ headCount\land 9 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d47/structFAT16_1_1bpb__t.html"];
+}

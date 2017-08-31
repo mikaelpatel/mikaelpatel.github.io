@@ -1,0 +1,7 @@
+<map id="OffScreen&lt; width, height &gt;" name="OffScreen&lt; width, height &gt;">
+<area shape="rect" id="node2" href="$d5/d70/classCanvas.html" title="{Canvas\n|+ WIDTH\l+ HEIGHT\l# m_direction\l|+ Canvas()\l+ begin()\l+ get_context()\l+ set_context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\land 46 more...\l+ shade()\l+ blend()\l}" alt="" coords="149,652,293,935"/>
+<area shape="rect" id="node3" href="$de/d13/classCanvas_1_1Context.html" title="{Canvas::Context\n|# m_text_scale\l|+ Context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\l+ get_text_font()\l+ set_text_font()\l+ get_text_scale()\l+ set_text_scale()\l+ get_cursor()\l+ set_cursor()\l+ move_cursor()\l}" alt="" coords="149,307,293,575"/>
+<area shape="rect" id="node4" href="$d1/d31/structCanvas_1_1pos16__t.html" title="{Canvas::pos16_t\n|+ x\l+ y\l|}" alt="" coords="5,64,127,156"/>
+<area shape="rect" id="node5" href="$db/dbe/unionCanvas_1_1color16__t.html" title="{Canvas::color16_t\n|+ rgb\l+ blue\l+ green\l+ red\l+ @69\l|+ color16_t()\l+ color16_t()\l+ color16_t()\l+ operator uint16_t()\l}" alt="" coords="151,20,290,200"/>
+<area shape="rect" id="node6" href="$d4/d42/classFont.html" title="{Font\n|+ WIDTH\l+ HEIGHT\l+ SPACING\l+ LINE_SPACING\l+ FIRST\l+ LAST\l# m_bitmap\l# m_compression_type\l|+ Font()\l+ available()\l+ draw()\l}" alt="" coords="314,5,471,215"/>
+</map>

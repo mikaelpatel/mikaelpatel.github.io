@@ -1,0 +1,8 @@
+digraph "univ32_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{univ32_t\n|+ as_float32\l+ as_uint32\l+ as_int32\l+ as_uint16\l+ as_int16\l+ as_uint8\l+ as_int8\l+ as_ptr_P\l+ as_ptr\l+ low\l+ high\l+ @47\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +as_univ16" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{univ16_t\n|+ as_uint16\l+ as_int16\l+ as_uint8\l+ as_int8\l+ as_ptr_P\l+ as_ptr\l+ low\l+ high\l+ @45\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d5e/unionuniv16__t.html"];
+}

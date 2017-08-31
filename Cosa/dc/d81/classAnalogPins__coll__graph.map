@@ -1,0 +1,5 @@
+<map id="AnalogPins" name="AnalogPins">
+<area shape="rect" id="node2" href="$de/dce/classAnalogPin.html" title="{AnalogPin\n|# m_pin\l# m_reference\l# m_value\l# m_event\l|+ AnalogPin()\l+ reference()\l+ reference()\l+ pin()\l+ value()\l+ sample()\l+ operator\&gt;\&gt;()\l+ operator uint16_t()\l+ sample_request()\l+ sample_await()\l+ on_interrupt()\l+ on_change()\l+ prescale()\l+ sample()\l+ bandgap()\l+ powerup()\l+ powerdown()\l# sample_request()\l# on_event()\l}" alt="" coords="67,176,205,561"/>
+<area shape="rect" id="node3" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="5,5,128,127"/>
+<area shape="rect" id="node4" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="152,27,261,105"/>
+</map>

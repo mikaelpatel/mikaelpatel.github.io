@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Soft::SRPO\< N \>::OutputPin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/classSoft_1_1SRPO_1_1OutputPin.html"];
+}

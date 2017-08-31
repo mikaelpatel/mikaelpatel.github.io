@@ -1,0 +1,5 @@
+<map id="HMC5883L" name="HMC5883L">
+<area shape="rect" id="node2" href="$dc/d02/classTWI_1_1Driver.html" title="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}" alt="" coords="5,5,132,156"/>
+<area shape="rect" id="node3" href="$dd/def/structHMC5883L_1_1data__t.html" title="{HMC5883L::data_t\n|+ x\l+ y\l+ z\l|+ data_t()\l}" alt="" coords="156,27,288,134"/>
+<area shape="rect" id="node4" href="$d6/d45/structHMC5883L_1_1config__t.html" title="{HMC5883L::config_t\n|+ MS\l+ DO\l+ MA\l+ reserved\l+ GN\l|+ config_t()\l}" alt="" coords="312,13,455,149"/>
+</map>

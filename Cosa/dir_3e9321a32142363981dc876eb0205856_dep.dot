@@ -1,0 +1,11 @@
+digraph "libraries/Block4B5BCodec" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_3e9321a32142363981dc876eb0205856 [shape=box, label="Block4B5BCodec", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3e9321a32142363981dc876eb0205856.html"];
+  }
+  dir_fca1885ab465e4fca382ebc19126a2f3 [shape=box label="VWI" URL="dir_fca1885ab465e4fca382ebc19126a2f3.html"];
+  dir_3e9321a32142363981dc876eb0205856->dir_fca1885ab465e4fca382ebc19126a2f3 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000084.html"];
+}

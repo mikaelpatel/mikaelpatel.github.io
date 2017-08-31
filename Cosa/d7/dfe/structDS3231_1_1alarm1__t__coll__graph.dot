@@ -1,0 +1,6 @@
+digraph "DS3231::alarm1_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DS3231::alarm1_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ @112\l|+ to_binary()\l+ to_bcd()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

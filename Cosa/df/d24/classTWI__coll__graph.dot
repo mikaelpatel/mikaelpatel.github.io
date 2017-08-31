@@ -1,0 +1,6 @@
+digraph "TWI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{TWI\n|+ DEFAULT_FREQ\l+ MAX_FREQ\l|+ TWI()\l+ acquire()\l+ release()\l+ write_request()\l+ write_request()\l+ write_request()\l+ read_request()\l+ write()\l+ write()\l+ write()\l+ read()\l+ await_completed()\l+ set_freq()\l+ powerup()\l+ powerdown()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

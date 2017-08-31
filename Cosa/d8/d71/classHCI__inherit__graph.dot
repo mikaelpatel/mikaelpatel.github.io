@@ -1,0 +1,10 @@
+digraph "HCI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{HCI\n|+ DEFAULT_TIMEOUT\l# m_irq\l# m_available\l# m_timeout\l# m_event_handler\l# m_evnt\l# EVNT_MAX\l|+ HCI()\l+ read()\l+ write()\l+ write_P()\l+ write()\l+ issue()\l+ issue_P()\l+ await()\l+ write_data()\l+ write_data_P()\land 6 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dd2/classSPI_1_1Driver.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{CC3000\n|+ HCI_CMND_WLAN_IOCTL\l_SET_SCANPARAM_MAGIC\l+ DEFAULT_SCANPARAM\l# m_vbat\l# m_evnt_handler\l# m_mac\l# m_ip\l# m_subnet\l# m_gateway\l# m_dns\l# BUFFER_MAX\l# BUFFER_COUNT\l# m_buffer_avail\l# m_socket\l# m_active_set\l# DEFAULT_TIMEOUT\l# SOCKET_MAX\l# HCI_CMND_WLAN_CONNECT\l# HCI_CMND_WLAN_CONNECT\l_MAGIC\l# HCI_CMND_WLAN_CONNECT\l_BSSID_MAX\l# HCI_CMND_WLAN_CONNECT\l_SSID_MAX\l# HCI_CMND_WLAN_CONNECT\l_KEY_MAX\l# HCI_CMND_WLAN_CONNECT\l_DATA_MAX\l# HCI_CMND_WLAN_DISCONNECT\l# HCI_CMND_WLAN_IOCTL\l_SET_SCANPARAM\land 82 more...\l|+ CC3000()\l+ begin_P()\l+ socket()\l+ service()\l+ end()\l+ addr()\l+ mac_addr()\l+ dns_addr()\l+ wlan_connect()\l+ wlan_ioctl_set_scanparam()\land 19 more...\l# is_socket()\l# is_active()\l# socket_state()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d6c/classCC3000.html"];
+}

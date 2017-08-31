@@ -1,0 +1,4 @@
+<map id="Rotary::Dial&lt; T &gt;" name="Rotary::Dial&lt; T &gt;">
+<area shape="rect" id="node2" href="$d6/d6e/classRotary_1_1Encoder.html" title="{Rotary::Encoder\n|# m_clk\l# m_dt\l# m_state\l# m_mode\l# half_cycle_table\l# full_cycle_table\l|+ Encoder()\l+ mode()\l+ mode()\l+ enable()\l+ disable()\l# detect()\l}" alt="" coords="5,131,132,355"/>
+<area shape="rect" id="node3" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="14,5,123,83"/>
+</map>

@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OWI::Driver",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dd3/classOWI_1_1Driver.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DS18B20",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dc6/classDS18B20.html"];
+  Node1 -> Node3 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OWI::Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d5f/classOWI_1_1Search.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DS18B20::Search",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3e/classDS18B20_1_1Search.html"];
+}

@@ -1,0 +1,18 @@
+<map id="libraries/MCP7940N/MCP7940N.hh" name="libraries/MCP7940N/MCP7940N.hh">
+<area shape="rect" id="node2" href="$d5/d9f/TWI_8hh.html" title="Cosa/TWI.hh" alt="" coords="548,169,648,196"/>
+<area shape="rect" id="node24" href="$db/d40/Time_8hh.html" title="Cosa/Time.hh" alt="" coords="899,319,1003,345"/>
+<area shape="rect" id="node26" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="986,393,1117,420"/>
+<area shape="rect" id="node27" href="$dd/d37/ExternalInterrupt_8hh.html" title="Cosa/ExternalInterrupt.hh" alt="" coords="1131,95,1302,121"/>
+<area shape="rect" id="node3" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,468,957,495"/>
+<area shape="rect" id="node19" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="602,244,711,271"/>
+<area shape="rect" id="node15" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,543,1331,569"/>
+<area shape="rect" id="node16" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,543,1465,569"/>
+<area shape="rect" id="node20" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="600,319,713,345"/>
+<area shape="rect" id="node21" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="575,393,687,420"/>
+<area shape="rect" id="node22" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="1261,468,1351,495"/>
+<area shape="rect" id="node25" href="$d0/d1e/BCD_8h.html" title="Cosa/BCD.h" alt="" coords="813,393,911,420"/>
+<area shape="rect" id="node28" href="$d3/de5/IOPin_8hh.html" title="Cosa/IOPin.hh" alt="" coords="1285,169,1393,196"/>
+<area shape="rect" id="node31" href="$de/d0b/Interrupt_8hh.html" title="Cosa/Interrupt.hh" alt="" coords="1155,244,1278,271"/>
+<area shape="rect" id="node29" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="1302,244,1435,271"/>
+<area shape="rect" id="node30" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="1251,319,1345,345"/>
+</map>

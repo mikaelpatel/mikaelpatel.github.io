@@ -1,0 +1,6 @@
+digraph "NRF24L01P::status_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{NRF24L01P::status_t\n|+ as_byte\l+ tx_full\l+ rx_p_no\l+ max_rt\l+ tx_ds\l+ rx_dr\l+ reserved\l+ @219\l|+ status_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

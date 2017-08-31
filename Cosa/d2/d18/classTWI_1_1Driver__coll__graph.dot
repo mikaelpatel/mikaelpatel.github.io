@@ -1,0 +1,6 @@
+digraph "TWI::Driver"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

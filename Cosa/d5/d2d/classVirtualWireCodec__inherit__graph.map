@@ -1,0 +1,3 @@
+<map id="VirtualWireCodec" name="VirtualWireCodec">
+<area shape="rect" id="node2" href="$d9/dc4/classVWI_1_1Codec.html" title="{VWI::Codec\n|+ BITS_PER_SYMBOL\l+ START_SYMBOL\l+ PREAMBLE_MAX\l+ SYMBOL_MASK\l+ BITS_MSB\l|+ Codec()\l+ preamble()\l+ encode4()\l+ decode4()\l+ decode8()\l}" alt="" coords="5,5,167,200"/>
+</map>

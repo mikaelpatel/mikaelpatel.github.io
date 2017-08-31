@@ -1,0 +1,4 @@
+<map id="SD::csd_t" name="SD::csd_t">
+<area shape="rect" id="node2" href="$db/d76/structSD_1_1csd__v1__t.html" title="{SD::csd_v1_t\n|+ reserved1\l+ csd_ver\l+ taac\l+ nsac\l+ tran_speed\l+ ccc_high\l+ read_bl_len\l+ ccc_low\l+ c_size_high\l+ reserved2\land 30 more...\l|}" alt="" coords="5,5,112,229"/>
+<area shape="rect" id="node3" href="$d4/d0e/structSD_1_1csd__v2__t.html" title="{SD::csd_v2_t\n|+ reserved1\l+ csd_ver\l+ taac\l+ nsac\l+ tran_speed\l+ ccc_high\l+ read_bl_len\l+ ccc_low\l+ reserved2\l+ dsr_imp\land 26 more...\l|}" alt="" coords="136,5,243,229"/>
+</map>

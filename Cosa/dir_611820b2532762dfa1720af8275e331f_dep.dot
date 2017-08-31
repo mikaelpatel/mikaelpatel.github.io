@@ -1,0 +1,9 @@
+digraph "cores/cosa/Cosa/USB" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8d48fc4dc712b5485a4a9f61b9daccce {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Cosa" fontname="Helvetica", fontsize="10", URL="dir_8d48fc4dc712b5485a4a9f61b9daccce.html"]
+  dir_611820b2532762dfa1720af8275e331f [shape=box, label="USB", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_611820b2532762dfa1720af8275e331f.html"];
+  }
+}

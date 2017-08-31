@@ -1,0 +1,11 @@
+digraph "libraries/BitstuffingCodec" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_5c687fc06b480f75c023e66f40443ed8 [shape=box, label="BitstuffingCodec", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5c687fc06b480f75c023e66f40443ed8.html"];
+  }
+  dir_fca1885ab465e4fca382ebc19126a2f3 [shape=box label="VWI" URL="dir_fca1885ab465e4fca382ebc19126a2f3.html"];
+  dir_5c687fc06b480f75c023e66f40443ed8->dir_fca1885ab465e4fca382ebc19126a2f3 [headlabel="1", labeldistance=1.5 headhref="dir_000014_000084.html"];
+}

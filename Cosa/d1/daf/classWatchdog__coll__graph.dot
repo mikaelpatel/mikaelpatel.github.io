@@ -1,0 +1,6 @@
+digraph "Watchdog"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Watchdog\n||+ is_initiated()\l+ millis()\l+ millis()\l+ ms_per_tick()\l+ begin()\l+ delay()\l+ await()\l+ since()\l+ end()\l+ job()\l+ scheduler()\l+ wall()\l+ clock()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

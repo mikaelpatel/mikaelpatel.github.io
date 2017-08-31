@@ -1,0 +1,8 @@
+digraph "InputCapture"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{InputCapture\n||+ InputCapture()\l+ mode()\l+ mode()\l+ count()\l+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/df8/classInterrupt_1_1Handler.html"];
+}

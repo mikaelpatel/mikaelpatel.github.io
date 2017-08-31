@@ -1,0 +1,15 @@
+<map id="libraries/S25FL127S/S25FL127S.hh" name="libraries/S25FL127S/S25FL127S.hh">
+<area shape="rect" id="node2" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,393,957,420"/>
+<area shape="rect" id="node18" href="$d2/d43/SPI_8hh.html" title="Cosa/SPI.hh" alt="" coords="867,95,964,121"/>
+<area shape="rect" id="node28" href="$d5/d6e/Flash_8hh.html" title="Cosa/Flash.hh" alt="" coords="1118,95,1225,121"/>
+<area shape="rect" id="node14" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,468,1331,495"/>
+<area shape="rect" id="node15" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,468,1465,495"/>
+<area shape="rect" id="node19" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="621,393,711,420"/>
+<area shape="rect" id="node20" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="901,169,1034,196"/>
+<area shape="rect" id="node22" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="993,319,1123,345"/>
+<area shape="rect" id="node23" href="$de/d0b/Interrupt_8hh.html" title="Cosa/Interrupt.hh" alt="" coords="1099,244,1222,271"/>
+<area shape="rect" id="node24" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="717,169,826,196"/>
+<area shape="rect" id="node21" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="920,244,1015,271"/>
+<area shape="rect" id="node25" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="680,244,793,271"/>
+<area shape="rect" id="node26" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="553,319,665,345"/>
+</map>

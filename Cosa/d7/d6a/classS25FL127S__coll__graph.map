@@ -1,0 +1,8 @@
+<map id="S25FL127S" name="S25FL127S">
+<area shape="rect" id="node2" href="$dc/dd0/classFlash_1_1Device.html" title="{Flash::Device\n|+ SECTOR_BYTES\l+ SECTOR_MASK\l+ SECTOR_MAX\l+ DEVICE_BYTES\l+ DEFAULT_SECTOR_BYTES\l|+ Device()\l+ begin()\l+ end()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l}" alt="" coords="5,800,215,1039"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="239,837,338,1002"/>
+<area shape="rect" id="node4" href="$d2/d86/classOutputPin.html" title="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}" alt="" coords="134,455,241,737"/>
+<area shape="rect" id="node5" href="$da/da0/classPin.html" title="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\&gt;\&gt;()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}" alt="" coords="129,5,246,405"/>
+<area shape="rect" id="node6" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="265,535,387,657"/>
+<area shape="rect" id="node7" href="$d7/d1a/unionS25FL127S_1_1status1__t.html" title="{S25FL127S::status1_t\n|+ as_uint8\l+ WIP\l+ WEL\l+ BP\l+ E_ERR\l+ P_ERR\l+ SRWD\l+ @265\l|+ status1_t()\l+ operator uint8_t()\l}" alt="" coords="441,822,593,1017"/>
+</map>

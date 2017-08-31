@@ -1,0 +1,11 @@
+digraph "libraries/Ciao" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_d1418199bb31d0b3bcf1eef4124f0b97 [shape=box, label="Ciao", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d1418199bb31d0b3bcf1eef4124f0b97.html"];
+  }
+  dir_51d9c9f08f6806a0f97badf342e5b4d7 [shape=box label="cores" fillcolor="white" style="filled" color="red" URL="dir_51d9c9f08f6806a0f97badf342e5b4d7.html"];
+  dir_d1418199bb31d0b3bcf1eef4124f0b97->dir_51d9c9f08f6806a0f97badf342e5b4d7 [headlabel="1", labeldistance=1.5 headhref="dir_000024_000000.html"];
+}

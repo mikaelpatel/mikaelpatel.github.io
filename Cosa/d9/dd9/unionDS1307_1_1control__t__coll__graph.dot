@@ -1,0 +1,6 @@
+digraph "DS1307::control_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DS1307::control_t\n|+ as_uint8\l+ rs\l+ reserved1\l+ sqwe\l+ reserved2\l+ out\l+ @102\l|+ operator uint8_t()\l+ control_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

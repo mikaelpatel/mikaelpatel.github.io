@@ -1,0 +1,6 @@
+digraph "SPI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SPI\n||+ SPI()\l+ attach()\l+ acquire()\l+ release()\l+ begin()\l+ end()\l+ transfer()\l+ transfer_start()\l+ transfer_await()\l+ transfer_next()\land 6 more...\l+ powerup()\l+ powerdown()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

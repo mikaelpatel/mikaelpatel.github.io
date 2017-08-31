@@ -1,0 +1,6 @@
+digraph "CC3000::hci_cmnd_wlan_connect_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CC3000::hci_cmnd_wlan\l_connect_t\n|+ magic\l+ ssid_length\l+ wlan_security_type\l+ ssid_length_plus\l+ key_length\l+ reserved\l+ bssid\l+ data\l|+ hci_cmnd_wlan_connect_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

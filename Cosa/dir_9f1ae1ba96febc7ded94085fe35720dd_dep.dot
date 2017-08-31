@@ -1,0 +1,14 @@
+digraph "libraries/GDDRAM" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_9f1ae1ba96febc7ded94085fe35720dd [shape=box, label="GDDRAM", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9f1ae1ba96febc7ded94085fe35720dd.html"];
+  }
+  dir_51d9c9f08f6806a0f97badf342e5b4d7 [shape=box label="cores" fillcolor="white" style="filled" color="red" URL="dir_51d9c9f08f6806a0f97badf342e5b4d7.html"];
+  dir_356af1d24bd31439031a6e788a46a189 [shape=box label="Canvas" fillcolor="white" style="filled" color="red" URL="dir_356af1d24bd31439031a6e788a46a189.html"];
+  dir_356af1d24bd31439031a6e788a46a189->dir_51d9c9f08f6806a0f97badf342e5b4d7 [headlabel="6", labeldistance=1.5 headhref="dir_000017_000000.html"];
+  dir_9f1ae1ba96febc7ded94085fe35720dd->dir_51d9c9f08f6806a0f97badf342e5b4d7 [headlabel="2", labeldistance=1.5 headhref="dir_000040_000000.html"];
+  dir_9f1ae1ba96febc7ded94085fe35720dd->dir_356af1d24bd31439031a6e788a46a189 [headlabel="1", labeldistance=1.5 headhref="dir_000040_000017.html"];
+}

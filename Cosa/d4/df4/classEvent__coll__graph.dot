@@ -1,0 +1,10 @@
+digraph "Event"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Event\n|+ QUEUE_MAX\l|+ Event()\l+ type()\l+ target()\l+ value()\l+ env()\l+ dispatch()\l+ push()\l+ push()\l+ service()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +queue" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Queue\< Event, QUEUE\l_MAX \>\n||+ Queue()\l+ available()\l+ room()\l+ enqueue()\l+ enqueue_P()\l+ dequeue()\l+ await()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d56/classQueue.html"];
+  Node3 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< Event, QUEUE_MAX \>" ,fontname="Helvetica"];
+  Node3 [label="{Queue\< T, NMEMB \>\n||+ Queue()\l+ available()\l+ room()\l+ enqueue()\l+ enqueue_P()\l+ dequeue()\l+ await()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d56/classQueue.html"];
+}

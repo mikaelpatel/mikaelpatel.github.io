@@ -1,0 +1,19 @@
+<map id="libraries/IR/IR.h" name="libraries/IR/IR.h">
+<area shape="rect" id="node2" href="$df/dd9/IR_8hh.html" title="IR.hh" alt="" coords="749,80,804,107"/>
+<area shape="rect" id="node3" href="$dd/d37/ExternalInterrupt_8hh.html" title="Cosa/ExternalInterrupt.hh" alt="" coords="526,229,697,256"/>
+<area shape="rect" id="node24" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="711,528,842,555"/>
+<area shape="rect" id="node26" href="$de/d68/Periodic_8hh.html" title="Cosa/Periodic.hh" alt="" coords="818,155,941,181"/>
+<area shape="rect" id="node4" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,603,957,629"/>
+<area shape="rect" id="node20" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="477,603,567,629"/>
+<area shape="rect" id="node21" href="$d3/de5/IOPin_8hh.html" title="Cosa/IOPin.hh" alt="" coords="435,304,543,331"/>
+<area shape="rect" id="node25" href="$de/d0b/Interrupt_8hh.html" title="Cosa/Interrupt.hh" alt="" coords="550,379,673,405"/>
+<area shape="rect" id="node16" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,677,1331,704"/>
+<area shape="rect" id="node17" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,677,1465,704"/>
+<area shape="rect" id="node22" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="393,379,526,405"/>
+<area shape="rect" id="node23" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="483,453,577,480"/>
+<area shape="rect" id="node27" href="$d7/d3d/Job_8hh.html" title="Cosa/Job.hh" alt="" coords="917,229,1013,256"/>
+<area shape="rect" id="node28" href="$d5/d96/Linkage_8hh.html" title="Cosa/Linkage.hh" alt="" coords="991,304,1111,331"/>
+<area shape="rect" id="node29" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="997,379,1106,405"/>
+<area shape="rect" id="node30" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="1019,453,1132,480"/>
+<area shape="rect" id="node31" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="1018,528,1130,555"/>
+</map>

@@ -1,0 +1,6 @@
+digraph "time_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{time_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ month\l+ year\l+ epoch_weekday\l+ pivot_year\l+ days_in\l# s_epoch_year\l# epoch_offset\l|+ to_binary()\l+ to_bcd()\l+ time_t()\l+ time_t()\l+ operator clock_t()\l+ set_day()\l+ days()\l+ day_of_year()\l+ full_year()\l+ is_leap()\l+ is_valid()\l+ parse()\l+ full_year()\l+ is_leap()\l+ days_per()\l+ weekday_for()\l+ epoch_year()\l+ epoch_year()\l+ use_fastest_epoch()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

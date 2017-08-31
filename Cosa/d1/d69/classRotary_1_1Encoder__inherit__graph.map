@@ -1,0 +1,6 @@
+<map id="Rotary::Encoder" name="Rotary::Encoder">
+<area shape="rect" id="node3" href="$d7/de1/classMenu_1_1RotaryController.html" title="{Menu::RotaryController\n||+ RotaryController()\l+ on_event()\l+ begin()\l}" alt="" coords="5,447,163,553"/>
+<area shape="rect" id="node4" href="$de/d2f/classRotary_1_1AcceleratedDial.html" title="{Rotary::AcceleratedDial\l\&lt; T, THRESHOLD \&gt;\n||+ AcceleratedDial()\l+ value()\l+ step()\l+ step()\l+ steps()\l+ steps()\l+ on_change()\l}" alt="" coords="187,410,349,590"/>
+<area shape="rect" id="node5" href="$d9/d7d/classRotary_1_1Dial.html" title="{Rotary::Dial\&lt; T \&gt;\n|# m_value\l# m_min\l# m_max\l# m_step\l|+ Dial()\l+ value()\l+ step()\l+ step()\l+ on_change()\l# on_event()\l}" alt="" coords="373,403,497,597"/>
+<area shape="rect" id="node2" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="213,5,323,83"/>
+</map>

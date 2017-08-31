@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['r1',['R1',['../de/d14/unionSD_1_1R1.html',1,'SD']]],
+  ['r2',['R2',['../d0/d6c/unionSD_1_1R2.html',1,'SD']]],
+  ['r3',['R3',['../d7/d3b/structSD_1_1R3.html',1,'SD']]],
+  ['r6',['R6',['../d0/d29/unionSD_1_1R6.html',1,'SD']]],
+  ['r7',['R7',['../d4/d2b/unionSD_1_1R7.html',1,'SD']]],
+  ['rc4',['RC4',['../d8/d56/classRC4.html',1,'']]],
+  ['receiver',['Receiver',['../d4/db2/classVWI_1_1Receiver.html',1,'VWI']]],
+  ['receiver',['Receiver',['../d4/de0/classIR_1_1Receiver.html',1,'IR']]],
+  ['rect16_5ft',['rect16_t',['../d5/d8f/structCanvas_1_1rect16__t.html',1,'Canvas']]],
+  ['recv_5fstatus_5ft',['recv_status_t',['../d0/daa/unionCC1101_1_1recv__status__t.html',1,'CC1101']]],
+  ['registry',['Registry',['../db/d0d/classRegistry.html',1,'']]],
+  ['request_5ft',['request_t',['../d8/d35/structSD_1_1request__t.html',1,'SD']]],
+  ['resource',['Resource',['../da/dcd/classResource.html',1,'']]],
+  ['rfm69',['RFM69',['../dd/da5/classRFM69.html',1,'']]],
+  ['rotary',['Rotary',['../db/db1/classRotary.html',1,'']]],
+  ['rotarycontroller',['RotaryController',['../d7/de1/classMenu_1_1RotaryController.html',1,'Menu']]],
+  ['rs485',['RS485',['../de/d95/classRS485.html',1,'']]],
+  ['rtcc_5ft',['rtcc_t',['../de/d8c/structMCP7940N_1_1rtcc__t.html',1,'MCP7940N']]],
+  ['rtcc_5ft',['rtcc_t',['../d8/db5/structPCF8563_1_1rtcc__t.html',1,'PCF8563']]],
+  ['rtt',['RTT',['../df/dc8/classRTT.html',1,'']]],
+  ['rxpinchangeinterrupt',['RXPinChangeInterrupt',['../d4/d6d/classSoft_1_1UART_1_1RXPinChangeInterrupt.html',1,'Soft::UART']]]
+];

@@ -1,0 +1,8 @@
+<map id="PCF8563::rtcc_t" name="PCF8563::rtcc_t">
+<area shape="rect" id="node2" href="$d7/dec/structtime__t.html" title="{time_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ month\l+ year\l+ epoch_weekday\l+ pivot_year\l+ days_in\l# s_epoch_year\l# epoch_offset\l|+ to_binary()\l+ to_bcd()\l+ time_t()\l+ time_t()\l+ operator clock_t()\l+ set_day()\l+ days()\l+ day_of_year()\l+ full_year()\l+ is_leap()\l+ is_valid()\l+ parse()\l+ full_year()\l+ is_leap()\l+ days_per()\l+ weekday_for()\l+ epoch_year()\l+ epoch_year()\l+ use_fastest_epoch()\l}" alt="" coords="5,5,157,508"/>
+<area shape="rect" id="node3" href="$dd/df4/unionPCF8563_1_1clock__control__t.html" title="{PCF8563::clock_control_t\n|+ as_uint8\l+ FD\l+ unused1\l+ FE\l+ @234\l|+ clock_control_t()\l}" alt="" coords="181,189,355,325"/>
+<area shape="rect" id="node4" href="$d5/d55/unionPCF8563_1_1timer__control__t.html" title="{PCF8563::timer_control_t\n|+ as_uint8\l+ TD\l+ unused1\l+ TE\l+ @236\l|+ timer_control_t()\l}" alt="" coords="379,189,549,325"/>
+<area shape="rect" id="node5" href="$d9/db5/unionPCF8563_1_1control__status__2__t.html" title="{PCF8563::control_status_2_t\n|+ as_uint8\l+ TIE\l+ AIE\l+ TF\l+ AF\l+ TI_TP\l+ N\l+ @232\l|+ control_status_2_t()\l}" alt="" coords="573,167,765,347"/>
+<area shape="rect" id="node6" href="$da/d1c/unionPCF8563_1_1control__status__1__t.html" title="{PCF8563::control_status_1_t\n|+ as_uint8\l+ N1\l+ TESTC\l+ N2\l+ STOP\l+ N3\l+ TEST1\l+ @230\l|+ control_status_1_t()\l}" alt="" coords="789,167,981,347"/>
+<area shape="rect" id="node7" href="$d0/d73/structPCF8563_1_1alarm__t.html" title="{PCF8563::alarm_t\n|+ minutes\l+ hours\l+ date\l+ day\l+ DISABLE\l|+ alarm_t()\l}" alt="" coords="1005,189,1133,325"/>
+</map>

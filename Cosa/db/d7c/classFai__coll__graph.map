@@ -1,0 +1,4 @@
+<map id="Fai" name="Fai">
+<area shape="rect" id="node2" href="$db/dc0/classCiao.html" title="{Ciao\n||+ Ciao()\l+ set()\l+ begin()\l+ write()\l+ write()\l+ write()\l+ write()\l+ write()\l+ write()\l+ write()\land 15 more...\l# write()\l}" alt="" coords="15,307,122,545"/>
+<area shape="rect" id="node3" href="$d5/d57/classIOStream_1_1Device.html" title="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}" alt="" coords="5,5,132,244"/>
+</map>

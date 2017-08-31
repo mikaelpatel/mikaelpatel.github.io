@@ -1,0 +1,6 @@
+<map id="Clock" name="Clock">
+<area shape="rect" id="node3" href="$da/d82/classAlarm_1_1Clock.html" title="{Alarm::Clock\n||+ Clock()\l# on_interrupt()\l}" alt="" coords="5,447,115,539"/>
+<area shape="rect" id="node4" href="$d9/dc5/classRTT_1_1Clock.html" title="{RTT::Clock\n||+ Clock()\l}" alt="" coords="139,454,229,531"/>
+<area shape="rect" id="node5" href="$df/d88/classWatchdog_1_1Clock.html" title="{Watchdog::Clock\n||+ Clock()\l}" alt="" coords="253,454,376,531"/>
+<area shape="rect" id="node2" href="$d0/d85/classJob_1_1Scheduler.html" title="{Job::Scheduler\n|# m_queue\l|+ Scheduler()\l+ start()\l+ stop()\l+ dispatch()\l+ time()\l}" alt="" coords="129,5,239,141"/>
+</map>

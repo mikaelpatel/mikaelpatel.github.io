@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DS18B20::scratchpad_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1f/structDS18B20_1_1scratchpad__t.html"];
+}

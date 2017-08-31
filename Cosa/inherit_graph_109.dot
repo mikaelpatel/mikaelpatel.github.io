@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fai::digital_pin_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d1e/structFai_1_1digital__pin__t.html"];
+}

@@ -1,0 +1,6 @@
+digraph "VWI::Codec"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{VWI::Codec\n|+ BITS_PER_SYMBOL\l+ START_SYMBOL\l+ PREAMBLE_MAX\l+ SYMBOL_MASK\l+ BITS_MSB\l|+ Codec()\l+ preamble()\l+ encode4()\l+ decode4()\l+ decode8()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

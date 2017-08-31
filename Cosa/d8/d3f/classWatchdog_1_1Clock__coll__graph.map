@@ -1,0 +1,7 @@
+<map id="Watchdog::Clock" name="Watchdog::Clock">
+<area shape="rect" id="node2" href="$df/d45/classClock.html" title="{Clock\n|# m_msec\l# m_sec\l# m_cal\l|+ Clock()\l+ time()\l+ time()\l+ await()\l+ tick()\l+ calibration()\l+ calibration()\l+ adjust()\l}" alt="" coords="16,672,117,881"/>
+<area shape="rect" id="node3" href="$d0/d85/classJob_1_1Scheduler.html" title="{Job::Scheduler\n||+ Scheduler()\l+ start()\l+ stop()\l+ dispatch()\l+ time()\l}" alt="" coords="12,487,121,623"/>
+<area shape="rect" id="node4" href="$d7/d6b/classHead.html" title="{Head\n||+ Head()\l+ available()\l+ is_empty()\l}" alt="" coords="19,317,114,424"/>
+<area shape="rect" id="node5" href="$df/d43/classLinkage.html" title="{Linkage\n||+ Linkage()\l+ succ()\l+ pred()\l+ attach()\l# detach()\l}" alt="" coords="23,132,110,268"/>
+<area shape="rect" id="node6" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="12,5,121,83"/>
+</map>

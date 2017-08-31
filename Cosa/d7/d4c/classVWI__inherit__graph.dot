@@ -1,0 +1,8 @@
+digraph "VWI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{VWI\n|+ PAYLOAD_MAX\l# MESSAGE_MAX\l# MESSAGE_MIN\l# SAMPLES_PER_BIT\l|+ VWI()\l+ VWI()\l+ VWI()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\l+ available()\l+ send()\l+ send()\l+ recv()\l+ link_quality_indicator()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Wireless::Driver\n|+ BROADCAST\l# m_channel\l# m_addr\l# m_avail\l# m_dest\l|+ Driver()\l+ channel()\l+ network_address()\l+ device_address()\l+ address()\l+ channel()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d58/classWireless_1_1Driver.html"];
+}

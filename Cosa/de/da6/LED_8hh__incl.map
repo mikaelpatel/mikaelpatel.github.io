@@ -1,0 +1,15 @@
+<map id="cores/cosa/Cosa/LED.hh" name="cores/cosa/Cosa/LED.hh">
+<area shape="rect" id="node2" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,528,957,555"/>
+<area shape="rect" id="node18" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="661,80,794,107"/>
+<area shape="rect" id="node22" href="$de/d68/Periodic_8hh.html" title="Cosa/Periodic.hh" alt="" coords="863,80,986,107"/>
+<area shape="rect" id="node14" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,603,1331,629"/>
+<area shape="rect" id="node15" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,603,1465,629"/>
+<area shape="rect" id="node19" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="617,379,712,405"/>
+<area shape="rect" id="node20" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="417,528,507,555"/>
+<area shape="rect" id="node21" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="686,453,817,480"/>
+<area shape="rect" id="node23" href="$d7/d3d/Job_8hh.html" title="Cosa/Job.hh" alt="" coords="899,155,995,181"/>
+<area shape="rect" id="node24" href="$d5/d96/Linkage_8hh.html" title="Cosa/Linkage.hh" alt="" coords="887,229,1007,256"/>
+<area shape="rect" id="node25" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="859,304,969,331"/>
+<area shape="rect" id="node26" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="804,379,917,405"/>
+<area shape="rect" id="node27" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="499,453,611,480"/>
+</map>

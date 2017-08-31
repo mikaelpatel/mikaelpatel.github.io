@@ -1,0 +1,6 @@
+<map id="AnalogPin" name="AnalogPin">
+<area shape="rect" id="node4" href="$d3/dae/classAnalogPins.html" title="{AnalogPins\n||+ AnalogPins()\l+ count()\l+ pin_at()\l+ samples_request()\l+ on_interrupt()\l+ on_event()\l}" alt="" coords="5,623,147,773"/>
+<area shape="rect" id="node5" href="$d5/d56/classKeypad_1_1Key.html" title="{Keypad::Key\n||+ Key()\l}" alt="" coords="171,659,269,737"/>
+<area shape="rect" id="node2" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="17,5,140,127"/>
+<area shape="rect" id="node3" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="164,27,273,105"/>
+</map>

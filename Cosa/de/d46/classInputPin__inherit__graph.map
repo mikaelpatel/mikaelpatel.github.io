@@ -1,0 +1,5 @@
+<map id="InputPin" name="InputPin">
+<area shape="rect" id="node3" href="$d1/d19/classButton.html" title="{Button\n|# MODE\l# m_state\l# SAMPLE_MS\l|+ Button()\l+ on_change()\l# run()\l}" alt="" coords="5,630,120,766"/>
+<area shape="rect" id="node4" href="$d4/db2/classVWI_1_1Receiver.html" title="{VWI::Receiver\n||+ Receiver()\l+ begin()\l+ end()\l+ available()\l+ recv()\l+ link_quality_indicator()\l}" alt="" coords="144,623,307,773"/>
+<area shape="rect" id="node2" href="$da/da0/classPin.html" title="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\&gt;\&gt;()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}" alt="" coords="85,5,203,405"/>
+</map>

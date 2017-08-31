@@ -1,0 +1,43 @@
+digraph "CC3000::Driver"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CC3000::Driver\n|# m_hndl\l# m_ip\l# m_port\l|+ Driver()\l+ available()\l+ room()\l+ write()\l+ write_P()\l+ read()\l+ flush()\l+ open()\l+ close()\l+ listen()\land 8 more...\l# write()\l# send()\l# send()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Socket\n|+ DYNAMIC_PORT\l# m_proto\l# m_port\l|+ Socket()\l+ src()\l+ proto()\l+ port()\l+ write()\l+ write_P()\l+ getchar()\l+ read()\l+ open()\l+ close()\land 13 more...\l# write()\l# send()\l# send()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d33/classSocket.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d57/classIOStream_1_1Device.html"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #m_src" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{INET::addr_t\n|+ mac\l+ ip\l+ port\l|+ addr_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d09/structINET_1_1addr__t.html"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_dev" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{CC3000\n|+ HCI_CMND_WLAN_IOCTL\l_SET_SCANPARAM_MAGIC\l# m_mac\l# m_ip\l# m_subnet\l# m_gateway\l# m_dns\l# BUFFER_MAX\l# BUFFER_COUNT\l# m_buffer_avail\l# m_active_set\l# DEFAULT_TIMEOUT\l# SOCKET_MAX\l# HCI_CMND_WLAN_CONNECT\l# HCI_CMND_WLAN_CONNECT\l_MAGIC\l# HCI_CMND_WLAN_CONNECT\l_BSSID_MAX\l# HCI_CMND_WLAN_CONNECT\l_SSID_MAX\l# HCI_CMND_WLAN_CONNECT\l_KEY_MAX\l# HCI_CMND_WLAN_CONNECT\l_DATA_MAX\l# HCI_CMND_WLAN_DISCONNECT\l# HCI_CMND_WLAN_IOCTL\l_SET_SCANPARAM\land 82 more...\l|+ CC3000()\l+ begin_P()\l+ socket()\l+ service()\l+ end()\l+ addr()\l+ mac_addr()\l+ dns_addr()\l+ wlan_connect()\l+ wlan_ioctl_set_scanparam()\land 19 more...\l# is_socket()\l# is_active()\l# socket_state()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d6c/classCC3000.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{HCI\n|+ DEFAULT_TIMEOUT\l# m_available\l# m_timeout\l# m_evnt\l# EVNT_MAX\l|+ HCI()\l+ read()\l+ write()\l+ write_P()\l+ write()\l+ issue()\l+ issue_P()\l+ await()\l+ write_data()\l+ write_data_P()\land 6 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d93/classHCI.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{SPI::Driver\n|# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dd2/classSPI_1_1Driver.html"];
+  Node8 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #m_cs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d86/classOutputPin.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\>\>()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da0/classPin.html"];
+  Node7 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #m_next" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #m_irq" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/df8/classInterrupt_1_1Handler.html"];
+  Node11 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #m_irq" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{HCI::IRQPin\n||+ IRQPin()\l+ on_interrupt()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/def/classHCI_1_1IRQPin.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{ExternalInterrupt\n||+ ExternalInterrupt()\l+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db6/classExternalInterrupt.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node13 [label="{IOPin\n||+ IOPin()\l+ mode()\l+ mode()\l+ mode()\l+ mode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d21/classIOPin.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node14 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #m_event_handler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{HCI::Event::Handler\n||+ on_event()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/de2/classHCI_1_1Event_1_1Handler.html"];
+  Node1 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #m_socket" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node15 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #m_evnt_handler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node15 [label="{CC3000::UnsolicitedEvent\n||+ UnsolicitedEvent()\l+ on_event()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d23/classCC3000_1_1UnsolicitedEvent.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 -> Node15 [color="grey25",fontsize="10",style="solid",label=" #m_dev" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node16 -> Node5 [color="grey25",fontsize="10",style="solid",label=" +DEFAULT_SCANPARAM" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node16 [label="{CC3000::hci_cmnd_wlan\l_ioctl_set_scanparam_t\n|+ magic\l+ intervall\l+ min_dwell_time\l+ max_dwell_time\l+ num_of_probe_requests\l+ channel_mask\l+ rssi_threshold\l+ snr_threshold\l+ default_tx_power\l+ channel_scan_timeout\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d0d/structCC3000_1_1hci__cmnd__wlan__ioctl__set__scanparam__t.html"];
+  Node8 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #m_vbat" ,arrowhead="odiamond",fontname="Helvetica"];
+}

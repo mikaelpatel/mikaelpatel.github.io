@@ -1,0 +1,10 @@
+digraph "BMP085"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{BMP085\n|# m_mode\l# m_cmd\l# m_start\l# B5\l# m_pressure\l# TEMP_CONV_MS\l# __PROGMEM\l# COEFF_REG\l# CMD_REG\l# RES_REG\l# TEMP_CONV_CMD\l# PRESSURE_CONV_CMD\l|+ BMP085()\l+ begin()\l+ sample_temperature\l_request()\l+ read_temperature()\l+ sample_temperature()\l+ sample_pressure_request()\l+ read_pressure()\l+ sample_pressure()\l+ sample()\l+ temperature()\l+ pressure()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d02/classTWI_1_1Driver.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{BMP085::param_t\n|+ ac1\l+ ac2\l+ ac3\l+ ac4\l+ ac5\l+ ac6\l+ b1\l+ b2\l+ mb\l+ mc\l+ md\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/de8/structBMP085_1_1param__t.html"];
+}

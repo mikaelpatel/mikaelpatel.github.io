@@ -1,0 +1,5 @@
+<map id="UART" name="UART">
+<area shape="rect" id="node4" href="$de/d95/classRS485.html" title="{RS485\n|+ SOT\l+ FRAME_MAX\l+ BUFFER_MAX\l+ BROADCAST\l+ MASTER\l# PAYLOAD_MAX\l# m_header\l# m_de\l# m_addr\l# m_state\l|+ RS485()\l+ putchar()\l+ address()\l+ send()\l+ broadcast()\l+ recv()\l# on_udre_interrupt()\l# on_tx_interrupt()\l# on_transmit_completed()\l}" alt="" coords="5,1012,181,1339"/>
+<area shape="rect" id="node2" href="$da/d40/classSerial.html" title="{Serial\n|+ DEFAULT_BAUDRATE\l+ DEFAULT_FORMAT\l|+ Serial()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\l}" alt="" coords="5,292,181,443"/>
+<area shape="rect" id="node3" href="$d5/d57/classIOStream_1_1Device.html" title="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}" alt="" coords="30,5,157,244"/>
+</map>

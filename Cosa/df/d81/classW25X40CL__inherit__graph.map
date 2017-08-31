@@ -1,0 +1,4 @@
+<map id="W25X40CL" name="W25X40CL">
+<area shape="rect" id="node2" href="$dc/dd0/classFlash_1_1Device.html" title="{Flash::Device\n|+ SECTOR_BYTES\l+ SECTOR_MASK\l+ SECTOR_MAX\l+ DEVICE_BYTES\l+ DEFAULT_SECTOR_BYTES\l|+ Device()\l+ begin()\l+ end()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l}" alt="" coords="5,5,215,244"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="239,20,338,229"/>
+</map>

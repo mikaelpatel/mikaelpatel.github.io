@@ -1,0 +1,11 @@
+digraph "libraries/HammingCodec_8_4" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_f1178a6b2d26de1e8fdfb651ffe9d5cf [shape=box, label="HammingCodec_8_4", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f1178a6b2d26de1e8fdfb651ffe9d5cf.html"];
+  }
+  dir_fca1885ab465e4fca382ebc19126a2f3 [shape=box label="VWI" URL="dir_fca1885ab465e4fca382ebc19126a2f3.html"];
+  dir_f1178a6b2d26de1e8fdfb651ffe9d5cf->dir_fca1885ab465e4fca382ebc19126a2f3 [headlabel="1", labeldistance=1.5 headhref="dir_000043_000084.html"];
+}

@@ -1,0 +1,11 @@
+digraph "libraries/ILI9163" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_98b0aebf82044a4b6e75b0e2bd47d6ca [shape=box, label="ILI9163", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_98b0aebf82044a4b6e75b0e2bd47d6ca.html"];
+  }
+  dir_9f1ae1ba96febc7ded94085fe35720dd [shape=box label="GDDRAM" URL="dir_9f1ae1ba96febc7ded94085fe35720dd.html"];
+  dir_98b0aebf82044a4b6e75b0e2bd47d6ca->dir_9f1ae1ba96febc7ded94085fe35720dd [headlabel="1", labeldistance=1.5 headhref="dir_000047_000040.html"];
+}

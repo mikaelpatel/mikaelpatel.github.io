@@ -1,0 +1,4 @@
+<map id="Event" name="Event">
+<area shape="rect" id="node2" href="$d7/d56/classQueue.html" title="{Queue\&lt; Event, QUEUE\l_MAX \&gt;\n||+ Queue()\l+ available()\l+ room()\l+ enqueue()\l+ enqueue_P()\l+ dequeue()\l+ await()\l}" alt="" coords="5,233,168,413"/>
+<area shape="rect" id="node3" href="$d7/d56/classQueue.html" title="{Queue\&lt; T, NMEMB \&gt;\n||+ Queue()\l+ available()\l+ room()\l+ enqueue()\l+ enqueue_P()\l+ dequeue()\l+ await()\l}" alt="" coords="11,5,162,171"/>
+</map>

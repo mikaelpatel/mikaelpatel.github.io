@@ -1,0 +1,8 @@
+<map id="VWI::Codec" name="VWI::Codec">
+<area shape="rect" id="node2" href="$dd/d6c/classBitstuffingCodec.html" title="{BitstuffingCodec\n||+ BitstuffingCodec()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="5,248,144,369"/>
+<area shape="rect" id="node3" href="$db/dbc/classBlock4B5BCodec.html" title="{Block4B5BCodec\n||+ Block4B5BCodec()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="169,248,314,369"/>
+<area shape="rect" id="node4" href="$d1/d58/classHammingCodec__7__4.html" title="{HammingCodec_7_4\n||+ HammingCodec_7_4()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="338,248,502,369"/>
+<area shape="rect" id="node5" href="$de/dfa/classHammingCodec__8__4.html" title="{HammingCodec_8_4\n||+ HammingCodec_8_4()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="526,248,690,369"/>
+<area shape="rect" id="node6" href="$dd/dd1/classManchesterCodec.html" title="{ManchesterCodec\n||+ ManchesterCodec()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="714,248,862,369"/>
+<area shape="rect" id="node7" href="$db/d00/classVirtualWireCodec.html" title="{VirtualWireCodec\n||+ VirtualWireCodec()\l+ preamble()\l+ encode4()\l+ decode4()\l}" alt="" coords="887,248,1031,369"/>
+</map>

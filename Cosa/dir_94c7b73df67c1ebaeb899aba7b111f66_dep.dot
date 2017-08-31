@@ -1,0 +1,13 @@
+digraph "libraries/MJKDZ_LCD_Module" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_94c7b73df67c1ebaeb899aba7b111f66 [shape=box, label="MJKDZ_LCD_Module", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_94c7b73df67c1ebaeb899aba7b111f66.html"];
+  }
+  dir_0b4fc2dd97dc10777572736a86a0998b [shape=box label="HD44780" URL="dir_0b4fc2dd97dc10777572736a86a0998b.html"];
+  dir_0f50872039ce7a43bbd36f6adc5b710d [shape=box label="PCF8574" URL="dir_0f50872039ce7a43bbd36f6adc5b710d.html"];
+  dir_94c7b73df67c1ebaeb899aba7b111f66->dir_0b4fc2dd97dc10777572736a86a0998b [headlabel="1", labeldistance=1.5 headhref="dir_000056_000045.html"];
+  dir_94c7b73df67c1ebaeb899aba7b111f66->dir_0f50872039ce7a43bbd36f6adc5b710d [headlabel="1", labeldistance=1.5 headhref="dir_000056_000063.html"];
+}

@@ -1,0 +1,3 @@
+<map id="FAT16::fbs_t" name="FAT16::fbs_t">
+<area shape="rect" id="node2" href="$d5/d47/structFAT16_1_1bpb__t.html" title="{FAT16::bpb_t\n|+ bytesPerSector\l+ sectorsPerCluster\l+ reservedSectorCount\l+ fatCount\l+ rootDirEntryCount\l+ totalSectors16\l+ mediaType\l+ sectorsPerFat16\l+ sectorsPerTrtack\l+ headCount\land 9 more...\l|}" alt="" coords="5,5,163,229"/>
+</map>

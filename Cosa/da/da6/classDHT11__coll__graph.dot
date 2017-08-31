@@ -1,0 +1,20 @@
+digraph "DHT11"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DHT11\n||+ DHT11()\l# adjust_data()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{DHT\n|+ INIT_HUMIDITY_SAMPLE\l+ INIT_TEMPERATURE_SAMPLE\l# m_state\l# m_start\l# m_value\l# m_bits\l# m_ix\l# m_humidity\l# m_temperature\l# MIN_PERIOD\l# LOW_THRESHOLD\l# BIT_THRESHOLD\l# HIGH_THRESHOLD\l# DATA_MAX\l# DATA_LAST\l|+ DHT()\l+ humidity()\l+ temperature()\l+ sample_request()\l+ sample_await()\l+ sample()\l+ sample()\l# on_interrupt()\l# on_sample_completed()\l# is_valid()\l# adjust_data()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da7/classDHT.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{ExternalInterrupt\n||+ ExternalInterrupt()\l+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db6/classExternalInterrupt.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{IOPin\n||+ IOPin()\l+ mode()\l+ mode()\l+ mode()\l+ mode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d21/classIOPin.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d86/classOutputPin.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\>\>()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da0/classPin.html"];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/df8/classInterrupt_1_1Handler.html"];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #m_data" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{DHT::data_t\n|+ as_byte\l+ humidity\l+ temperature\l+ chksum\l+ @98\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da1/unionDHT_1_1data__t.html"];
+}

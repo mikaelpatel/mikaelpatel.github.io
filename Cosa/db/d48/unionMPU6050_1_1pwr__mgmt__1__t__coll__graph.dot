@@ -1,0 +1,6 @@
+digraph "MPU6050::pwr_mgmt_1_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MPU6050::pwr_mgmt_1_t\n|+ as_uint8\l+ CLKSEL\l+ TEMP_DIS\l+ reserved\l+ CYCLE\l+ SLP\l+ DEVICE_RESET\l+ @200\l|+ pwr_mgmt_1_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

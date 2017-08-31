@@ -1,0 +1,12 @@
+<map id="libraries/MPU6050/MPU6050.h" name="libraries/MPU6050/MPU6050.h">
+<area shape="rect" id="node2" href="$d7/dcd/MPU6050_8hh.html" title="MPU6050.hh" alt="" coords="911,80,1010,107"/>
+<area shape="rect" id="node3" href="$d5/d9f/TWI_8hh.html" title="Cosa/TWI.hh" alt="" coords="840,155,940,181"/>
+<area shape="rect" id="node25" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="993,229,1123,256"/>
+<area shape="rect" id="node4" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,453,957,480"/>
+<area shape="rect" id="node20" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="809,229,918,256"/>
+<area shape="rect" id="node16" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,528,1331,555"/>
+<area shape="rect" id="node17" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,528,1465,555"/>
+<area shape="rect" id="node21" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="753,304,867,331"/>
+<area shape="rect" id="node22" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="705,379,817,405"/>
+<area shape="rect" id="node23" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="737,453,827,480"/>
+</map>

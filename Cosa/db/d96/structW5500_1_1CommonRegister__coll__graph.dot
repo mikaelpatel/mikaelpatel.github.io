@@ -1,0 +1,6 @@
+digraph "W5500::CommonRegister"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{W5500::CommonRegister\n|+ MR\l+ GAR\l+ SUBR\l+ SHAR\l+ SIPR\l+ INTLEVEL\l+ IR\l+ IMR\l+ SIR\l+ SIMR\land 12 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

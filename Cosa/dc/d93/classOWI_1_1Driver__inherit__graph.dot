@@ -1,0 +1,12 @@
+digraph "OWI::Driver"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{OWI::Driver\n|+ NAME\l# m_rom\l# ROM\l# m_next\l# m_pin\l|+ Driver()\l+ Driver()\l+ rom()\l+ update_rom()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l+ connect()\l+ on_alarm()\l# search()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{DS18B20\n|# m_scratchpad\l# m_parasite\l# m_start\l# m_converting\l# CONFIG_MAX\l# MAX_CONVERSION_TIME\l# MIN_COPY_PULLUP\l|+ DS18B20()\l+ DS18B20()\l+ connect()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ write_scratchpad()\l+ read_scratchpad()\l+ copy_scratchpad()\l+ recall()\l+ read_power_supply()\l+ convert_request()\l+ print()\l# power_off()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dc6/classDS18B20.html"];
+  Node1 -> Node3 [dir="back",color="darkgreen",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OWI::Search\n|# m_family\l# m_last\l|+ Search()\l+ next()\l+ reset()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d5f/classOWI_1_1Search.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{DS18B20::Search\n||+ Search()\l+ next()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3e/classDS18B20_1_1Search.html"];
+}

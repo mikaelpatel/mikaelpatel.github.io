@@ -1,0 +1,18 @@
+<map id="libraries/HCSR04/HCSR04.hh" name="libraries/HCSR04/HCSR04.hh">
+<area shape="rect" id="node2" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,603,957,629"/>
+<area shape="rect" id="node18" href="$dc/ddc/InputPin_8hh.html" title="Cosa/InputPin.hh" alt="" coords="642,80,765,107"/>
+<area shape="rect" id="node22" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="494,229,627,256"/>
+<area shape="rect" id="node23" href="$de/d68/Periodic_8hh.html" title="Cosa/Periodic.hh" alt="" coords="747,155,870,181"/>
+<area shape="rect" id="node30" href="$d8/d3a/Watchdog_8hh.html" title="Cosa/Watchdog.hh" alt="" coords="948,80,1083,107"/>
+<area shape="rect" id="node14" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,677,1331,704"/>
+<area shape="rect" id="node15" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,677,1465,704"/>
+<area shape="rect" id="node19" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="583,453,677,480"/>
+<area shape="rect" id="node20" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="351,603,442,629"/>
+<area shape="rect" id="node21" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="570,528,701,555"/>
+<area shape="rect" id="node24" href="$d7/d3d/Job_8hh.html" title="Cosa/Job.hh" alt="" coords="875,229,971,256"/>
+<area shape="rect" id="node25" href="$d5/d96/Linkage_8hh.html" title="Cosa/Linkage.hh" alt="" coords="849,304,969,331"/>
+<area shape="rect" id="node26" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="809,379,918,405"/>
+<area shape="rect" id="node27" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="753,453,867,480"/>
+<area shape="rect" id="node28" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="434,528,546,555"/>
+<area shape="rect" id="node32" href="$de/d89/Clock_8hh.html" title="Cosa/Clock.hh" alt="" coords="961,155,1070,181"/>
+</map>

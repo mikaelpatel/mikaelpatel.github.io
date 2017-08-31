@@ -1,0 +1,5 @@
+<map id="OWI::Driver" name="OWI::Driver">
+<area shape="rect" id="node2" href="$da/dc6/classDS18B20.html" title="{DS18B20\n|# m_scratchpad\l# m_parasite\l# m_start\l# m_converting\l# CONFIG_MAX\l# MAX_CONVERSION_TIME\l# MIN_COPY_PULLUP\l|+ DS18B20()\l+ DS18B20()\l+ connect()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ write_scratchpad()\l+ read_scratchpad()\l+ copy_scratchpad()\l+ recall()\l+ read_power_supply()\l+ convert_request()\l+ print()\l# power_off()\l}" alt="" coords="5,351,204,751"/>
+<area shape="rect" id="node3" href="$d6/d5f/classOWI_1_1Search.html" title="{OWI::Search\n|# m_family\l# m_last\l|+ Search()\l+ next()\l+ reset()\l}" alt="" coords="229,490,327,611"/>
+<area shape="rect" id="node4" href="$d7/d3e/classDS18B20_1_1Search.html" title="{DS18B20::Search\n||+ Search()\l+ next()\l}" alt="" coords="215,799,341,891"/>
+</map>

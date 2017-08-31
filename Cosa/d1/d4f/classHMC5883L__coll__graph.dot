@@ -1,0 +1,12 @@
+digraph "HMC5883L"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{HMC5883L\n|# m_mode\l# m_overflow\l# s_gain\l|+ HMC5883L()\l+ begin()\l+ end()\l+ await_mode()\l+ bias()\l+ output_rate()\l+ samples_avg()\l+ range()\l+ write_config()\l+ heading()\land 9 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d02/classTWI_1_1Driver.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_output" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{HMC5883L::data_t\n|+ x\l+ y\l+ z\l|+ data_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/def/structHMC5883L_1_1data__t.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_config" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{HMC5883L::config_t\n|+ MS\l+ DO\l+ MA\l+ reserved\l+ GN\l|+ config_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d45/structHMC5883L_1_1config__t.html"];
+}

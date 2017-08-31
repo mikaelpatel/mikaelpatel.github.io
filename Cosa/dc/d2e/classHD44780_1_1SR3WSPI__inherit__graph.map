@@ -1,0 +1,4 @@
+<map id="HD44780::SR3WSPI" name="HD44780::SR3WSPI">
+<area shape="rect" id="node2" href="$d8/df6/classHD44780_1_1IO.html" title="{HD44780::IO\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="5,35,124,185"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="149,5,247,215"/>
+</map>

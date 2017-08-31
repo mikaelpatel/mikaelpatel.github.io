@@ -1,0 +1,6 @@
+digraph "Registry"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Registry\n|+ STORAGE_MASK\l+ READONLY\l+ PATH_MAX\l|+ get_value()\l+ get_value()\l+ set_value()\l+ set_value()\l+ Registry()\l+ lookup()\l+ print()\l+ apply()\l+ get_type()\l+ get_name()\l+ get_storage()\l+ is_readonly()\l+ to_list()\l+ get_length()\l+ to_action()\l+ run()\l+ to_blob()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

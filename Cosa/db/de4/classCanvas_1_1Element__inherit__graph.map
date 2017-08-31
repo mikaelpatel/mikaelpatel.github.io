@@ -1,0 +1,4 @@
+<map id="Canvas::Element" name="Canvas::Element">
+<area shape="rect" id="node3" href="$de/d87/classTextbox.html" title="{Textbox\n|# m_text_port\l|+ Textbox()\l+ get_text_port()\l+ set_text_port()\l+ get_line_spacing()\l+ set_line_spacing()\l+ putchar()\l}" alt="" coords="8,520,147,671"/>
+<area shape="rect" id="node2" href="$de/d13/classCanvas_1_1Context.html" title="{Canvas::Context\n|# m_pen_color\l# m_canvas_color\l# m_text_color\l# m_text_scale\l# m_font\l# m_cursor\l|+ Context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\l+ get_text_font()\l+ set_text_font()\l+ get_text_scale()\l+ set_text_scale()\l+ get_cursor()\l+ set_cursor()\l+ move_cursor()\l}" alt="" coords="5,5,149,347"/>
+</map>

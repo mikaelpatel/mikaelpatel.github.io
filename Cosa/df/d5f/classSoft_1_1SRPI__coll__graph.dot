@@ -1,0 +1,12 @@
+digraph "Soft::SRPI&lt; N &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Soft::SRPI\< N \>\n|+ PINS\l# m_port\l|+ SRPI()\l+ is_set()\l+ is_clear()\l+ update()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_sda" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Soft::SRPI\< N \>::InputPin\n|# m_srpi\l# m_pin\l|+ InputPin()\l+ is_set()\l+ is_clear()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d66/classSoft_1_1SRPI_1_1InputPin.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_scl\n#m_pld" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d86/classOutputPin.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\>\>()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da0/classPin.html"];
+}

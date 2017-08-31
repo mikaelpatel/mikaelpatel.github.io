@@ -1,0 +1,5 @@
+<map id="Textbox" name="Textbox">
+<area shape="rect" id="node2" href="$d8/dc7/classCanvas_1_1Element.html" title="{Canvas::Element\n|# m_canvas\l|+ Element()\l}" alt="" coords="16,475,139,553"/>
+<area shape="rect" id="node3" href="$de/d13/classCanvas_1_1Context.html" title="{Canvas::Context\n|# m_pen_color\l# m_canvas_color\l# m_text_color\l# m_text_scale\l# m_font\l# m_cursor\l|+ Context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\l+ get_text_font()\l+ set_text_font()\l+ get_text_scale()\l+ set_text_scale()\l+ get_cursor()\l+ set_cursor()\l+ move_cursor()\l}" alt="" coords="5,5,149,347"/>
+<area shape="rect" id="node4" href="$d5/d57/classIOStream_1_1Device.html" title="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}" alt="" coords="163,395,290,633"/>
+</map>

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MCP7940N::rtcc_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d8c/structMCP7940N_1_1rtcc__t.html"];
+}

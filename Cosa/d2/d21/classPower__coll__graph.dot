@@ -1,0 +1,6 @@
+digraph "Power"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Power\n||+ set()\l+ sleep()\l+ adc_enable()\l+ adc_disable()\l+ timer0_enable()\l+ timer0_disable()\l+ timer1_enable()\l+ timer1_disable()\l+ all_enable()\l+ all_disable()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

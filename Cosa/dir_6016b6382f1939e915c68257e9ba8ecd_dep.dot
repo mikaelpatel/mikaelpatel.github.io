@@ -1,0 +1,11 @@
+digraph "libraries/VirtualWireCodec" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_6016b6382f1939e915c68257e9ba8ecd [shape=box, label="VirtualWireCodec", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_6016b6382f1939e915c68257e9ba8ecd.html"];
+  }
+  dir_fca1885ab465e4fca382ebc19126a2f3 [shape=box label="VWI" URL="dir_fca1885ab465e4fca382ebc19126a2f3.html"];
+  dir_6016b6382f1939e915c68257e9ba8ecd->dir_fca1885ab465e4fca382ebc19126a2f3 [headlabel="1", labeldistance=1.5 headhref="dir_000082_000084.html"];
+}

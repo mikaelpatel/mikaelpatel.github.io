@@ -1,0 +1,9 @@
+<map id="HCSR04" name="HCSR04">
+<area shape="rect" id="node2" href="$da/d6a/classPeriodic.html" title="{Periodic\n|# m_period\l|+ Periodic()\l+ period()\l+ period()\l+ reschedule()\l# on_event()\l}" alt="" coords="27,1051,132,1187"/>
+<area shape="rect" id="node3" href="$da/d10/classJob.html" title="{Job\n|# m_expires\l|+ Job()\l+ expire_at()\l+ expire_after()\l+ expire_at()\l+ expire_after()\l+ time()\l+ is_started()\l+ start()\l+ stop()\l+ on_expired()\l+ on_event()\l+ run()\l}" alt="" coords="24,763,135,1001"/>
+<area shape="rect" id="node4" href="$d5/d19/classLink.html" title="{Link\n||+ Link()\l+ detach()\l}" alt="" coords="5,448,87,540"/>
+<area shape="rect" id="node5" href="$df/d43/classLinkage.html" title="{Linkage\n||+ Linkage()\l+ succ()\l+ pred()\l+ attach()\l# detach()\l}" alt="" coords="20,132,107,268"/>
+<area shape="rect" id="node8" href="$d7/d6b/classHead.html" title="{Head\n||+ Head()\l+ available()\l+ is_empty()\l}" alt="" coords="88,317,183,424"/>
+<area shape="rect" id="node6" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="9,5,118,83"/>
+<area shape="rect" id="node7" href="$d0/d85/classJob_1_1Scheduler.html" title="{Job::Scheduler\n||+ Scheduler()\l+ start()\l+ stop()\l+ dispatch()\l+ time()\l}" alt="" coords="83,564,193,700"/>
+</map>

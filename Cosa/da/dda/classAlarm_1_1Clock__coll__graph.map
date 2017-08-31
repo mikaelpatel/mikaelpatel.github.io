@@ -1,0 +1,12 @@
+<map id="Alarm::Clock" name="Alarm::Clock">
+<area shape="rect" id="node2" href="$df/d45/classClock.html" title="{Clock\n|# m_msec\l# m_sec\l# m_cal\l|+ Clock()\l+ time()\l+ time()\l+ await()\l+ tick()\l+ calibration()\l+ calibration()\l+ adjust()\l}" alt="" coords="32,1112,133,1321"/>
+<area shape="rect" id="node3" href="$d0/d85/classJob_1_1Scheduler.html" title="{Job::Scheduler\n||+ Scheduler()\l+ start()\l+ stop()\l+ dispatch()\l+ time()\l}" alt="" coords="11,927,120,1063"/>
+<area shape="rect" id="node4" href="$d7/d6b/classHead.html" title="{Head\n||+ Head()\l+ available()\l+ is_empty()\l}" alt="" coords="13,669,107,776"/>
+<area shape="rect" id="node5" href="$df/d43/classLinkage.html" title="{Linkage\n||+ Linkage()\l+ succ()\l+ pred()\l+ attach()\l# detach()\l}" alt="" coords="17,264,103,400"/>
+<area shape="rect" id="node6" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="5,5,115,83"/>
+<area shape="rect" id="node7" href="$d5/db6/classExternalInterrupt.html" title="{ExternalInterrupt\n||+ ExternalInterrupt()\l+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="189,1149,328,1285"/>
+<area shape="rect" id="node8" href="$dd/d21/classIOPin.html" title="{IOPin\n||+ IOPin()\l+ mode()\l+ mode()\l+ mode()\l+ mode()\l}" alt="" coords="221,927,296,1063"/>
+<area shape="rect" id="node9" href="$d2/d86/classOutputPin.html" title="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}" alt="" coords="215,581,321,864"/>
+<area shape="rect" id="node10" href="$da/da0/classPin.html" title="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\&gt;\&gt;()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}" alt="" coords="209,132,327,532"/>
+<area shape="rect" id="node11" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="320,934,443,1055"/>
+</map>

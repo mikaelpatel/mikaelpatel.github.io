@@ -1,0 +1,10 @@
+digraph "S25FL127S"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{S25FL127S\n|+ PAGE_MAX\l+ PAGE_MASK\l# m_status\l# MANUFACTURER\l# DEVICE\l|+ S25FL127S()\l+ begin()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l+ read_config()\l+ read_status1()\l+ read_status2()\l# issue()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Flash::Device\n|+ SECTOR_BYTES\l+ SECTOR_MASK\l+ SECTOR_MAX\l+ DEVICE_BYTES\l+ DEFAULT_SECTOR_BYTES\l|+ Device()\l+ begin()\l+ end()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dd0/classFlash_1_1Device.html"];
+  Node3 -> Node1 [dir="back",color="darkgreen",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dd2/classSPI_1_1Driver.html"];
+}

@@ -1,0 +1,18 @@
+digraph "CDCDescriptor"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CDCDescriptor\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +iad" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{IADDescriptor\n|+ len\l+ dtype\l+ firstInterface\l+ interfaceCount\l+ functionClass\l+ funtionSubClass\l+ functionProtocol\l+ iInterface\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d05/structIADDescriptor.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +cifin\n+in\n+out" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{EndpointDescriptor\n|+ len\l+ dtype\l+ addr\l+ attr\l+ packetSize\l+ interval\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d3e/structEndpointDescriptor.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +cif\n+dif" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{InterfaceDescriptor\n|+ len\l+ dtype\l+ number\l+ alternate\l+ numEndpoints\l+ interfaceClass\l+ interfaceSubClass\l+ protocol\l+ iInterface\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/da1/structInterfaceDescriptor.html"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +controlManagement" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{ACMFunctionalDescriptor\n|+ len\l+ dtype\l+ subtype\l+ bmCapabilities\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de0/structACMFunctionalDescriptor.html"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +functionalDescriptor\n+header" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{CDCCSInterfaceDescriptor\n|+ len\l+ dtype\l+ subtype\l+ d0\l+ d1\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d12/structCDCCSInterfaceDescriptor.html"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +callManagement" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{CMFunctionalDescriptor\n|+ len\l+ dtype\l+ subtype\l+ bmCapabilities\l+ bDataInterface\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d01/structCMFunctionalDescriptor.html"];
+}

@@ -1,0 +1,6 @@
+digraph "FAT16::bpb_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FAT16::bpb_t\n|+ bytesPerSector\l+ sectorsPerCluster\l+ reservedSectorCount\l+ fatCount\l+ rootDirEntryCount\l+ totalSectors16\l+ mediaType\l+ sectorsPerFat16\l+ sectorsPerTrtack\l+ headCount\land 9 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

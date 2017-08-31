@@ -1,0 +1,10 @@
+<map id="Rotary::AcceleratedDial&lt; T, THRESHOLD &gt;" name="Rotary::AcceleratedDial&lt; T, THRESHOLD &gt;">
+<area shape="rect" id="node2" href="$d6/d6e/classRotary_1_1Encoder.html" title="{Rotary::Encoder\n|# m_state\l# m_mode\l# half_cycle_table\l# full_cycle_table\l|+ Encoder()\l+ mode()\l+ mode()\l+ enable()\l+ disable()\l# detect()\l}" alt="" coords="50,1327,177,1521"/>
+<area shape="rect" id="node3" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="5,1172,115,1249"/>
+<area shape="rect" id="node4" href="$d2/d71/classRotary_1_1Encoder_1_1SignalPin.html" title="{Rotary::Encoder::SignalPin\n||+ SignalPin()\l}" alt="" coords="139,1172,319,1249"/>
+<area shape="rect" id="node5" href="$d0/d6e/classPinChangeInterrupt.html" title="{PinChangeInterrupt\n||+ PinChangeInterrupt()\l+ enable()\l+ disable()\l+ on_interrupt()\l+ begin()\l+ end()\l}" alt="" coords="152,972,307,1123"/>
+<area shape="rect" id="node6" href="$dd/d21/classIOPin.html" title="{IOPin\n||+ IOPin()\l+ mode()\l+ mode()\l+ mode()\l+ mode()\l}" alt="" coords="100,787,175,923"/>
+<area shape="rect" id="node7" href="$d2/d86/classOutputPin.html" title="{OutputPin\n||+ OutputPin()\l+ _set()\l+ set()\l+ high()\l+ on()\l+ _clear()\l+ clear()\l+ low()\l+ off()\l+ _toggle()\land 11 more...\l+ mode()\l+ toggle()\l+ write()\l+ _write()\l}" alt="" coords="84,455,191,737"/>
+<area shape="rect" id="node8" href="$da/da0/classPin.html" title="{Pin\n|# m_sfr\l# m_mask\l# m_pin\l|+ Pin()\l+ pin()\l+ is_set()\l+ is_high()\l+ is_on()\l+ is_clear()\l+ is_low()\l+ is_off()\l+ read()\l+ read()\l+ operator bool()\l+ operator\&gt;\&gt;()\l+ MASK()\l+ PIN()\l+ DDR()\l+ PORT()\l+ read()\l# PIN()\l# DDR()\l# PORT()\l# PCIMR()\l}" alt="" coords="79,5,196,405"/>
+<area shape="rect" id="node9" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="199,794,321,915"/>
+</map>

@@ -1,0 +1,6 @@
+digraph "MPU6050::int_pin_cfg_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MPU6050::int_pin_cfg_t\n|+ as_uint8\l+ reserved\l+ I2C_BYPASS_EN\l+ FSYNC_INT_EN\l+ FSYNC_INT_LEVEL\l+ INT_RD_CLEAR\l+ LATCH_INT_EN\l+ INT_OPEN\l+ INT_LEVEL\l+ @190\l|+ int_pin_cfg_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

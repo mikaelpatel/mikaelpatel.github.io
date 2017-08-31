@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DFRobot_IIC_LCD_Module\l::port_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd0/unionDFRobot__IIC__LCD__Module_1_1port__t.html"];
+}

@@ -1,0 +1,6 @@
+digraph "MPU6050::int_status_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{MPU6050::int_status_t\n|+ as_uint8\l+ DATA_RDY_INT\l+ reserved1\l+ I2C_MST_INT\l+ FIFO_OFLOW_INT\l+ reserved2\l+ @194\l|+ int_status_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

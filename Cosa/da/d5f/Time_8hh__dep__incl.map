@@ -1,0 +1,18 @@
+<map id="cores/cosa/Cosa/Time.hh" name="cores/cosa/Cosa/Time.hh">
+<area shape="rect" id="node2" href="$d8/d38/Time_8cpp.html" title="cores/cosa/Cosa/Time.cpp" alt="" coords="125,87,304,114"/>
+<area shape="rect" id="node3" href="$de/d2e/DS1302_8hh.html" title="libraries/DS1302/DS1302.hh" alt="" coords="328,87,515,114"/>
+<area shape="rect" id="node6" href="$de/d14/DS1307_8hh.html" title="libraries/DS1307/DS1307.hh" alt="" coords="645,87,832,114"/>
+<area shape="rect" id="node9" href="$d7/d49/DS3231_8hh.html" title="libraries/DS3231/DS3231.hh" alt="" coords="857,87,1044,114"/>
+<area shape="rect" id="node12" href="$d4/d51/MCP7940N_8hh.html" title="libraries/MCP7940N\l/MCP7940N.hh" alt="" coords="1277,80,1416,121"/>
+<area shape="rect" id="node15" href="$df/d1b/PCF8563_8hh.html" title="libraries/PCF8563/PCF8563.hh" alt="" coords="1607,87,1809,114"/>
+<area shape="rect" id="node4" href="$da/d8b/DS1302_8cpp.html" title="libraries/DS1302/DS1302.cpp" alt="" coords="5,177,200,203"/>
+<area shape="rect" id="node5" href="$d1/d38/DS1302_8h.html" title="libraries/DS1302/DS1302.h" alt="" coords="225,177,405,203"/>
+<area shape="rect" id="node7" href="$df/df1/DS1307_8cpp.html" title="libraries/DS1307/DS1307.cpp" alt="" coords="429,177,624,203"/>
+<area shape="rect" id="node8" href="$de/dba/DS1307_8h.html" title="libraries/DS1307/DS1307.h" alt="" coords="649,177,829,203"/>
+<area shape="rect" id="node10" href="$d6/d8a/DS3231_8cpp.html" title="libraries/DS3231/DS3231.cpp" alt="" coords="853,177,1048,203"/>
+<area shape="rect" id="node11" href="$d7/d2d/DS3231_8h.html" title="libraries/DS3231/DS3231.h" alt="" coords="1073,177,1253,203"/>
+<area shape="rect" id="node13" href="$d2/dbb/MCP7940N_8cpp.html" title="libraries/MCP7940N\l/MCP7940N.cpp" alt="" coords="1277,169,1416,211"/>
+<area shape="rect" id="node14" href="$d7/d74/MCP7940N_8h.html" title="libraries/MCP7940N\l/MCP7940N.h" alt="" coords="1440,169,1579,211"/>
+<area shape="rect" id="node16" href="$d8/da2/PCF8563_8cpp.html" title="libraries/PCF8563/PCF8563.cpp" alt="" coords="1603,177,1813,203"/>
+<area shape="rect" id="node17" href="$df/d46/PCF8563_8h.html" title="libraries/PCF8563/PCF8563.h" alt="" coords="1838,177,2034,203"/>
+</map>

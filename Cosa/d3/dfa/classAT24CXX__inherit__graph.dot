@@ -1,0 +1,20 @@
+digraph "AT24CXX"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AT24CXX\n|+ SIZE\l+ PAGE_MAX\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d02/classTWI_1_1Driver.html"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{EEPROM::Device\n|+ eeprom\l|+ is_ready()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d72/classEEPROM_1_1Device.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{AT24C128\n||+ AT24C128()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/ded/classAT24C128.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{AT24C256\n||+ AT24C256()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/df6/classAT24C256.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{AT24C32\n||+ AT24C32()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc8/classAT24C32.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{AT24C512\n||+ AT24C512()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dec/classAT24C512.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{AT24C64\n||+ AT24C64()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d74/classAT24C64.html"];
+}

@@ -1,0 +1,7 @@
+<map id="DS3231::timekeeper_t" name="DS3231::timekeeper_t">
+<area shape="rect" id="node2" href="$d2/d3f/unionDS3231_1_1control__t.html" title="{DS3231::control_t\n|+ as_uint8\l+ a1ie\l+ a2ie\l+ intcn\l+ rs\l+ conv\l+ bbsqw\l+ eosc\l+ @117\l|}" alt="" coords="5,159,132,354"/>
+<area shape="rect" id="node3" href="$d7/dec/structtime__t.html" title="{time_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ month\l+ year\l+ epoch_weekday\l+ pivot_year\l+ days_in\l# s_epoch_year\l# epoch_offset\l|+ to_binary()\l+ to_bcd()\l+ time_t()\l+ time_t()\l+ operator clock_t()\l+ set_day()\l+ days()\l+ day_of_year()\l+ full_year()\l+ is_leap()\l+ is_valid()\l+ parse()\l+ full_year()\l+ is_leap()\l+ days_per()\l+ weekday_for()\l+ epoch_year()\l+ epoch_year()\l+ use_fastest_epoch()\l}" alt="" coords="157,5,309,508"/>
+<area shape="rect" id="node4" href="$d3/d17/unionDS3231_1_1status__t.html" title="{DS3231::status_t\n|+ as_uint8\l+ a1f\l+ a2f\l+ bsy\l+ en32khz\l+ reserved\l+ osf\l+ @119\l|}" alt="" coords="333,167,457,347"/>
+<area shape="rect" id="node5" href="$d4/df2/structDS3231_1_1alarm1__t.html" title="{DS3231::alarm1_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ @112\l|+ to_binary()\l+ to_bcd()\l}" alt="" coords="481,174,608,339"/>
+<area shape="rect" id="node6" href="$d9/d6c/structDS3231_1_1alarm2__t.html" title="{DS3231::alarm2_t\n|+ minutes\l+ hours\l+ day\l+ date\l+ @115\l|+ to_binary()\l+ to_bcd()\l}" alt="" coords="632,181,759,332"/>
+</map>

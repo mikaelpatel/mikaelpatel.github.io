@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MJKDZ_LCD_Module::port_t",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d2d/unionMJKDZ__LCD__Module_1_1port__t.html"];
+}

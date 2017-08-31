@@ -1,0 +1,25 @@
+var structW5500_1_1CommonRegister =
+[
+    [ "GAR", "d2/d7c/structW5500_1_1CommonRegister.html#a7582774d27c9a4e406e517fd05b0b2e8", null ],
+    [ "IMR", "d2/d7c/structW5500_1_1CommonRegister.html#a2c45d89093b084797a7270265614ab89", null ],
+    [ "INTLEVEL", "d2/d7c/structW5500_1_1CommonRegister.html#a754b1dd38b94d5683e7d8e97a2578c86", null ],
+    [ "IR", "d2/d7c/structW5500_1_1CommonRegister.html#a0615dd8018cc7d3a35e12f8bf966d80f", null ],
+    [ "MR", "d2/d7c/structW5500_1_1CommonRegister.html#ac776e7b01086b33abaea8e812adc2116", null ],
+    [ "PHAR", "d2/d7c/structW5500_1_1CommonRegister.html#a18baf04fed3d39d608bf1022cb887338", null ],
+    [ "PHYCFGR", "d2/d7c/structW5500_1_1CommonRegister.html#afbb697c6005460e5ab0d9d4e0b20fd58", null ],
+    [ "PMAGIC", "d2/d7c/structW5500_1_1CommonRegister.html#a63bff6b574fc655c92217c2f0e12a6e7", null ],
+    [ "PMRU", "d2/d7c/structW5500_1_1CommonRegister.html#affca6ce47d5bf5ef931ad4ef88405d50", null ],
+    [ "PSID", "d2/d7c/structW5500_1_1CommonRegister.html#a3e2a46edb1d5b6ad759c20daa3febe6f", null ],
+    [ "PTIMER", "d2/d7c/structW5500_1_1CommonRegister.html#ae01185b972de062d88208e721eee478e", null ],
+    [ "RCR", "d2/d7c/structW5500_1_1CommonRegister.html#a126db119966640826cda3ae04f4fc7c4", null ],
+    [ "reserved", "d2/d7c/structW5500_1_1CommonRegister.html#aafbbf63b74a3fc0814432d2654c99749", null ],
+    [ "RTR", "d2/d7c/structW5500_1_1CommonRegister.html#a8f78fdb20d23a4b99502e142844109f5", null ],
+    [ "SHAR", "d2/d7c/structW5500_1_1CommonRegister.html#aba5cfd7b8175fdd9a54e03a929b657d6", null ],
+    [ "SIMR", "d2/d7c/structW5500_1_1CommonRegister.html#a92db9d075a88bf4663be72d8e6ab8502", null ],
+    [ "SIPR", "d2/d7c/structW5500_1_1CommonRegister.html#a1d44d2eb13fc4266ac2802465fef20d9", null ],
+    [ "SIR", "d2/d7c/structW5500_1_1CommonRegister.html#a8b05574aa06001aa3d837a6795db986a", null ],
+    [ "SUBR", "d2/d7c/structW5500_1_1CommonRegister.html#a8880505abdf48bff5ea0ead774fff6ca", null ],
+    [ "UIPR", "d2/d7c/structW5500_1_1CommonRegister.html#a722b7228da22f0e05dcd27c1c495a207", null ],
+    [ "UPORTR", "d2/d7c/structW5500_1_1CommonRegister.html#a082b1d5dce1ddb5ca5ae3099ca716d21", null ],
+    [ "VERSIONR", "d2/d7c/structW5500_1_1CommonRegister.html#aa86882400cda1264dcc185bf2f281c93", null ]
+];

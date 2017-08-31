@@ -1,0 +1,11 @@
+digraph "libraries/Nucleo" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_69f37a406813fd3d18ff1b51e1c1f8b6 [shape=box, label="Nucleo", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_69f37a406813fd3d18ff1b51e1c1f8b6.html"];
+  }
+  dir_51d9c9f08f6806a0f97badf342e5b4d7 [shape=box label="cores" fillcolor="white" style="filled" color="red" URL="dir_51d9c9f08f6806a0f97badf342e5b4d7.html"];
+  dir_69f37a406813fd3d18ff1b51e1c1f8b6->dir_51d9c9f08f6806a0f97badf342e5b4d7 [headlabel="6", labeldistance=1.5 headhref="dir_000059_000000.html"];
+}

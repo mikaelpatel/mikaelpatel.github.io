@@ -1,0 +1,4 @@
+<map id="LCD::SPI3W" name="LCD::SPI3W">
+<area shape="rect" id="node2" href="$d1/d79/classLCD_1_1IO.html" title="{LCD::IO\n||+ begin()\l+ end()\l+ write()\l+ write()\l}" alt="" coords="5,49,79,171"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="103,5,202,215"/>
+</map>

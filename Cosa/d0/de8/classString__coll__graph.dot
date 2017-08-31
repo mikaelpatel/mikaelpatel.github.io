@@ -1,0 +1,6 @@
+digraph "String"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{String\n|# m_buffer\l# m_capacity\l# m_length\l|+ String()\l+ String()\l+ String()\l+ String()\l+ String()\l+ String()\l+ String()\l+ String()\l+ String()\l+ String()\land 71 more...\l# init()\l# invalidate()\l# changeBuffer()\l# concat()\l# copy()\l# copy()\l# move()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

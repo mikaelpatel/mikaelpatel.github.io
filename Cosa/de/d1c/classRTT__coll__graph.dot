@@ -1,0 +1,6 @@
+digraph "RTT"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RTT\n||+ begin()\l+ end()\l+ us_per_tick()\l+ us_per_timer_cycle()\l+ micros()\l+ micros()\l+ millis()\l+ millis()\l+ since()\l+ delay()\l+ await()\l+ job()\l+ scheduler()\l+ wall()\l+ clock()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

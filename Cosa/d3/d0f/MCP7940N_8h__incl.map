@@ -1,0 +1,19 @@
+<map id="libraries/MCP7940N/MCP7940N.h" name="libraries/MCP7940N/MCP7940N.h">
+<area shape="rect" id="node2" href="$d4/d51/MCP7940N_8hh.html" title="MCP7940N.hh" alt="" coords="956,95,1064,121"/>
+<area shape="rect" id="node3" href="$d5/d9f/TWI_8hh.html" title="Cosa/TWI.hh" alt="" coords="548,244,648,271"/>
+<area shape="rect" id="node25" href="$db/d40/Time_8hh.html" title="Cosa/Time.hh" alt="" coords="899,393,1003,420"/>
+<area shape="rect" id="node27" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="986,468,1117,495"/>
+<area shape="rect" id="node28" href="$dd/d37/ExternalInterrupt_8hh.html" title="Cosa/ExternalInterrupt.hh" alt="" coords="1131,169,1302,196"/>
+<area shape="rect" id="node4" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,543,957,569"/>
+<area shape="rect" id="node20" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="602,319,711,345"/>
+<area shape="rect" id="node16" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,617,1331,644"/>
+<area shape="rect" id="node17" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,617,1465,644"/>
+<area shape="rect" id="node21" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="600,393,713,420"/>
+<area shape="rect" id="node22" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="575,468,687,495"/>
+<area shape="rect" id="node23" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="1261,543,1351,569"/>
+<area shape="rect" id="node26" href="$d0/d1e/BCD_8h.html" title="Cosa/BCD.h" alt="" coords="813,468,911,495"/>
+<area shape="rect" id="node29" href="$d3/de5/IOPin_8hh.html" title="Cosa/IOPin.hh" alt="" coords="1285,244,1393,271"/>
+<area shape="rect" id="node32" href="$de/d0b/Interrupt_8hh.html" title="Cosa/Interrupt.hh" alt="" coords="1155,319,1278,345"/>
+<area shape="rect" id="node30" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="1302,319,1435,345"/>
+<area shape="rect" id="node31" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="1251,393,1345,420"/>
+</map>

@@ -1,0 +1,10 @@
+digraph "Flash::Device"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Flash::Device\n|+ SECTOR_BYTES\l+ SECTOR_MASK\l+ SECTOR_MAX\l+ DEVICE_BYTES\l+ DEFAULT_SECTOR_BYTES\l|+ Device()\l+ begin()\l+ end()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{S25FL127S\n|+ PAGE_MAX\l+ PAGE_MASK\l# m_status\l# MANUFACTURER\l# DEVICE\l|+ S25FL127S()\l+ begin()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l+ read_config()\l+ read_status1()\l+ read_status2()\l# issue()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dcc/classS25FL127S.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{W25X40CL\n|+ PAGE_MAX\l+ PAGE_MASK\l# m_status\l# MANUFACTURER\l# DEVICE\l|+ W25X40CL()\l+ begin()\l+ is_ready()\l+ read()\l+ erase()\l+ write()\l+ write_P()\l+ read_status()\l# issue()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dea/classW25X40CL.html"];
+}

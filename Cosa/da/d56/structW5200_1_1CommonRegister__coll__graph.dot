@@ -1,0 +1,6 @@
+digraph "W5200::CommonRegister"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{W5200::CommonRegister\n|+ MR\l+ GAR\l+ SUBR\l+ SHAR\l+ SIPR\l+ reserved1\l+ IR\l+ IMR\l+ RTR\l+ RCR\land 13 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,10 @@
+digraph "CFFS::File"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CFFS::File\n|# m_flags\l# m_entry_addr\l# m_file_size\l# m_current_addr\l# m_current_pos\l|+ File()\l+ open()\l+ is_open()\l+ remove()\l+ close()\l+ seek()\l+ tell()\l+ rewind()\l+ size()\l+ write()\l+ write_P()\l+ getchar()\l+ read()\l# write()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d57/classIOStream_1_1Device.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_entry\n#m_sector" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{CFFS::descr_t\n|+ type\l+ size\l+ ref\l+ name\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/ddd/structCFFS_1_1descr__t.html"];
+}

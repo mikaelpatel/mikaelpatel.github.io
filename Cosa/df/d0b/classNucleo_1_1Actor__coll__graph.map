@@ -1,0 +1,7 @@
+<map id="Nucleo::Actor" name="Nucleo::Actor">
+<area shape="rect" id="node2" href="$dc/d32/classNucleo_1_1Thread.html" title="{Nucleo::Thread\n|# m_context\l# m_expires\l# MAIN_STACK_MAX\l# s_top\l|+ run()\l+ resume()\l+ yield()\l+ delay()\l+ enqueue()\l+ dequeue()\l+ running()\l+ begin()\l+ service()\l# init()\l}" alt="" coords="5,487,160,740"/>
+<area shape="rect" id="node3" href="$d5/d19/classLink.html" title="{Link\n||+ Link()\l+ detach()\l}" alt="" coords="42,325,123,417"/>
+<area shape="rect" id="node4" href="$df/d43/classLinkage.html" title="{Linkage\n||+ Linkage()\l+ succ()\l+ pred()\l+ attach()\l# detach()\l}" alt="" coords="75,132,162,268"/>
+<area shape="rect" id="node6" href="$d7/d6b/classHead.html" title="{Head\n||+ Head()\l+ available()\l+ is_empty()\l}" alt="" coords="147,317,242,424"/>
+<area shape="rect" id="node5" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="64,5,173,83"/>
+</map>

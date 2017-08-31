@@ -1,0 +1,4 @@
+<map id="Menu::RotaryController" name="Menu::RotaryController">
+<area shape="rect" id="node2" href="$d6/d6e/classRotary_1_1Encoder.html" title="{Rotary::Encoder\n|# m_clk\l# m_dt\l# m_state\l# m_mode\l# half_cycle_table\l# full_cycle_table\l|+ Encoder()\l+ mode()\l+ mode()\l+ enable()\l+ disable()\l# detect()\l}" alt="" coords="21,131,147,355"/>
+<area shape="rect" id="node3" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="29,5,139,83"/>
+</map>

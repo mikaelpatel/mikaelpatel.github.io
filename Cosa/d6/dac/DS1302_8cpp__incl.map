@@ -1,0 +1,13 @@
+<map id="libraries/DS1302/DS1302.cpp" name="libraries/DS1302/DS1302.cpp">
+<area shape="rect" id="node2" href="$de/d2e/DS1302_8hh.html" title="DS1302.hh" alt="" coords="777,80,864,107"/>
+<area shape="rect" id="node3" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="662,229,795,256"/>
+<area shape="rect" id="node23" href="$d3/de5/IOPin_8hh.html" title="Cosa/IOPin.hh" alt="" coords="767,155,875,181"/>
+<area shape="rect" id="node24" href="$db/d40/Time_8hh.html" title="Cosa/Time.hh" alt="" coords="901,304,1005,331"/>
+<area shape="rect" id="node4" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="675,304,769,331"/>
+<area shape="rect" id="node5" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,453,957,480"/>
+<area shape="rect" id="node21" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="674,379,765,405"/>
+<area shape="rect" id="node22" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="789,379,919,405"/>
+<area shape="rect" id="node17" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,528,1331,555"/>
+<area shape="rect" id="node18" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,528,1465,555"/>
+<area shape="rect" id="node25" href="$d0/d1e/BCD_8h.html" title="Cosa/BCD.h" alt="" coords="995,379,1092,405"/>
+</map>

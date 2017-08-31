@@ -1,0 +1,5 @@
+<map id="ST7735" name="ST7735">
+<area shape="rect" id="node2" href="$d2/dd7/classGDDRAM.html" title="{GDDRAM\n|# m_dc\l# m_initiated\l|+ GDDRAM()\l+ begin()\l+ set_orientation()\l+ draw_pixel()\l+ draw_image()\l+ draw_vertical_line()\l+ draw_horizontal_line()\l+ fill_rect()\l+ end()\l# script()\l# write()\l# write()\l# write()\l# write()\l# write()\l# write()\l}" alt="" coords="69,365,229,677"/>
+<area shape="rect" id="node3" href="$d5/d70/classCanvas.html" title="{Canvas\n|+ WIDTH\l+ HEIGHT\l# m_context\l# m_direction\l# context\l|+ Canvas()\l+ begin()\l+ get_context()\l+ set_context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\land 46 more...\l+ shade()\l+ blend()\l}" alt="" coords="5,5,149,317"/>
+<area shape="rect" id="node4" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="173,57,272,266"/>
+</map>

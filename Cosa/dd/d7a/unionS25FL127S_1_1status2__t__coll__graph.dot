@@ -1,0 +1,6 @@
+digraph "S25FL127S::status2_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{S25FL127S::status2_t\n|+ as_uint8\l+ PS\l+ ES\l+ RFU\l+ IO3\l+ PBW\l+ BES\l+ @267\l|+ status2_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

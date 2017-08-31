@@ -1,0 +1,12 @@
+digraph "AT24C128"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AT24C128\n||+ AT24C128()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{AT24CXX\n|+ SIZE\l+ PAGE_MAX\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/db3/classAT24CXX.html"];
+  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{TWI::Driver\n|# m_addr\l# m_async\l|+ Driver()\l+ is_async()\l+ sync_request()\l+ async_request()\l+ on_completion()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d02/classTWI_1_1Driver.html"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{EEPROM::Device\n|+ eeprom\l|+ is_ready()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d72/classEEPROM_1_1Device.html"];
+}

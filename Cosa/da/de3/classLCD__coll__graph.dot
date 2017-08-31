@@ -1,0 +1,10 @@
+digraph "LCD"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{LCD\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{IOStream\n|+ EOF\l+ CR\l+ LF\l+ CRLF\l# m_base\l# m_width\l# m_prec\l# m_eols\l# BUF_MAX\l|+ IOStream()\l+ IOStream()\l+ device()\l+ device()\l+ eol()\l+ EOL()\l+ eol()\l+ width()\l+ precision()\l+ print()\land 34 more...\l+ ultoa()\l+ ltoa()\l+ utoa()\l+ itoa()\l# print_prefix()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d83/classIOStream.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #m_dev" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d57/classIOStream_1_1Device.html"];
+}

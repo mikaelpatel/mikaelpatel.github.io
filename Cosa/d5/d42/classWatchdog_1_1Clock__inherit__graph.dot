@@ -1,0 +1,10 @@
+digraph "Watchdog::Clock"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Watchdog::Clock\n||+ Clock()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Clock\n|# m_msec\l# m_sec\l# m_cal\l|+ Clock()\l+ time()\l+ time()\l+ await()\l+ tick()\l+ calibration()\l+ calibration()\l+ adjust()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d45/classClock.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Job::Scheduler\n|# m_queue\l|+ Scheduler()\l+ start()\l+ stop()\l+ dispatch()\l+ time()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d85/classJob_1_1Scheduler.html"];
+}

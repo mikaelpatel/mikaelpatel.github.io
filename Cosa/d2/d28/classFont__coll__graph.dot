@@ -1,0 +1,6 @@
+digraph "Font"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Font\n|+ WIDTH\l+ HEIGHT\l+ SPACING\l+ LINE_SPACING\l+ FIRST\l+ LAST\l# m_bitmap\l# m_compression_type\l|+ Font()\l+ available()\l+ draw()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

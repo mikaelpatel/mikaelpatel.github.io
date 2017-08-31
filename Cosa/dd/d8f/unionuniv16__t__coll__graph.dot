@@ -1,0 +1,6 @@
+digraph "univ16_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{univ16_t\n|+ as_uint16\l+ as_int16\l+ as_uint8\l+ as_int8\l+ as_ptr_P\l+ as_ptr\l+ low\l+ high\l+ @45\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

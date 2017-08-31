@@ -1,0 +1,6 @@
+digraph "SD::R2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SD::R2\n|+ as_uint8\l+ card_is_locked\l+ wp_erased\l+ error\l+ cc_error\l+ card_ecc_failed\l+ wp_violation\l+ erase_param\l+ out_of_range\l+ @273\l|+ R2()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

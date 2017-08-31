@@ -1,0 +1,8 @@
+<map id="Job::Scheduler" name="Job::Scheduler">
+<area shape="rect" id="node2" href="$df/d45/classClock.html" title="{Clock\n|# m_msec\l# m_sec\l# m_cal\l|+ Clock()\l+ time()\l+ time()\l+ await()\l+ tick()\l+ calibration()\l+ calibration()\l+ adjust()\l}" alt="" coords="133,189,235,399"/>
+<area shape="rect" id="node6" href="$dd/d27/classRTT_1_1Scheduler.html" title="{RTT::Scheduler\n||+ Scheduler()\l+ start()\l+ dispatch()\l+ time()\l}" alt="" coords="259,233,373,355"/>
+<area shape="rect" id="node7" href="$d9/d6f/classWatchdog_1_1Scheduler.html" title="{Watchdog::Scheduler\n||+ Scheduler()\l+ time()\l}" alt="" coords="397,248,544,340"/>
+<area shape="rect" id="node3" href="$da/d82/classAlarm_1_1Clock.html" title="{Alarm::Clock\n||+ Clock()\l# on_interrupt()\l}" alt="" coords="5,447,115,539"/>
+<area shape="rect" id="node4" href="$d9/dc5/classRTT_1_1Clock.html" title="{RTT::Clock\n||+ Clock()\l}" alt="" coords="139,454,229,531"/>
+<area shape="rect" id="node5" href="$df/d88/classWatchdog_1_1Clock.html" title="{Watchdog::Clock\n||+ Clock()\l}" alt="" coords="253,454,376,531"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Canvas" name="Canvas">
+<area shape="rect" id="node2" href="$d2/dd7/classGDDRAM.html" title="{GDDRAM\n|# m_dc\l# m_initiated\l|+ GDDRAM()\l+ begin()\l+ set_orientation()\l+ draw_pixel()\l+ draw_image()\l+ draw_vertical_line()\l+ draw_horizontal_line()\l+ fill_rect()\l+ end()\l# script()\l# write()\l# write()\l# write()\l# write()\l# write()\l# write()\l}" alt="" coords="173,365,333,677"/>
+<area shape="rect" id="node6" href="$dd/db8/classOffScreen.html" title="{OffScreen\&lt; width, height \&gt;\n||+ OffScreen()\l+ bitmap()\l+ begin()\l+ draw_pixel()\l+ fill_screen()\l+ end()\l}" alt="" coords="357,446,536,597"/>
+<area shape="rect" id="node3" href="$d1/d5a/classILI9163.html" title="{ILI9163\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ILI9163()\l+ set_orientation()\l# script()\l}" alt="" coords="5,725,155,861"/>
+<area shape="rect" id="node4" href="$d9/db3/classILI9341.html" title="{ILI9341\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ILI9341()\l# script()\l}" alt="" coords="179,733,328,854"/>
+<area shape="rect" id="node5" href="$dc/d6e/classST7735.html" title="{ST7735\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ST7735()\l+ set_orientation()\l# script()\l}" alt="" coords="352,725,501,861"/>
+</map>

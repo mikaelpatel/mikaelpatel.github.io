@@ -1,0 +1,10 @@
+digraph "LCD::IO"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{LCD::IO\n||+ begin()\l+ end()\l+ write()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{LCD::Serial3W\n|# m_sdin\l# m_sclk\l# m_sce\l|+ Serial3W()\l+ begin()\l+ end()\l+ write()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/df3/classLCD_1_1Serial3W.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{LCD::SPI3W\n||+ SPI3W()\l+ begin()\l+ end()\l+ write()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d26/classLCD_1_1SPI3W.html"];
+}

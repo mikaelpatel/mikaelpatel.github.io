@@ -1,0 +1,5 @@
+<map id="Soft::UAT" name="Soft::UAT">
+<area shape="rect" id="node4" href="$d0/d02/classSoft_1_1UART.html" title="{Soft::UART\n|+ RX_BUFFER_MAX\l+ TX_BUFFER_MAX\l# m_rx\l# m_ibuf\l|+ UART()\l+ available()\l+ peekchar()\l+ peekchar()\l+ getchar()\l+ empty()\l+ begin()\l+ end()\l}" alt="" coords="18,689,169,913"/>
+<area shape="rect" id="node2" href="$da/d40/classSerial.html" title="{Serial\n|+ DEFAULT_BAUDRATE\l+ DEFAULT_FORMAT\l|+ Serial()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\l}" alt="" coords="5,292,181,443"/>
+<area shape="rect" id="node3" href="$d5/d57/classIOStream_1_1Device.html" title="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}" alt="" coords="30,5,157,244"/>
+</map>

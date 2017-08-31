@@ -1,0 +1,13 @@
+digraph "libraries/SainSmart_LCD2004" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc0718b08fb2015b8e59c47b2805f60c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="libraries" fontname="Helvetica", fontsize="10", URL="dir_bc0718b08fb2015b8e59c47b2805f60c.html"]
+  dir_8eaffbfc99380002bb8764d0e20cdc4f [shape=box, label="SainSmart_LCD2004", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8eaffbfc99380002bb8764d0e20cdc4f.html"];
+  }
+  dir_0b4fc2dd97dc10777572736a86a0998b [shape=box label="HD44780" URL="dir_0b4fc2dd97dc10777572736a86a0998b.html"];
+  dir_0f50872039ce7a43bbd36f6adc5b710d [shape=box label="PCF8574" URL="dir_0f50872039ce7a43bbd36f6adc5b710d.html"];
+  dir_8eaffbfc99380002bb8764d0e20cdc4f->dir_0b4fc2dd97dc10777572736a86a0998b [headlabel="1", labeldistance=1.5 headhref="dir_000072_000045.html"];
+  dir_8eaffbfc99380002bb8764d0e20cdc4f->dir_0f50872039ce7a43bbd36f6adc5b710d [headlabel="1", labeldistance=1.5 headhref="dir_000072_000063.html"];
+}

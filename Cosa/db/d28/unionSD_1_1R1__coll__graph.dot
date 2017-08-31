@@ -1,0 +1,6 @@
+digraph "SD::R1"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SD::R1\n|+ as_uint8\l+ in_idle_state\l+ erase_reset\l+ illegal_command\l+ com_crc_error\l+ erase_sequence_error\l+ address_error\l+ parameter_error\l+ reserved\l+ @271\l|+ R1()\l+ is_error()\l+ is_ready()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

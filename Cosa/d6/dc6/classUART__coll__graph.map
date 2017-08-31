@@ -1,0 +1,4 @@
+<map id="UART" name="UART">
+<area shape="rect" id="node2" href="$da/d40/classSerial.html" title="{Serial\n|+ DEFAULT_BAUDRATE\l+ DEFAULT_FORMAT\l|+ Serial()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\l}" alt="" coords="107,293,283,444"/>
+<area shape="rect" id="node3" href="$d5/d57/classIOStream_1_1Device.html" title="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}" alt="" coords="17,5,144,244"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="libraries/ILI9163/ILI9163.hh" name="libraries/ILI9163/ILI9163.hh">
+<area shape="rect" id="node2" href="$d4/dd4/GDDRAM_8h.html" title="GDDRAM.h" alt="" coords="855,80,949,107"/>
+<area shape="rect" id="node3" href="$d7/d0f/GDDRAM_8hh.html" title="GDDRAM.hh" alt="" coords="852,155,952,181"/>
+<area shape="rect" id="node4" href="$dc/dd4/Canvas_8h.html" title="Canvas.h" alt="" coords="1127,229,1205,256"/>
+<area shape="rect" id="node22" href="$d2/d43/SPI_8hh.html" title="Cosa/SPI.hh" alt="" coords="853,229,951,256"/>
+<area shape="rect" id="node24" href="$d2/d73/OutputPin_8hh.html" title="Cosa/OutputPin.hh" alt="" coords="473,304,606,331"/>
+<area shape="rect" id="node5" href="$dc/d42/Canvas_8hh.html" title="Canvas.hh" alt="" coords="1243,379,1329,405"/>
+<area shape="rect" id="node6" href="$d7/df8/Types_8h.html" title="Cosa/Types.h" alt="" coords="853,528,957,555"/>
+<area shape="rect" id="node18" href="$da/d5c/Errno_8h.html" title="Cosa/Errno.h" alt="" coords="1233,603,1331,629"/>
+<area shape="rect" id="node19" href="$df/d31/Board_8hh.html" title="Cosa/Board.hh" alt="" coords="1355,603,1465,629"/>
+<area shape="rect" id="node23" href="$d1/d9d/Bits_8h.html" title="Cosa/Bits.h" alt="" coords="510,528,601,555"/>
+<area shape="rect" id="node26" href="$d0/dcf/IOStream_8hh.html" title="Cosa/IOStream.hh" alt="" coords="891,453,1022,480"/>
+<area shape="rect" id="node27" href="$de/d0b/Interrupt_8hh.html" title="Cosa/Interrupt.hh" alt="" coords="1046,453,1169,480"/>
+<area shape="rect" id="node28" href="$d5/df2/Event_8hh.html" title="Cosa/Event.hh" alt="" coords="799,304,909,331"/>
+<area shape="rect" id="node25" href="$d9/d0a/Pin_8hh.html" title="Cosa/Pin.hh" alt="" coords="496,379,591,405"/>
+<area shape="rect" id="node29" href="$d9/db9/Queue_8hh.html" title="Cosa/Queue.hh" alt="" coords="703,379,816,405"/>
+<area shape="rect" id="node30" href="$de/d82/Power_8hh.html" title="Cosa/Power.hh" alt="" coords="603,453,715,480"/>
+</map>

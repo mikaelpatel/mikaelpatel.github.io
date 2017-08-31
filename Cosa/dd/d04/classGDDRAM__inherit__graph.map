@@ -1,0 +1,7 @@
+<map id="GDDRAM" name="GDDRAM">
+<area shape="rect" id="node4" href="$d1/d5a/classILI9163.html" title="{ILI9163\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ILI9163()\l+ set_orientation()\l# script()\l}" alt="" coords="5,725,155,861"/>
+<area shape="rect" id="node5" href="$d9/db3/classILI9341.html" title="{ILI9341\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ILI9341()\l# script()\l}" alt="" coords="179,733,328,854"/>
+<area shape="rect" id="node6" href="$dc/d6e/classST7735.html" title="{ST7735\n|+ SCREEN_WIDTH\l+ SCREEN_HEIGHT\l# s_script\l|+ ST7735()\l+ set_orientation()\l# script()\l}" alt="" coords="352,725,501,861"/>
+<area shape="rect" id="node2" href="$d5/d70/classCanvas.html" title="{Canvas\n|+ WIDTH\l+ HEIGHT\l# m_context\l# m_direction\l# context\l|+ Canvas()\l+ begin()\l+ get_context()\l+ set_context()\l+ get_canvas_color()\l+ set_canvas_color()\l+ get_pen_color()\l+ set_pen_color()\l+ get_text_color()\l+ set_text_color()\land 46 more...\l+ shade()\l+ blend()\l}" alt="" coords="109,5,253,317"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="277,57,376,266"/>
+</map>

@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="IOStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d83/classIOStream.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Debug",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d08/classDebug.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="LCD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d81/classLCD.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Trace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d8b/classTrace.html"];
+}

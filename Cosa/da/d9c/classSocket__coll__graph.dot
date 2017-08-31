@@ -1,0 +1,10 @@
+digraph "Socket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Socket\n|+ DYNAMIC_PORT\l# m_proto\l# m_port\l|+ Socket()\l+ src()\l+ proto()\l+ port()\l+ write()\l+ write_P()\l+ getchar()\l+ read()\l+ open()\l+ close()\land 13 more...\l# write()\l# send()\l# send()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d57/classIOStream_1_1Device.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_src" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{INET::addr_t\n|+ mac\l+ ip\l+ port\l|+ addr_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d09/structINET_1_1addr__t.html"];
+}

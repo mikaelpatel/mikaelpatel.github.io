@@ -1,0 +1,6 @@
+digraph "SD::R3"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SD::R3\n|+ vdd_voltage_window\l+ switch_to_1V8_accepted\l+ reserved\l+ uhs_ii_card\l+ card_capacity\l+ card_power_up\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

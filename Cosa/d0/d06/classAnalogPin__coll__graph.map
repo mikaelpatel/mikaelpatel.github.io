@@ -1,0 +1,4 @@
+<map id="AnalogPin" name="AnalogPin">
+<area shape="rect" id="node2" href="$d9/df8/classInterrupt_1_1Handler.html" title="{Interrupt::Handler\n||+ on_interrupt()\l+ enable()\l+ disable()\l+ clear()\l}" alt="" coords="5,5,128,127"/>
+<area shape="rect" id="node3" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="152,27,261,105"/>
+</map>

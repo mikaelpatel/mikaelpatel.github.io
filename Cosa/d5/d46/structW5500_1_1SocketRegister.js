@@ -1,0 +1,27 @@
+var structW5500_1_1SocketRegister =
+[
+    [ "CR", "d5/d46/structW5500_1_1SocketRegister.html#a151d370ce02d0940f47f549143f725bb", null ],
+    [ "DHAR", "d5/d46/structW5500_1_1SocketRegister.html#ab8e9d9f8e348965e036dbb7889984286", null ],
+    [ "DIPR", "d5/d46/structW5500_1_1SocketRegister.html#abf2ef880fe01c5bf69d11f12ff5a87cb", null ],
+    [ "DPORT", "d5/d46/structW5500_1_1SocketRegister.html#a9ebe7068870106e0322893017772be76", null ],
+    [ "FRAG", "d5/d46/structW5500_1_1SocketRegister.html#a5ca693328a77bbebcb5ebb46c8dac723", null ],
+    [ "IMR", "d5/d46/structW5500_1_1SocketRegister.html#a0e5fe5059dec9bfeec5e7be5d6f4293c", null ],
+    [ "IR", "d5/d46/structW5500_1_1SocketRegister.html#a19f80c6ac9443547972f38e71d433e82", null ],
+    [ "KPALVTR", "d5/d46/structW5500_1_1SocketRegister.html#aad07e90f656e55dfd6939bc58c53b3f6", null ],
+    [ "MR", "d5/d46/structW5500_1_1SocketRegister.html#a841f278ca4e289a5a739dc0326d1fb4e", null ],
+    [ "MSSR", "d5/d46/structW5500_1_1SocketRegister.html#a3150bcc98a0bb87c629509accbcdb711", null ],
+    [ "PORT", "d5/d46/structW5500_1_1SocketRegister.html#a58fed4ca3b55a3c5d095820d115d5b22", null ],
+    [ "PROTO", "d5/d46/structW5500_1_1SocketRegister.html#a5aec6dbc638e8bf0ae738baa4a793b9f", null ],
+    [ "reserved1", "d5/d46/structW5500_1_1SocketRegister.html#ab98a518625bf440ef12e34e2db3e4b6b", null ],
+    [ "RX_RD", "d5/d46/structW5500_1_1SocketRegister.html#a194d165132fb0aa3a6f7ad25d2c3342d", null ],
+    [ "RX_RSR", "d5/d46/structW5500_1_1SocketRegister.html#ab798517f8386e8b87262a12bae4bdff0", null ],
+    [ "RX_WR", "d5/d46/structW5500_1_1SocketRegister.html#aa9d25133939206bd889e084fe039540d", null ],
+    [ "RXMEM_SIZE", "d5/d46/structW5500_1_1SocketRegister.html#a580fecf326248863421e55eb2f94a8c5", null ],
+    [ "SR", "d5/d46/structW5500_1_1SocketRegister.html#aa397521d6ecfe5ae444cf95d55a14495", null ],
+    [ "TOS", "d5/d46/structW5500_1_1SocketRegister.html#a42a429485f4161eaa1e23ce1f8958dd9", null ],
+    [ "TTL", "d5/d46/structW5500_1_1SocketRegister.html#a5acb6ba12988616f1ab2ff8599ec4be7", null ],
+    [ "TX_FSR", "d5/d46/structW5500_1_1SocketRegister.html#a838b7a9cb68fd8d7b92c34a885e5907a", null ],
+    [ "TX_RD", "d5/d46/structW5500_1_1SocketRegister.html#af0328f8acc2d09e9a95b2fa8c9a43416", null ],
+    [ "TX_WR", "d5/d46/structW5500_1_1SocketRegister.html#abd9201c3c8f47df5fcbb7118c8f7ebe3", null ],
+    [ "TXMEM_SIZE", "d5/d46/structW5500_1_1SocketRegister.html#ae5e09969e41157d43d44f675d637482e", null ]
+];

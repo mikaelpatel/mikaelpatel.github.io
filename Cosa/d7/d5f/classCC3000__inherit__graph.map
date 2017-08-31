@@ -1,0 +1,4 @@
+<map id="CC3000" name="CC3000">
+<area shape="rect" id="node2" href="$d6/d93/classHCI.html" title="{HCI\n|+ DEFAULT_TIMEOUT\l# m_irq\l# m_available\l# m_timeout\l# m_event_handler\l# m_evnt\l# EVNT_MAX\l|+ HCI()\l+ read()\l+ write()\l+ write_P()\l+ write()\l+ issue()\l+ issue_P()\l+ await()\l+ write_data()\l+ write_data_P()\land 6 more...\l}" alt="" coords="48,263,211,575"/>
+<area shape="rect" id="node3" href="$dc/dd2/classSPI_1_1Driver.html" title="{SPI::Driver\n|# m_next\l# m_irq\l# m_cs\l# m_pulse\l# m_spcr\l# m_spsr\l|+ Driver()\l+ set_clock()\l+ set_clock()\l+ clock()\l+ cycle()\l}" alt="" coords="80,5,179,215"/>
+</map>

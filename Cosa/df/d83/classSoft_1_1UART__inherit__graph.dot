@@ -1,0 +1,12 @@
+digraph "Soft::UART"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Soft::UART\n|+ RX_BUFFER_MAX\l+ TX_BUFFER_MAX\l# m_rx\l# m_ibuf\l|+ UART()\l+ available()\l+ peekchar()\l+ peekchar()\l+ getchar()\l+ empty()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Soft::UAT\n|# m_tx\l# m_stops\l# m_bits\l# m_count\l|+ UAT()\l+ putchar()\l+ begin()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ddd/classSoft_1_1UAT.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Serial\n|+ DEFAULT_BAUDRATE\l+ DEFAULT_FORMAT\l|+ Serial()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d40/classSerial.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{IOStream::Device\n|# m_blocking\l# m_eol\l|+ Device()\l+ non_blocking()\l+ blocking()\l+ is_blocking()\l+ eol()\l+ eol()\l+ available()\l+ room()\l+ putchar()\l+ puts()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d57/classIOStream_1_1Device.html"];
+}

@@ -1,0 +1,6 @@
+<map id="Nucleo::Thread" name="Nucleo::Thread">
+<area shape="rect" id="node2" href="$d5/d19/classLink.html" title="{Link\n||+ Link()\l+ detach()\l}" alt="" coords="5,325,87,417"/>
+<area shape="rect" id="node3" href="$df/d43/classLinkage.html" title="{Linkage\n||+ Linkage()\l+ succ()\l+ pred()\l+ attach()\l# detach()\l}" alt="" coords="39,132,125,268"/>
+<area shape="rect" id="node5" href="$d7/d6b/classHead.html" title="{Head\n||+ Head()\l+ available()\l+ is_empty()\l}" alt="" coords="111,317,205,424"/>
+<area shape="rect" id="node4" href="$d3/d51/classEvent_1_1Handler.html" title="{Event::Handler\n||+ on_event()\l}" alt="" coords="27,5,137,83"/>
+</map>

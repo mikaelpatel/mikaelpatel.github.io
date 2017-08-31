@@ -1,0 +1,4 @@
+<map id="VWI" name="VWI">
+<area shape="rect" id="node2" href="$df/d58/classWireless_1_1Driver.html" title="{Wireless::Driver\n|+ BROADCAST\l# m_channel\l# m_avail\l# m_dest\l|+ Driver()\l+ channel()\l+ network_address()\l+ device_address()\l+ address()\l+ channel()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\land 12 more...\l}" alt="" coords="16,160,157,428"/>
+<area shape="rect" id="node3" href="$d9/da2/structWireless_1_1Driver_1_1addr__t.html" title="{Wireless::Driver::addr_t\n|+ device\l+ network\l|+ addr_t()\l}" alt="" coords="7,5,167,97"/>
+</map>

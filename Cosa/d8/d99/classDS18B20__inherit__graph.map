@@ -1,0 +1,3 @@
+<map id="DS18B20" name="DS18B20">
+<area shape="rect" id="node2" href="$d8/dd3/classOWI_1_1Driver.html" title="{OWI::Driver\n|+ NAME\l# m_rom\l# ROM\l# m_next\l# m_pin\l|+ Driver()\l+ Driver()\l+ rom()\l+ update_rom()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l+ connect()\l+ on_alarm()\l# search()\l}" alt="" coords="45,5,165,303"/>
+</map>

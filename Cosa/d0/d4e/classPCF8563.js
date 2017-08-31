@@ -1,0 +1,26 @@
+var classPCF8563 =
+[
+    [ "alarm_t", "d0/d73/structPCF8563_1_1alarm__t.html", "d0/d73/structPCF8563_1_1alarm__t" ],
+    [ "clock_control_t", "dd/df4/unionPCF8563_1_1clock__control__t.html", "dd/df4/unionPCF8563_1_1clock__control__t" ],
+    [ "control_status_1_t", "da/d1c/unionPCF8563_1_1control__status__1__t.html", "da/d1c/unionPCF8563_1_1control__status__1__t" ],
+    [ "control_status_2_t", "d9/db5/unionPCF8563_1_1control__status__2__t.html", "d9/db5/unionPCF8563_1_1control__status__2__t" ],
+    [ "rtcc_t", "d8/db5/structPCF8563_1_1rtcc__t.html", "d8/db5/structPCF8563_1_1rtcc__t" ],
+    [ "timer_control_t", "d5/d55/unionPCF8563_1_1timer__control__t.html", "d5/d55/unionPCF8563_1_1timer__control__t" ],
+    [ "FD_32_768_KHZ", "d0/d4e/classPCF8563.html#aeb532530a3eaf7b1be2df7fb6678df67aaeb7b618855c9f477b3fdea9529012b6", null ],
+    [ "FD_1_024_KHZ", "d0/d4e/classPCF8563.html#aeb532530a3eaf7b1be2df7fb6678df67a230ec6c47f6bff6a87cb5e918d3863d4", null ],
+    [ "FD_32_HZ", "d0/d4e/classPCF8563.html#aeb532530a3eaf7b1be2df7fb6678df67a76edf3c76db5aabfa26cd1d1d7bc07a6", null ],
+    [ "FD_1_HZ", "d0/d4e/classPCF8563.html#aeb532530a3eaf7b1be2df7fb6678df67a26196c55f35e6f9ac38674b0be8e709c", null ],
+    [ "TD_4_096_KHZ", "d0/d4e/classPCF8563.html#aa403e3b8847a7ce184ea957d7c408f4dae76e93ec3d362c075c389fd9bb179e9e", null ],
+    [ "TD_64_HZ", "d0/d4e/classPCF8563.html#aa403e3b8847a7ce184ea957d7c408f4da00b7230cd2f8e2a16eca4ea6e701b289", null ],
+    [ "TD_1_HZ", "d0/d4e/classPCF8563.html#aa403e3b8847a7ce184ea957d7c408f4da8eb0597d79ac8c52b72c5cf9c300a0b2", null ],
+    [ "TD_1v60_HZ", "d0/d4e/classPCF8563.html#aa403e3b8847a7ce184ea957d7c408f4da54c381c4407a00da76129a8a50eb4b09", null ],
+    [ "PCF8563", "d0/d4e/classPCF8563.html#a98e964ef5049a6002874052458c93132", null ],
+    [ "clear_alarm", "d0/d4e/classPCF8563.html#a9a0ff5f78b65263f92e8e1125aed741c", null ],
+    [ "get_alarm", "d0/d4e/classPCF8563.html#a9cc81e305b58ece556dc88c3d945e04b", null ],
+    [ "get_time", "d0/d4e/classPCF8563.html#a3673df489b0d2ad58f0d92aa8f7e4a07", null ],
+    [ "pending_alarm", "d0/d4e/classPCF8563.html#af2c86eb569572bb360df17d3cc88ec29", null ],
+    [ "read", "d0/d4e/classPCF8563.html#ae19b9ef37ae5d293a766e386f0390382", null ],
+    [ "set_alarm", "d0/d4e/classPCF8563.html#a30d8abcb2a30b4b1803225aa653c2279", null ],
+    [ "set_time", "d0/d4e/classPCF8563.html#aaede4cbed04b1b4e0f7dccca06bad08d", null ],
+    [ "write", "d0/d4e/classPCF8563.html#ac2215ceba6e2e0d91850489cf4283907", null ]
+];

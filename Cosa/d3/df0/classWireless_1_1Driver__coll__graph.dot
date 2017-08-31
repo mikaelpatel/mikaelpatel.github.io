@@ -1,0 +1,8 @@
+digraph "Wireless::Driver"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Wireless::Driver\n|+ BROADCAST\l# m_channel\l# m_avail\l# m_dest\l|+ Driver()\l+ channel()\l+ network_address()\l+ device_address()\l+ address()\l+ channel()\l+ begin()\l+ end()\l+ powerup()\l+ powerdown()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_addr" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{Wireless::Driver::addr_t\n|+ device\l+ network\l|+ addr_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/da2/structWireless_1_1Driver_1_1addr__t.html"];
+}

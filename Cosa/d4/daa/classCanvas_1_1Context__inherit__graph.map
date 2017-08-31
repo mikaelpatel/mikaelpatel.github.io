@@ -1,0 +1,4 @@
+<map id="Canvas::Context" name="Canvas::Context">
+<area shape="rect" id="node2" href="$d8/dc7/classCanvas_1_1Element.html" title="{Canvas::Element\n|# m_canvas\l|+ Element()\l}" alt="" coords="16,395,139,472"/>
+<area shape="rect" id="node3" href="$de/d87/classTextbox.html" title="{Textbox\n|# m_text_port\l|+ Textbox()\l+ get_text_port()\l+ set_text_port()\l+ get_line_spacing()\l+ set_line_spacing()\l+ putchar()\l}" alt="" coords="8,520,147,671"/>
+</map>

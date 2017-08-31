@@ -1,0 +1,6 @@
+digraph "CC3000::hci_evnt_read_buffer_size_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CC3000::hci_evnt_read\l_buffer_size_t\n|+ status\l+ count\l+ bytes\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}
