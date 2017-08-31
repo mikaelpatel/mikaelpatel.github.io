@@ -1,0 +1,11 @@
+digraph "Debug"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Debug\n|# m_dev\l# DATAEND\l# DATASIZE\l|+ Debug()\l+ begin()\l+ assert()\l+ break_at()\l+ check_stack()\l+ observe_at()\l+ end()\l# write()\l# available()\l# peek()\l# read()\l# flush()\l# dump()\l# run()\l# do_backtrace()\l# do_lookup_variables()\l# do_memory_usage()\land 6 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Stream\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_var" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Debug::Variable\n|# m_func\l# m_name\l# m_ref\l# m_size\l|+ Variable()\l+ ~Variable()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dd2/classDebug_1_1Variable.html"];
+  Node3 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #m_next" ,arrowhead="odiamond",fontname="Helvetica"];
+}
