@@ -1,0 +1,6 @@
+digraph "FVM::task_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FVM::task_t\n|+ m_ios\l+ m_base\l+ m_trace\l+ m_rp\l+ m_rp0\l+ m_sp\l+ m_sp0\l|+ task_t()\l+ push()\l+ pop()\l+ depth()\l+ trace()\l+ trace()\l+ call()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

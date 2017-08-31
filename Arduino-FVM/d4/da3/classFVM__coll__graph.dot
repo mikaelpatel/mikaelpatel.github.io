@@ -1,0 +1,6 @@
+digraph "FVM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FVM\n|+ fntab\l+ fnstr\l+ CODE_P_MAX\l# DICT_MAX\l# WORD_MAX\l# m_next\l# m_dp\l# m_dp0\l# m_body\l# m_name\l# opstr\l|+ FVM()\l+ dp()\l+ dp()\l+ compile()\l+ literal()\l+ create()\l+ variable()\l+ constant()\l+ name()\l+ body()\land 8 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}
