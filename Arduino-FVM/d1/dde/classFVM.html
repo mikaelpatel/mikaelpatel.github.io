@@ -521,272 +521,406 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda0062ce802ece6fc68e67a30596874bc9"></a>OP_EXIT&#160;</td><td class="fielddoc">
+<p>Threaded code return. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae3eb124d532b2ddd36a44a1023348712"></a>OP_ZERO_EXIT&#160;</td><td class="fielddoc">
+<p>Threaded code return if zero/false. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda72b041a77d22a15a9c680fbbe069785c"></a>OP_LIT&#160;</td><td class="fielddoc">
+<p>Inline literal constant. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdac0399273458c6e3d2a9cfd815219bc5f"></a>OP_CLIT&#160;</td><td class="fielddoc">
+<p>Inline literal signed character constant. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae5cae218653fc7c9507e8865a6a84898"></a>OP_SLIT&#160;</td><td class="fielddoc">
+<p>Push instruction pointer and branch always. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdadaa0deba6e365931601c11900edaf15e"></a>OP_VAR&#160;</td><td class="fielddoc">
+<p>Handle variable reference. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdacefd025c95ee3df4c6247fbc92830123"></a>OP_CONST&#160;</td><td class="fielddoc">
+<p>Handle constant. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda12bbe6b9e262e3fbf92cc3fa1779873a"></a>OP_FUNC&#160;</td><td class="fielddoc">
+<p>Handle function wrapper call. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2a5c21e55cdcbdab601aad48a8690a75"></a>OP_DOES&#160;</td><td class="fielddoc">
+<p>Handle object pointer. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda16df6940131003fb6bdc0542e4c0e044"></a>OP_PARAM&#160;</td><td class="fielddoc">
+<p>Duplicate inline indexed stack element. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda55094f96702d3baac2f38ac565bf438f"></a>OP_BRANCH&#160;</td><td class="fielddoc">
+<p>Branch always (offset -128..127) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda9639fe0a708f46e23c0c5dfd422b3a22"></a>OP_ZERO_BRANCH&#160;</td><td class="fielddoc">
+<p>Branch if zero/false (offset -128..127) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda9c3ed49ea9520280e037b5da73f65108"></a>OP_DO&#160;</td><td class="fielddoc">
+<p>Start loop block. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdac164951d9986c851b8294c1632f5447e"></a>OP_I&#160;</td><td class="fielddoc">
+<p>Current loop index. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda977ae6018753d42ea3c727450865abc5"></a>OP_J&#160;</td><td class="fielddoc">
+<p>Outer loop index. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdac2e685c4993bb9e558621a78bd55f53f"></a>OP_LEAVE&#160;</td><td class="fielddoc">
+<p>Mark loop block as completed. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdad4ecfbf2cc71bbe1e74ce5aa0622ac4e"></a>OP_LOOP&#160;</td><td class="fielddoc">
+<p>End loop block (one increment) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaf8e799083aa4040a04ff4e8e97a144f8"></a>OP_PLUS_LOOP&#160;</td><td class="fielddoc">
+<p>End loop block (n increment) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdacbd2c4b60bcc5009d70b93e5b53acad1"></a>OP_NOOP&#160;</td><td class="fielddoc">
+<p>No operation. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaf2a23556fb34feb853214fc7cc1becec"></a>OP_EXECUTE&#160;</td><td class="fielddoc">
+<p>Execute operation token. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda67e564e74f6f975c4074607784bd8d9a"></a>OP_HALT&#160;</td><td class="fielddoc">
+<p>Halt virtual machine. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab761fa68c67f8d9aedf3ab1827494a8d"></a>OP_YIELD&#160;</td><td class="fielddoc">
+<p>Yield virtual machine. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaba99c1402121ce9c40fc57cb60017072"></a>OP_SYSCALL&#160;</td><td class="fielddoc">
+<p>Call system token. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdabbb60d2ad753156f4d105620502f86a7"></a>OP_CALL&#160;</td><td class="fielddoc">
+<p>Call application token. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda7d03803eab8bcd215d6cf7558d021fd6"></a>OP_TRACE&#160;</td><td class="fielddoc">
+<p>Set trace mode. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda3053f9c1155a6d578870a8c7adb020d0"></a>OP_ROOM&#160;</td><td class="fielddoc">
+<p>Dictionary state. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2659d4ec23d09e86bb6fdab1564c1de1"></a>OP_C_FETCH&#160;</td><td class="fielddoc">
+<p>Load character (signed byte) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdac3ecdcbf7b5e59b575f952383d320ae3"></a>OP_C_STORE&#160;</td><td class="fielddoc">
+<p>Store character. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdad95947caa8abbb1aeb8adcd5d24db13f"></a>OP_FETCH&#160;</td><td class="fielddoc">
+<p>Load data. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa3107d6a8df13560ce3c2072e0ad783d"></a>OP_STORE&#160;</td><td class="fielddoc">
+<p>Store data. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda840080690efa65eeb74c7f1571a9eca2"></a>OP_PLUS_STORE&#160;</td><td class="fielddoc">
+<p>Update data. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda987fd1dc01c631f2019f2853b4c4b836"></a>OP_DP&#160;</td><td class="fielddoc">
+<p>Data pointer variable. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2be0d3139219ff8a09ce1c1a334850a0"></a>OP_HERE&#160;</td><td class="fielddoc">
+<p>Data pointer. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdadfc6ff39668fb5f644ef04d049e4ecb3"></a>OP_ALLOT&#160;</td><td class="fielddoc">
+<p>Allocate number of bytes. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda15a90d790406e70d754f22394d1a147a"></a>OP_COMMA&#160;</td><td class="fielddoc">
+<p>Allocate and assign from top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda85cea493260bcf1ed1339d9ca480e3e2"></a>OP_C_COMMA&#160;</td><td class="fielddoc">
+<p>Allocate and assign character. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda505e3cf5db860be471e1630589f30b44"></a>OP_COMPILE&#160;</td><td class="fielddoc">
+<p>Add inline token. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa3ebeea49ae222e89e381ecfc4a921de"></a>OP_TO_R&#160;</td><td class="fielddoc">
+<p>Push data on return stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaf6dfd62afa12644aa04f5fc1e9334755"></a>OP_R_FROM&#160;</td><td class="fielddoc">
+<p>Pop data from return stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda816f21984210da2ab6e5347c12db3fb7"></a>OP_R_FETCH&#160;</td><td class="fielddoc">
+<p>Copy from return stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda46c22b346f4614d1acf546b6e9928fe4"></a>OP_SP&#160;</td><td class="fielddoc">
+<p>Stack pointer. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda38827a5f7949e7bcfc31aae9359849e6"></a>OP_DEPTH&#160;</td><td class="fielddoc">
+<p>Number of elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae61487597689298834534f4ee749dbfd"></a>OP_DROP&#160;</td><td class="fielddoc">
+<p>Drop top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2c7d108a396058d7d39abf8bb698fbe8"></a>OP_NIP&#160;</td><td class="fielddoc">
+<p>Drop next top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda006274e91cbb47542d0ef74bae970a77"></a>OP_EMPTY&#160;</td><td class="fielddoc">
+<p>Empty stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdadd49a8dc8885377e5997f0261c25b556"></a>OP_DUP&#160;</td><td class="fielddoc">
+<p>Duplicate top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda411a19ab08b3db1b1eb5872590ce9295"></a>OP_QUESTION_DUP&#160;</td><td class="fielddoc">
+<p>Duplicate top of stack if not zero. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdad1f185263c0664b2ec2001883af9c68c"></a>OP_OVER&#160;</td><td class="fielddoc">
+<p>Duplicate next top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda4a07983324fe712ad1101bf12ac23cb4"></a>OP_TUCK&#160;</td><td class="fielddoc">
+<p>Duplicate top of stack and rotate. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdadbe200d0713d3b8566bdc8c068c9ca50"></a>OP_PICK&#160;</td><td class="fielddoc">
+<p>Duplicate index stack element. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1acf569362571f9ac9cf9ad876dc877b"></a>OP_SWAP&#160;</td><td class="fielddoc">
+<p>Swap two top stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda011035c4259f45a37d553a8df248dad9"></a>OP_ROT&#160;</td><td class="fielddoc">
+<p>Rotate three top stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdacb2823674044eba1e5cdf62664998dc0"></a>OP_MINUS_ROT&#160;</td><td class="fielddoc">
+<p>Inverse rotate three top stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda67725bedac9ac40e97467265f0950bb5"></a>OP_ROLL&#160;</td><td class="fielddoc">
+<p>Rotate given number of stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab66a12e0d8565c1840dc7a920c7046b7"></a>OP_TWO_SWAP&#160;</td><td class="fielddoc">
+<p>Swap two double stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda023844bbb6387bd6e51beb53f57da806"></a>OP_TWO_DUP&#160;</td><td class="fielddoc">
+<p>Duplicate double stack elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab92bd3b4c49ca6e29e8698210cbf23d3"></a>OP_TWO_OVER&#160;</td><td class="fielddoc">
+<p>Duplicate double next top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda97990d2d54786e77688d4917fba7c051"></a>OP_TWO_DROP&#160;</td><td class="fielddoc">
+<p>Drop double top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda87f36b155bb186fab2e7228db094363b"></a>OP_MINUS_TWO&#160;</td><td class="fielddoc">
+<p>Push constant(-2) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda9e24fd0e9a8fd1662794f2a2e4fb2052"></a>OP_MINUS_ONE&#160;</td><td class="fielddoc">
+<p>Push constant(-1) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda12f8561392239c546e7bf507920265a1"></a>OP_ZERO&#160;</td><td class="fielddoc">
+<p>Push constant(0) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1f45c2de74b5a602da7918c2fd8a4c41"></a>OP_ONE&#160;</td><td class="fielddoc">
+<p>Push constant(1) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab078bdaa754967aaca3f7835b35f440e"></a>OP_TWO&#160;</td><td class="fielddoc">
+<p>Push constant(2) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda0bdb77204f4c398ea663fb102f90219b"></a>OP_CELL&#160;</td><td class="fielddoc">
+<p>Stack width in bytes. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab49a3e46820afe5d2836e2df41d1a805"></a>OP_CELLS&#160;</td><td class="fielddoc">
+<p>Convert cells to bytes for allot. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda374767695d3bf0590b420e412bad568d"></a>OP_BOOL&#160;</td><td class="fielddoc">
+<p>Convert top of stack to boolean. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda70f407fb3c7b510890620fd32414bede"></a>OP_NOT&#160;</td><td class="fielddoc">
+<p>Convert top of stack to invert boolean. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda08508bcd505196cefa603cf4d4ef554e"></a>OP_TRUE&#160;</td><td class="fielddoc">
+<p>Push true(-1) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda54c6994c2729114058bf1b76632ee8e3"></a>OP_FALSE&#160;</td><td class="fielddoc">
+<p>Push false(0) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda24da11472660e63c4281b46fe8cd0ca5"></a>OP_INVERT&#160;</td><td class="fielddoc">
+<p>Bitwise inverse top element. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1c0d8496b12c92e7a7358771c905dbb2"></a>OP_AND&#160;</td><td class="fielddoc">
+<p>Bitwise AND top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaae95a61c37b0b955f357a5e13136d3f3"></a>OP_OR&#160;</td><td class="fielddoc">
+<p>Bitwise OR top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaeea54faa2d3cfa479d995a10f8ff9752"></a>OP_XOR&#160;</td><td class="fielddoc">
+<p>Bitwise XOR top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda3c26d494abce951e1497de16a9cda91b"></a>OP_NEGATE&#160;</td><td class="fielddoc">
+<p>Negate top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda936f59d2fdaded8e6b7cc6d0c3a41674"></a>OP_ONE_PLUS&#160;</td><td class="fielddoc">
+<p>Increment top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda331f4b6804bd7c4679c441abf0a590e5"></a>OP_ONE_MINUS&#160;</td><td class="fielddoc">
+<p>Decrement top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda36b8c82ef73dc1d0f5aa30c23ef79051"></a>OP_TWO_PLUS&#160;</td><td class="fielddoc">
+<p>Increment by two. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa537158cebd4065188e2176e97f40043"></a>OP_TWO_MINUS&#160;</td><td class="fielddoc">
+<p>Decrement by two. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaad7776b47fa899f05d730e7318770d75"></a>OP_TWO_STAR&#160;</td><td class="fielddoc">
+<p>Multiply by two. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2361e870b2182d77d1566388849a348f"></a>OP_TWO_SLASH&#160;</td><td class="fielddoc">
+<p>Divide by two. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda462830789a3cd2bc499f6d3fb86de333"></a>OP_PLUS&#160;</td><td class="fielddoc">
+<p>Add top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda5fb4ee0637284f7f733694062c04cc91"></a>OP_MINUS&#160;</td><td class="fielddoc">
+<p>Substract top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab249a29559f755e20db85a598414504d"></a>OP_STAR&#160;</td><td class="fielddoc">
+<p>Multiply top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae623bbe97d47d74e1e1ff398e62dbf33"></a>OP_STAR_SLASH&#160;</td><td class="fielddoc">
+<p>Multiply/Divide top three elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaace90e8ea821e6cd2d1bd95f98d1c7e6"></a>OP_SLASH&#160;</td><td class="fielddoc">
+<p>Quotient for division of top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda7c60645f49fbcf55abb8ca2077db9ff3"></a>OP_MOD&#160;</td><td class="fielddoc">
+<p>Remainder for division of top two elements. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda95fbc582f4f3e57c1c3d695b2ea7806c"></a>OP_SLASH_MOD&#160;</td><td class="fielddoc">
+<p>Quotient and remainder. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda5c4d903788db303407a479713f4c5f65"></a>OP_LSHIFT&#160;</td><td class="fielddoc">
+<p>Left shift. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda5622c5504b06f6161b21652de7aa2e70"></a>OP_RSHIFT&#160;</td><td class="fielddoc">
+<p>Right shift. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdace2a629ccf2e787834a4cc74212319f6"></a>OP_WITHIN&#160;</td><td class="fielddoc">
+<p>Within boundard. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa52d103b0c87b3be534a9dbd548dc006"></a>OP_ABS&#160;</td><td class="fielddoc">
+<p>Absolute value. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda25d2c796d6e58327bba193fa2c2de210"></a>OP_MIN&#160;</td><td class="fielddoc">
+<p>Minimum value. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa7befee52dbe8cabb18b112db08686ce"></a>OP_MAX&#160;</td><td class="fielddoc">
+<p>Maximum value. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2cb2a25b01c7ee714da06cced8279c12"></a>OP_ZERO_NOT_EQUALS&#160;</td><td class="fielddoc">
+<p>Not equal zero. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae6a22e02d04f5b96a64bf4b964b8c4b2"></a>OP_ZERO_LESS&#160;</td><td class="fielddoc">
+<p>Less than zero. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdab59435049144bc8718ff8112a02da6f1"></a>OP_ZERO_EQUALS&#160;</td><td class="fielddoc">
+<p>Equal to zero. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda67d352e97c148b0c5ed4295b38ccef01"></a>OP_ZERO_GREATER&#160;</td><td class="fielddoc">
+<p>Greater than zero. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda99350700558af87e79308bf28f6b384e"></a>OP_NOT_EQUALS&#160;</td><td class="fielddoc">
+<p>Not equal. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda9c3b87069ebb6982fdfb5e7d1c782fe4"></a>OP_LESS&#160;</td><td class="fielddoc">
+<p>Less than. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdad4d84c74278cf2c9a8cae802e606f6ac"></a>OP_EQUALS&#160;</td><td class="fielddoc">
+<p>Equal. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda6587ee0f65c419ac33e4b57e72531129"></a>OP_GREATER&#160;</td><td class="fielddoc">
+<p>Greater than. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda54b313a87fa9384981a7da2dcbcb4077"></a>OP_U_LESS&#160;</td><td class="fielddoc">
+<p>Unsigned less than. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa024753e7fd260c24d91e0b735d806d6"></a>OP_LOOKUP&#160;</td><td class="fielddoc">
+<p>Lookup word in dictionary. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda240a61b792ae7483d5716b5e3779cf93"></a>OP_TO_BODY&#160;</td><td class="fielddoc">
+<p>Access data area application variable. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa3980e17ce7875073866d59d131c99e1"></a>OP_WORDS&#160;</td><td class="fielddoc">
+<p>List dictionaries. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaa9d6d69f6d327772fee67682a3b1ea49"></a>OP_BASE&#160;</td><td class="fielddoc">
+<p>Base for number conversion. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdafb4d45a5aae1a250abf25bd0bf9941e9"></a>OP_HEX&#160;</td><td class="fielddoc">
+<p>Set hexa-decimal number conversion base. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2c9ea9ef6f88969690a394fad52d9015"></a>OP_DECIMAL&#160;</td><td class="fielddoc">
+<p>Set decimal number conversion base. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda92ff52fac5c9825ea488e3ad5f68078c"></a>OP_QUESTION_KEY&#160;</td><td class="fielddoc">
+<p>Read character if available. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdae21e041c34c18759ba8ef214a5393960"></a>OP_KEY&#160;</td><td class="fielddoc">
+<p>Wait for character and read. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda393253acc70db5beff5c71fa6e8b65e6"></a>OP_EMIT&#160;</td><td class="fielddoc">
+<p>Print character. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda5f5a3d1f796fb897b49ab064abc5ca05"></a>OP_CR&#160;</td><td class="fielddoc">
+<p>Print new-line. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda540f239db05c1ccb1f79ecaf1d080c0d"></a>OP_SPACE&#160;</td><td class="fielddoc">
+<p>Print space. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda4f6abdca1a688eb33865048aaafcf08a"></a>OP_SPACES&#160;</td><td class="fielddoc">
+<p>Print spaces. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda9a8ed8aaad05e33f69ac86976f0bc320"></a>OP_U_DOT&#160;</td><td class="fielddoc">
+<p>Print top of stack as unsigned. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1717eebbfb38e3fb03d579f09723af76"></a>OP_DOT&#160;</td><td class="fielddoc">
+<p>Print top of stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1c4d8d8198961a3edd9b9029dde4d2ef"></a>OP_DOT_S&#160;</td><td class="fielddoc">
+<p>Print contents of parameter stack. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaba3dc911a6ce2e44f5ac3ea52ae8c551"></a>OP_DOT_QUOTE&#160;</td><td class="fielddoc">
+<p>Print program memory string. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda98b86c2f5bd2ca0391644b05ccc28977"></a>OP_TYPE&#160;</td><td class="fielddoc">
+<p>Print string. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda1485279e848125056fb593ff6fcad5ec"></a>OP_DOT_NAME&#160;</td><td class="fielddoc">
+<p>Print name of token. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda43cc837d5d9067020fac6bc92169a83e"></a>OP_QUESTION&#160;</td><td class="fielddoc">
+<p>Print value of variable. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda157f346b30b06191125737e95c855afc"></a>OP_MICROS&#160;</td><td class="fielddoc">
+<p>Micro-seconds. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdac43bf4ef1897dcda49f50be19dea4a15"></a>OP_MILLIS&#160;</td><td class="fielddoc">
+<p>Milli-seconds. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda2de3c657a31eccbce9b58ad0e5bdcc58"></a>OP_DELAY&#160;</td><td class="fielddoc">
+<p>Delay milli-seconds (yield) </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdabb738fcbda12611e0b0f5be55c23f9a3"></a>OP_PINMODE&#160;</td><td class="fielddoc">
+<p>Digital pin mode. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda0264246f961b6a789bc4a2675628a05b"></a>OP_DIGITALREAD&#160;</td><td class="fielddoc">
+<p>Read digital pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda716cd1e56e14eb494b576195f8e88aa1"></a>OP_DIGITALWRITE&#160;</td><td class="fielddoc">
+<p>Write digital pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdadf076666abf1f778507c3a06b2bbd78b"></a>OP_DIGITALTOGGLE&#160;</td><td class="fielddoc">
+<p>Toggle digital pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda5de1b4c414a7d3c31fc6dfaa07780ecf"></a>OP_ANALOGREAD&#160;</td><td class="fielddoc">
+<p>Read analog pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda4c953400fcae80445d840b556d4c0055"></a>OP_ANALOGWRITE&#160;</td><td class="fielddoc">
+<p>Write pwm pin. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaf7c1a8e9cb83f6f0441d22e9e0d00d5a"></a>CORE_MAX&#160;</td><td class="fielddoc">
+<p>0..127: direct kernel words/switch, PROGMEM. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda90d5a119e95e6b21e5cd698d1f4e0dc0"></a>KERNEL_MAX&#160;</td><td class="fielddoc">
+<p>128..255: extended kernel words/prefix/threaded code table, PROGMEM. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbdaef6b257cb5d3b88ccce0ec260d86d16e"></a>APPLICATION_MAX&#160;</td><td class="fielddoc">
+<p>256..383: direct application words/threaded code table, PROGMEM. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9d23a5c930e53ad4505b2d9c88131bbda253353a3da785256f80ada6e2cc292bb"></a>TOKEN_MAX&#160;</td><td class="fielddoc">
+<p>384..511: extended application words/prefix/threaded code table, SRAM. </p>
 </td></tr>
 </table>
 
@@ -1667,7 +1801,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dde/classFVM.html">FVM</a></li>
-    <li class="footer">Generated on Thu Aug 31 2017 16:21:51 for Arduino-FVM by
+    <li class="footer">Generated on Thu Aug 31 2017 17:21:24 for Arduino-FVM by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
