@@ -126,8 +126,8 @@ Collaboration diagram for ASO&lt; TX_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d77/classASO__coll__graph.png" border="0" usemap="#ASO_3_01TX__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="ASO_3_01TX__PIN_01_4_coll__map" id="ASO_3_01TX__PIN_01_4_coll__map">
-<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="94,277,221,487"/>
-<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="99,5,216,215"/>
+<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="94,307,221,545"/>
+<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="99,5,216,244"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -157,7 +157,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;BOARD::pin_t TX_PIN&gt;<br />
 class ASO&lt; TX_PIN &gt;</h3>
 
-<p>Asynchronous Serial Output (<a class="el" href="../../dd/d3c/classASO.html">ASO</a>) template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. Acts as an output only Stream. May be used with baudrates up to 250.000 bps. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Asynchronous Serial Output (<a class="el" href="../../dd/d3c/classASO.html">ASO</a>) template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. Acts as an output only Stream, i.e. SoftwareSerial. May be used with baudrates up to 250.000 bps. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">TX_PIN</td><td>board pin for transmit signal. </td></tr>
   </table>
@@ -408,7 +408,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d3c/classASO.html">ASO</a></li>
-    <li class="footer">Generated on Thu Aug 31 2017 12:40:19 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Aug 31 2017 21:21:33 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
