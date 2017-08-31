@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gpio',['GPIO',['../index.html',1,'']]]
+  ['arduino_2dgpio',['Arduino-GPIO',['../index.html',1,'']]]
 ];

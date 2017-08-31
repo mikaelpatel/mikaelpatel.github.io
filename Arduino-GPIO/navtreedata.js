@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "GPIO", "index.html", [
+  [ "Arduino-GPIO", "index.html", [
     [ "License", "License.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
