@@ -1,0 +1,11 @@
+digraph "examples/SchedulerBenchmarkSemaphore" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d28a4824dc47e487b107a5db32ef43c4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_d28a4824dc47e487b107a5db32ef43c4.html"]
+  dir_ec87f50688a5d7c214e15e869d4ed0ef [shape=box, label="SchedulerBenchmarkSemaphore", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ec87f50688a5d7c214e15e869d4ed0ef.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_ec87f50688a5d7c214e15e869d4ed0ef->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000005_000023.html"];
+}
