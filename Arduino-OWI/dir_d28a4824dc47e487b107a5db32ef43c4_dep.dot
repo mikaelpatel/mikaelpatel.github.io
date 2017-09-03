@@ -8,7 +8,7 @@ digraph "examples" {
     dir_edc7f58e8c82682a6129433ec455bcd5 [shape=box label="DS18B20" color="black" fillcolor="white" style="filled" URL="dir_edc7f58e8c82682a6129433ec455bcd5.html"];
     dir_3c255463df23486bbba0dcefb1196b0f [shape=box label="Scanner" color="black" fillcolor="white" style="filled" URL="dir_3c255463df23486bbba0dcefb1196b0f.html"];
   }
-  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
   dir_edc7f58e8c82682a6129433ec455bcd5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000001_000003.html"];
   dir_3c255463df23486bbba0dcefb1196b0f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000002_000003.html"];
 }

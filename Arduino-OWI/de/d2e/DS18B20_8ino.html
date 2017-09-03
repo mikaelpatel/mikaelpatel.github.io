@@ -48,6 +48,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
@@ -111,16 +112,18 @@ $(document).ready(function(){initNavTree('de/d2e/DS18B20_8ino.html','../../');})
 <div class="title">DS18B20.ino File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;GPIO.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;OWI.h&quot;</code><br />
+<code>#include &quot;GPIO.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d2d/Software_2OWI_8h_source.html">Software/OWI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DS18B20.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/dc1/DS18B20_8ino__incl.png" border="0" usemap="#examples_2DS18B20_2DS18B20_8ino" alt=""/></div>
 <map name="examples_2DS18B20_2DS18B20_8ino" id="examples_2DS18B20_2DS18B20_8ino">
-<area shape="rect" id="node3" href="../../d5/d27/OWI_8h.html" title="OWI.h" alt="" coords="102,155,162,181"/>
-<area shape="rect" id="node4" href="../../d4/d9d/DS18B20_8h.html" title="DS18B20.h" alt="" coords="153,80,242,107"/>
+<area shape="rect" id="node4" href="../../d7/d2d/Software_2OWI_8h.html" title="Software/OWI.h" alt="" coords="141,80,257,107"/>
+<area shape="rect" id="node5" href="../../d4/d9d/DS18B20_8h.html" title="DS18B20.h" alt="" coords="305,80,395,107"/>
+<area shape="rect" id="node6" href="../../d5/d27/OWI_8h.html" title="OWI.h" alt="" coords="320,155,380,181"/>
 </map>
 </div>
 </div>
@@ -135,8 +138,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a66f9a9c66dcef97f7da1447dac0f0270"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a>&lt; BOARD::D7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2e/DS18B20_8ino.html#a66f9a9c66dcef97f7da1447dac0f0270">sensor</a></td></tr>
-<tr class="separator:a66f9a9c66dcef97f7da1447dac0f0270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bf606ed3113c48745e35749699cdb26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de1/classSoftware_1_1OWI.html">Software::OWI</a>&lt; BOARD::D7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2e/DS18B20_8ino.html#a7bf606ed3113c48745e35749699cdb26">owi</a></td></tr>
+<tr class="separator:a7bf606ed3113c48745e35749699cdb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe36d5bc9b35bf55b90e8b0d7be94cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2e/DS18B20_8ino.html#abfe36d5bc9b35bf55b90e8b0d7be94cf">sensor</a> (<a class="el" href="../../dd/da4/Scanner_8ino.html#a7bf606ed3113c48745e35749699cdb26">owi</a>)</td></tr>
+<tr class="separator:abfe36d5bc9b35bf55b90e8b0d7be94cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="afe461d27b9c48d5921c00d521181f12f"></a>
@@ -152,7 +157,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00013">13</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00015">15</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
 
 </div>
 </div>
@@ -169,22 +174,34 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00007">7</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00009">9</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a66f9a9c66dcef97f7da1447dac0f0270"></a>
+<a class="anchor" id="a7bf606ed3113c48745e35749699cdb26"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a>&lt;BOARD::D7&gt; sensor</td>
+          <td class="memname"><a class="el" href="../../d0/de1/classSoftware_1_1OWI.html">Software::OWI</a>&lt;BOARD::D7&gt; owi</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00005">5</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00006">6</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfe36d5bc9b35bf55b90e8b0d7be94cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a> sensor(<a class="el" href="../../dd/da4/Scanner_8ino.html#a7bf606ed3113c48745e35749699cdb26">owi</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -194,7 +211,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_edc7f58e8c82682a6129433ec455bcd5.html">DS18B20</a></li><li class="navelem"><a class="el" href="../../de/d2e/DS18B20_8ino.html">DS18B20.ino</a></li>
-    <li class="footer">Generated on Sun Sep 3 2017 13:03:39 for Arduino-OWI by
+    <li class="footer">Generated on Sun Sep 3 2017 16:48:09 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

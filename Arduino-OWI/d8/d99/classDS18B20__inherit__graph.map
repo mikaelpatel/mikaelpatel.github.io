@@ -1,3 +1,3 @@
-<map id="DS18B20&lt; PIN &gt;" name="DS18B20&lt; PIN &gt;">
-<area shape="rect" id="node2" href="$d7/d90/classOWI.html" title="{OWI\&lt; PIN \&gt;\n|+ ROM_MAX\l+ ROMBITS\l# m_pin\l# m_crc\l# RESET_RETRY_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}" alt="" coords="21,5,188,303"/>
+<map id="DS18B20" name="DS18B20">
+<area shape="rect" id="node2" href="$d0/d7f/classOWI_1_1Device.html" title="{OWI::Device\n|# m_owi\l# m_rom\l|+ Device()\l+ rom()\l+ rom()\l}" alt="" coords="55,5,154,127"/>
 </map>

@@ -1,15 +1,16 @@
 var searchData=
 [
-  ['read',['read',['../d7/d90/classOWI.html#a89eca69716c0e47166ae9447d10fb2ec',1,'OWI::read(uint8_t bits=CHARBITS)'],['../d7/d90/classOWI.html#a78d5271cfe1ab3b1d6f1825e5380c4ee',1,'OWI::read(void *buf, size_t count)']]],
-  ['read_5fpower_5fsupply',['READ_POWER_SUPPLY',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a52027ade4cd0488b33629945b8af4c52',1,'DS18B20']]],
-  ['read_5from',['read_rom',['../d7/d90/classOWI.html#af5f3213079def8fdf86c7df563164121',1,'OWI::read_rom(uint8_t *code)'],['../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a59c0f338079343ffef924784e8d0b661',1,'OWI::READ_ROM()']]],
-  ['read_5fscratchpad',['READ_SCRATCHPAD',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a18700e1f9787a2a1ad9b503d41d71f69',1,'DS18B20::READ_SCRATCHPAD()'],['../da/dc6/classDS18B20.html#a39a280673f208f1c91a38ba4aca1cafa',1,'DS18B20::read_scratchpad(uint8_t *code=NULL)']]],
-  ['recall',['recall',['../da/dc6/classDS18B20.html#a68464c2ab62dfacc43017f5d8d32f21a',1,'DS18B20']]],
-  ['recall_5fe',['RECALL_E',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a85b79e046f1339b0ea5dcc40d124ae01',1,'DS18B20']]],
-  ['reserved',['reserved',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a58013a135fb7bafa9a3afb851b347de4',1,'DS18B20::scratchpad_t']]],
-  ['reset',['reset',['../d7/d90/classOWI.html#a9da333fbcf92c922f1e0567a046ad382',1,'OWI']]],
-  ['reset_5fretry_5fmax',['RESET_RETRY_MAX',['../d7/d90/classOWI.html#a4756510166ea7aad5c76ede0f731d1a4',1,'OWI']]],
-  ['resolution',['resolution',['../da/dc6/classDS18B20.html#af4f5db273288eada09c93d8d6719ce89',1,'DS18B20::resolution(uint8_t bits)'],['../da/dc6/classDS18B20.html#a55f9215f6f1e0a5b549ea4e3e6e1c55e',1,'DS18B20::resolution() const ']]],
-  ['rom_5fmax',['ROM_MAX',['../d7/d90/classOWI.html#a414791833cfe1c1a7d5b1b40e29e28a4',1,'OWI']]],
-  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#adaf5cd6cd968a9590faaee74bcd28dae',1,'OWI']]]
+  ['read',['read',['../d7/d90/classOWI.html#abe68bc356ee9335d057345b1e5a547c8',1,'OWI::read(uint8_t bits=CHARBITS)=0'],['../d7/d90/classOWI.html#af9ff6fa238d55441da99dee11aec288a',1,'OWI::read(void *buf, size_t count)'],['../d0/de1/classSoftware_1_1OWI.html#a97c3f34bfe99de42b6656089bb01683c',1,'Software::OWI::read()']]],
+  ['read_5fpower_5fsupply',['READ_POWER_SUPPLY',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7f28bcb523c0088cf8676ada071a1743',1,'DS18B20']]],
+  ['read_5from',['READ_ROM',['../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4699d501523897ead0e8e8cdca4a769c',1,'OWI::READ_ROM()'],['../d7/d90/classOWI.html#a40490a0bd3edb2422fb2bc2ef77f8474',1,'OWI::read_rom(uint8_t *code)']]],
+  ['read_5fscratchpad',['READ_SCRATCHPAD',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62aa3f3f086c604ba91aae12adeca7fc9e1',1,'DS18B20::READ_SCRATCHPAD()'],['../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e',1,'DS18B20::read_scratchpad(bool match=true)']]],
+  ['recall',['recall',['../da/dc6/classDS18B20.html#aeae32522ee209783e51ba7e927cc0e8d',1,'DS18B20']]],
+  ['recall_5fe',['RECALL_E',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7bd61cce7bee12ccece0960c0d72a0ea',1,'DS18B20']]],
+  ['reserved',['reserved',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a44b6580314aad6ab1c3e8b0cd7db4856',1,'DS18B20::scratchpad_t']]],
+  ['reset',['reset',['../d7/d90/classOWI.html#a64c5131d928e654be07e4d224e72f0ee',1,'OWI::reset()'],['../d0/de1/classSoftware_1_1OWI.html#a18584a509600d256daa1fc7617faced6',1,'Software::OWI::reset()']]],
+  ['reset_5fretry_5fmax',['RESET_RETRY_MAX',['../d7/d90/classOWI.html#af491d2fe16527f830ae557c121cf14c3',1,'OWI']]],
+  ['resolution',['resolution',['../da/dc6/classDS18B20.html#a58e874baeca1d8df2888ccecececa507',1,'DS18B20::resolution(uint8_t bits)'],['../da/dc6/classDS18B20.html#a9be608530b7229fa9525ebef9d818782',1,'DS18B20::resolution() const ']]],
+  ['rom',['rom',['../d0/d7f/classOWI_1_1Device.html#a80c55460d809276c599fd9e1812d3fc3',1,'OWI::Device::rom(const uint8_t *rom)'],['../d0/d7f/classOWI_1_1Device.html#a4deab1eeeb85fce856a2b0a2d8fdf98e',1,'OWI::Device::rom()']]],
+  ['rom_5fmax',['ROM_MAX',['../d7/d90/classOWI.html#a0a8ee40e70cfec5bc2fe6d3012e2ee39',1,'OWI']]],
+  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]]
 ];

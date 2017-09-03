@@ -1,3 +1,3 @@
-<map id="OWI&lt; PIN &gt;" name="OWI&lt; PIN &gt;">
-<area shape="rect" id="node2" href="$da/dc6/classDS18B20.html" title="{DS18B20\&lt; PIN \&gt;\n|+ FAMILY_CODE\l# m_scratchpad\l# m_start\l# m_converting\l# CONFIG_MAX\l# MAX_CONVERSION_TIME\l|+ DS18B20()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ read_scratchpad()\l+ write_scratchpad()\l+ copy_scratchpad()\l+ recall()\l}" alt="" coords="5,351,204,648"/>
+<map id="OWI" name="OWI">
+<area shape="rect" id="node2" href="$d0/de1/classSoftware_1_1OWI.html" title="{Software::OWI\&lt; PIN \&gt;\n|# m_pin\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l}" alt="" coords="11,321,167,443"/>
 </map>

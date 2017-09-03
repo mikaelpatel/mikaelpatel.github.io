@@ -2,6 +2,9 @@ var NAVTREE =
 [
   [ "Arduino-OWI", "index.html", [
     [ "License", "License.html", null ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

@@ -1,9 +1,9 @@
 var structDS18B20_1_1scratchpad__t =
 [
-    [ "configuration", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a76b5536186bd40d7381501e2d226c3b5", null ],
-    [ "crc", "d4/d1f/structDS18B20_1_1scratchpad__t.html#ad4571f2c1ed0109c4f73cbeb89ebb047", null ],
-    [ "high_trigger", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a4694dd4087cfa0f76be20907fe2c31d4", null ],
-    [ "low_trigger", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a5a0d862759714da315df02e64605e47c", null ],
-    [ "reserved", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a58013a135fb7bafa9a3afb851b347de4", null ],
-    [ "temperature", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a14ea3858ad352ba4dd641ae7687dfaa1", null ]
+    [ "configuration", "d4/d1f/structDS18B20_1_1scratchpad__t.html#af5e1fccfab9e8252cf3273fde6724f98", null ],
+    [ "crc", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a538efa17279928bf7b3cdda307f6ca89", null ],
+    [ "high_trigger", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a3d71c9cea093bf3acd0b106fd0a257fd", null ],
+    [ "low_trigger", "d4/d1f/structDS18B20_1_1scratchpad__t.html#aef9fac891cbda5b64dceb908c4e95e7e", null ],
+    [ "reserved", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a44b6580314aad6ab1c3e8b0cd7db4856", null ],
+    [ "temperature", "d4/d1f/structDS18B20_1_1scratchpad__t.html#a8270b0c46aa5984a7ed16875801a4aee", null ]
 ];
