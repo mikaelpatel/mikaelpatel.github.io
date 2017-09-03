@@ -1,0 +1,4 @@
+<map id="DS18B20&lt; PIN &gt;" name="DS18B20&lt; PIN &gt;">
+<area shape="rect" id="node2" href="$d7/d90/classOWI.html" title="{OWI\&lt; PIN \&gt;\n|+ ROM_MAX\l+ ROMBITS\l# m_pin\l# m_crc\l# RESET_RETRY_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}" alt="" coords="5,5,172,303"/>
+<area shape="rect" id="node3" href="$d4/d1f/structDS18B20_1_1scratchpad__t.html" title="{DS18B20\&lt; PIN \&gt;::scratchpad_t\n|+ temperature\l+ high_trigger\l+ low_trigger\l+ configuration\l+ reserved\l+ crc\l|}" alt="" coords="197,79,405,229"/>
+</map>

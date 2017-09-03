@@ -1,0 +1,10 @@
+digraph "DS18B20&lt; PIN &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DS18B20\< PIN \>\n|+ FAMILY_CODE\l# m_start\l# m_converting\l# CONFIG_MAX\l# MAX_CONVERSION_TIME\l|+ DS18B20()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ read_scratchpad()\l+ write_scratchpad()\l+ copy_scratchpad()\l+ recall()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OWI\< PIN \>\n|+ ROM_MAX\l+ ROMBITS\l# m_pin\l# m_crc\l# RESET_RETRY_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d90/classOWI.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #m_scratchpad" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{DS18B20\< PIN \>::scratchpad_t\n|+ temperature\l+ high_trigger\l+ low_trigger\l+ configuration\l+ reserved\l+ crc\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1f/structDS18B20_1_1scratchpad__t.html"];
+}
