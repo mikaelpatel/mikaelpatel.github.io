@@ -6,6 +6,6 @@ digraph "examples/ShiftIn" {
     graph [ bgcolor="#ddddee", pencolor="black", label="examples" fontname="Helvetica", fontsize="10", URL="dir_d28a4824dc47e487b107a5db32ef43c4.html"]
   dir_7bc3442bf75c7387d015bca600bd78ec [shape=box, label="ShiftIn", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7bc3442bf75c7387d015bca600bd78ec.html"];
   }
-  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
   dir_7bc3442bf75c7387d015bca600bd78ec->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000004_000007.html"];
 }

@@ -1,8 +1,6 @@
 var dir_68267d1309a1af8e8297ef4c3efbcdba =
 [
-    [ "ASO.h", "d7/dd7/ASO_8h.html", [
-      [ "ASO", "dd/d3c/classASO.html", "dd/d3c/classASO" ]
-    ] ],
+    [ "Software", "dir_5b3579f8445af5f8a6f04cea6458c273.html", "dir_5b3579f8445af5f8a6f04cea6458c273" ],
     [ "Board.h", "dd/dd3/Board_8h.html", null ],
     [ "GPIO.h", "dc/dbe/GPIO_8h.html", [
       [ "GPIO", "d7/dde/classGPIO.html", "d7/dde/classGPIO" ],

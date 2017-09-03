@@ -6,7 +6,7 @@ digraph "src/Board.h"
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="src/GPIO.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbe/GPIO_8h.html"];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="src/ASO.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/ASO_8h.html"];
+  Node3 [label="src/Software/Serial.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dae/Serial_8h.html"];
   Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 [label="examples/SoftwareSerial\l/SoftwareSerial.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d56/SoftwareSerial_8ino.html"];
   Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

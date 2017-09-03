@@ -1,0 +1,4 @@
+<map id="Software::Serial&lt; TX_PIN &gt;" name="Software::Serial&lt; TX_PIN &gt;">
+<area shape="rect" id="node3" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="94,307,221,545"/>
+<area shape="rect" id="node4" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="99,5,216,244"/>
+</map>

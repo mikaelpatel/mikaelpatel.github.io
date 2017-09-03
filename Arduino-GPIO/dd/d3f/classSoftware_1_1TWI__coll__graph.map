@@ -1,0 +1,5 @@
+<map id="Software::TWI&lt; SDA_PIN, SCL_PIN &gt;" name="Software::TWI&lt; SDA_PIN, SCL_PIN &gt;">
+<area shape="rect" id="node3" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; SCL_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="76,307,211,545"/>
+<area shape="rect" id="node4" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="169,5,286,244"/>
+<area shape="rect" id="node5" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; SDA_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="235,307,372,545"/>
+</map>
