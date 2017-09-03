@@ -1,0 +1,3 @@
+<map id="TWI" name="TWI">
+<area shape="rect" id="node2" href="$d0/dd0/classSoftware_1_1TWI.html" title="{Software::TWI\&lt; SDA\l_PIN, SCL_PIN \&gt;\n|# m_sda\l# m_scl\l# T1\l# T2\l# CLOCK_STRETCHING_RETRY_MAX\l|+ TWI()\l+ read()\l+ write()\l# start_condition()\l# stop_condition()\l# clock_stretching()\l# write_bit()\l# read_bit()\l# write_byte()\l# read_byte()\l}" alt="" coords="5,160,268,443"/>
+</map>

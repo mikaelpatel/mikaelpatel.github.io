@@ -1,0 +1,4 @@
+<map id="DS1307::timekeeper_t" name="DS1307::timekeeper_t">
+<area shape="rect" id="node2" href="$d7/dec/structtime__t.html" title="{time_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ month\l+ year\l|}" alt="" coords="5,13,88,178"/>
+<area shape="rect" id="node3" href="$d1/dde/unionDS1307_1_1control__t.html" title="{DS1307::control_t\n|+ as_uint8\l+ rs\l+ reserved1\l+ sqwe\l+ reserved2\l+ out\l+ @1\l|+ operator uint8_t()\l+ control_t()\l}" alt="" coords="113,5,245,185"/>
+</map>
