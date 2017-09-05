@@ -1,6 +1,8 @@
 <map id="examples/DS1307/DS1307.ino" name="examples/DS1307/DS1307.ino">
 <area shape="rect" id="node3" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="88,80,203,107"/>
-<area shape="rect" id="node5" href="$de/dba/DS1307_8h.html" title="DS1307.h" alt="" coords="251,80,331,107"/>
-<area shape="rect" id="node6" href="$d7/d67/TWI_8h.html" title="TWI.h" alt="" coords="261,155,320,181"/>
-<area shape="rect" id="node7" href="$d6/dbc/iovec_8h.html" title="iovec.h" alt="" coords="259,229,323,256"/>
+<area shape="rect" id="node5" href="$de/dba/DS1307_8h.html" title="DS1307.h" alt="" coords="256,80,336,107"/>
+<area shape="rect" id="node6" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="198,155,253,181"/>
+<area shape="rect" id="node7" href="$de/df7/time_8h.html" title="time.h" alt="" coords="277,155,336,181"/>
+<area shape="rect" id="node8" href="$d7/d67/TWI_8h.html" title="TWI.h" alt="" coords="360,155,419,181"/>
+<area shape="rect" id="node9" href="$d6/dbc/iovec_8h.html" title="iovec.h" alt="" coords="357,229,421,256"/>
 </map>

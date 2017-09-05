@@ -1,5 +1,7 @@
 <map id="src/TWI.h" name="src/TWI.h">
-<area shape="rect" id="node2" href="$de/dba/DS1307_8h.html" title="src/DS1307.h" alt="" coords="11,80,113,107"/>
-<area shape="rect" id="node3" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="5,155,207,181"/>
-<area shape="rect" id="node4" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="189,80,391,107"/>
+<area shape="rect" id="node2" href="$db/d0b/AT24CXX_8h.html" title="src/AT24CXX.h" alt="" coords="51,80,166,107"/>
+<area shape="rect" id="node3" href="$de/d62/AT24CXX_8ino.html" title="examples/AT24CXX/AT24CXX.ino" alt="" coords="5,155,231,181"/>
+<area shape="rect" id="node4" href="$de/dba/DS1307_8h.html" title="src/DS1307.h" alt="" coords="241,80,344,107"/>
+<area shape="rect" id="node5" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="272,155,473,181"/>
+<area shape="rect" id="node6" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="419,80,622,107"/>
 </map>

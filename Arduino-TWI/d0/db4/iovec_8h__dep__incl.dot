@@ -6,10 +6,15 @@ digraph "src/iovec.h"
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="src/TWI.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d67/TWI_8h.html"];
   Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="src/DS1307.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dba/DS1307_8h.html"];
+  Node3 [label="src/AT24CXX.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d0b/AT24CXX_8h.html"];
   Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="examples/DS1307/DS1307.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d10/DS1307_8ino.html"];
-  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="examples/AT24CXX/AT24CXX.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d62/AT24CXX_8ino.html"];
   Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="examples/Scanner/Scanner.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da4/Scanner_8ino.html"];
+  Node5 [label="src/DS1307.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dba/DS1307_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="examples/DS1307/DS1307.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d10/DS1307_8ino.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="examples/Scanner/Scanner.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da4/Scanner_8ino.html"];
 }

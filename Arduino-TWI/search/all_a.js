@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['operator_20uint8_5ft',['operator uint8_t',['../d1/dde/unionDS1307_1_1control__t.html#adc90e8183f901ee6f75ac24bec0fa32c',1,'DS1307::control_t']]],
-  ['out',['out',['../d1/dde/unionDS1307_1_1control__t.html#adef276e369af3bde59c99034d39cc111',1,'DS1307::control_t']]]
+  ['loop',['loop',['../de/d62/AT24CXX_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;AT24CXX.ino'],['../d3/d10/DS1307_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;DS1307.ino'],['../dd/da4/Scanner_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Scanner.ino']]]
 ];

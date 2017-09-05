@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loop',['loop',['../d3/d10/DS1307_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;DS1307.ino'],['../dd/da4/Scanner_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Scanner.ino']]]
+  ['get_5ftime',['get_time',['../d8/da8/classDS1307.html#a84c1e22e5a7dbcb4aed163d765db0416',1,'DS1307']]]
 ];

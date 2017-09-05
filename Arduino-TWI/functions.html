@@ -95,8 +95,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li><a href="#index_t"><span>t</span></a></li>
@@ -137,13 +139,39 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>acquire()
+: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a142d3091b81e6bf4f6319d88ae401c4f">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+, <a class="el" href="d1/deb/classTWI.html#a936cccb1d3543917973658bdb4e9779e">TWI</a>
+, <a class="el" href="d4/d2d/classTWI_1_1Device.html#af0afdf4cc542ce4eafb401316f584883">TWI::Device</a>
+</li>
 <li>as_uint8
 : <a class="el" href="d1/dde/unionDS1307_1_1control__t.html#a029a9682f7dd682e6076c2ea5e45ed56">DS1307::control_t</a>
+</li>
+<li>AT24C128()
+: <a class="el" href="dd/ded/classAT24C128.html#ad64e2241b37c6049c29c5cb0c0cd669d">AT24C128</a>
+</li>
+<li>AT24C256()
+: <a class="el" href="de/df6/classAT24C256.html#ab6ce1536a43cf2c57bdb2cfb8d57668e">AT24C256</a>
+</li>
+<li>AT24C32()
+: <a class="el" href="d3/dc8/classAT24C32.html#a81493fc8972e96875b5c8aacf1926c9c">AT24C32</a>
+</li>
+<li>AT24C512()
+: <a class="el" href="de/dec/classAT24C512.html#ad040533a7d05121378a07f389e8189be">AT24C512</a>
+</li>
+<li>AT24C64()
+: <a class="el" href="df/d74/classAT24C64.html#aec8ff6c75a79f8d543cd689a4aa3bf0c">AT24C64</a>
+</li>
+<li>AT24CXX()
+: <a class="el" href="d2/db3/classAT24CXX.html#a0e5a6d693bca7b3d9ad12c5289b4a183">AT24CXX</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>bcd_t()
+: <a class="el" href="d5/d24/structbcd__t.html#aced2181c7ee8e5e04080f3cbb384f49b">bcd_t</a>
+</li>
 <li>buf
 : <a class="el" href="d1/db7/structiovec__t.html#a9a9d9a989f6d3ce6f85ef1b84b44ba7f">iovec_t</a>
 </li>
@@ -151,9 +179,6 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>clock
-: <a class="el" href="d7/d41/structDS1307_1_1timekeeper__t.html#a02d00a9e0f5276018a515f0faf0477ea">DS1307::timekeeper_t</a>
-</li>
 <li>clock_stretching()
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a68acaf9768f1a70970daa41fead7af76">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
@@ -171,10 +196,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
 <li>date
-: <a class="el" href="d7/dec/structtime__t.html#a13c175ef4f5f9ffd7a09c95914d1d08f">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a803d274c5d57095c4f4edb6a1961a4b1">DS1307::rtc_t</a>
 </li>
 <li>day
-: <a class="el" href="d7/dec/structtime__t.html#abb1096faeb931be631b051d72c68610b">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a6d96b266c02f1845a7f69079de7ebbbf">DS1307::rtc_t</a>
 </li>
 <li>Device()
 : <a class="el" href="d4/d2d/classTWI_1_1Device.html#a2ffcca087cd18f2c065b5d2622638bd8">TWI::Device</a>
@@ -197,14 +222,21 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
 <li>get_time()
-: <a class="el" href="d8/da8/classDS1307.html#a964349a9c8c59a57d088edd1bd552ea3">DS1307</a>
+: <a class="el" href="d8/da8/classDS1307.html#a84c1e22e5a7dbcb4aed163d765db0416">DS1307</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
 <li>hours
-: <a class="el" href="d7/dec/structtime__t.html#a235bc31810ae05092edb21cd26aae261">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a36f411024939a342a5d914397b67a0b0">DS1307::rtc_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>is_ready()
+: <a class="el" href="d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393">AT24CXX</a>
 </li>
 </ul>
 
@@ -213,27 +245,34 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>m_addr
 : <a class="el" href="d4/d2d/classTWI_1_1Device.html#af3ef9b77c22df556152c78e31a010791">TWI::Device</a>
 </li>
+<li>m_dev
+: <a class="el" href="d1/deb/classTWI.html#a8a55d50e555b40b95703c4923c69dbe7">TWI</a>
+</li>
 <li>m_scl
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#aed4a620aa26e18e8607675be02a861e2">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
 <li>m_sda
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a6a1b35807491e1f53af057d215402cfc">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
+<li>m_start
+: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+</li>
 <li>m_twi
 : <a class="el" href="d4/d2d/classTWI_1_1Device.html#a97d00dd1ff7f2c3589761113a7261576">TWI::Device</a>
 </li>
 <li>minutes
-: <a class="el" href="d7/dec/structtime__t.html#a199bed11134df8a7d330b0b1396661c1">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a3a1048cbb511e62c681c75c2413a3cd4">DS1307::rtc_t</a>
 </li>
 <li>month
-: <a class="el" href="d7/dec/structtime__t.html#a2bfce64c6bfdf9eb12258f04907f3bc7">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a584d3d1cf33db30695df20fe47f54757">DS1307::rtc_t</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>operator uint8_t()
-: <a class="el" href="d1/dde/unionDS1307_1_1control__t.html#adc90e8183f901ee6f75ac24bec0fa32c">DS1307::control_t</a>
+: <a class="el" href="d5/d24/structbcd__t.html#aa2a207fa598fbe049f3d7a1bbb448528">bcd_t</a>
+, <a class="el" href="d1/dde/unionDS1307_1_1control__t.html#adc90e8183f901ee6f75ac24bec0fa32c">DS1307::control_t</a>
 </li>
 <li>out
 : <a class="el" href="d1/dde/unionDS1307_1_1control__t.html#adef276e369af3bde59c99034d39cc111">DS1307::control_t</a>
@@ -241,7 +280,20 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>PAGE_MASK
+: <a class="el" href="d2/db3/classAT24CXX.html#ad03674e83c5d5489f5fdbf2ec3533f34">AT24CXX</a>
+</li>
+<li>PAGE_MAX
+: <a class="el" href="d2/db3/classAT24CXX.html#abe5d28d63ae6f3dc832ccd2373b2e3b0">AT24CXX</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>ram
+: <a class="el" href="d7/d41/structDS1307_1_1timekeeper__t.html#a966bde0f1ab1fd4682138254b1179498">DS1307::timekeeper_t</a>
+</li>
 <li>RAM_END
 : <a class="el" href="d8/da8/classDS1307.html#a5b830ac5a33c1fe92eed60092d10ca04">DS1307</a>
 </li>
@@ -255,7 +307,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66">DS1307</a>
 </li>
 <li>read()
-: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#af04d24eb39c349b206b4efbb50e220ee">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+: <a class="el" href="d2/db3/classAT24CXX.html#a4543a226af8b991f17b9b0ea33ce7467">AT24CXX</a>
+, <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#af04d24eb39c349b206b4efbb50e220ee">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 , <a class="el" href="d4/d2d/classTWI_1_1Device.html#a7117b09323157e06c78756df0436803a">TWI::Device</a>
 , <a class="el" href="d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>
 </li>
@@ -267,6 +320,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>read_ram()
 : <a class="el" href="d8/da8/classDS1307.html#a76ab4d9df023e445d05aeb559350a436">DS1307</a>
+</li>
+<li>release()
+: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a210eb914fca137eb32cc43ba1f2a6b20">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+, <a class="el" href="d4/d2d/classTWI_1_1Device.html#aabedf601322e46ac35b1b8ffc5076f48">TWI::Device</a>
+, <a class="el" href="d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>
+</li>
+<li>repeated_start_condition()
+: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#ab58dd7ecc4291d69f38e3274195c963a">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
 <li>reserved1
 : <a class="el" href="d1/dde/unionDS1307_1_1control__t.html#ad3154a68b0cfd0b620a84579e8cf38f6">DS1307::control_t</a>
@@ -289,15 +350,21 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>RS_8192_HZ
 : <a class="el" href="d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66af5046e216fb39a639ff3aa4f14c6be3a">DS1307</a>
 </li>
+<li>rtc
+: <a class="el" href="d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0">DS1307::timekeeper_t</a>
+</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>seconds
-: <a class="el" href="d7/dec/structtime__t.html#a9cf1c5d0168ce53997b702e6a3814d43">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a4daddb0e2d365575164942274272ffa5">DS1307::rtc_t</a>
 </li>
 <li>set_time()
-: <a class="el" href="d8/da8/classDS1307.html#ab236a7b01789da8eb28225157a351d18">DS1307</a>
+: <a class="el" href="d8/da8/classDS1307.html#aa3f40aef741c58659095bbb455d2da60">DS1307</a>
+</li>
+<li>SIZE
+: <a class="el" href="d2/db3/classAT24CXX.html#a69631c0e4fcf1d79435d918b40fee717">AT24CXX</a>
 </li>
 <li>size
 : <a class="el" href="d1/db7/structiovec__t.html#aaecd17d0f007f544efa6f65b211cf8ca">iovec_t</a>
@@ -321,15 +388,47 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>T2
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#ac6c47be9464e91f6a1e1b6acc97f4498">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
+<li>tm()
+: <a class="el" href="d8/d5a/structtm.html#a18ba64921c96a35502933e15e1c1b626">tm</a>
+</li>
+<li>tm_hour
+: <a class="el" href="d8/d5a/structtm.html#abf64a483b8212f2b39af13c6dd34d9aa">tm</a>
+</li>
+<li>tm_isdst
+: <a class="el" href="d8/d5a/structtm.html#a80da4505676f51d0c484412698284ae0">tm</a>
+</li>
+<li>tm_mday
+: <a class="el" href="d8/d5a/structtm.html#a1e7dd5d99e96bf4f4020533f31d682db">tm</a>
+</li>
+<li>tm_min
+: <a class="el" href="d8/d5a/structtm.html#ad4d915eb54b73168ff88c571dd694b58">tm</a>
+</li>
+<li>tm_mon
+: <a class="el" href="d8/d5a/structtm.html#a2374030ea1f1258af15511202b0b4573">tm</a>
+</li>
+<li>tm_sec
+: <a class="el" href="d8/d5a/structtm.html#ade8f02c5eb80f4d4d1ccf49fb2fcfb3d">tm</a>
+</li>
+<li>tm_wday
+: <a class="el" href="d8/d5a/structtm.html#a1af9e9e3a8549405149f606b3816e326">tm</a>
+</li>
+<li>tm_yday
+: <a class="el" href="d8/d5a/structtm.html#afb378252c915ea4bcf888ff2c5c7f05c">tm</a>
+</li>
+<li>tm_year
+: <a class="el" href="d8/d5a/structtm.html#a933e733942822b2def4aa966ee811293">tm</a>
+</li>
 <li>TWI()
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#ab9a13c9a05ac808975b13c854595c55b">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+, <a class="el" href="d1/deb/classTWI.html#a7042d7a8da6173d2a528ec7bd31162ae">TWI</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
 <li>write()
-: <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a87660a6c35da1c86a7f1b4fe34330149">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
+: <a class="el" href="d2/db3/classAT24CXX.html#a04bcd8f0a0f3461804fc481fcb4881bb">AT24CXX</a>
+, <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a87660a6c35da1c86a7f1b4fe34330149">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 , <a class="el" href="d4/d2d/classTWI_1_1Device.html#af0493d20bae1d3e511f137f7f170e45a">TWI::Device</a>
 , <a class="el" href="d1/deb/classTWI.html#aa872e1a3bb6278fcada89ca6d2d6ffaf">TWI</a>
 </li>
@@ -347,7 +446,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_y"></a>- y -</h3><ul>
 <li>year
-: <a class="el" href="d7/dec/structtime__t.html#ac393c3b7eda59dfab65c6bfad7f9cbec">time_t</a>
+: <a class="el" href="d7/df4/structDS1307_1_1rtc__t.html#a1e92ce495a7c5806bdea1bd700267771">DS1307::rtc_t</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -355,7 +454,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Sep 4 2017 00:42:52 for Arduino-TWI by
+    <li class="footer">Generated on Tue Sep 5 2017 17:13:12 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

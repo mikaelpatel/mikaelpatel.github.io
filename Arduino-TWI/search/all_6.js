@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hours',['hours',['../d7/dec/structtime__t.html#a235bc31810ae05092edb21cd26aae261',1,'time_t']]]
+  ['get_5ftime',['get_time',['../d8/da8/classDS1307.html#a84c1e22e5a7dbcb4aed163d765db0416',1,'DS1307']]]
 ];

@@ -126,7 +126,7 @@ Inheritance diagram for DS1307:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d35/classDS1307__inherit__graph.png" border="0" usemap="#DS1307_inherit__map" alt="Inheritance graph"/></div>
 <map name="DS1307_inherit__map" id="DS1307_inherit__map">
-<area shape="rect" id="node2" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_twi\l# m_addr\l|+ Device()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="15,5,111,141"/>
+<area shape="rect" id="node2" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_twi\l# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="15,5,111,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -134,14 +134,16 @@ Collaboration diagram for DS1307:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d1c/classDS1307__coll__graph.png" border="0" usemap="#DS1307_coll__map" alt="Collaboration graph"/></div>
 <map name="DS1307_coll__map" id="DS1307_coll__map">
-<area shape="rect" id="node2" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="15,175,111,296"/>
-<area shape="rect" id="node3" href="../../d1/deb/classTWI.html" title="{TWI\n||+ read()\l+ write()\l+ write()\l}" alt="" coords="27,5,98,112"/>
+<area shape="rect" id="node2" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="59,5,155,156"/>
+<area shape="rect" id="node3" href="../../d1/deb/classTWI.html" title="{TWI\n||+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="145,241,229,391"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dde/unionDS1307_1_1control__t.html">control_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df4/structDS1307_1_1rtc__t.html">rtc_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html">timekeeper_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,10 +161,10 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab66da89b9d4b8dcf621a5b9462b735e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#ab66da89b9d4b8dcf621a5b9462b735e5">DS1307</a> (<a class="el" href="../../d1/deb/classTWI.html">TWI</a> &amp;<a class="el" href="../../dd/da4/Scanner_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a>)</td></tr>
 <tr class="separator:ab66da89b9d4b8dcf621a5b9462b735e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a964349a9c8c59a57d088edd1bd552ea3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a964349a9c8c59a57d088edd1bd552ea3">get_time</a> (<a class="el" href="../../d7/dec/structtime__t.html">time_t</a> &amp;now)</td></tr>
-<tr class="separator:a964349a9c8c59a57d088edd1bd552ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab236a7b01789da8eb28225157a351d18"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#ab236a7b01789da8eb28225157a351d18">set_time</a> (<a class="el" href="../../d7/dec/structtime__t.html">time_t</a> &amp;now)</td></tr>
-<tr class="separator:ab236a7b01789da8eb28225157a351d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c1e22e5a7dbcb4aed163d765db0416"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a84c1e22e5a7dbcb4aed163d765db0416">get_time</a> (struct <a class="el" href="../../d8/d5a/structtm.html">tm</a> &amp;now)</td></tr>
+<tr class="separator:a84c1e22e5a7dbcb4aed163d765db0416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f40aef741c58659095bbb455d2da60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#aa3f40aef741c58659095bbb455d2da60">set_time</a> (struct <a class="el" href="../../d8/d5a/structtm.html">tm</a> &amp;now)</td></tr>
+<tr class="separator:aa3f40aef741c58659095bbb455d2da60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8355dceb71d4b8d7b2af596416367ce1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a8355dceb71d4b8d7b2af596416367ce1">enable</a> (<a class="el" href="../../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66">Rate</a> rs=<a class="el" href="../../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66acd6ccb1d8e3abc8239f427b1e204d539">RS_1_HZ</a>)</td></tr>
 <tr class="separator:a8355dceb71d4b8d7b2af596416367ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2dfb1b98ed00f236341eeeeefd663ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#aa2dfb1b98ed00f236341eeeeefd663ba">disable</a> ()</td></tr>
@@ -174,7 +176,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a86002fb1acf9d1857bddcc6661f2cb32"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a86002fb1acf9d1857bddcc6661f2cb32">RAM_START</a> = sizeof(<a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html">timekeeper_t</a>)</td></tr>
+<tr class="memitem:a86002fb1acf9d1857bddcc6661f2cb32"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a86002fb1acf9d1857bddcc6661f2cb32">RAM_START</a> = 0x08</td></tr>
 <tr class="separator:a86002fb1acf9d1857bddcc6661f2cb32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b830ac5a33c1fe92eed60092d10ca04"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da8/classDS1307.html#a5b830ac5a33c1fe92eed60092d10ca04">RAM_END</a> = 0x3f</td></tr>
 <tr class="separator:a5b830ac5a33c1fe92eed60092d10ca04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,6 +185,10 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:af0afdf4cc542ce4eafb401316f584883"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#af0afdf4cc542ce4eafb401316f584883">acquire</a> ()</td></tr>
+<tr class="separator:af0afdf4cc542ce4eafb401316f584883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabedf601322e46ac35b1b8ffc5076f48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#aabedf601322e46ac35b1b8ffc5076f48">release</a> ()</td></tr>
+<tr class="separator:aabedf601322e46ac35b1b8ffc5076f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7117b09323157e06c78756df0436803a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#a7117b09323157e06c78756df0436803a">read</a> (void *buf, size_t count)</td></tr>
 <tr class="separator:a7117b09323157e06c78756df0436803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0493d20bae1d3e511f137f7f170e45a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#af0493d20bae1d3e511f137f7f170e45a">write</a> (const void *buf, size_t count)</td></tr>
@@ -203,7 +209,7 @@ Protected Attributes</h2></td></tr>
 <h1><a class="anchor" id="Circuit"></a>
 Circuit</h1>
 <div class="fragment"><div class="line">                      TinyRTC(<a class="code" href="../../d8/da8/classDS1307.html">DS1307</a>)</div><div class="line">                      +------------+</div><div class="line">                    1-|SQ          |</div><div class="line">                    2-|DS        DS|-1</div><div class="line">(A5/SCL)------------3-|SCL      SCL|-2</div><div class="line">(A4/SDA)------------4-|SDA      SDA|-3</div><div class="line">(VCC)---------------5-|VCC      VCC|-4</div><div class="line">(GND)---------------6-|GND      GND|-5</div><div class="line">                    7-|BAT         |</div><div class="line">                      +------------+</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00058">58</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00048">48</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a60bcd6b72332697fae46a9f7f6ca4d66"></a>
 <div class="memitem">
@@ -214,7 +220,7 @@ Circuit</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Rate Selection (pp. 9). </p>
+<p>Square Wave Output Rate Selection (pp. 9). </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a60bcd6b72332697fae46a9f7f6ca4d66acd6ccb1d8e3abc8239f427b1e204d539"></a>RS_1_HZ&#160;</td><td class="fielddoc">
 </td></tr>
@@ -226,7 +232,7 @@ Circuit</h1>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00094">94</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00103">103</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -254,11 +260,37 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>Construct <a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> device driver with bus address(0x68). </p>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00121">121</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af0afdf4cc542ce4eafb401316f584883"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TWI::Device::acquire </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00051">51</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa2dfb1b98ed00f236341eeeeefd663ba"></a>
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +313,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>Disable clock output. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00167">167</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00132">132</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -314,11 +346,11 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00151">151</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00116">116</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a964349a9c8c59a57d088edd1bd552ea3"></a>
+<a class="anchor" id="a84c1e22e5a7dbcb4aed163d765db0416"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -328,7 +360,7 @@ Circuit</h1>
         <tr>
           <td class="memname">bool DS1307::get_time </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dec/structtime__t.html">time_t</a> &amp;&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../d8/d5a/structtm.html">tm</a> &amp;&#160;</td>
           <td class="paramname"><em>now</em></td><td>)</td>
           <td></td>
         </tr>
@@ -347,7 +379,7 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00129">129</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00061">61</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +423,7 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes read or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00088">88</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00072">72</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -432,7 +464,7 @@ Circuit</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read ram block with the given size into the buffer. Return number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read ram block with the given size into the buffer. Return true(1) if successful otherwise false. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer to read from ram. </td></tr>
@@ -440,13 +472,39 @@ Circuit</h1>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>number of bytes or negative error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00183">183</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00156">156</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab236a7b01789da8eb28225157a351d18"></a>
+<a class="anchor" id="aabedf601322e46ac35b1b8ffc5076f48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TWI::Device::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stop transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa3f40aef741c58659095bbb455d2da60"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -456,7 +514,7 @@ Circuit</h1>
         <tr>
           <td class="memname">bool DS1307::set_time </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dec/structtime__t.html">time_t</a> &amp;&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../d8/d5a/structtm.html">tm</a> &amp;&#160;</td>
           <td class="paramname"><em>now</em></td><td>)</td>
           <td></td>
         </tr>
@@ -475,7 +533,7 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00140">140</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +577,7 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00099">99</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00083">83</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -552,7 +610,7 @@ Circuit</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00109">109</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00093">93</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -593,7 +651,7 @@ Circuit</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write ram block at given position with the contents from buffer. Return number of bytes written or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write ram block at given position with the contents from buffer. Return true(1) if successful otherwise false. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer to write to ram. </td></tr>
@@ -601,9 +659,9 @@ Circuit</h1>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>number of bytes or negative error code. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00197">197</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00173">173</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +685,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> address. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00119">119</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00103">103</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -650,7 +708,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>Two-Wire Interface Manager. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00116">116</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00100">100</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -673,7 +731,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>End of application RAM. </p>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00113">113</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00144">144</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +754,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>Max size of application RAM (56 bytes). </p>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00116">116</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00147">147</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +766,7 @@ Circuit</h1>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t DS1307::RAM_START = sizeof(<a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html">timekeeper_t</a>)</td>
+          <td class="memname">const uint8_t DS1307::RAM_START = 0x08</td>
         </tr>
       </table>
   </td>
@@ -719,7 +777,7 @@ Circuit</h1>
 </div><div class="memdoc">
 <p>Start of application RAM. </p>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00110">110</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00141">141</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -732,7 +790,7 @@ Circuit</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:42:52 for Arduino-TWI by
+    <li class="footer">Generated on Tue Sep 5 2017 17:13:12 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

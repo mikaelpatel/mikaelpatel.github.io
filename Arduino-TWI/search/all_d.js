@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['t1',['T1',['../d0/dd0/classSoftware_1_1TWI.html#a69d23e86a5efeb6f33cfd916665177cb',1,'Software::TWI']]],
-  ['t2',['T2',['../d0/dd0/classSoftware_1_1TWI.html#ac6c47be9464e91f6a1e1b6acc97f4498',1,'Software::TWI']]],
-  ['time_5ft',['time_t',['../d7/dec/structtime__t.html',1,'']]],
-  ['timekeeper_5ft',['timekeeper_t',['../d7/d41/structDS1307_1_1timekeeper__t.html',1,'DS1307']]],
-  ['twi',['TWI',['../d1/deb/classTWI.html',1,'TWI'],['../d0/dd0/classSoftware_1_1TWI.html#ab9a13c9a05ac808975b13c854595c55b',1,'Software::TWI::TWI()'],['../d3/d10/DS1307_8ino.html#ad21d079e31d1cca74670c1629828f9d6',1,'twi():&#160;DS1307.ino'],['../dd/da4/Scanner_8ino.html#ad21d079e31d1cca74670c1629828f9d6',1,'twi():&#160;Scanner.ino']]],
-  ['twi',['TWI',['../d0/dd0/classSoftware_1_1TWI.html',1,'Software']]],
-  ['twi_2eh',['TWI.h',['../d7/d67/TWI_8h.html',1,'']]],
-  ['twi_2eh',['TWI.h',['../df/dad/Software_2TWI_8h.html',1,'']]]
+  ['october',['OCTOBER',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04a554aba97586ee43f0ca51b0089eed03c',1,'time.h']]],
+  ['operator_20uint8_5ft',['operator uint8_t',['../d5/d24/structbcd__t.html#aa2a207fa598fbe049f3d7a1bbb448528',1,'bcd_t::operator uint8_t()'],['../d1/dde/unionDS1307_1_1control__t.html#adc90e8183f901ee6f75ac24bec0fa32c',1,'DS1307::control_t::operator uint8_t()']]],
+  ['out',['out',['../d1/dde/unionDS1307_1_1control__t.html#adef276e369af3bde59c99034d39cc111',1,'DS1307::control_t']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iovec_5ft',['iovec_t',['../d1/db7/structiovec__t.html',1,'']]]
+  ['control_5ft',['control_t',['../d1/dde/unionDS1307_1_1control__t.html',1,'DS1307']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['date',['date',['../d7/dec/structtime__t.html#a13c175ef4f5f9ffd7a09c95914d1d08f',1,'time_t']]],
-  ['day',['day',['../d7/dec/structtime__t.html#abb1096faeb931be631b051d72c68610b',1,'time_t']]]
+  ['date',['date',['../d7/df4/structDS1307_1_1rtc__t.html#a803d274c5d57095c4f4edb6a1961a4b1',1,'DS1307::rtc_t']]],
+  ['day',['day',['../d7/df4/structDS1307_1_1rtc__t.html#a6d96b266c02f1845a7f69079de7ebbbf',1,'DS1307::rtc_t']]]
 ];

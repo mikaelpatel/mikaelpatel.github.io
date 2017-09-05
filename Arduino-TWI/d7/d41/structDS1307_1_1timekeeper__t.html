@@ -121,37 +121,29 @@ Collaboration diagram for DS1307::timekeeper_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d99/structDS1307_1_1timekeeper__t__coll__graph.png" border="0" usemap="#DS1307_1_1timekeeper__t_coll__map" alt="Collaboration graph"/></div>
 <map name="DS1307_1_1timekeeper__t_coll__map" id="DS1307_1_1timekeeper__t_coll__map">
-<area shape="rect" id="node2" href="../../d7/dec/structtime__t.html" title="{time_t\n|+ seconds\l+ minutes\l+ hours\l+ day\l+ date\l+ month\l+ year\l|}" alt="" coords="5,13,88,178"/>
-<area shape="rect" id="node3" href="../../d1/dde/unionDS1307_1_1control__t.html" title="{DS1307::control_t\n|+ as_uint8\l+ rs\l+ reserved1\l+ sqwe\l+ reserved2\l+ out\l+ @1\l|+ operator uint8_t()\l+ control_t()\l}" alt="" coords="113,5,245,185"/>
+<area shape="rect" id="node2" href="../../d7/df4/structDS1307_1_1rtc__t.html" title="{DS1307::rtc_t\n||}" alt="" coords="20,314,123,391"/>
+<area shape="rect" id="node3" href="../../d5/d24/structbcd__t.html" title="{bcd_t\n||+ bcd_t()\l+ bcd_t()\l+ operator uint8_t()\l}" alt="" coords="5,5,137,112"/>
+<area shape="rect" id="node4" href="../../d1/dde/unionDS1307_1_1control__t.html" title="{DS1307::control_t\n|+ as_uint8\l+ rs\l+ reserved1\l+ sqwe\l+ reserved2\l+ out\l+ @1\l|+ operator uint8_t()\l+ control_t()\l}" alt="" coords="147,263,279,443"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a02d00a9e0f5276018a515f0faf0477ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dec/structtime__t.html">time_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html#a02d00a9e0f5276018a515f0faf0477ea">clock</a></td></tr>
-<tr class="separator:a02d00a9e0f5276018a515f0faf0477ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa14277af44caeb9988233fc141a38e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/df4/structDS1307_1_1rtc__t.html">rtc_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0">rtc</a></td></tr>
+<tr class="memdesc:aaa14277af44caeb9988233fc141a38e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clock/Calender Registers.  <a href="#aaa14277af44caeb9988233fc141a38e0">More...</a><br /></td></tr>
+<tr class="separator:aaa14277af44caeb9988233fc141a38e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a834495c624e39cfb3b3fef569d389312"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dde/unionDS1307_1_1control__t.html">control_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html#a834495c624e39cfb3b3fef569d389312">control</a></td></tr>
+<tr class="memdesc:a834495c624e39cfb3b3fef569d389312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control Register.  <a href="#a834495c624e39cfb3b3fef569d389312">More...</a><br /></td></tr>
 <tr class="separator:a834495c624e39cfb3b3fef569d389312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a966bde0f1ab1fd4682138254b1179498"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html#a966bde0f1ab1fd4682138254b1179498">ram</a> [<a class="el" href="../../d8/da8/classDS1307.html#a21108f461ce45ca75f579466357cbe83">RAM_MAX</a>]</td></tr>
+<tr class="memdesc:a966bde0f1ab1fd4682138254b1179498"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random Access Memory.  <a href="#a966bde0f1ab1fd4682138254b1179498">More...</a><br /></td></tr>
+<tr class="separator:a966bde0f1ab1fd4682138254b1179498"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Timekeeper Registers (Table 2, pp. 8). </p>
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00229">229</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a02d00a9e0f5276018a515f0faf0477ea"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/dec/structtime__t.html">time_t</a> DS1307::timekeeper_t::clock</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00105">105</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a834495c624e39cfb3b3fef569d389312"></a>
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +154,41 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00106">106</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+<p>Control Register. </p>
+
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00231">231</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a966bde0f1ab1fd4682138254b1179498"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t DS1307::timekeeper_t::ram[<a class="el" href="../../d8/da8/classDS1307.html#a21108f461ce45ca75f579466357cbe83">RAM_MAX</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Random Access Memory. </p>
+
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00232">232</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa14277af44caeb9988233fc141a38e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/df4/structDS1307_1_1rtc__t.html">rtc_t</a> DS1307::timekeeper_t::rtc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clock/Calender Registers. </p>
+
+<p>Definition at line <a class="el" href="../../de/dba/DS1307_8h_source.html#l00230">230</a> of file <a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>.</p>
 
 </div>
 </div>
@@ -175,7 +201,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a></li><li class="navelem"><a class="el" href="../../d7/d41/structDS1307_1_1timekeeper__t.html">timekeeper_t</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:42:52 for Arduino-TWI by
+    <li class="footer">Generated on Tue Sep 5 2017 17:13:12 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

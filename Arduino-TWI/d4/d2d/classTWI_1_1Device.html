@@ -122,7 +122,13 @@ Inheritance diagram for TWI::Device:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d7a/classTWI_1_1Device__inherit__graph.png" border="0" usemap="#TWI_1_1Device_inherit__map" alt="Inheritance graph"/></div>
 <map name="TWI_1_1Device_inherit__map" id="TWI_1_1Device_inherit__map">
-<area shape="rect" id="node2" href="../../d8/da8/classDS1307.html" title="{DS1307\n|+ RAM_START\l+ RAM_END\l+ RAM_MAX\l|+ DS1307()\l+ get_time()\l+ set_time()\l+ enable()\l+ disable()\l+ read_ram()\l+ write_ram()\l}" alt="" coords="5,189,120,384"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="253,241,369,391"/>
+<area shape="rect" id="node8" href="../../d8/da8/classDS1307.html" title="{DS1307\n|+ RAM_START\l+ RAM_END\l+ RAM_MAX\l|+ DS1307()\l+ get_time()\l+ set_time()\l+ enable()\l+ disable()\l+ read_ram()\l+ write_ram()\l}" alt="" coords="393,219,508,413"/>
+<area shape="rect" id="node3" href="../../dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,461,109,539"/>
+<area shape="rect" id="node4" href="../../de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,461,237,539"/>
+<area shape="rect" id="node5" href="../../d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,461,359,539"/>
+<area shape="rect" id="node6" href="../../de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,461,488,539"/>
+<area shape="rect" id="node7" href="../../df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,461,610,539"/>
 </map>
 </div>
 <div class="dynheader">
@@ -130,7 +136,7 @@ Collaboration diagram for TWI::Device:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d2a/classTWI_1_1Device__coll__graph.png" border="0" usemap="#TWI_1_1Device_coll__map" alt="Collaboration graph"/></div>
 <map name="TWI_1_1Device_coll__map" id="TWI_1_1Device_coll__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n||+ read()\l+ write()\l+ write()\l}" alt="" coords="18,5,89,112"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n||+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="11,219,95,369"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -138,6 +144,10 @@ Collaboration diagram for TWI::Device:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ffcca087cd18f2c065b5d2622638bd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#a2ffcca087cd18f2c065b5d2622638bd8">Device</a> (<a class="el" href="../../d1/deb/classTWI.html">TWI</a> &amp;<a class="el" href="../../dd/da4/Scanner_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a>, uint8_t addr)</td></tr>
 <tr class="separator:a2ffcca087cd18f2c065b5d2622638bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0afdf4cc542ce4eafb401316f584883"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#af0afdf4cc542ce4eafb401316f584883">acquire</a> ()</td></tr>
+<tr class="separator:af0afdf4cc542ce4eafb401316f584883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabedf601322e46ac35b1b8ffc5076f48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#aabedf601322e46ac35b1b8ffc5076f48">release</a> ()</td></tr>
+<tr class="separator:aabedf601322e46ac35b1b8ffc5076f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7117b09323157e06c78756df0436803a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#a7117b09323157e06c78756df0436803a">read</a> (void *buf, size_t count)</td></tr>
 <tr class="separator:a7117b09323157e06c78756df0436803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0493d20bae1d3e511f137f7f170e45a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html#af0493d20bae1d3e511f137f7f170e45a">write</a> (const void *buf, size_t count)</td></tr>
@@ -155,7 +165,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract Two-Wire Interface <a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> Driver class. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00068">68</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00032">32</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a2ffcca087cd18f2c065b5d2622638bd8"></a>
 <div class="memitem">
@@ -196,11 +206,37 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00076">76</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00040">40</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af0afdf4cc542ce4eafb401316f584883"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TWI::Device::acquire </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Start transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00051">51</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7117b09323157e06c78756df0436803a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +277,33 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes read or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00088">88</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00072">72</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aabedf601322e46ac35b1b8ffc5076f48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TWI::Device::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stop transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -285,7 +347,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00099">99</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00083">83</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -318,7 +380,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00109">109</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00093">93</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -342,7 +404,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> address. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00119">119</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00103">103</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +427,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Two-Wire Interface Manager. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00116">116</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00100">100</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -378,7 +440,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/deb/classTWI.html">TWI</a></li><li class="navelem"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a></li>
-    <li class="footer">Generated on Mon Sep 4 2017 00:42:52 for Arduino-TWI by
+    <li class="footer">Generated on Tue Sep 5 2017 17:13:12 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,3 +1,9 @@
 <map id="TWI::Device" name="TWI::Device">
-<area shape="rect" id="node2" href="$d8/da8/classDS1307.html" title="{DS1307\n|+ RAM_START\l+ RAM_END\l+ RAM_MAX\l|+ DS1307()\l+ get_time()\l+ set_time()\l+ enable()\l+ disable()\l+ read_ram()\l+ write_ram()\l}" alt="" coords="5,189,120,384"/>
+<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="253,241,369,391"/>
+<area shape="rect" id="node8" href="$d8/da8/classDS1307.html" title="{DS1307\n|+ RAM_START\l+ RAM_END\l+ RAM_MAX\l|+ DS1307()\l+ get_time()\l+ set_time()\l+ enable()\l+ disable()\l+ read_ram()\l+ write_ram()\l}" alt="" coords="393,219,508,413"/>
+<area shape="rect" id="node3" href="$dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,461,109,539"/>
+<area shape="rect" id="node4" href="$de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,461,237,539"/>
+<area shape="rect" id="node5" href="$d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,461,359,539"/>
+<area shape="rect" id="node6" href="$de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,461,488,539"/>
+<area shape="rect" id="node7" href="$df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,461,610,539"/>
 </map>

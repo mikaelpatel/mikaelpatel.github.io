@@ -1,4 +1,23 @@
 var searchData=
 [
-  ['year',['year',['../d7/dec/structtime__t.html#ac393c3b7eda59dfab65c6bfad7f9cbec',1,'time_t']]]
+  ['ram',['ram',['../d7/d41/structDS1307_1_1timekeeper__t.html#a966bde0f1ab1fd4682138254b1179498',1,'DS1307::timekeeper_t']]],
+  ['ram_5fend',['RAM_END',['../d8/da8/classDS1307.html#a5b830ac5a33c1fe92eed60092d10ca04',1,'DS1307']]],
+  ['ram_5fmax',['RAM_MAX',['../d8/da8/classDS1307.html#a21108f461ce45ca75f579466357cbe83',1,'DS1307']]],
+  ['ram_5fstart',['RAM_START',['../d8/da8/classDS1307.html#a86002fb1acf9d1857bddcc6661f2cb32',1,'DS1307']]],
+  ['rate',['Rate',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66',1,'DS1307']]],
+  ['read',['read',['../d2/db3/classAT24CXX.html#a4543a226af8b991f17b9b0ea33ce7467',1,'AT24CXX::read()'],['../d0/dd0/classSoftware_1_1TWI.html#af04d24eb39c349b206b4efbb50e220ee',1,'Software::TWI::read()'],['../d4/d2d/classTWI_1_1Device.html#a7117b09323157e06c78756df0436803a',1,'TWI::Device::read()'],['../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be',1,'TWI::read()']]],
+  ['read_5fbit',['read_bit',['../d0/dd0/classSoftware_1_1TWI.html#a86e934112da14ea7cd9971286373d69f',1,'Software::TWI']]],
+  ['read_5fbyte',['read_byte',['../d0/dd0/classSoftware_1_1TWI.html#af521bf6823bd688da5c3185d90a04d6e',1,'Software::TWI']]],
+  ['read_5fram',['read_ram',['../d8/da8/classDS1307.html#a76ab4d9df023e445d05aeb559350a436',1,'DS1307']]],
+  ['release',['release',['../d0/dd0/classSoftware_1_1TWI.html#a210eb914fca137eb32cc43ba1f2a6b20',1,'Software::TWI::release()'],['../d4/d2d/classTWI_1_1Device.html#aabedf601322e46ac35b1b8ffc5076f48',1,'TWI::Device::release()'],['../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc',1,'TWI::release()']]],
+  ['repeated_5fstart_5fcondition',['repeated_start_condition',['../d0/dd0/classSoftware_1_1TWI.html#ab58dd7ecc4291d69f38e3274195c963a',1,'Software::TWI']]],
+  ['reserved1',['reserved1',['../d1/dde/unionDS1307_1_1control__t.html#ad3154a68b0cfd0b620a84579e8cf38f6',1,'DS1307::control_t']]],
+  ['reserved2',['reserved2',['../d1/dde/unionDS1307_1_1control__t.html#a93642d9cb2390299ec159101745b47ea',1,'DS1307::control_t']]],
+  ['rs',['rs',['../d1/dde/unionDS1307_1_1control__t.html#ac722870bd54aa5aa68dab1793655d19b',1,'DS1307::control_t']]],
+  ['rs_5f1_5fhz',['RS_1_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66acd6ccb1d8e3abc8239f427b1e204d539',1,'DS1307']]],
+  ['rs_5f32768_5fhz',['RS_32768_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66a0034a971f4da17f56c754e828b9a94ce',1,'DS1307']]],
+  ['rs_5f4096_5fhz',['RS_4096_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66aaed4d633f55244ed6de62f59441f96ff',1,'DS1307']]],
+  ['rs_5f8192_5fhz',['RS_8192_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66af5046e216fb39a639ff3aa4f14c6be3a',1,'DS1307']]],
+  ['rtc',['rtc',['../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0',1,'DS1307::timekeeper_t::rtc()'],['../d3/d10/DS1307_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;DS1307.ino']]],
+  ['rtc_5ft',['rtc_t',['../d7/df4/structDS1307_1_1rtc__t.html',1,'DS1307']]]
 ];

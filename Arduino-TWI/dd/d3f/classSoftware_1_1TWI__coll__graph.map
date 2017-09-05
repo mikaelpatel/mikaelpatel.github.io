@@ -1,3 +1,4 @@
 <map id="Software::TWI&lt; SDA_PIN, SCL_PIN &gt;" name="Software::TWI&lt; SDA_PIN, SCL_PIN &gt;">
-<area shape="rect" id="node2" href="$d1/deb/classTWI.html" title="{TWI\n||+ read()\l+ write()\l+ write()\l}" alt="" coords="101,5,172,112"/>
+<area shape="rect" id="node2" href="$d1/deb/classTWI.html" title="{TWI\n||+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="221,5,305,156"/>
+<area shape="rect" id="node3" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="293,314,389,465"/>
 </map>

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['rs_5f1_5fhz',['RS_1_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66acd6ccb1d8e3abc8239f427b1e204d539',1,'DS1307']]],
-  ['rs_5f32768_5fhz',['RS_32768_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66a0034a971f4da17f56c754e828b9a94ce',1,'DS1307']]],
-  ['rs_5f4096_5fhz',['RS_4096_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66aaed4d633f55244ed6de62f59441f96ff',1,'DS1307']]],
-  ['rs_5f8192_5fhz',['RS_8192_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66af5046e216fb39a639ff3aa4f14c6be3a',1,'DS1307']]]
+  ['april',['APRIL',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04aecd9e52062ac25b7b4653ce5553531c6',1,'time.h']]],
+  ['august',['AUGUST',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04ab40cf84788c0a5a41375e30063586b7f',1,'time.h']]]
 ];

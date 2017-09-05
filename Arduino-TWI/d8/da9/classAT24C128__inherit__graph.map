@@ -1,0 +1,4 @@
+<map id="AT24C128" name="AT24C128">
+<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="5,219,121,369"/>
+<area shape="rect" id="node3" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_twi\l# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="15,5,111,171"/>
+</map>
