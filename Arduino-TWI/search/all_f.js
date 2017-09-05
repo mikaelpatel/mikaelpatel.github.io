@@ -18,6 +18,6 @@ var searchData=
   ['rs_5f32768_5fhz',['RS_32768_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66a0034a971f4da17f56c754e828b9a94ce',1,'DS1307']]],
   ['rs_5f4096_5fhz',['RS_4096_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66aaed4d633f55244ed6de62f59441f96ff',1,'DS1307']]],
   ['rs_5f8192_5fhz',['RS_8192_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66af5046e216fb39a639ff3aa4f14c6be3a',1,'DS1307']]],
-  ['rtc',['rtc',['../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0',1,'DS1307::timekeeper_t::rtc()'],['../d3/d10/DS1307_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;DS1307.ino']]],
+  ['rtc',['rtc',['../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0',1,'DS1307::timekeeper_t::rtc()'],['../d3/d10/DS1307_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;DS1307.ino'],['../d0/df3/Multitasking_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;Multitasking.ino']]],
   ['rtc_5ft',['rtc_t',['../d7/df4/structDS1307_1_1rtc__t.html',1,'DS1307']]]
 ];

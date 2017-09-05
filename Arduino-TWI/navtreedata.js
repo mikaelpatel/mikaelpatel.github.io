@@ -3,7 +3,12 @@ var NAVTREE =
   [ "Arduino-TWI", "index.html", [
     [ "License", "License.html", null ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -33,7 +38,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"df/d74/classAT24C64.html#af0afdf4cc542ce4eafb401316f584883"
+"de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04aecd9e52062ac25b7b4653ce5553531c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

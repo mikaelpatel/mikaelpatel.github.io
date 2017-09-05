@@ -1,4 +1,5 @@
 <map id="src/time.h" name="src/time.h">
-<area shape="rect" id="node2" href="$de/dba/DS1307_8h.html" title="src/DS1307.h" alt="" coords="55,80,157,107"/>
-<area shape="rect" id="node3" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="5,155,207,181"/>
+<area shape="rect" id="node2" href="$de/dba/DS1307_8h.html" title="src/DS1307.h" alt="" coords="155,80,257,107"/>
+<area shape="rect" id="node3" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="5,162,207,189"/>
+<area shape="rect" id="node4" href="$d0/df3/Multitasking_8ino.html" title="examples/Multitasking\l/Multitasking.ino" alt="" coords="231,155,383,196"/>
 </map>

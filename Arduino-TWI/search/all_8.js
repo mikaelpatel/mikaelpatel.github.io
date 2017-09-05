@@ -6,5 +6,5 @@ var searchData=
   ['iovec_5fsize',['iovec_size',['../d6/dbc/iovec_8h.html#aa4c37add462f59741a3d51124300051a',1,'iovec.h']]],
   ['iovec_5ft',['iovec_t',['../d1/db7/structiovec__t.html',1,'']]],
   ['is_5fready',['is_ready',['../d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393',1,'AT24CXX']]],
-  ['isotime',['isotime',['../d3/d10/DS1307_8ino.html#a285b410da1133c8fe3153803d7b369fa',1,'DS1307.ino']]]
+  ['isotime',['isotime',['../d3/d10/DS1307_8ino.html#a285b410da1133c8fe3153803d7b369fa',1,'isotime(const struct tm *tm):&#160;DS1307.ino'],['../d0/df3/Multitasking_8ino.html#a285b410da1133c8fe3153803d7b369fa',1,'isotime(const struct tm *tm):&#160;Multitasking.ino']]]
 ];
