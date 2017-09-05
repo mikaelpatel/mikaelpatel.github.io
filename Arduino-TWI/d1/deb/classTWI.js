@@ -7,5 +7,5 @@ var classTWI =
     [ "release", "d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc", null ],
     [ "write", "d1/deb/classTWI.html#aa872e1a3bb6278fcada89ca6d2d6ffaf", null ],
     [ "write", "d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c", null ],
-    [ "m_dev", "d1/deb/classTWI.html#a8a55d50e555b40b95703c4923c69dbe7", null ]
+    [ "m_dev", "d1/deb/classTWI.html#abfef2bb9e7c0d18ff8c074908d3832b4", null ]
 ];

@@ -15,7 +15,7 @@ var classSoftware_1_1TWI =
     [ "write_bit", "d0/dd0/classSoftware_1_1TWI.html#ab068b9a418162317ff41bef394f7f980", null ],
     [ "write_byte", "d0/dd0/classSoftware_1_1TWI.html#a40b5d274065d7b6917b68266ac4727b9", null ],
     [ "CLOCK_STRETCHING_RETRY_MAX", "d0/dd0/classSoftware_1_1TWI.html#a0a33da213eb3240323be5896c40d52ea", null ],
-    [ "m_dev", "d0/dd0/classSoftware_1_1TWI.html#a8a55d50e555b40b95703c4923c69dbe7", null ],
+    [ "m_dev", "d0/dd0/classSoftware_1_1TWI.html#abfef2bb9e7c0d18ff8c074908d3832b4", null ],
     [ "m_scl", "d0/dd0/classSoftware_1_1TWI.html#aed4a620aa26e18e8607675be02a861e2", null ],
     [ "m_sda", "d0/dd0/classSoftware_1_1TWI.html#a6a1b35807491e1f53af057d215402cfc", null ],
     [ "m_start", "d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6", null ],

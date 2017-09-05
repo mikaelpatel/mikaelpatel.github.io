@@ -1,9 +1,7 @@
 <map id="examples/Multitasking/Multitasking.ino" name="examples/Multitasking/Multitasking.ino">
-<area shape="rect" id="node4" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="203,95,317,121"/>
-<area shape="rect" id="node6" href="$de/dba/DS1307_8h.html" title="DS1307.h" alt="" coords="365,95,445,121"/>
-<area shape="rect" id="node11" href="$db/d0b/AT24CXX_8h.html" title="AT24CXX.h" alt="" coords="470,95,562,121"/>
-<area shape="rect" id="node7" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="319,169,374,196"/>
-<area shape="rect" id="node8" href="$de/df7/time_8h.html" title="time.h" alt="" coords="399,169,457,196"/>
-<area shape="rect" id="node9" href="$d7/d67/TWI_8h.html" title="TWI.h" alt="" coords="484,169,543,196"/>
-<area shape="rect" id="node10" href="$d6/dbc/iovec_8h.html" title="iovec.h" alt="" coords="481,244,545,271"/>
+<area shape="rect" id="node4" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="120,95,235,121"/>
+<area shape="rect" id="node6" href="$de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="487,95,606,121"/>
+<area shape="rect" id="node9" href="$db/d0b/AT24CXX_8h.html" title="Driver/AT24CXX.h" alt="" coords="333,95,464,121"/>
+<area shape="rect" id="node7" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="486,169,541,196"/>
+<area shape="rect" id="node8" href="$de/df7/time_8h.html" title="time.h" alt="" coords="565,169,624,196"/>
 </map>

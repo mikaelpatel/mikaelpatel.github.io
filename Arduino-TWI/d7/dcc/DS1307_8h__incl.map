@@ -1,6 +1,4 @@
-<map id="src/DS1307.h" name="src/DS1307.h">
+<map id="src/Driver/DS1307.h" name="src/Driver/DS1307.h">
 <area shape="rect" id="node2" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="5,80,60,107"/>
 <area shape="rect" id="node3" href="$de/df7/time_8h.html" title="time.h" alt="" coords="85,80,143,107"/>
-<area shape="rect" id="node4" href="$d7/d67/TWI_8h.html" title="TWI.h" alt="" coords="167,80,226,107"/>
-<area shape="rect" id="node5" href="$d6/dbc/iovec_8h.html" title="iovec.h" alt="" coords="165,155,229,181"/>
 </map>

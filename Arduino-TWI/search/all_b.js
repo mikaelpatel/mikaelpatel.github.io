@@ -1,7 +1,7 @@
 var searchData=
 [
   ['m_5faddr',['m_addr',['../d4/d2d/classTWI_1_1Device.html#af3ef9b77c22df556152c78e31a010791',1,'TWI::Device']]],
-  ['m_5fdev',['m_dev',['../d1/deb/classTWI.html#a8a55d50e555b40b95703c4923c69dbe7',1,'TWI']]],
+  ['m_5fdev',['m_dev',['../d1/deb/classTWI.html#abfef2bb9e7c0d18ff8c074908d3832b4',1,'TWI']]],
   ['m_5fscl',['m_scl',['../d0/dd0/classSoftware_1_1TWI.html#aed4a620aa26e18e8607675be02a861e2',1,'Software::TWI']]],
   ['m_5fsda',['m_sda',['../d0/dd0/classSoftware_1_1TWI.html#a6a1b35807491e1f53af057d215402cfc',1,'Software::TWI']]],
   ['m_5fstart',['m_start',['../d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6',1,'Software::TWI']]],
