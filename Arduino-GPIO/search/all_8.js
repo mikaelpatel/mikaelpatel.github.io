@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['operator_20bool',['operator bool',['../d7/dde/classGPIO.html#aacaa2b56ea6dfc8b58fc3a1b636330af',1,'GPIO::operator bool()'],['../db/da5/classSoftware_1_1Serial.html#a714b0e74ad67f57a389e81ff2d688ca1',1,'Software::Serial::operator bool()']]],
-  ['operator_3c_3c',['operator&lt;&lt;',['../de/d8f/classSRPO.html#a4b6b20becc3957d649aff7e822a2619b',1,'SRPO']]],
-  ['operator_3d',['operator=',['../d7/dde/classGPIO.html#a2abddc963c8d4ea00dae803cc98578f9',1,'GPIO']]],
-  ['operator_3e_3e',['operator&gt;&gt;',['../d7/da4/classSRPI.html#a2cfa824a8be70706c77a13baffa08435',1,'SRPI']]],
-  ['output',['output',['../d7/dde/classGPIO.html#a3c0b983f37a616d97108c0a1c365c750',1,'GPIO']]],
-  ['outs',['outs',['../d1/d63/ShiftOut_8ino.html#a5d754217cf168eec1cf234ad910e15bf',1,'outs():&#160;ShiftOut.ino'],['../d8/d56/SoftwareSerial_8ino.html#aa0c3a29ca01eafc2d1d233e8720cc0b0',1,'outs():&#160;SoftwareSerial.ino']]]
+  ['m_5fclock',['m_clock',['../d7/da4/classSRPI.html#a45de782fe085f0b32f2d30473222d0ab',1,'SRPI::m_clock()'],['../de/d8f/classSRPO.html#aaf7053a21366869139ab970932325d18',1,'SRPO::m_clock()']]],
+  ['m_5fcount',['m_count',['../db/da5/classSoftware_1_1Serial.html#af1db92247662b7f5ab4b7d138a37e3f1',1,'Software::Serial']]],
+  ['m_5fdata',['m_data',['../d7/da4/classSRPI.html#a96098e800a93ee581a1bc4fad68d5f06',1,'SRPI::m_data()'],['../de/d8f/classSRPO.html#a24fc5cfcbeb7bea0c44006815af5dc88',1,'SRPO::m_data()']]],
+  ['m_5ftx',['m_tx',['../db/da5/classSoftware_1_1Serial.html#a3e044da32e5bc5a8b5c70e9e27c12ada',1,'Software::Serial']]],
+  ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
+  ['mask',['MASK',['../d7/dde/classGPIO.html#a4fcdf6f25ea9cddbd2508145cc9a4076',1,'GPIO']]]
 ];
