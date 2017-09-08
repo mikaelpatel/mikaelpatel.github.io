@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "Arduino-SPI", "index.html", [
-    [ "Arduino-ASPI", "index.html", null ],
     [ "License", "License.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
