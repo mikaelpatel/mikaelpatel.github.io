@@ -9,8 +9,9 @@ var searchData=
   ['shiftout_2eino',['ShiftOut.ino',['../d1/d63/ShiftOut_8ino.html',1,'']]],
   ['software',['Software',['../d3/db2/namespaceSoftware.html',1,'']]],
   ['softwareserial_2eino',['SoftwareSerial.ino',['../d8/d56/SoftwareSerial_8ino.html',1,'']]],
-  ['srpi',['SRPI',['../d7/da4/classSRPI.html',1,'SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../d7/da4/classSRPI.html#a3cbca333ccc5d392f29e9bf26548bfbb',1,'SRPI::SRPI()']]],
+  ['srpi',['SRPI',['../d7/da4/classSRPI.html',1,'SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../d7/da4/classSRPI.html#a3cbca333ccc5d392f29e9bf26548bfbb',1,'SRPI::SRPI()'],['../d5/df7/ShiftIn_8ino.html#a280c8a23b78d6c0489fe430d010f17ae',1,'srpi():&#160;ShiftIn.ino']]],
   ['srpi_2eh',['SRPI.h',['../d4/d2e/SRPI_8h.html',1,'']]],
-  ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO::SRPO()']]],
-  ['srpo_2eh',['SRPO.h',['../da/d82/SRPO_8h.html',1,'']]]
+  ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO::SRPO()'],['../d1/d63/ShiftOut_8ino.html#a6dff5581e0b81ffa189cd1530ef71861',1,'srpo():&#160;ShiftOut.ino']]],
+  ['srpo_2eh',['SRPO.h',['../da/d82/SRPO_8h.html',1,'']]],
+  ['ss',['ss',['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]]
 ];
