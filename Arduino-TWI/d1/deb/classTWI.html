@@ -130,9 +130,6 @@ Inheritance diagram for TWI:</div>
 Collaboration diagram for TWI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d24/classTWI__coll__graph.png" border="0" usemap="#TWI_coll__map" alt="Collaboration graph"/></div>
-<map name="TWI_coll__map" id="TWI_coll__map">
-<area shape="rect" id="node2" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,219,101,369"/>
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -144,8 +141,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7042d7a8da6173d2a528ec7bd31162ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#a7042d7a8da6173d2a528ec7bd31162ae">TWI</a> ()</td></tr>
 <tr class="separator:a7042d7a8da6173d2a528ec7bd31162ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936cccb1d3543917973658bdb4e9779e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#a936cccb1d3543917973658bdb4e9779e">acquire</a> (<a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *dev)=0</td></tr>
-<tr class="separator:a936cccb1d3543917973658bdb4e9779e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166919eaf46af070be947039fd95dccf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#a166919eaf46af070be947039fd95dccf">acquire</a> ()=0</td></tr>
+<tr class="separator:a166919eaf46af070be947039fd95dccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eb241d0dfad44dc8cfa4e979c77e5dc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">release</a> ()=0</td></tr>
 <tr class="separator:a4eb241d0dfad44dc8cfa4e979c77e5dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d9151c40a7ecc133d2d31be11eb7be"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">read</a> (uint8_t addr, void *buf, size_t count)=0</td></tr>
@@ -157,8 +154,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:abfef2bb9e7c0d18ff8c074908d3832b4"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#abfef2bb9e7c0d18ff8c074908d3832b4">m_dev</a></td></tr>
-<tr class="separator:abfef2bb9e7c0d18ff8c074908d3832b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf04e1e808533a23e2092675828f4138"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#abf04e1e808533a23e2092675828f4138">m_busy</a></td></tr>
+<tr class="separator:abf04e1e808533a23e2092675828f4138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract Two-Wire Interface (<a class="el" href="../../d1/deb/classTWI.html">TWI</a>) class. </p>
@@ -192,7 +189,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a936cccb1d3543917973658bdb4e9779e"></a>
+<a class="anchor" id="a166919eaf46af070be947039fd95dccf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -202,8 +199,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual bool TWI::acquire </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -215,7 +211,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Start bus transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a142d3091b81e6bf4f6319d88ae401c4f">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a2bef4b21a26fc9998be1ac9270dbb799">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>.</p>
 
 </div>
 </div>
@@ -392,7 +388,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="abfef2bb9e7c0d18ff8c074908d3832b4"></a>
+<a class="anchor" id="abf04e1e808533a23e2092675828f4138"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -400,7 +396,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile <a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a>* TWI::m_dev</td>
+          <td class="memname">volatile bool TWI::m_busy</td>
         </tr>
       </table>
   </td>
@@ -423,7 +419,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/deb/classTWI.html">TWI</a></li>
-    <li class="footer">Generated on Wed Sep 6 2017 01:20:59 for Arduino-TWI by
+    <li class="footer">Generated on Fri Sep 8 2017 14:29:52 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

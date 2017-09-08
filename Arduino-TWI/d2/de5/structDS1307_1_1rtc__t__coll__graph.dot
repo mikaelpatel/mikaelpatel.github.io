@@ -1,8 +1,0 @@
-digraph "DS1307::rtc_t"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{DS1307::rtc_t\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +hours\n+month\n+seconds\n+year\n+date\n+minutes\n+day" ,arrowhead="odiamond",fontname="Helvetica"];
-  Node2 [label="{bcd_t\n||+ bcd_t()\l+ bcd_t()\l+ operator uint8_t()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d24/structbcd__t.html"];
-}

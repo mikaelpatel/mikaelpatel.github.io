@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['acquire',['acquire',['../d0/dd0/classSoftware_1_1TWI.html#a142d3091b81e6bf4f6319d88ae401c4f',1,'Software::TWI::acquire()'],['../d4/d2d/classTWI_1_1Device.html#af0afdf4cc542ce4eafb401316f584883',1,'TWI::Device::acquire()'],['../d1/deb/classTWI.html#a936cccb1d3543917973658bdb4e9779e',1,'TWI::acquire()']]],
+  ['acquire',['acquire',['../d0/dd0/classSoftware_1_1TWI.html#a2bef4b21a26fc9998be1ac9270dbb799',1,'Software::TWI::acquire()'],['../d4/d2d/classTWI_1_1Device.html#af0afdf4cc542ce4eafb401316f584883',1,'TWI::Device::acquire()'],['../d1/deb/classTWI.html#a166919eaf46af070be947039fd95dccf',1,'TWI::acquire()']]],
   ['at24c128',['AT24C128',['../dd/ded/classAT24C128.html#ad64e2241b37c6049c29c5cb0c0cd669d',1,'AT24C128']]],
   ['at24c256',['AT24C256',['../de/df6/classAT24C256.html#ab6ce1536a43cf2c57bdb2cfb8d57668e',1,'AT24C256']]],
   ['at24c32',['AT24C32',['../d3/dc8/classAT24C32.html#a81493fc8972e96875b5c8aacf1926c9c',1,'AT24C32']]],

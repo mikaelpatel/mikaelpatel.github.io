@@ -124,7 +124,7 @@ Inheritance diagram for Software::TWI&lt; SDA_PIN, SCL_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d6c/classSoftware_1_1TWI__inherit__graph.png" border="0" usemap="#Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_inherit__map" id="Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|# m_dev\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="95,5,179,156"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="95,5,179,156"/>
 </map>
 </div>
 <div class="dynheader">
@@ -132,8 +132,7 @@ Collaboration diagram for Software::TWI&lt; SDA_PIN, SCL_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/d3f/classSoftware_1_1TWI__coll__graph.png" border="0" usemap="#Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_coll__map" id="Software_1_1TWI_3_01SDA__PIN_00_01SCL__PIN_01_4_coll__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n||+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="221,5,305,156"/>
-<area shape="rect" id="node3" href="../../d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="293,314,389,465"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="95,5,179,156"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -141,8 +140,8 @@ Collaboration diagram for Software::TWI&lt; SDA_PIN, SCL_PIN &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9a13c9a05ac808975b13c854595c55b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#ab9a13c9a05ac808975b13c854595c55b">TWI</a> ()</td></tr>
 <tr class="separator:ab9a13c9a05ac808975b13c854595c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a142d3091b81e6bf4f6319d88ae401c4f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a142d3091b81e6bf4f6319d88ae401c4f">acquire</a> (<a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *dev)</td></tr>
-<tr class="separator:a142d3091b81e6bf4f6319d88ae401c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bef4b21a26fc9998be1ac9270dbb799"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a2bef4b21a26fc9998be1ac9270dbb799">acquire</a> ()</td></tr>
+<tr class="separator:a2bef4b21a26fc9998be1ac9270dbb799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a210eb914fca137eb32cc43ba1f2a6b20"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a210eb914fca137eb32cc43ba1f2a6b20">release</a> ()</td></tr>
 <tr class="separator:a210eb914fca137eb32cc43ba1f2a6b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af04d24eb39c349b206b4efbb50e220ee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#af04d24eb39c349b206b4efbb50e220ee">read</a> (uint8_t addr, void *buf, size_t count)</td></tr>
@@ -179,8 +178,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aed4a620aa26e18e8607675be02a861e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9de5d4653ccade6c076d344c6f277ae6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6">m_start</a></td></tr>
 <tr class="separator:a9de5d4653ccade6c076d344c6f277ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfef2bb9e7c0d18ff8c074908d3832b4"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#abfef2bb9e7c0d18ff8c074908d3832b4">m_dev</a></td></tr>
-<tr class="separator:abfef2bb9e7c0d18ff8c074908d3832b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf04e1e808533a23e2092675828f4138"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#abf04e1e808533a23e2092675828f4138">m_busy</a></td></tr>
+<tr class="separator:abf04e1e808533a23e2092675828f4138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -227,7 +226,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a142d3091b81e6bf4f6319d88ae401c4f"></a>
+<a class="anchor" id="a2bef4b21a26fc9998be1ac9270dbb799"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -239,8 +238,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
         <tr>
           <td class="memname">virtual bool <a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html">Software::TWI</a>&lt; SDA_PIN, SCL_PIN &gt;::acquire </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> *&#160;</td>
-          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -250,17 +248,11 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Start transaction for given device driver. Return true(1) if successful otherwise false(0). </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>device that acquires the bus. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+<p>Start transaction for given device driver. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a936cccb1d3543917973658bdb4e9779e">TWI</a>.</p>
+<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a166919eaf46af070be947039fd95dccf">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00053">53</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00052">52</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -288,7 +280,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Allow device to stretch clock signal. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00161">161</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00160">160</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -343,7 +335,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00082">82</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00081">81</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -378,7 +370,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00240">240</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00239">239</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +416,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00276">276</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00275">275</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -454,7 +446,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00066">66</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -482,7 +474,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Generate repeated start condition. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00190">190</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00189">189</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +502,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Generate start condition. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00175">175</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00174">174</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +530,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Generate stop condition. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00207">207</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00206">206</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -586,7 +578,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00112">112</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00111">111</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -672,7 +664,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00223">223</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00222">222</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -718,7 +710,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00259">259</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00258">258</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -744,11 +736,11 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Maximum number of clock stretching retries: 100 us </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00145">145</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00144">144</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abfef2bb9e7c0d18ff8c074908d3832b4"></a>
+<a class="anchor" id="abf04e1e808533a23e2092675828f4138"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -756,7 +748,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile <a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a>* TWI::m_dev</td>
+          <td class="memname">volatile bool TWI::m_busy</td>
         </tr>
       </table>
   </td>
@@ -791,7 +783,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Clock signal pin. </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00151">151</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00150">150</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -816,7 +808,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Data signal pin. </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00148">148</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00147">147</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -841,7 +833,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Transaction state. </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00154">154</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00153">153</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -866,7 +858,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Start condition delay time: 4.0 us </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00139">139</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00138">138</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -891,7 +883,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Basic clock delay time: 4.7 us </p>
 
-<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00142">142</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dad/Software_2TWI_8h_source.html#l00141">141</a> of file <a class="el" href="../../df/dad/Software_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -904,7 +896,7 @@ template&lt;BOARD::pin_t SDA_PIN, BOARD::pin_t SCL_PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html">TWI</a></li>
-    <li class="footer">Generated on Wed Sep 6 2017 01:20:59 for Arduino-TWI by
+    <li class="footer">Generated on Fri Sep 8 2017 14:29:52 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
