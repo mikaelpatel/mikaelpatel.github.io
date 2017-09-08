@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['sck_5fpin',['SCK_PIN',['../d5/df7/ShiftIn_8ino.html#a01153037fca70cfac03c8d67f17d766a',1,'SCK_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a',1,'SCK_PIN():&#160;ShiftOut.ino']]]
+  ['miso_5fpin',['MISO_PIN',['../d5/df7/ShiftIn_8ino.html#aecb75580e6d96b71a64123aee5bd3929',1,'MISO_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929',1,'MISO_PIN():&#160;ShiftOut.ino']]],
+  ['mosi_5fpin',['MOSI_PIN',['../d5/df7/ShiftIn_8ino.html#a11338fccf824b29757c2b23edb0f690f',1,'MOSI_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a11338fccf824b29757c2b23edb0f690f',1,'MOSI_PIN():&#160;ShiftOut.ino']]]
 ];

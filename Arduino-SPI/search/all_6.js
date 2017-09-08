@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['release',['release',['../d1/de2/classSoftware_1_1SPI.html#aa2f890fccfd172ad94a156269c293fcb',1,'Software::SPI::release()'],['../da/d8d/classSPI.html#aa8753d4730ab2daa3a1f093ef5f88f82',1,'SPI::release()'],['../d5/d8d/classSPI_1_1Device.html#a131393b556e6591565dc7e8cfad4213a',1,'SPI::Device::release()']]]
+  ['loop',['loop',['../d9/df4/HardwareSPI_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;HardwareSPI.ino'],['../d5/df7/ShiftIn_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;ShiftOut.ino'],['../dd/d8c/SoftwareSPI_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;SoftwareSPI.ino']]]
 ];
