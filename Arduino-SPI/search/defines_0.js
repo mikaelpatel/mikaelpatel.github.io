@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['charbits',['CHARBITS',['../dc/dbb/Software_2SPI_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'SPI.h']]]
+  ['bitorder',['BITORDER',['../dd/d8c/SoftwareSPI_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d',1,'SoftwareSPI.ino']]]
 ];
