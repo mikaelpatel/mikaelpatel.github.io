@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('da/d8d/classSPI.html','../../');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../db/dfc/classSPI-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SPI Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -122,13 +123,15 @@ Inheritance diagram for SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/dfa/classSPI__inherit__graph.png" border="0" usemap="#SPI_inherit__map" alt="Inheritance graph"/></div>
 <map name="SPI_inherit__map" id="SPI_inherit__map">
-<area shape="rect" id="node2" href="../../d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; SCL\l_PIN, MOSI_PIN, MISO_PIN \&gt;\n|# m_scl\l# m_mosi\l# m_miso\l# m_dev\l# m_cpha\l# m_msbfirst\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,175,213,384"/>
+<area shape="rect" id="node2" href="../../d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; SCK\l_PIN, MOSI_PIN, MISO_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,189,213,399"/>
 </map>
 </div>
 <div class="dynheader">
 Collaboration diagram for SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/da9/classSPI__coll__graph.png" border="0" usemap="#SPI_coll__map" alt="Collaboration graph"/></div>
+<map name="SPI_coll__map" id="SPI_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -138,21 +141,28 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae513801a334d101f3c0dbc25dfba969"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#aae513801a334d101f3c0dbc25dfba969">acquire</a> (void *<a class="el" href="../../dd/d8c/SoftwareSPI_8ino.html#aeb5721af396e93542caeef54cc42d8b7">dev</a>, uint8_t mode)=0</td></tr>
-<tr class="separator:aae513801a334d101f3c0dbc25dfba969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84114b5901f789732fadf66a0cb3c142"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a84114b5901f789732fadf66a0cb3c142">acquire</a> (uint8_t mode, uint8_t bitorder, uint8_t prescale)=0</td></tr>
+<tr class="separator:a84114b5901f789732fadf66a0cb3c142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8753d4730ab2daa3a1f093ef5f88f82"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#aa8753d4730ab2daa3a1f093ef5f88f82">release</a> ()=0</td></tr>
 <tr class="separator:aa8753d4730ab2daa3a1f093ef5f88f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af406d08c6c5234634daaf1e590997e32"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">transfer</a> (uint8_t value)=0</td></tr>
 <tr class="separator:af406d08c6c5234634daaf1e590997e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9866a06205d51987e0a2dfb6db830c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#ada9866a06205d51987e0a2dfb6db830c">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
 <tr class="separator:ada9866a06205d51987e0a2dfb6db830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a4466bd684813f90e27ef91e49d844870"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4466bd684813f90e27ef91e49d844870">MIN_PRESCALE</a> = 2</td></tr>
+<tr class="separator:a4466bd684813f90e27ef91e49d844870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4650a6fc3d39fef0a063b2c929185650"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">MAX_FREQ</a> = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#a4466bd684813f90e27ef91e49d844870">MIN_PRESCALE</a></td></tr>
+<tr class="separator:a4650a6fc3d39fef0a063b2c929185650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Serial Perpheral Interface (<a class="el" href="../../da/d8d/classSPI.html">SPI</a>) abstract class. </p>
 
 <p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00027">27</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aae513801a334d101f3c0dbc25dfba969"></a>
+<a class="anchor" id="a84114b5901f789732fadf66a0cb3c142"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -162,14 +172,20 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void SPI::acquire </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>dev</em>, </td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>mode</em>&#160;</td>
+          <td class="paramname"><em>bitorder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>prescale</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -185,13 +201,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Acquire bus access with given mode. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>device driver. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>of access. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bitorder</td><td>of serial data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prescale</td><td>clock. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a2c9153c935394a3cbd6139ab8378528f">Software::SPI&lt; SCL_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a5210da616e061b54a5324342af7d49bf">Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
 
 </div>
 </div>
@@ -217,7 +234,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Release bus access. </p>
 
-<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a36c42ad60752bd1c5981359a66a0bd67">Software::SPI&lt; SCL_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#aa2f890fccfd172ad94a156269c293fcb">Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
 
 </div>
 </div>
@@ -250,7 +267,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>received value. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a7247ca7844e8f9b24d318c33cb9353bb">Software::SPI&lt; SCL_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a19178088a9f9afacd66b4b81dcd93c8a">Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;</a>.</p>
 
 </div>
 </div>
@@ -300,7 +317,54 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00060">60</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a4650a6fc3d39fef0a063b2c929185650"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t SPI::MAX_FREQ = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#a4466bd684813f90e27ef91e49d844870">MIN_PRESCALE</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum clock frequency. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00033">33</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4466bd684813f90e27ef91e49d844870"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t SPI::MIN_PRESCALE = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Minimum clock prescale. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00030">30</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -313,7 +377,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d8d/classSPI.html">SPI</a></li>
-    <li class="footer">Generated on Fri Sep 8 2017 02:02:24 for Arduino-SPI by
+    <li class="footer">Generated on Fri Sep 8 2017 14:24:22 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

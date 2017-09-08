@@ -1,3 +1,3 @@
 <map id="SPI" name="SPI">
-<area shape="rect" id="node2" href="$d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; SCL\l_PIN, MOSI_PIN, MISO_PIN \&gt;\n|# m_scl\l# m_mosi\l# m_miso\l# m_dev\l# m_cpha\l# m_msbfirst\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,175,213,384"/>
+<area shape="rect" id="node2" href="$d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; SCK\l_PIN, MOSI_PIN, MISO_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,189,213,399"/>
 </map>

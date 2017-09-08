@@ -1,14 +1,16 @@
 var classSoftware_1_1SPI =
 [
-    [ "SPI", "d1/de2/classSoftware_1_1SPI.html#a4cc42c0e199cd78a7bea726c5360d15b", null ],
-    [ "acquire", "d1/de2/classSoftware_1_1SPI.html#a2c9153c935394a3cbd6139ab8378528f", null ],
-    [ "release", "d1/de2/classSoftware_1_1SPI.html#a36c42ad60752bd1c5981359a66a0bd67", null ],
+    [ "SPI", "d1/de2/classSoftware_1_1SPI.html#a5db3191f1a4eea285939ebb95393c8a7", null ],
+    [ "acquire", "d1/de2/classSoftware_1_1SPI.html#a5210da616e061b54a5324342af7d49bf", null ],
+    [ "release", "d1/de2/classSoftware_1_1SPI.html#aa2f890fccfd172ad94a156269c293fcb", null ],
     [ "transfer", "d1/de2/classSoftware_1_1SPI.html#ada9866a06205d51987e0a2dfb6db830c", null ],
-    [ "transfer", "d1/de2/classSoftware_1_1SPI.html#a7247ca7844e8f9b24d318c33cb9353bb", null ],
-    [ "m_cpha", "d1/de2/classSoftware_1_1SPI.html#a05f020b5e41ca433ba62f220c23ab5c1", null ],
-    [ "m_dev", "d1/de2/classSoftware_1_1SPI.html#a3abf83e4e80f22a388ebc858794e62e5", null ],
-    [ "m_miso", "d1/de2/classSoftware_1_1SPI.html#a138b84ef7fd75e3a9918b7b88ccdc31d", null ],
-    [ "m_mosi", "d1/de2/classSoftware_1_1SPI.html#a7ea433aa4f68e8f4055d120b7f730e48", null ],
-    [ "m_msbfirst", "d1/de2/classSoftware_1_1SPI.html#a1946f89b0552052818f47ba228f9217d", null ],
-    [ "m_scl", "d1/de2/classSoftware_1_1SPI.html#ad53b1dc35e7376c917f683920052bdc9", null ]
+    [ "transfer", "d1/de2/classSoftware_1_1SPI.html#a19178088a9f9afacd66b4b81dcd93c8a", null ],
+    [ "m_bitorder", "d1/de2/classSoftware_1_1SPI.html#adf98bbaac494639392e966612da7e4ed", null ],
+    [ "m_busy", "d1/de2/classSoftware_1_1SPI.html#a8bf6372dd955cbf220e900c70c7c4b54", null ],
+    [ "m_cpha", "d1/de2/classSoftware_1_1SPI.html#a69308ec30358a4d59191efb48d4835bc", null ],
+    [ "m_miso", "d1/de2/classSoftware_1_1SPI.html#ae5c861ee57b28809a3d5a52e0ac7155c", null ],
+    [ "m_mosi", "d1/de2/classSoftware_1_1SPI.html#a1f6dd766b9ab951b8f4f97060a37895c", null ],
+    [ "m_sck", "d1/de2/classSoftware_1_1SPI.html#ab9fda5916887ccefabf24f14bde71469", null ],
+    [ "MAX_FREQ", "d1/de2/classSoftware_1_1SPI.html#a4650a6fc3d39fef0a063b2c929185650", null ],
+    [ "MIN_PRESCALE", "d1/de2/classSoftware_1_1SPI.html#a4466bd684813f90e27ef91e49d844870", null ]
 ];
