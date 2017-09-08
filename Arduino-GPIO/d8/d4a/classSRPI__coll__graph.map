@@ -1,4 +1,4 @@
-<map id="SRPI&lt; DATA_PIN, CLOCK_PIN, BIT_ORDER &gt;" name="SRPI&lt; DATA_PIN, CLOCK_PIN, BIT_ORDER &gt;">
+<map id="SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;" name="SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;">
 <area shape="rect" id="node2" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; DATA_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="5,307,151,545"/>
 <area shape="rect" id="node3" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="111,5,229,244"/>
 <area shape="rect" id="node4" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; CLOCK_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="175,307,330,545"/>

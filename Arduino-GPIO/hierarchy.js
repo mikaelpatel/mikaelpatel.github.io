@@ -5,8 +5,8 @@ var hierarchy =
     [ "GPIO< CLOCK_PIN >", "d7/dde/classGPIO.html", null ],
     [ "GPIO< DATA_PIN >", "d7/dde/classGPIO.html", null ],
     [ "GPIO< TX_PIN >", "d7/dde/classGPIO.html", null ],
-    [ "SRPI< DATA_PIN, CLOCK_PIN, BIT_ORDER >", "d7/da4/classSRPI.html", null ],
-    [ "SRPO< DATA_PIN, CLOCK_PIN, BIT_ORDER >", "de/d8f/classSRPO.html", null ],
+    [ "SRPI< BITORDER, DATA_PIN, CLOCK_PIN >", "d7/da4/classSRPI.html", null ],
+    [ "SRPO< BITORDER, DATA_PIN, CLOCK_PIN >", "de/d8f/classSRPO.html", null ],
     [ "Stream", null, [
       [ "Software::Serial< TX_PIN >", "db/da5/classSoftware_1_1Serial.html", null ]
     ] ]

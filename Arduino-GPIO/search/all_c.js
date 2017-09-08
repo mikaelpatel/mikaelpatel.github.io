@@ -9,8 +9,8 @@ var searchData=
   ['shiftout_2eino',['ShiftOut.ino',['../d1/d63/ShiftOut_8ino.html',1,'']]],
   ['software',['Software',['../d3/db2/namespaceSoftware.html',1,'']]],
   ['softwareserial_2eino',['SoftwareSerial.ino',['../d8/d56/SoftwareSerial_8ino.html',1,'']]],
-  ['srpi',['SRPI',['../d7/da4/classSRPI.html',1,'SRPI&lt; DATA_PIN, CLOCK_PIN, BIT_ORDER &gt;'],['../d7/da4/classSRPI.html#a3d1315de733c8c61c5b41937cebb7f8f',1,'SRPI::SRPI()']]],
+  ['srpi',['SRPI',['../d7/da4/classSRPI.html',1,'SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../d7/da4/classSRPI.html#a3cbca333ccc5d392f29e9bf26548bfbb',1,'SRPI::SRPI()']]],
   ['srpi_2eh',['SRPI.h',['../d4/d2e/SRPI_8h.html',1,'']]],
-  ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; DATA_PIN, CLOCK_PIN, BIT_ORDER &gt;'],['../de/d8f/classSRPO.html#ae9fff0459661e3061e316175232da49e',1,'SRPO::SRPO()']]],
+  ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO::SRPO()']]],
   ['srpo_2eh',['SRPO.h',['../da/d82/SRPO_8h.html',1,'']]]
 ];
