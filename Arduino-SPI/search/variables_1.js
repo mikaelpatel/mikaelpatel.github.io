@@ -9,5 +9,5 @@ var searchData=
   ['m_5fspi',['m_spi',['../d5/d8d/classSPI_1_1Device.html#aeda6812f41fa1ead1b865730ace069d5',1,'SPI::Device']]],
   ['m_5fss',['m_ss',['../d9/db9/classHardware_1_1SPI.html#a9dfee161e4568b4c587755aca9d20908',1,'Hardware::SPI::m_ss()'],['../d5/d8d/classSPI_1_1Device.html#a05224d3c7f6c48a3f3a2ee359fad0d10',1,'SPI::Device::m_ss()']]],
   ['max_5ffreq',['MAX_FREQ',['../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650',1,'SPI']]],
-  ['min_5fprescale',['MIN_PRESCALE',['../da/d8d/classSPI.html#a4466bd684813f90e27ef91e49d844870',1,'SPI']]]
+  ['min_5fclock_5fscale',['MIN_CLOCK_SCALE',['../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0',1,'SPI']]]
 ];

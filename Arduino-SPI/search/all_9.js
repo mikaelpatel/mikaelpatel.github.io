@@ -14,5 +14,5 @@ var searchData=
   ['spi_2eh',['SPI.h',['../df/d73/SPI_8h.html',1,'']]],
   ['srpi',['srpi',['../d5/df7/ShiftIn_8ino.html#af18cf9fee6e15452e0254446f27f0268',1,'ShiftIn.ino']]],
   ['srpo',['srpo',['../d1/d63/ShiftOut_8ino.html#a8661338a9c3577d8e28fe2269f22b226',1,'ShiftOut.ino']]],
-  ['ss',['ss',['../d9/df4/HardwareSPI_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;HardwareSPI.ino'],['../d5/df7/ShiftIn_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftOut.ino'],['../dd/d8c/SoftwareSPI_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;SoftwareSPI.ino']]]
+  ['ss',['ss',['../d9/df4/HardwareSPI_8ino.html#a0df2c55fa220d2780ecd7cbd88f58b58',1,'ss():&#160;HardwareSPI.ino'],['../d5/df7/ShiftIn_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftOut.ino'],['../dd/d8c/SoftwareSPI_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;SoftwareSPI.ino']]]
 ];

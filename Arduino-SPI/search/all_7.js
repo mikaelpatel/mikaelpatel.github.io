@@ -10,7 +10,7 @@ var searchData=
   ['m_5fss',['m_ss',['../d9/db9/classHardware_1_1SPI.html#a9dfee161e4568b4c587755aca9d20908',1,'Hardware::SPI::m_ss()'],['../d5/d8d/classSPI_1_1Device.html#a05224d3c7f6c48a3f3a2ee359fad0d10',1,'SPI::Device::m_ss()']]],
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
   ['max_5ffreq',['MAX_FREQ',['../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650',1,'SPI']]],
-  ['min_5fprescale',['MIN_PRESCALE',['../da/d8d/classSPI.html#a4466bd684813f90e27ef91e49d844870',1,'SPI']]],
+  ['min_5fclock_5fscale',['MIN_CLOCK_SCALE',['../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0',1,'SPI']]],
   ['miso_5fpin',['MISO_PIN',['../d5/df7/ShiftIn_8ino.html#aecb75580e6d96b71a64123aee5bd3929',1,'MISO_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929',1,'MISO_PIN():&#160;ShiftOut.ino']]],
   ['mosi_5fpin',['MOSI_PIN',['../d5/df7/ShiftIn_8ino.html#a11338fccf824b29757c2b23edb0f690f',1,'MOSI_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a11338fccf824b29757c2b23edb0f690f',1,'MOSI_PIN():&#160;ShiftOut.ino']]]
 ];
