@@ -213,37 +213,54 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Two Wire AVR hardware status codes for Master. </p>
+<p>Status codes for Master Transmitter Mode. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a454b2fa5a3cee6ee68f2855a73a548ff"></a>START&#160;</td><td class="fielddoc">
-<p>General Status Codes. </p>
+<p>Start condition transmitted. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9aa532ec189e008ac33739ff5a3a18e90b"></a>REP_START&#160;</td><td class="fielddoc">
+<p>Repeated start transmitted. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9aac741307946f0151b5ca68ff539ecbd5"></a>ARB_LOST&#160;</td><td class="fielddoc">
+<p>Arbitration lost. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a6eeb9e150fdaeedfdb5159486c9f639b"></a>MT_SLA_ACK&#160;</td><td class="fielddoc">
-<p>Master Transmitter Mode. </p>
+<p>Slave address/write sent, ACK received. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a6f614af1a5ddfd7b7f1563e8c3e9e527"></a>MT_SLA_NACK&#160;</td><td class="fielddoc">
+<ul>
+<li>NACK received. </li>
+</ul>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a6fcea31e59f0a61b45ac234cbe96a1c0"></a>MT_DATA_ACK&#160;</td><td class="fielddoc">
+<p>Data write sent, ACK received. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9ae2b5e3668ccede4abdfbf1ad78aea2fe"></a>MT_DATA_NACK&#160;</td><td class="fielddoc">
+<ul>
+<li>NACK received. </li>
+</ul>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a8ae8c2f021246a9fc8fb91a8a5753dc9"></a>MR_SLA_ACK&#160;</td><td class="fielddoc">
-<p>Master Receiver Mode. </p>
+<p>Slave address/read sent, ACK received. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a684efbedcd3e45e85511473af5c7ca4f"></a>MR_SLA_NACK&#160;</td><td class="fielddoc">
+<ul>
+<li>NACK received. </li>
+</ul>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a4f98ea86fdf7dd7b39b88aa444e3fcd0"></a>MR_DATA_ACK&#160;</td><td class="fielddoc">
+<p>Data received, ACK sent. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a697dc670acc631d0589dddbfa1fbd358"></a>MR_DATA_NACK&#160;</td><td class="fielddoc">
+<ul>
+<li>NACK sent. </li>
+</ul>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9a51e343a9de43e12648a246090be44239"></a>MASK&#160;</td><td class="fielddoc">
-<p>Misc. </p>
+<p>Mask status code. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a898b9e56636a1bc35dc9d9f5863555c9ad3c04cbcc72dc66a4e8e09c843011a62"></a>BUS_ERROR&#160;</td><td class="fielddoc">
+<p>Bus error state. </p>
 </td></tr>
 </table>
 
@@ -342,7 +359,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html#l00178">178</a> of file <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -587,9 +604,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Transaction state. </p>
+<p>Start condition issued flag. </p>
 
-<p>Definition at line <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html#l00192">192</a> of file <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +619,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">TWI</a></li>
-    <li class="footer">Generated on Sat Sep 9 2017 22:41:23 for Arduino-TWI by
+    <li class="footer">Generated on Sat Sep 9 2017 22:54:20 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
