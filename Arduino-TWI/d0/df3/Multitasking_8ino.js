@@ -1,5 +1,6 @@
 var Multitasking_8ino =
 [
+    [ "USE_HARDWARE_TWI", "d0/df3/Multitasking_8ino.html#a248240da6ce45500d478b34487927df7", null ],
     [ "isotime", "d0/df3/Multitasking_8ino.html#a285b410da1133c8fe3153803d7b369fa", null ],
     [ "loop", "d0/df3/Multitasking_8ino.html#a17fac73d0574dcbca7f470887a6dd609", null ],
     [ "loop", "d0/df3/Multitasking_8ino.html#ad174db111ed8b949684269ae55ef5b36", null ],
@@ -10,5 +11,5 @@ var Multitasking_8ino =
     [ "DATA_MAX", "d0/df3/Multitasking_8ino.html#ae87435f596ea1c8ebd4de4efbb56a030", null ],
     [ "eeprom", "d0/df3/Multitasking_8ino.html#a28a98b829f397bd38433052ff220f8ec", null ],
     [ "rtc", "d0/df3/Multitasking_8ino.html#a3a9c16151cfd477efca6fe27230dad0b", null ],
-    [ "twi", "d0/df3/Multitasking_8ino.html#ad21d079e31d1cca74670c1629828f9d6", null ]
+    [ "twi", "d0/df3/Multitasking_8ino.html#a614aca0c7128f96290b0a5f34e028a62", null ]
 ];

@@ -7,5 +7,6 @@ var classTWI =
     [ "release", "d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc", null ],
     [ "write", "d1/deb/classTWI.html#aa872e1a3bb6278fcada89ca6d2d6ffaf", null ],
     [ "write", "d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c", null ],
+    [ "DEFAULT_FREQ", "d1/deb/classTWI.html#ac79663bcac606334f608a8f204a55bba", null ],
     [ "m_busy", "d1/deb/classTWI.html#abf04e1e808533a23e2092675828f4138", null ]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['wednesday',['WEDNESDAY',['../de/df7/time_8h.html#a99fb83031ce9923c84392b4e92f956b5a68288a23958cd9e1705fd81f0ee729c7',1,'time.h']]]
+  ['thursday',['THURSDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04ab4bfd6f883437c6cf31486dcf03ce0ff',1,'time.h']]],
+  ['tuesday',['TUESDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04a347c4455723bb1bc2709647607a2b282',1,'time.h']]]
 ];

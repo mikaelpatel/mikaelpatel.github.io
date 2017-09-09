@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "Hardware", "dd/d27/namespaceHardware.html", "dd/d27/namespaceHardware" ],
     [ "Software", "d3/db2/namespaceSoftware.html", "d3/db2/namespaceSoftware" ],
     [ "AT24C128", "dd/ded/classAT24C128.html", "dd/ded/classAT24C128" ],
     [ "AT24C256", "de/df6/classAT24C256.html", "de/df6/classAT24C256" ],
