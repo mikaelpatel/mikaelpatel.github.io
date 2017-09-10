@@ -2,9 +2,11 @@ var classHardware_1_1SPI =
 [
     [ "SPI", "d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238", null ],
     [ "acquire", "d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834", null ],
+    [ "read", "d9/db9/classHardware_1_1SPI.html#ab4a013a038feaae460ffad463791770a", null ],
     [ "release", "d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033", null ],
     [ "transfer", "d9/db9/classHardware_1_1SPI.html#ada9866a06205d51987e0a2dfb6db830c", null ],
     [ "transfer", "d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc", null ],
+    [ "write", "d9/db9/classHardware_1_1SPI.html#a1511f041b3bcdc5d3ab2c299966ea791", null ],
     [ "m_busy", "d9/db9/classHardware_1_1SPI.html#a171dc0e343c9f1dc95573c87ee98b693", null ],
     [ "m_miso", "d9/db9/classHardware_1_1SPI.html#a5945ebda926033b58683de631363ac8b", null ],
     [ "m_mosi", "d9/db9/classHardware_1_1SPI.html#a0e436733dd24b15d06cd86437ad2dcbd", null ],

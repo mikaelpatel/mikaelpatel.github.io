@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['transfer',['transfer',['../d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc',1,'Hardware::SPI::transfer()'],['../d1/de2/classSoftware_1_1SPI.html#a19178088a9f9afacd66b4b81dcd93c8a',1,'Software::SPI::transfer()'],['../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32',1,'SPI::transfer(uint8_t value)=0'],['../da/d8d/classSPI.html#ada9866a06205d51987e0a2dfb6db830c',1,'SPI::transfer(void *dest, const void *src, size_t count)'],['../d5/d8d/classSPI_1_1Device.html#aebaf7717c1755d4e8f29950388ffcab5',1,'SPI::Device::transfer(uint8_t value)'],['../d5/d8d/classSPI_1_1Device.html#a1beee8665022128f8d5c0ecc50feb366',1,'SPI::Device::transfer(void *dest, const void *src, size_t count)']]]
+  ['use_5fhardware_5fspi',['USE_HARDWARE_SPI',['../d2/d24/Benchmark_8ino.html#a813704601d65b8cceb4efc5f3355f29c',1,'Benchmark.ino']]],
+  ['use_5fsoftware_5fspi',['USE_SOFTWARE_SPI',['../d2/d24/Benchmark_8ino.html#adc58bc95f1a1e044149d907287cb79a1',1,'Benchmark.ino']]]
 ];

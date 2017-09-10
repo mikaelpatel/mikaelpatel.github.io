@@ -123,7 +123,7 @@ Inheritance diagram for Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;:</div
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d58/classSoftware_1_1SPI__inherit__graph.png" border="0" usemap="#Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_inherit__map" id="Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l}" alt="" coords="28,5,191,141"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="28,5,191,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -131,7 +131,7 @@ Collaboration diagram for Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;:</d
 <div class="dyncontent">
 <div class="center"><img src="../../d9/df7/classSoftware_1_1SPI__coll__graph.png" border="0" usemap="#Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_coll__map" id="Software_1_1SPI_3_01SCK__PIN_00_01MOSI__PIN_00_01MISO__PIN_01_4_coll__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l}" alt="" coords="28,5,191,141"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="28,5,191,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -147,6 +147,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a19178088a9f9afacd66b4b81dcd93c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9866a06205d51987e0a2dfb6db830c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#ada9866a06205d51987e0a2dfb6db830c">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
 <tr class="separator:ada9866a06205d51987e0a2dfb6db830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a013a038feaae460ffad463791770a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#ab4a013a038feaae460ffad463791770a">read</a> (void *buf, size_t count)</td></tr>
+<tr class="separator:ab4a013a038feaae460ffad463791770a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1511f041b3bcdc5d3ab2c299966ea791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a1511f041b3bcdc5d3ab2c299966ea791">write</a> (const void *buf, size_t count)</td></tr>
+<tr class="separator:a1511f041b3bcdc5d3ab2c299966ea791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -260,6 +264,49 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 
 </div>
 </div>
+<a class="anchor" id="ab4a013a038feaae460ffad463791770a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::read </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Read given number of bytes from device and store in buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00078">78</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa2f890fccfd172ad94a156269c293fcb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +374,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Send given number of bytes from source buffer to device. Store received bytes in destination buffer. A read operation may be performed by passing NULL as the source buffer. A write operation by passing NULL as the destination buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Transfer given number of bytes from source buffer to device. Store received bytes in destination buffer. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination buffer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source buffer. </td></tr>
@@ -336,7 +383,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00065">65</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -373,7 +420,50 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 
 <p>Implements <a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00085">85</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00086">86</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1511f041b3bcdc5d3ab2c299966ea791"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::write </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Write given number of bytes from buffer to device. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00090">90</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +489,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Serial data bitorder flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00129">129</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00130">130</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +514,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Bus manager semaphore. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00123">123</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -449,7 +539,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Clock phase flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00126">126</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00127">127</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +564,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Master Input Slave Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00120">120</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00121">121</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -499,7 +589,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Master Output Slave Input pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00117">117</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00118">118</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +614,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 </div><div class="memdoc">
 <p>Clock pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00114">114</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00115">115</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +673,7 @@ template&lt;BOARD::pin_t SCK_PIN, BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">SPI</a></li>
-    <li class="footer">Generated on Sat Sep 9 2017 14:49:58 for Arduino-SPI by
+    <li class="footer">Generated on Sun Sep 10 2017 14:12:31 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

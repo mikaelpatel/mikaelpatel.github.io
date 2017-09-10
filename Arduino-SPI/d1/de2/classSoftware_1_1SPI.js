@@ -2,9 +2,11 @@ var classSoftware_1_1SPI =
 [
     [ "SPI", "d1/de2/classSoftware_1_1SPI.html#a5db3191f1a4eea285939ebb95393c8a7", null ],
     [ "acquire", "d1/de2/classSoftware_1_1SPI.html#a5d9efcb239c0f1b3f9350c3926415190", null ],
+    [ "read", "d1/de2/classSoftware_1_1SPI.html#ab4a013a038feaae460ffad463791770a", null ],
     [ "release", "d1/de2/classSoftware_1_1SPI.html#aa2f890fccfd172ad94a156269c293fcb", null ],
     [ "transfer", "d1/de2/classSoftware_1_1SPI.html#ada9866a06205d51987e0a2dfb6db830c", null ],
     [ "transfer", "d1/de2/classSoftware_1_1SPI.html#a19178088a9f9afacd66b4b81dcd93c8a", null ],
+    [ "write", "d1/de2/classSoftware_1_1SPI.html#a1511f041b3bcdc5d3ab2c299966ea791", null ],
     [ "m_bitorder", "d1/de2/classSoftware_1_1SPI.html#adf98bbaac494639392e966612da7e4ed", null ],
     [ "m_busy", "d1/de2/classSoftware_1_1SPI.html#a8bf6372dd955cbf220e900c70c7c4b54", null ],
     [ "m_cpha", "d1/de2/classSoftware_1_1SPI.html#a69308ec30358a4d59191efb48d4835bc", null ],
