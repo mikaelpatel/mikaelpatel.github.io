@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$da/d8d/classSPI.html" title="SPI" alt="" coords="5,35,49,61"/>
-<area shape="rect" id="node2" href="$d9/db9/classHardware_1_1SPI.html" title="Hardware::SPI" alt="" coords="147,5,255,32"/>
-<area shape="rect" id="node3" href="$d1/de2/classSoftware_1_1SPI.html" title="Software::SPI\&lt; SCK\l_PIN, MOSI_PIN, MISO_PIN \&gt;" alt="" coords="97,57,305,98"/>
+<area shape="rect" id="node2" href="$d9/db9/classHardware_1_1SPI.html" title="Hardware::SPI" alt="" coords="145,5,253,32"/>
+<area shape="rect" id="node3" href="$d1/de2/classSoftware_1_1SPI.html" title="Software::SPI\&lt; MOSI\l_PIN, MISO_PIN, SCK_PIN \&gt;" alt="" coords="97,57,300,98"/>
 </map>

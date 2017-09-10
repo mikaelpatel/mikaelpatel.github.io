@@ -1,3 +1,3 @@
-<map id="Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;" name="Software::SPI&lt; SCK_PIN, MOSI_PIN, MISO_PIN &gt;">
-<area shape="rect" id="node2" href="$da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="28,5,191,171"/>
+<map id="Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;" name="Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;">
+<area shape="rect" id="node2" href="$da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="25,5,188,171"/>
 </map>
