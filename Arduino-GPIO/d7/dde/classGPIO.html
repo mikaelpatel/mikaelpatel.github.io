@@ -186,7 +186,7 @@ class GPIO&lt; PIN &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00031">31</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00051">51</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ac35e023bae28ad46ecb37332bbd09ff8"></a>
 <div class="memitem">
@@ -210,9 +210,9 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pin high(1). </p>
+<p>Set pin high(1). Shorthand for write(HIGH). </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00093">93</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00113">113</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -240,7 +240,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Set pin to input mode. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00036">36</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00056">56</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -268,7 +268,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Set pin to input mode and activate internal pullup resistor. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00045">45</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00065">65</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -294,9 +294,9 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pin low(0). </p>
+<p>Set pin low(0). Shorthand for write(LOW). </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00084">84</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00104">104</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -324,7 +324,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return current pin state. Shorthand for <a class="el" href="../../d7/dde/classGPIO.html#a5ab3564d920a2f65aa1fd68ac4061146">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>state. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00075">75</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00095">95</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -351,14 +351,14 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pin to given state. Non-zero value will set the pin high(1). Zero value will set the pin low(0). Sorthand for <a class="el" href="../../d7/dde/classGPIO.html#ab6f22dbed934955baa4a47e100bd72f7">write()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set pin to given state. Non-zero value will set the pin HIGH(1), and zero value will set the pin LOW(0). Sorthand for write(value). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to set pin. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00144">144</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +386,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Set pin to output mode. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00055">55</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00075">75</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +420,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00135">135</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00155">155</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -448,7 +448,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return current pin state. </p><dl class="section return"><dt>Returns</dt><dd>state. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00065">65</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00085">85</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -476,7 +476,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return pointer to pin control registers. </p><dl class="section return"><dt>Returns</dt><dd>pointer. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00159">159</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00181">181</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +504,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Toggle pin state. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00102">102</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00122">122</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -531,14 +531,14 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pin to given state. Non-zero value will set the pin high(1). Zero value will set the pin low(0). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set pin to given state. Non-zero value will set the pin HIGH(1), and zero value will set the pin LOW(0). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to set pin. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00113">113</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00133">133</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +564,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Pin bit position mask for control registers. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00166">166</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00188">188</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -577,7 +577,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a></li>
-    <li class="footer">Generated on Sat Sep 9 2017 14:52:32 for Arduino-GPIO by
+    <li class="footer">Generated on Mon Sep 11 2017 17:03:40 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clock_5fpin',['CLOCK_PIN',['../d5/df7/ShiftIn_8ino.html#a23b348310475af5d6544794f1a167ee8',1,'CLOCK_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8',1,'CLOCK_PIN():&#160;ShiftOut.ino']]]
+  ['button_5fpin',['BUTTON_PIN',['../d2/d24/Benchmark_8ino.html#abc2ad14f0789907024ac765711ffd3da',1,'Benchmark.ino']]]
 ];

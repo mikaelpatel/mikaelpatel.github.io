@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['data_5fpin',['DATA_PIN',['../d2/d24/Benchmark_8ino.html#adad67fe595ea440c8f8247ec2cddf070',1,'DATA_PIN():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#adad67fe595ea440c8f8247ec2cddf070',1,'DATA_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070',1,'DATA_PIN():&#160;ShiftOut.ino']]]
+  ['clock_5fpin',['CLOCK_PIN',['../d5/df7/ShiftIn_8ino.html#a23b348310475af5d6544794f1a167ee8',1,'CLOCK_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8',1,'CLOCK_PIN():&#160;ShiftOut.ino']]]
 ];

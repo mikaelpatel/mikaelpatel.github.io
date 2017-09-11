@@ -5,8 +5,8 @@ var indexSectionsWithContent =
   2: "s",
   3: "bgmps",
   4: "abhiloprstw",
-  5: "dlmops",
-  6: "cdl",
+  5: "bdlmops",
+  6: "bcdgl",
   7: "a"
 };
 

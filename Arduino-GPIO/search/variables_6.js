@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['t1',['T1',['../d0/dd0/classSoftware_1_1TWI.html#a69d23e86a5efeb6f33cfd916665177cb',1,'Software::TWI']]],
-  ['t2',['T2',['../d0/dd0/classSoftware_1_1TWI.html#ac6c47be9464e91f6a1e1b6acc97f4498',1,'Software::TWI']]],
-  ['twi',['twi',['../d1/dc7/SoftwareTWIScanner_8ino.html#ad21d079e31d1cca74670c1629828f9d6',1,'SoftwareTWIScanner.ino']]]
+  ['srpi',['srpi',['../d5/df7/ShiftIn_8ino.html#a280c8a23b78d6c0489fe430d010f17ae',1,'ShiftIn.ino']]],
+  ['srpo',['srpo',['../d1/d63/ShiftOut_8ino.html#a6dff5581e0b81ffa189cd1530ef71861',1,'ShiftOut.ino']]],
+  ['ss',['ss',['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]]
 ];
