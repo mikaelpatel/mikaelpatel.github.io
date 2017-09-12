@@ -1,0 +1,4 @@
+<map id="DHT22&lt; DATA_PIN &gt;" name="DHT22&lt; DATA_PIN &gt;">
+<area shape="rect" id="node2" href="$da/da7/classDHT.html" title="{DHT\&lt; DATA_PIN, 22 \&gt;\n|# m_data\l# m_humidity\l# m_temperature\l# START_SIGNAL\l# PULLUP\l# THRESHOLD\l|+ DHT()\l+ humidity()\l+ temperature()\l+ read()\l}" alt="" coords="23,263,186,457"/>
+<area shape="rect" id="node3" href="$da/da7/classDHT.html" title="{DHT\&lt; DATA_PIN, DEVICE \&gt;\n|# m_data\l# m_humidity\l# m_temperature\l# START_SIGNAL\l# PULLUP\l# THRESHOLD\l|+ DHT()\l+ humidity()\l+ temperature()\l+ read()\l}" alt="" coords="5,5,204,200"/>
+</map>

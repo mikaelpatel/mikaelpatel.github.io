@@ -1,0 +1,8 @@
+<map id="DHT&lt; DATA_PIN, DEVICE &gt;" name="DHT&lt; DATA_PIN, DEVICE &gt;">
+<area shape="rect" id="node2" href="$da/da7/classDHT.html" title="{DHT\&lt; DATA_PIN, 21 \&gt;\n|# m_data\l# m_humidity\l# m_temperature\l# START_SIGNAL\l# PULLUP\l# THRESHOLD\l|+ DHT()\l+ humidity()\l+ temperature()\l+ read()\l}" alt="" coords="5,263,168,457"/>
+<area shape="rect" id="node4" href="$da/da7/classDHT.html" title="{DHT\&lt; DATA_PIN, 22 \&gt;\n|# m_data\l# m_humidity\l# m_temperature\l# START_SIGNAL\l# PULLUP\l# THRESHOLD\l|+ DHT()\l+ humidity()\l+ temperature()\l+ read()\l}" alt="" coords="192,263,355,457"/>
+<area shape="rect" id="node6" href="$da/da7/classDHT.html" title="{DHT\&lt; DATA_PIN, 11 \&gt;\n|# m_data\l# m_humidity\l# m_temperature\l# START_SIGNAL\l# PULLUP\l# THRESHOLD\l|+ DHT()\l+ humidity()\l+ temperature()\l+ read()\l}" alt="" coords="379,263,541,457"/>
+<area shape="rect" id="node3" href="$d7/d86/classDHT21.html" title="{DHT21\&lt; DATA_PIN \&gt;\n||}" alt="" coords="9,507,164,584"/>
+<area shape="rect" id="node5" href="$dc/d88/classDHT22.html" title="{DHT22\&lt; DATA_PIN \&gt;\n||}" alt="" coords="196,507,351,584"/>
+<area shape="rect" id="node7" href="$d4/dd2/classDHT11.html" title="{DHT11\&lt; DATA_PIN \&gt;\n||}" alt="" coords="383,507,537,584"/>
+</map>
