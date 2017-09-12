@@ -1,0 +1,4 @@
+<map id="Si70XX" name="Si70XX">
+<area shape="rect" id="node2" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="57,233,153,384"/>
+<area shape="rect" id="node3" href="$d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="35,5,174,171"/>
+</map>

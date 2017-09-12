@@ -18,6 +18,7 @@ var hierarchy =
         [ "AT24C512", "de/dec/classAT24C512.html", null ],
         [ "AT24C64", "df/d74/classAT24C64.html", null ]
       ] ],
-      [ "DS1307", "d8/da8/classDS1307.html", null ]
+      [ "DS1307", "d8/da8/classDS1307.html", null ],
+      [ "Si70XX", "dd/d1e/classSi70XX.html", null ]
     ] ]
 ];

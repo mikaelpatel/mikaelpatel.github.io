@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operator_20uint8_5ft',['operator uint8_t',['../d5/d24/structbcd__t.html#aa2a207fa598fbe049f3d7a1bbb448528',1,'bcd_t::operator uint8_t()'],['../d1/dde/unionDS1307_1_1control__t.html#adc90e8183f901ee6f75ac24bec0fa32c',1,'DS1307::control_t::operator uint8_t()']]]
+  ['measure_5fhumidity',['measure_humidity',['../dd/d1e/classSi70XX.html#a13ec5787a0217f3416c6631a5b08b0b5',1,'Si70XX']]],
+  ['measure_5ftemperature',['measure_temperature',['../dd/d1e/classSi70XX.html#a1c15a83203f16a61665e06ec081f16d1',1,'Si70XX']]]
 ];
