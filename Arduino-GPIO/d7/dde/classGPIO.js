@@ -9,6 +9,7 @@ var classGPIO =
     [ "operator=", "d7/dde/classGPIO.html#a2abddc963c8d4ea00dae803cc98578f9", null ],
     [ "output", "d7/dde/classGPIO.html#a3c0b983f37a616d97108c0a1c365c750", null ],
     [ "pulse", "d7/dde/classGPIO.html#abdc842305057507ab349f68eee7dd15b", null ],
+    [ "pulse", "d7/dde/classGPIO.html#acf404ac425b2ff4b9b2b78f74b3ec33b", null ],
     [ "read", "d7/dde/classGPIO.html#a5ab3564d920a2f65aa1fd68ac4061146", null ],
     [ "SFR", "d7/dde/classGPIO.html#af5aefd8d2cd0365fc5e8275a7bca3a9d", null ],
     [ "toggle", "d7/dde/classGPIO.html#a84166f83d69d1fba5a3d14434d3ec4be", null ],

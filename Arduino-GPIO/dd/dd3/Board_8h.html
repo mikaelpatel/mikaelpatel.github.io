@@ -135,9 +135,15 @@ This graph shows which files directly or indirectly include this file:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a36b0c9354bf108ecd55012a617a91456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd3/Board_8h.html#a36b0c9354bf108ecd55012a617a91456">GPIO_PIN</a>(port,  pin)&#160;&#160;&#160;(((port) &lt;&lt; 4) | (pin))</td></tr>
 <tr class="separator:a36b0c9354bf108ecd55012a617a91456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2094a6d47cb5b86f14127624507b0141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd3/Board_8h.html#a2094a6d47cb5b86f14127624507b0141">GPIO_REG</a>(pin)&#160;&#160;&#160;(pin &gt;&gt; 4)</td></tr>
+<tr class="separator:a2094a6d47cb5b86f14127624507b0141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd933ece69e6d0feaff4431408230bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd3/Board_8h.html#afdd933ece69e6d0feaff4431408230bb">GPIO_ATOMIC_MAX</a>&#160;&#160;&#160;<a class="el" href="../../dd/dd3/Board_8h.html#a36b0c9354bf108ecd55012a617a91456">GPIO_PIN</a>(0x60,0)</td></tr>
+<tr class="separator:afdd933ece69e6d0feaff4431408230bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd3/Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(pin)&#160;&#160;&#160;_BV(pin &amp; 0xf)</td></tr>
+<tr class="separator:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.3</dd></dl>
+<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.4</dd></dl>
 <h1><a class="anchor" id="License"></a>
 License</h1>
 <p>Copyright (C) 2017, Mikael Patel</p>
@@ -146,6 +152,40 @@ License</h1>
 
 <p>Definition in file <a class="el" href="../../dd/dd3/Board_8h_source.html">Board.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="afdd933ece69e6d0feaff4431408230bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_ATOMIC_MAX&#160;&#160;&#160;<a class="el" href="../../dd/dd3/Board_8h.html#a36b0c9354bf108ecd55012a617a91456">GPIO_PIN</a>(0x60,0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum port control register address for atomic instructions. </p>
+
+<p>Definition at line <a class="el" href="../../dd/dd3/Board_8h_source.html#l00037">37</a> of file <a class="el" href="../../dd/dd3/Board_8h_source.html">Board.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1adc08cb1feab2c6ffc4ce1b852a1d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MASK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;_BV(pin &amp; 0xf)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return pin mask from board pin value. </p><dl class="section return"><dt>Returns</dt><dd>pin mask </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dd/dd3/Board_8h_source.html#l00043">43</a> of file <a class="el" href="../../dd/dd3/Board_8h_source.html">Board.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a36b0c9354bf108ecd55012a617a91456"></a>
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +209,7 @@ License</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Board pin values are constructed from port control register address (msb, bit 15..4) and pin bit position (lsb, bit 3..0). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Board pin values are bit-pointers and constructed from port control register address and pin bit position. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">port</td><td>control register address. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">pin</td><td>pin bit position in control register. </td></tr>
@@ -181,13 +221,32 @@ License</h1>
 
 </div>
 </div>
+<a class="anchor" id="a2094a6d47cb5b86f14127624507b0141"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_REG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;(pin &gt;&gt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return port control register address from board pin value. </p><dl class="section return"><dt>Returns</dt><dd>io port address </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dd/dd3/Board_8h_source.html#l00034">34</a> of file <a class="el" href="../../dd/dd3/Board_8h_source.html">Board.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dd/dd3/Board_8h.html">Board.h</a></li>
-    <li class="footer">Generated on Mon Sep 11 2017 17:23:27 for Arduino-GPIO by
+    <li class="footer">Generated on Tue Sep 12 2017 22:04:08 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

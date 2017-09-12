@@ -124,15 +124,17 @@ Inheritance diagram for GPIO&lt; PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d50/classGPIO__inherit__graph.png" border="0" usemap="#GPIO_3_01PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="GPIO_3_01PIN_01_4_inherit__map" id="GPIO_3_01PIN_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="5,307,132,545"/>
-<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; CLOCK_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="157,307,311,545"/>
-<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; DATA_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l# SFR()\l}" alt="" coords="336,307,481,545"/>
+<area shape="rect" id="node2" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l+ pulse()\l# SFR()\l}" alt="" coords="5,321,132,575"/>
+<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; CLOCK_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l+ pulse()\l# SFR()\l}" alt="" coords="157,321,311,575"/>
+<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; DATA_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l+ pulse()\l# SFR()\l}" alt="" coords="336,321,481,575"/>
 </map>
 </div>
 <div class="dynheader">
 Collaboration diagram for GPIO&lt; PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/dd2/classGPIO__coll__graph.png" border="0" usemap="#GPIO_3_01PIN_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="GPIO_3_01PIN_01_4_coll__map" id="GPIO_3_01PIN_01_4_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -164,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2abddc963c8d4ea00dae803cc98578f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdc842305057507ab349f68eee7dd15b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/classGPIO.html#abdc842305057507ab349f68eee7dd15b">pulse</a> (uint16_t width)</td></tr>
 <tr class="separator:abdc842305057507ab349f68eee7dd15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf404ac425b2ff4b9b2b78f74b3ec33b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/classGPIO.html#acf404ac425b2ff4b9b2b78f74b3ec33b">pulse</a> ()</td></tr>
+<tr class="separator:acf404ac425b2ff4b9b2b78f74b3ec33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -172,7 +176,7 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:a4fcdf6f25ea9cddbd2508145cc9a4076"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/classGPIO.html#a4fcdf6f25ea9cddbd2508145cc9a4076">MASK</a> = _BV(PIN &amp; 0xf)</td></tr>
+<tr class="memitem:a4fcdf6f25ea9cddbd2508145cc9a4076"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/classGPIO.html#a4fcdf6f25ea9cddbd2508145cc9a4076">MASK</a> = <a class="el" href="../../dd/dd3/Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(PIN)</td></tr>
 <tr class="separator:a4fcdf6f25ea9cddbd2508145cc9a4076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -351,7 +355,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Set pin to given state. Non-zero value will set the pin HIGH(1), and zero value will set the pin LOW(0). Sorthand for write(value). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Set pin to given state. Non-zero value will set the pin HIGH(1), and zero value will set the pin LOW(0). Shorthand for write(value). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to set pin. </td></tr>
   </table>
@@ -424,6 +428,34 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="acf404ac425b2ff4b9b2b78f74b3ec33b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;BOARD::pin_t PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; PIN &gt;::pulse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Detect pulse and return width in micro-seconds. </p><dl class="section return"><dt>Returns</dt><dd>width in micro-seconds. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00172">172</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5ab3564d920a2f65aa1fd68ac4061146"></a>
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +508,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return pointer to pin control registers. </p><dl class="section return"><dt>Returns</dt><dd>pointer. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00181">181</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00193">193</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +585,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint8_t <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; PIN &gt;::MASK = _BV(PIN &amp; 0xf)</td>
+          <td class="memname">const uint8_t <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; PIN &gt;::MASK = <a class="el" href="../../dd/dd3/Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(PIN)</td>
         </tr>
       </table>
   </td>
@@ -564,7 +596,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Pin bit position mask for control registers. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00188">188</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00200">200</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
 </div>
 </div>
@@ -577,7 +609,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a></li>
-    <li class="footer">Generated on Mon Sep 11 2017 17:23:27 for Arduino-GPIO by
+    <li class="footer">Generated on Tue Sep 12 2017 22:04:08 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
