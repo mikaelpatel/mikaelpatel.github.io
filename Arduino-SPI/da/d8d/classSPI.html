@@ -123,8 +123,7 @@ Inheritance diagram for SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/dfa/classSPI__inherit__graph.png" border="0" usemap="#SPI_inherit__map" alt="Inheritance graph"/></div>
 <map name="SPI_inherit__map" id="SPI_inherit__map">
-<area shape="rect" id="node2" href="../../d9/db9/classHardware_1_1SPI.html" title="{Hardware::SPI\n|# m_busy\l# m_ss\l# m_sck\l# m_mosi\l# m_miso\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,233,113,413"/>
-<area shape="rect" id="node3" href="../../d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; MOSI\l_PIN, MISO_PIN, SCK_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="138,219,341,428"/>
+<area shape="rect" id="node2" href="../../d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; MOSI\l_PIN, MISO_PIN, SCK_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="5,219,208,428"/>
 </map>
 </div>
 <div class="dynheader">
@@ -146,12 +145,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa8753d4730ab2daa3a1f093ef5f88f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af406d08c6c5234634daaf1e590997e32"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">transfer</a> (uint8_t value)=0</td></tr>
 <tr class="separator:af406d08c6c5234634daaf1e590997e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada9866a06205d51987e0a2dfb6db830c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#ada9866a06205d51987e0a2dfb6db830c">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
-<tr class="separator:ada9866a06205d51987e0a2dfb6db830c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4a013a038feaae460ffad463791770a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#ab4a013a038feaae460ffad463791770a">read</a> (void *buf, size_t count)</td></tr>
-<tr class="separator:ab4a013a038feaae460ffad463791770a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1511f041b3bcdc5d3ab2c299966ea791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a1511f041b3bcdc5d3ab2c299966ea791">write</a> (const void *buf, size_t count)</td></tr>
-<tr class="separator:a1511f041b3bcdc5d3ab2c299966ea791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f8dcf090c3e97af7c1f0e228a4723f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a83f8dcf090c3e97af7c1f0e228a4723f">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
+<tr class="separator:a83f8dcf090c3e97af7c1f0e228a4723f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800703e9e3bc12de9577e32e44988a78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78">read</a> (void *buf, size_t count)</td></tr>
+<tr class="separator:a800703e9e3bc12de9577e32e44988a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3848c8f7c74e59e9f14ebf50a4ce8dcf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf">write</a> (const void *buf, size_t count)</td></tr>
+<tr class="separator:a3848c8f7c74e59e9f14ebf50a4ce8dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -211,11 +210,11 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a2138f14fb1513b2055203edf1dfc45aa">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>, and <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834">Hardware::SPI</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a2138f14fb1513b2055203edf1dfc45aa">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab4a013a038feaae460ffad463791770a"></a>
+<a class="anchor" id="a800703e9e3bc12de9577e32e44988a78"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,7 +222,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SPI::read </td>
+          <td class="memname">virtual void SPI::read </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -242,7 +241,7 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -254,7 +253,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00078">78</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00080">80</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +279,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Release bus access. </p>
 
-<p>Implemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033">Hardware::SPI</a>, and <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
 
 </div>
 </div>
@@ -313,11 +312,11 @@ Static Public Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>received value. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc">Hardware::SPI</a>, and <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#afea27059321cecddf3adda5f7b9687b5">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#afea27059321cecddf3adda5f7b9687b5">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ada9866a06205d51987e0a2dfb6db830c"></a>
+<a class="anchor" id="a83f8dcf090c3e97af7c1f0e228a4723f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -325,7 +324,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SPI::transfer </td>
+          <td class="memname">virtual void SPI::transfer </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -350,7 +349,7 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -363,11 +362,11 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00065">65</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00066">66</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1511f041b3bcdc5d3ab2c299966ea791"></a>
+<a class="anchor" id="a3848c8f7c74e59e9f14ebf50a4ce8dcf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -375,7 +374,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SPI::write </td>
+          <td class="memname">virtual void SPI::write </td>
           <td>(</td>
           <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
@@ -394,7 +393,7 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -406,7 +405,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00090">90</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00093">93</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -466,7 +465,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d8d/classSPI.html">SPI</a></li>
-    <li class="footer">Generated on Sun Sep 10 2017 17:36:54 for Arduino-SPI by
+    <li class="footer">Generated on Wed Sep 13 2017 14:48:23 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
