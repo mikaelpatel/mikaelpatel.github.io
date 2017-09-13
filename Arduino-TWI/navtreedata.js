@@ -38,7 +38,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"dd/da4/Scanner_8ino_source.html"
+"dd/d1d/classHardware_1_1TWI.html#a898b9e56636a1bc35dc9d9f5863555c9a6f614af1a5ddfd7b7f1563e8c3e9e527"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

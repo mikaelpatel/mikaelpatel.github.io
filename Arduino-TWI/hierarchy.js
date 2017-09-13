@@ -5,6 +5,7 @@ var hierarchy =
     [ "DS1307::rtc_t", "d7/df4/structDS1307_1_1rtc__t.html", null ],
     [ "DS1307::timekeeper_t", "d7/d41/structDS1307_1_1timekeeper__t.html", null ],
     [ "iovec_t", "d1/db7/structiovec__t.html", null ],
+    [ "PCF8574::GPIO< PIN >", "d9/db3/classPCF8574_1_1GPIO.html", null ],
     [ "tm", "d8/d5a/structtm.html", null ],
     [ "TWI", "d1/deb/classTWI.html", [
       [ "Hardware::TWI", "dd/d1d/classHardware_1_1TWI.html", null ],
@@ -19,6 +20,9 @@ var hierarchy =
         [ "AT24C64", "df/d74/classAT24C64.html", null ]
       ] ],
       [ "DS1307", "d8/da8/classDS1307.html", null ],
+      [ "PCF8574", "d1/da6/classPCF8574.html", [
+        [ "PCF8574A", "d5/d23/classPCF8574A.html", null ]
+      ] ],
       [ "Si70XX", "dd/d1e/classSi70XX.html", null ]
     ] ]
 ];

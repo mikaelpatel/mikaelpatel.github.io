@@ -11,6 +11,8 @@ var annotated_dup =
     [ "bcd_t", "d5/d24/structbcd__t.html", "d5/d24/structbcd__t" ],
     [ "DS1307", "d8/da8/classDS1307.html", "d8/da8/classDS1307" ],
     [ "iovec_t", "d1/db7/structiovec__t.html", "d1/db7/structiovec__t" ],
+    [ "PCF8574", "d1/da6/classPCF8574.html", "d1/da6/classPCF8574" ],
+    [ "PCF8574A", "d5/d23/classPCF8574A.html", "d5/d23/classPCF8574A" ],
     [ "Si70XX", "dd/d1e/classSi70XX.html", "dd/d1e/classSi70XX" ],
     [ "tm", "d8/d5a/structtm.html", "d8/d5a/structtm" ],
     [ "TWI", "d1/deb/classTWI.html", "d1/deb/classTWI" ]
