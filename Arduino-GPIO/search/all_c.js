@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['sck',['SCK',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a02eaa2b1f90ec5c0d06869e08492a74a',1,'BOARD']]],
+  ['scl',['SCL',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a0f83a9e4d74562648993f29881a45e7d',1,'BOARD']]],
+  ['sda',['SDA',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a5127808483465b14cf28411de091f2b4',1,'BOARD']]],
   ['serial',['Serial',['../db/da5/classSoftware_1_1Serial.html',1,'Software']]],
   ['serial',['Serial',['../db/da5/classSoftware_1_1Serial.html#a694ade4d4f6390f2b2e509a23961b03a',1,'Software::Serial']]],
   ['serial_2eh',['Serial.h',['../d7/dae/Serial_8h.html',1,'']]],
@@ -13,5 +16,5 @@ var searchData=
   ['srpi_2eh',['SRPI.h',['../d4/d2e/SRPI_8h.html',1,'']]],
   ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO::SRPO()'],['../d1/d63/ShiftOut_8ino.html#a6dff5581e0b81ffa189cd1530ef71861',1,'srpo():&#160;ShiftOut.ino']]],
   ['srpo_2eh',['SRPO.h',['../da/d82/SRPO_8h.html',1,'']]],
-  ['ss',['ss',['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]]
+  ['ss',['SS',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976ae3525ca24a8f63b7bbc71a0cabbd1733',1,'BOARD::SS()'],['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]]
 ];

@@ -133,8 +133,6 @@ Inheritance diagram for GPIO&lt; PIN &gt;:</div>
 Collaboration diagram for GPIO&lt; PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/dd2/classGPIO__coll__graph.png" border="0" usemap="#GPIO_3_01PIN_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="GPIO_3_01PIN_01_4_coll__map" id="GPIO_3_01PIN_01_4_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -183,7 +181,7 @@ Static Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;BOARD::pin_t PIN&gt;<br />
 class GPIO&lt; PIN &gt;</h3>
 
-<p>General Purpose Digital I/O pin template class. Highly optimized pin access. The PIN address is 12-bit control register address (msb) and 4-bit bit number (lsb). See <a class="el" href="../../dd/dd3/Board_8h.html">Board.h</a> for definitions. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>General Purpose Digital I/O pin template class. Highly optimized pin access. The PIN address is bit pointer to the port control register and pin bit position. See <a class="el" href="../../dd/dd3/Board_8h.html">Board.h</a> for details. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">PIN</td><td>board pin definition. </td></tr>
   </table>
@@ -506,7 +504,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return pointer to pin control registers. </p><dl class="section return"><dt>Returns</dt><dd>pointer. </dd></dl>
+<p>Return pointer to control registers. </p><dl class="section return"><dt>Returns</dt><dd>pointer. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00193">193</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
@@ -534,7 +532,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Toggle pin state. </p>
+<p>Toggle pin state. Shorthand for write(!read()). </p>
 
 <p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00122">122</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
@@ -594,7 +592,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Pin bit position mask for control registers. </p>
+<p>Pin bit position mask in control registers. </p>
 
 <p>Definition at line <a class="el" href="../../dc/dbe/GPIO_8h_source.html#l00200">200</a> of file <a class="el" href="../../dc/dbe/GPIO_8h_source.html">GPIO.h</a>.</p>
 
@@ -609,7 +607,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a></li>
-    <li class="footer">Generated on Tue Sep 12 2017 22:04:08 for Arduino-GPIO by
+    <li class="footer">Generated on Wed Sep 13 2017 14:59:36 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
