@@ -1,5 +1,3 @@
 <map id="examples/SoftwareSerial/SoftwareSerial.ino" name="examples/SoftwareSerial/SoftwareSerial.ino">
-<area shape="rect" id="node2" href="$dc/dbe/GPIO_8h.html" title="GPIO.h" alt="" coords="55,169,122,196"/>
-<area shape="rect" id="node4" href="$d7/dae/Serial_8h.html" title="Software/Serial.h" alt="" coords="77,95,199,121"/>
-<area shape="rect" id="node3" href="$dd/dd3/Board_8h.html" title="Board.h" alt="" coords="55,244,122,271"/>
+<area shape="rect" id="node3" href="$d7/dae/Serial_8h.html" title="Software/Serial.h" alt="" coords="77,95,199,121"/>
 </map>

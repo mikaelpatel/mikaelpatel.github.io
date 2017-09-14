@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['operator_20bool',['operator bool',['../d7/dde/classGPIO.html#aacaa2b56ea6dfc8b58fc3a1b636330af',1,'GPIO::operator bool()'],['../db/da5/classSoftware_1_1Serial.html#a714b0e74ad67f57a389e81ff2d688ca1',1,'Software::Serial::operator bool()']]],
-  ['operator_3c_3c',['operator&lt;&lt;',['../de/d8f/classSRPO.html#a8b4d008813b5c1ec2d7ceeba2b2c8496',1,'SRPO']]],
-  ['operator_3d',['operator=',['../d7/dde/classGPIO.html#a2abddc963c8d4ea00dae803cc98578f9',1,'GPIO']]],
-  ['operator_3e_3e',['operator&gt;&gt;',['../d7/da4/classSRPI.html#ae7d9153b98f51e975fa8402a0713d68b',1,'SRPI']]],
-  ['output',['output',['../d7/dde/classGPIO.html#a3c0b983f37a616d97108c0a1c365c750',1,'GPIO']]],
-  ['outs',['outs',['../d8/d56/SoftwareSerial_8ino.html#aa0c3a29ca01eafc2d1d233e8720cc0b0',1,'SoftwareSerial.ino']]]
+  ['m_5fclock',['m_clock',['../d7/da4/classSRPI.html#a8ca93ee84be6ad0f7d9f964bd261e89c',1,'SRPI::m_clock()'],['../de/d8f/classSRPO.html#a49c7cc800c4475581a7f84ee720e7f78',1,'SRPO::m_clock()']]],
+  ['m_5fcount',['m_count',['../db/da5/classSoftware_1_1Serial.html#af1db92247662b7f5ab4b7d138a37e3f1',1,'Software::Serial']]],
+  ['m_5fdata',['m_data',['../d7/da4/classSRPI.html#a9fb95eeebed45c857a2ab34dd5e4becd',1,'SRPI::m_data()'],['../de/d8f/classSRPO.html#aae3c8e9ee2c9fd581215886d0583257a',1,'SRPO::m_data()']]],
+  ['m_5ftx',['m_tx',['../db/da5/classSoftware_1_1Serial.html#a3e044da32e5bc5a8b5c70e9e27c12ada',1,'Software::Serial']]],
+  ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
+  ['mask',['MASK',['../d7/dde/classGPIO.html#a4fcdf6f25ea9cddbd2508145cc9a4076',1,'GPIO::MASK()'],['../d7/dde/classGPIO.html#acfa6bc17cc21e97d6e2dd3232295653a',1,'GPIO::MASK()']]],
+  ['miso',['MISO',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a2b5a415a6bbd16abdbca1a218e96eb7e',1,'BOARD']]],
+  ['mosi',['MOSI',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976aed876c3551f302a08143a028096d3eac',1,'BOARD']]]
 ];

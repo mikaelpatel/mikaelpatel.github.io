@@ -121,14 +121,16 @@ $(document).ready(function(){initNavTree('db/da5/classSoftware_1_1Serial.html','
 Inheritance diagram for Software::Serial&lt; TX_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/d30/classSoftware_1_1Serial__inherit__graph.png" border="0" usemap="#Software_1_1Serial_3_01TX__PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="Software_1_1Serial_3_01TX__PIN_01_4_inherit__map" id="Software_1_1Serial_3_01TX__PIN_01_4_inherit__map">
+</map>
 </div>
 <div class="dynheader">
 Collaboration diagram for Software::Serial&lt; TX_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/da2/classSoftware_1_1Serial__coll__graph.png" border="0" usemap="#Software_1_1Serial_3_01TX__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="Software_1_1Serial_3_01TX__PIN_01_4_coll__map" id="Software_1_1Serial_3_01TX__PIN_01_4_coll__map">
-<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l+ pulse()\l# SFR()\l}" alt="" coords="94,321,221,575"/>
-<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\l+ pulse()\l+ pulse()\l# SFR()\l}" alt="" coords="99,5,216,259"/>
+<area shape="rect" id="node3" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ input()\l+ input_pullup()\l+ input_pullup()\l+ output()\l+ output()\l+ read()\l+ read()\l+ operator bool()\l+ operator bool()\land 15 more...\l# SFR()\l# SFR()\l}" alt="" coords="94,336,221,604"/>
+<area shape="rect" id="node4" href="../../d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\land 15 more...\l# SFR()\l# SFR()\l}" alt="" coords="99,5,216,273"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -148,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af6e5c918bd38edfd93f211ba8600d63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac25e583d87b35c880700ac81b414e0c6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da5/classSoftware_1_1Serial.html#ac25e583d87b35c880700ac81b414e0c6">read</a> ()</td></tr>
 <tr class="separator:ac25e583d87b35c880700ac81b414e0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715d84a98bfa5b168a7d7e95d169763f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da5/classSoftware_1_1Serial.html#a715d84a98bfa5b168a7d7e95d169763f">flush</a> ()</td></tr>
+<tr class="separator:a715d84a98bfa5b168a7d7e95d169763f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -216,7 +220,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Returns always zero(0) as this stream is output only. </p><dl class="section return"><dt>Returns</dt><dd>zero(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00091">91</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00099">99</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -254,6 +258,34 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a715d84a98bfa5b168a7d7e95d169763f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;BOARD::pin_t TX_PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../db/da5/classSoftware_1_1Serial.html">Software::Serial</a>&lt; TX_PIN &gt;::flush </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Output only stream. </p>
+
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00128">128</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a714b0e74ad67f57a389e81ff2d688ca1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -278,7 +310,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Check if <a class="el" href="../../db/da5/classSoftware_1_1Serial.html">Serial</a> is ready (see Arduino/HardwareSerial). </p><dl class="section return"><dt>Returns</dt><dd>true(1); </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00059">59</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00063">63</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -306,7 +338,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Returns always error code(-1) as this stream is output only. </p><dl class="section return"><dt>Returns</dt><dd>error code(-1); </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00101">101</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00109">109</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -334,7 +366,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Returns always error code(-1) as this stream is output only. </p><dl class="section return"><dt>Returns</dt><dd>error code(-1); </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00111">111</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00119">119</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -369,7 +401,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes transmitted(1). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00072">72</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00076">76</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -395,7 +427,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Bit delay counter for given baudrate. </p>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00121">121</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00137">137</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +452,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 </div><div class="memdoc">
 <p>Asynchronous <a class="el" href="../../db/da5/classSoftware_1_1Serial.html">Serial</a> Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00118">118</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/dae/Serial_8h_source.html#l00134">134</a> of file <a class="el" href="../../d7/dae/Serial_8h_source.html">Serial.h</a>.</p>
 
 </div>
 </div>
@@ -433,7 +465,7 @@ template&lt;BOARD::pin_t TX_PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../db/da5/classSoftware_1_1Serial.html">Serial</a></li>
-    <li class="footer">Generated on Wed Sep 13 2017 15:04:43 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 14 2017 18:15:46 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

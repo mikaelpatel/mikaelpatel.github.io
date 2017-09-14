@@ -1,11 +1,6 @@
 <map id="src/GPIO.h" name="src/GPIO.h">
-<area shape="rect" id="node2" href="$d7/dae/Serial_8h.html" title="src/Software/Serial.h" alt="" coords="14,87,158,114"/>
-<area shape="rect" id="node3" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="5,169,172,211"/>
-<area shape="rect" id="node4" href="$d4/d2e/SRPI_8h.html" title="src/SRPI.h" alt="" coords="233,87,320,114"/>
-<area shape="rect" id="node5" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="201,177,384,203"/>
-<area shape="rect" id="node6" href="$da/d82/SRPO_8h.html" title="src/SRPO.h" alt="" coords="395,87,489,114"/>
-<area shape="rect" id="node7" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="421,177,623,203"/>
-<area shape="rect" id="node8" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="564,80,712,121"/>
-<area shape="rect" id="node9" href="$d7/d9d/Blink_8ino.html" title="examples/Blink/Blink.ino" alt="" coords="737,87,902,114"/>
-<area shape="rect" id="node10" href="$d9/dd9/Pulse_8ino.html" title="examples/Pulse/Pulse.ino" alt="" coords="926,87,1099,114"/>
+<area shape="rect" id="node2" href="$d4/d2e/SRPI_8h.html" title="src/SRPI.h" alt="" coords="79,80,165,107"/>
+<area shape="rect" id="node4" href="$da/d82/SRPO_8h.html" title="src/SRPO.h" alt="" coords="241,80,334,107"/>
+<area shape="rect" id="node3" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node5" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="213,155,415,181"/>
 </map>
