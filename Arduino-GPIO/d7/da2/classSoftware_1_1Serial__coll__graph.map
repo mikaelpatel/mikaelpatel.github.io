@@ -1,4 +1,4 @@
 <map id="Software::Serial&lt; TX_PIN &gt;" name="Software::Serial&lt; TX_PIN &gt;">
-<area shape="rect" id="node3" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ input()\l+ input_pullup()\l+ input_pullup()\l+ output()\l+ output()\l+ read()\l+ read()\l+ operator bool()\l+ operator bool()\land 15 more...\l# SFR()\l# SFR()\l}" alt="" coords="94,336,221,604"/>
-<area shape="rect" id="node4" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ input_pullup()\l+ output()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\l+ operator=()\land 15 more...\l# SFR()\l# SFR()\l}" alt="" coords="99,5,216,273"/>
+<area shape="rect" id="node3" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; TX_PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ input()\l+ pullup()\l+ pullup()\l+ output()\l+ output()\l+ open_collector()\l+ open_collector()\l+ read()\l+ read()\land 17 more...\l# SFR()\l# SFR()\l# ID_PIO()\l}" alt="" coords="94,351,221,633"/>
+<area shape="rect" id="node4" href="$d7/dde/classGPIO.html" title="{GPIO\&lt; PIN \&gt;\n|# MASK\l# MASK\l|+ input()\l+ pullup()\l+ output()\l+ open_collector()\l+ read()\l+ operator bool()\l+ low()\l+ high()\l+ toggle()\l+ write()\land 17 more...\l# SFR()\l# SFR()\l# ID_PIO()\l}" alt="" coords="94,5,221,288"/>
 </map>

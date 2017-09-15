@@ -133,13 +133,13 @@ This graph shows which files directly or indirectly include this file:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a179f18ea99a7a0c4e6c66aa21b7f6e2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a179f18ea99a7a0c4e6c66aa21b7f6e2d">GPIO_PIN</a>(index,  pin)&#160;&#160;&#160;(((index) &lt;&lt; 8) | (pin))</td></tr>
 <tr class="separator:a179f18ea99a7a0c4e6c66aa21b7f6e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2094a6d47cb5b86f14127624507b0141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a2094a6d47cb5b86f14127624507b0141">GPIO_REG</a>(pin)&#160;&#160;&#160;(pin &gt;&gt; 8)</td></tr>
+<tr class="memitem:a2094a6d47cb5b86f14127624507b0141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a2094a6d47cb5b86f14127624507b0141">GPIO_REG</a>(pin)&#160;&#160;&#160;((pin) &gt;&gt; 8)</td></tr>
 <tr class="separator:a2094a6d47cb5b86f14127624507b0141"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbe/SAM_2Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(pin)&#160;&#160;&#160;(1U &lt;&lt; ((pin) &amp; 0xff))</td></tr>
 <tr class="separator:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.0</dd></dl>
+<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.1</dd></dl>
 <h1><a class="anchor" id="License"></a>
 License</h1>
 <p>Copyright (C) 2017, Mikael Patel</p>
@@ -211,7 +211,7 @@ License</h1>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pin</td><td>)</td>
-          <td>&#160;&#160;&#160;(pin &gt;&gt; 8)</td>
+          <td>&#160;&#160;&#160;((pin) &gt;&gt; 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +227,7 @@ License</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_392e5fed41b2de721750e308647dcb9c.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dir_2e19a033224759f325d9317dac2b0525.html">SAM</a></li><li class="navelem"><a class="el" href="../../d4/dbe/SAM_2Board_8h.html">Board.h</a></li>
-    <li class="footer">Generated on Thu Sep 14 2017 18:15:46 for Arduino-GPIO by
+    <li class="footer">Generated on Fri Sep 15 2017 15:30:03 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

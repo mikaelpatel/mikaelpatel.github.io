@@ -132,11 +132,11 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a36b0c9354bf108ecd55012a617a91456"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#a36b0c9354bf108ecd55012a617a91456">GPIO_PIN</a>(port,  pin)&#160;&#160;&#160;(((port) &lt;&lt; 4) | (pin))</td></tr>
 <tr class="separator:a36b0c9354bf108ecd55012a617a91456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2094a6d47cb5b86f14127624507b0141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#a2094a6d47cb5b86f14127624507b0141">GPIO_REG</a>(pin)&#160;&#160;&#160;(pin &gt;&gt; 4)</td></tr>
+<tr class="memitem:a2094a6d47cb5b86f14127624507b0141"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#a2094a6d47cb5b86f14127624507b0141">GPIO_REG</a>(pin)&#160;&#160;&#160;((pin) &gt;&gt; 4)</td></tr>
 <tr class="separator:a2094a6d47cb5b86f14127624507b0141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdd933ece69e6d0feaff4431408230bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#afdd933ece69e6d0feaff4431408230bb">GPIO_ATOMIC_MAX</a>&#160;&#160;&#160;<a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a179f18ea99a7a0c4e6c66aa21b7f6e2d">GPIO_PIN</a>(0x60,0)</td></tr>
+<tr class="memitem:afdd933ece69e6d0feaff4431408230bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#afdd933ece69e6d0feaff4431408230bb">GPIO_ATOMIC_MAX</a>&#160;&#160;&#160;<a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a179f18ea99a7a0c4e6c66aa21b7f6e2d">GPIO_PIN</a>(0x40,0)</td></tr>
 <tr class="separator:afdd933ece69e6d0feaff4431408230bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(pin)&#160;&#160;&#160;_BV(pin &amp; 0xf)</td></tr>
+<tr class="memitem:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html#af1adc08cb1feab2c6ffc4ce1b852a1d3">GPIO_MASK</a>(pin)&#160;&#160;&#160;_BV((pin) &amp; 0xf)</td></tr>
 <tr class="separator:af1adc08cb1feab2c6ffc4ce1b852a1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -145,11 +145,11 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GPIO_ATOMIC_MAX&#160;&#160;&#160;<a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a179f18ea99a7a0c4e6c66aa21b7f6e2d">GPIO_PIN</a>(0x60,0)</td>
+          <td class="memname">#define GPIO_ATOMIC_MAX&#160;&#160;&#160;<a class="el" href="../../d4/dbe/SAM_2Board_8h.html#a179f18ea99a7a0c4e6c66aa21b7f6e2d">GPIO_PIN</a>(0x40,0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum port control register address for atomic instructions. </p>
+<p>Maximum port control register address for atomic bit instructions. </p>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/AVR_2Board_8h_source.html#l00037">37</a> of file <a class="el" href="../../dc/dc6/AVR_2Board_8h_source.html">Board.h</a>.</p>
 
@@ -164,7 +164,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pin</td><td>)</td>
-          <td>&#160;&#160;&#160;_BV(pin &amp; 0xf)</td>
+          <td>&#160;&#160;&#160;_BV((pin) &amp; 0xf)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -218,7 +218,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pin</td><td>)</td>
-          <td>&#160;&#160;&#160;(pin &gt;&gt; 4)</td>
+          <td>&#160;&#160;&#160;((pin) &gt;&gt; 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -234,7 +234,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_392e5fed41b2de721750e308647dcb9c.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dir_35b75a4071df61d87778de552386f338.html">AVR</a></li><li class="navelem"><a class="el" href="../../dc/dc6/AVR_2Board_8h.html">Board.h</a></li>
-    <li class="footer">Generated on Thu Sep 14 2017 18:15:46 for Arduino-GPIO by
+    <li class="footer">Generated on Fri Sep 15 2017 15:30:03 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
