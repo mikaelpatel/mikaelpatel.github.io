@@ -1,7 +1,7 @@
 <map id="examples/Multitasking/Multitasking.ino" name="examples/Multitasking/Multitasking.ino">
 <area shape="rect" id="node4" href="$de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="325,95,443,121"/>
 <area shape="rect" id="node7" href="$db/d0b/AT24CXX_8h.html" title="Driver/AT24CXX.h" alt="" coords="171,95,301,121"/>
-<area shape="rect" id="node8" href="$d9/dc9/Hardware_2TWI_8h.html" title="Hardware/TWI.h" alt="" coords="467,95,586,121"/>
-<area shape="rect" id="node5" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="323,169,378,196"/>
-<area shape="rect" id="node6" href="$de/df7/time_8h.html" title="time.h" alt="" coords="403,169,461,196"/>
+<area shape="rect" id="node9" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="519,95,633,121"/>
+<area shape="rect" id="node5" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="313,169,367,196"/>
+<area shape="rect" id="node6" href="$de/df7/time_8h.html" title="time.h" alt="" coords="392,169,451,196"/>
 </map>

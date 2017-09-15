@@ -115,16 +115,17 @@ $(document).ready(function(){initNavTree('d3/d10/DS1307_8ino.html','../../');});
 <div class="contents">
 <div class="textblock"><code>#include &quot;TWI.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/dba/DS1307_8h_source.html">Driver/DS1307.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc9/Hardware_2TWI_8h_source.html">Hardware/TWI.h</a>&quot;</code><br />
+<code>#include &quot;GPIO.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/dad/Software_2TWI_8h_source.html">Software/TWI.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DS1307.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d91/DS1307_8ino__incl.png" border="0" usemap="#examples_2DS1307_2DS1307_8ino" alt=""/></div>
 <map name="examples_2DS1307_2DS1307_8ino" id="examples_2DS1307_2DS1307_8ino">
-<area shape="rect" id="node3" href="../../de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="65,80,183,107"/>
-<area shape="rect" id="node6" href="../../d9/dc9/Hardware_2TWI_8h.html" title="Hardware/TWI.h" alt="" coords="207,80,326,107"/>
-<area shape="rect" id="node4" href="../../d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="93,155,147,181"/>
-<area shape="rect" id="node5" href="../../de/df7/time_8h.html" title="time.h" alt="" coords="172,155,231,181"/>
+<area shape="rect" id="node3" href="../../de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="69,80,187,107"/>
+<area shape="rect" id="node7" href="../../df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="263,80,377,107"/>
+<area shape="rect" id="node4" href="../../d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="97,155,151,181"/>
+<area shape="rect" id="node5" href="../../de/df7/time_8h.html" title="time.h" alt="" coords="176,155,235,181"/>
 </map>
 </div>
 </div>
@@ -132,8 +133,8 @@ Include dependency graph for DS1307.ino:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a248240da6ce45500d478b34487927df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a248240da6ce45500d478b34487927df7">USE_HARDWARE_TWI</a></td></tr>
-<tr class="separator:a248240da6ce45500d478b34487927df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdcb186961daa060956c0efc0661ede"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a0fdcb186961daa060956c0efc0661ede">USE_SOFTWARE_TWI</a></td></tr>
+<tr class="separator:a0fdcb186961daa060956c0efc0661ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -146,23 +147,23 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a614aca0c7128f96290b0a5f34e028a62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">Hardware::TWI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a614aca0c7128f96290b0a5f34e028a62">twi</a></td></tr>
-<tr class="separator:a614aca0c7128f96290b0a5f34e028a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a9c16151cfd477efca6fe27230dad0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a3a9c16151cfd477efca6fe27230dad0b">rtc</a> (<a class="el" href="../../d3/d08/Si7021_8ino.html#a614aca0c7128f96290b0a5f34e028a62">twi</a>)</td></tr>
+<tr class="memitem:a5f6c23e710f03466d326351c84e5a55b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html">Software::TWI</a>&lt; BOARD::D6, BOARD::D7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a></td></tr>
+<tr class="separator:a5f6c23e710f03466d326351c84e5a55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9c16151cfd477efca6fe27230dad0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/DS1307_8ino.html#a3a9c16151cfd477efca6fe27230dad0b">rtc</a> (<a class="el" href="../../d3/d08/Si7021_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td></tr>
 <tr class="separator:a3a9c16151cfd477efca6fe27230dad0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a248240da6ce45500d478b34487927df7"></a>
+<a class="anchor" id="a0fdcb186961daa060956c0efc0661ede"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USE_HARDWARE_TWI</td>
+          <td class="memname">#define USE_SOFTWARE_TWI</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d10/DS1307_8ino_source.html#l00005">5</a> of file <a class="el" href="../../d3/d10/DS1307_8ino_source.html">DS1307.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d10/DS1307_8ino_source.html#l00004">4</a> of file <a class="el" href="../../d3/d10/DS1307_8ino_source.html">DS1307.ino</a>.</p>
 
 </div>
 </div>
@@ -225,24 +226,24 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> rtc(<a class="el" href="../../d3/d08/Si7021_8ino.html#a614aca0c7128f96290b0a5f34e028a62">twi</a>)</td>
+          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> rtc(<a class="el" href="../../d3/d08/Si7021_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a614aca0c7128f96290b0a5f34e028a62"></a>
+<a class="anchor" id="a5f6c23e710f03466d326351c84e5a55b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">Hardware::TWI</a> twi</td>
+          <td class="memname"><a class="el" href="../../d0/dd0/classSoftware_1_1TWI.html">Software::TWI</a>&lt;BOARD::D6, BOARD::D7&gt; twi</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d10/DS1307_8ino_source.html#l00019">19</a> of file <a class="el" href="../../d3/d10/DS1307_8ino_source.html">DS1307.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d10/DS1307_8ino_source.html#l00015">15</a> of file <a class="el" href="../../d3/d10/DS1307_8ino_source.html">DS1307.ino</a>.</p>
 
 </div>
 </div>
@@ -252,7 +253,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_faa9290d4d64a2955aa167816f87e773.html">DS1307</a></li><li class="navelem"><a class="el" href="../../d3/d10/DS1307_8ino.html">DS1307.ino</a></li>
-    <li class="footer">Generated on Wed Sep 13 2017 22:49:40 for Arduino-TWI by
+    <li class="footer">Generated on Fri Sep 15 2017 17:20:14 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
