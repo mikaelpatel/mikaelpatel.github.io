@@ -2,6 +2,8 @@ var classHardware_1_1SPI =
 [
     [ "SPI", "d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238", null ],
     [ "acquire", "d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834", null ],
+    [ "operator<<", "d9/db9/classHardware_1_1SPI.html#a21e72e9557cd021e416efbfcf64f8dee", null ],
+    [ "operator>>", "d9/db9/classHardware_1_1SPI.html#a54acde13f4d0e2a179609391c2027875", null ],
     [ "read", "d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e", null ],
     [ "release", "d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033", null ],
     [ "transfer", "d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc", null ],

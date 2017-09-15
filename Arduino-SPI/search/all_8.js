@@ -1,17 +1,5 @@
 var searchData=
 [
-  ['sck_5fpin',['SCK_PIN',['../d5/df7/ShiftIn_8ino.html#a01153037fca70cfac03c8d67f17d766a',1,'SCK_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a',1,'SCK_PIN():&#160;ShiftOut.ino']]],
-  ['setup',['setup',['../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftOut.ino']]],
-  ['shiftin_2eino',['ShiftIn.ino',['../d5/df7/ShiftIn_8ino.html',1,'']]],
-  ['shiftout_2eino',['ShiftOut.ino',['../d1/d63/ShiftOut_8ino.html',1,'']]],
-  ['software',['Software',['../d3/db2/namespaceSoftware.html',1,'']]],
-  ['spi',['SPI',['../d1/de2/classSoftware_1_1SPI.html',1,'Software']]],
-  ['spi',['SPI',['../d9/db9/classHardware_1_1SPI.html',1,'Hardware']]],
-  ['spi',['SPI',['../da/d8d/classSPI.html',1,'SPI'],['../d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238',1,'Hardware::SPI::SPI()'],['../d1/de2/classSoftware_1_1SPI.html#a8edf7c4f3ebb9f42972c396ffcbc8032',1,'Software::SPI::SPI()'],['../d2/d24/Benchmark_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4',1,'spi():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4',1,'spi():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4',1,'spi():&#160;ShiftOut.ino']]],
-  ['spi_2eh',['SPI.h',['../df/d73/SPI_8h.html',1,'']]],
-  ['spi_2eh',['SPI.h',['../dc/dbb/Software_2SPI_8h.html',1,'']]],
-  ['spi_2eh',['SPI.h',['../d4/d36/Hardware_2SPI_8h.html',1,'']]],
-  ['srpi',['srpi',['../d5/df7/ShiftIn_8ino.html#a280c8a23b78d6c0489fe430d010f17ae',1,'ShiftIn.ino']]],
-  ['srpo',['srpo',['../d1/d63/ShiftOut_8ino.html#a1bce092f18d7a1e0ee0597068c934584',1,'ShiftOut.ino']]],
-  ['ss',['ss',['../d2/d24/Benchmark_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a545d39fae72355bf30e756ce6aa62a2f',1,'ss():&#160;ShiftOut.ino']]]
+  ['read',['read',['../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e',1,'Hardware::SPI::read()'],['../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78',1,'SPI::read()'],['../d5/d8d/classSPI_1_1Device.html#ac228d803780060c8e0ba325cc8be5170',1,'SPI::Device::read()']]],
+  ['release',['release',['../d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033',1,'Hardware::SPI::release()'],['../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f',1,'Software::SPI::release()'],['../da/d8d/classSPI.html#aa8753d4730ab2daa3a1f093ef5f88f82',1,'SPI::release()'],['../d5/d8d/classSPI_1_1Device.html#a131393b556e6591565dc7e8cfad4213a',1,'SPI::Device::release()']]]
 ];

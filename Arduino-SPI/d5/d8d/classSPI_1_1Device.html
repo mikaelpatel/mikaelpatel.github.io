@@ -122,7 +122,7 @@ Collaboration diagram for SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;:</di
 <div class="dyncontent">
 <div class="center"><img src="../../dd/df6/classSPI_1_1Device__coll__graph.png" border="0" usemap="#SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_coll__map" id="SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_coll__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="29,5,191,171"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="29,5,191,200"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -164,7 +164,7 @@ class SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00108">108</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00128">128</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1cd89681df11c94c7d4cb953aa62fb09"></a>
 <div class="memitem">
@@ -207,7 +207,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00116">116</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00136">136</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +236,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Acquire bus manager and slave device. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00126">126</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00146">146</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +281,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00168">168</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00188">188</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +309,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Release bus manager and slave device. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00135">135</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00155">155</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>received value. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00146">146</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00166">166</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +396,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00158">158</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00178">178</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00178">178</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00198">198</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Bus manager. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00185">185</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00205">205</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +492,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Slave select pin. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00188">188</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00208">208</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d8d/classSPI.html">SPI</a></li><li class="navelem"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">Device</a></li>
-    <li class="footer">Generated on Wed Sep 13 2017 15:03:48 for Arduino-SPI by
+    <li class="footer">Generated on Fri Sep 15 2017 17:15:23 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

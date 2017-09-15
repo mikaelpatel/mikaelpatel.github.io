@@ -2,6 +2,8 @@ var classSoftware_1_1SPI =
 [
     [ "SPI", "d1/de2/classSoftware_1_1SPI.html#a8edf7c4f3ebb9f42972c396ffcbc8032", null ],
     [ "acquire", "d1/de2/classSoftware_1_1SPI.html#a2138f14fb1513b2055203edf1dfc45aa", null ],
+    [ "operator<<", "d1/de2/classSoftware_1_1SPI.html#a21e72e9557cd021e416efbfcf64f8dee", null ],
+    [ "operator>>", "d1/de2/classSoftware_1_1SPI.html#a54acde13f4d0e2a179609391c2027875", null ],
     [ "read", "d1/de2/classSoftware_1_1SPI.html#a800703e9e3bc12de9577e32e44988a78", null ],
     [ "release", "d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f", null ],
     [ "transfer", "d1/de2/classSoftware_1_1SPI.html#a83f8dcf090c3e97af7c1f0e228a4723f", null ],

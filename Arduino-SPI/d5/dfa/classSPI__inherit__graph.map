@@ -1,4 +1,4 @@
 <map id="SPI" name="SPI">
-<area shape="rect" id="node2" href="$d9/db9/classHardware_1_1SPI.html" title="{Hardware::SPI\n|# m_busy\l# m_ss\l# m_sck\l# m_mosi\l# m_miso\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="5,219,113,443"/>
-<area shape="rect" id="node3" href="$d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; MOSI\l_PIN, MISO_PIN, SCK_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="138,226,341,435"/>
+<area shape="rect" id="node2" href="$d9/db9/classHardware_1_1SPI.html" title="{Hardware::SPI\n|# m_busy\l# m_ss\l# m_sck\l# m_mosi\l# m_miso\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="5,248,113,472"/>
+<area shape="rect" id="node3" href="$d1/de2/classSoftware_1_1SPI.html" title="{Software::SPI\&lt; MOSI\l_PIN, MISO_PIN, SCK_PIN \&gt;\n|# m_sck\l# m_mosi\l# m_miso\l# m_busy\l# m_cpha\l# m_bitorder\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l}" alt="" coords="138,255,341,465"/>
 </map>
