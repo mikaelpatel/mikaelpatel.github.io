@@ -16,6 +16,5 @@ var searchData=
   ['srpi_2eh',['SRPI.h',['../d4/d2e/SRPI_8h.html',1,'']]],
   ['srpo',['SRPO',['../de/d8f/classSRPO.html',1,'SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;'],['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO::SRPO()'],['../d1/d63/ShiftOut_8ino.html#a6dff5581e0b81ffa189cd1530ef71861',1,'srpo():&#160;ShiftOut.ino']]],
   ['srpo_2eh',['SRPO.h',['../da/d82/SRPO_8h.html',1,'']]],
-  ['ss',['SS',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976ae3525ca24a8f63b7bbc71a0cabbd1733',1,'BOARD::SS()'],['../d2/d24/Benchmark_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]],
-  ['ss_5fpin',['SS_PIN',['../d2/d24/Benchmark_8ino.html#a86fac98c9b4c98a3e50fc45440878391',1,'Benchmark.ino']]]
+  ['ss',['SS',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976ae3525ca24a8f63b7bbc71a0cabbd1733',1,'BOARD::SS()'],['../d2/d24/Benchmark_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a6bc52b46aca2195a82434767345fd45e',1,'ss():&#160;ShiftOut.ino']]]
 ];

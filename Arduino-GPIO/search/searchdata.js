@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "bdlmops",
   6: "p",
   7: "dms",
-  8: "bcdgls",
+  8: "bcdgl",
   9: "a"
 };
 
