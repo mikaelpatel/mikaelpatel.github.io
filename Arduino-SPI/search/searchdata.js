@@ -5,9 +5,10 @@ var indexSectionsWithContent =
   2: "hs",
   3: "bms",
   4: "adlorstw",
-  5: "dms",
-  6: "bcmsu",
-  7: "a"
+  5: "bdms",
+  6: "rw",
+  7: "bcmsu",
+  8: "a"
 };
 
 var indexSectionNames =
@@ -18,8 +19,9 @@ var indexSectionNames =
   3: "files",
   4: "functions",
   5: "variables",
-  6: "defines",
-  7: "pages"
+  6: "enumvalues",
+  7: "defines",
+  8: "pages"
 };
 
 var indexSectionLabels =
@@ -30,7 +32,8 @@ var indexSectionLabels =
   3: "Files",
   4: "Functions",
   5: "Variables",
-  6: "Macros",
-  7: "Pages"
+  6: "Enumerator",
+  7: "Macros",
+  8: "Pages"
 };
 

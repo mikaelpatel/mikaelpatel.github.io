@@ -82,6 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -177,6 +178,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>MAX_FREQ
 : <a class="el" href="da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">SPI</a>
+, <a class="el" href="d2/d57/classSRAM.html#a939f977ffd79c67d7ca36e32418db298">SRAM&lt; SS_PIN &gt;</a>
 </li>
 <li>MIN_CLOCK_SCALE
 : <a class="el" href="da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">SPI</a>
@@ -195,10 +197,17 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>RDMR
+: <a class="el" href="d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a737b9f665e2ac80ad792e72020d9f942">SRAM&lt; SS_PIN &gt;</a>
+</li>
 <li>read()
 : <a class="el" href="d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e">Hardware::SPI</a>
 , <a class="el" href="d5/d8d/classSPI_1_1Device.html#ac228d803780060c8e0ba325cc8be5170">SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;</a>
 , <a class="el" href="da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78">SPI</a>
+, <a class="el" href="d2/d57/classSRAM.html#a7c03f99120c3a090028af43e56626466">SRAM&lt; SS_PIN &gt;</a>
+</li>
+<li>READ
+: <a class="el" href="d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a0e6b402df21586024b9a4b0f89764484">SRAM&lt; SS_PIN &gt;</a>
 </li>
 <li>release()
 : <a class="el" href="d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033">Hardware::SPI</a>
@@ -213,6 +222,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>SPI()
 : <a class="el" href="d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238">Hardware::SPI</a>
 , <a class="el" href="d1/de2/classSoftware_1_1SPI.html#a8edf7c4f3ebb9f42972c396ffcbc8032">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>
+</li>
+<li>SRAM()
+: <a class="el" href="d2/d57/classSRAM.html#af812469203d474c2ee22a78b6495e49f">SRAM&lt; SS_PIN &gt;</a>
 </li>
 </ul>
 
@@ -232,6 +244,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">Hardware::SPI</a>
 , <a class="el" href="d5/d8d/classSPI_1_1Device.html#a8d560b1e7a21afc67865376a568b67da">SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;</a>
 , <a class="el" href="da/d8d/classSPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf">SPI</a>
+, <a class="el" href="d2/d57/classSRAM.html#ac86d57152585c97eeb73ebd2cb2c2f9a">SRAM&lt; SS_PIN &gt;</a>
+</li>
+<li>WRITE
+: <a class="el" href="d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a0502082839fcb7b4f70d2368cc4a2b19">SRAM&lt; SS_PIN &gt;</a>
+</li>
+<li>WRMR
+: <a class="el" href="d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a2295c18667e4ac4fa18472b1bfd6dd98">SRAM&lt; SS_PIN &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -239,7 +258,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 15 2017 17:21:05 for Arduino-SPI by
+    <li class="footer">Generated on Sun Sep 17 2017 19:47:04 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

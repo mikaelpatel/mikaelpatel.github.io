@@ -118,6 +118,15 @@ $(document).ready(function(){initNavTree('d5/d8d/classSPI_1_1Device.html','../..
 
 <p><code>#include &lt;<a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d47/classSPI_1_1Device__inherit__graph.png" border="0" usemap="#SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_inherit__map" id="SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_inherit__map">
+<area shape="rect" id="node2" href="../../d5/d8d/classSPI_1_1Device.html" title="{SPI::Device\&lt; 0, MSBFIRST,\l 16000000L, SS_PIN \&gt;\n|# m_spi\l# m_ss\l|+ Device()\l+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="14,277,206,472"/>
+<area shape="rect" id="node3" href="../../d2/d57/classSRAM.html" title="{SRAM\&lt; SS_PIN \&gt;\n|+ MAX_FREQ\l|+ SRAM()\l+ read()\l+ write()\l}" alt="" coords="43,521,177,628"/>
+</map>
+</div>
+<div class="dynheader">
 Collaboration diagram for SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/df6/classSPI_1_1Device__coll__graph.png" border="0" usemap="#SPI_1_1Device_3_01MODE_00_01BITORDER_00_01FREQ_00_01SS__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
@@ -128,7 +137,7 @@ Collaboration diagram for SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;:</di
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1cd89681df11c94c7d4cb953aa62fb09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#a1cd89681df11c94c7d4cb953aa62fb09">Device</a> (<a class="el" href="../../da/d8d/classSPI.html">SPI</a> &amp;<a class="el" href="../../d1/d63/ShiftOut_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4">spi</a>, bool <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a545d39fae72355bf30e756ce6aa62a2f">ss</a>=HIGH)</td></tr>
+<tr class="memitem:a1cd89681df11c94c7d4cb953aa62fb09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#a1cd89681df11c94c7d4cb953aa62fb09">Device</a> (<a class="el" href="../../da/d8d/classSPI.html">SPI</a> &amp;<a class="el" href="../../d1/ddd/SRAM_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023">spi</a>, bool <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a545d39fae72355bf30e756ce6aa62a2f">ss</a>=HIGH)</td></tr>
 <tr class="separator:a1cd89681df11c94c7d4cb953aa62fb09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa868bb4701514a64bfcdfca352ade0f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#aa868bb4701514a64bfcdfca352ade0f4">acquire</a> ()</td></tr>
 <tr class="separator:aa868bb4701514a64bfcdfca352ade0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,9 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aebaf7717c1755d4e8f29950388ffcab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1beee8665022128f8d5c0ecc50feb366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#a1beee8665022128f8d5c0ecc50feb366">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
 <tr class="separator:a1beee8665022128f8d5c0ecc50feb366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac228d803780060c8e0ba325cc8be5170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#ac228d803780060c8e0ba325cc8be5170">read</a> (void *buf, size_t count)</td></tr>
+<tr class="memitem:ac228d803780060c8e0ba325cc8be5170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#ac228d803780060c8e0ba325cc8be5170">read</a> (void *<a class="el" href="../../d1/ddd/SRAM_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a>, size_t count)</td></tr>
 <tr class="separator:ac228d803780060c8e0ba325cc8be5170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d560b1e7a21afc67865376a568b67da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#a8d560b1e7a21afc67865376a568b67da">write</a> (const void *buf, size_t count)</td></tr>
+<tr class="memitem:a8d560b1e7a21afc67865376a568b67da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html#a8d560b1e7a21afc67865376a568b67da">write</a> (const void *<a class="el" href="../../d1/ddd/SRAM_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a>, size_t count)</td></tr>
 <tr class="separator:a8d560b1e7a21afc67865376a568b67da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -164,7 +173,7 @@ class SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00128">128</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00130">130</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a1cd89681df11c94c7d4cb953aa62fb09"></a>
 <div class="memitem">
@@ -207,7 +216,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00136">136</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00138">138</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +245,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Acquire bus manager and slave device. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00146">146</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00148">148</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +290,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00188">188</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00194">194</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +318,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Release bus manager and slave device. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00155">155</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00158">158</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -344,7 +353,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>received value. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00166">166</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00170">170</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +405,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00178">178</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00183">183</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +450,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00198">198</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00205">205</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +476,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Bus manager. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00205">205</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00213">213</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +501,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 </div><div class="memdoc">
 <p>Slave select pin. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00208">208</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00216">216</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +514,7 @@ template&lt;uint8_t MODE, uint8_t BITORDER, uint32_t FREQ, BOARD::pin_t SS_PIN&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d8d/classSPI.html">SPI</a></li><li class="navelem"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">Device</a></li>
-    <li class="footer">Generated on Fri Sep 15 2017 17:21:05 for Arduino-SPI by
+    <li class="footer">Generated on Sun Sep 17 2017 19:47:04 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
