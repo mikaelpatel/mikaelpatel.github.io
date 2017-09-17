@@ -11,7 +11,7 @@ var searchData=
   ['spi_2eh',['SPI.h',['../d4/d36/Hardware_2SPI_8h.html',1,'']]],
   ['spi_2eh',['SPI.h',['../dc/dbb/Software_2SPI_8h.html',1,'']]],
   ['spi_2eh',['SPI.h',['../df/d73/SPI_8h.html',1,'']]],
-  ['sram',['SRAM',['../d2/d57/classSRAM.html',1,'SRAM&lt; SS_PIN &gt;'],['../d2/d57/classSRAM.html#af812469203d474c2ee22a78b6495e49f',1,'SRAM::SRAM()'],['../d1/ddd/SRAM_8ino.html#a6b3a1a5618e968b1fa4829f0490af4b1',1,'sram():&#160;SRAM.ino']]],
+  ['sram',['SRAM',['../d2/d57/classSRAM.html',1,'SRAM&lt; SS_PIN, FREQ &gt;'],['../d2/d57/classSRAM.html#a600b0c832c7857a7542f2f014ffd22b1',1,'SRAM::SRAM()'],['../d1/ddd/SRAM_8ino.html#a6b3a1a5618e968b1fa4829f0490af4b1',1,'sram():&#160;SRAM.ino']]],
   ['sram_2eh',['SRAM.h',['../d8/da9/SRAM_8h.html',1,'']]],
   ['sram_2eino',['SRAM.ino',['../d1/ddd/SRAM_8ino.html',1,'']]],
   ['srpi',['srpi',['../d5/df7/ShiftIn_8ino.html#af11dbe15b34bd1e8dff41868d7943113',1,'ShiftIn.ino']]],

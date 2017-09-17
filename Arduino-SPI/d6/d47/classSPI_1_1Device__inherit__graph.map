@@ -1,4 +1,4 @@
 <map id="SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;" name="SPI::Device&lt; MODE, BITORDER, FREQ, SS_PIN &gt;">
-<area shape="rect" id="node2" href="$d5/d8d/classSPI_1_1Device.html" title="{SPI::Device\&lt; 0, MSBFIRST,\l 16000000L, SS_PIN \&gt;\n|# m_spi\l# m_ss\l|+ Device()\l+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="14,277,206,472"/>
-<area shape="rect" id="node3" href="$d2/d57/classSRAM.html" title="{SRAM\&lt; SS_PIN \&gt;\n|+ MAX_FREQ\l|+ SRAM()\l+ read()\l+ write()\l}" alt="" coords="43,521,177,628"/>
+<area shape="rect" id="node2" href="$d5/d8d/classSPI_1_1Device.html" title="{SPI::Device\&lt; 0, MSBFIRST,\l FREQ, SS_PIN \&gt;\n|# m_spi\l# m_ss\l|+ Device()\l+ acquire()\l+ release()\l+ transfer()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="14,277,206,472"/>
+<area shape="rect" id="node3" href="$d2/d57/classSRAM.html" title="{SRAM\&lt; SS_PIN, FREQ \&gt;\n|+ MAX_FREQ\l|+ SRAM()\l+ read()\l+ write()\l}" alt="" coords="21,521,199,628"/>
 </map>
