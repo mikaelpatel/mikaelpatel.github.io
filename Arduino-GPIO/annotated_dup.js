@@ -4,5 +4,6 @@ var annotated_dup =
     [ "BOARD", "d4/dbd/classBOARD.html", "d4/dbd/classBOARD" ],
     [ "GPIO", "d7/dde/classGPIO.html", "d7/dde/classGPIO" ],
     [ "SRPI", "d7/da4/classSRPI.html", "d7/da4/classSRPI" ],
+    [ "SRPIO", "dc/d79/classSRPIO.html", "dc/d79/classSRPIO" ],
     [ "SRPO", "de/d8f/classSRPO.html", "de/d8f/classSRPO" ]
 ];

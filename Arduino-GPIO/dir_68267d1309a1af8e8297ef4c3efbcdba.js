@@ -6,6 +6,9 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "SRPI.h", "d4/d2e/SRPI_8h.html", [
       [ "SRPI", "d7/da4/classSRPI.html", "d7/da4/classSRPI" ]
     ] ],
+    [ "SRPIO.h", "da/d9e/SRPIO_8h.html", [
+      [ "SRPIO", "dc/d79/classSRPIO.html", "dc/d79/classSRPIO" ]
+    ] ],
     [ "SRPO.h", "da/d82/SRPO_8h.html", [
       [ "SRPO", "de/d8f/classSRPO.html", "de/d8f/classSRPO" ]
     ] ]

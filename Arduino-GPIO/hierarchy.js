@@ -7,6 +7,7 @@ var hierarchy =
     [ "GPIO< DATA_PIN >", "d7/dde/classGPIO.html", null ],
     [ "GPIO< TX_PIN >", "d7/dde/classGPIO.html", null ],
     [ "SRPI< BITORDER, DATA_PIN, CLOCK_PIN >", "d7/da4/classSRPI.html", null ],
+    [ "SRPIO< BITORDER, DATA_PIN, CLOCK_PIN >", "dc/d79/classSRPIO.html", null ],
     [ "SRPO< BITORDER, DATA_PIN, CLOCK_PIN >", "de/d8f/classSRPO.html", null ],
     [ "Stream", null, [
       [ "Software::Serial< TX_PIN >", "db/da5/classSoftware_1_1Serial.html", null ]
