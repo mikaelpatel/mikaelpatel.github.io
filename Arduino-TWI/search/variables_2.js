@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['clock_5fstretching_5fretry_5fmax',['CLOCK_STRETCHING_RETRY_MAX',['../d0/dd0/classSoftware_1_1TWI.html#a0a33da213eb3240323be5896c40d52ea',1,'Software::TWI']]],
-  ['control',['control',['../d7/d41/structDS1307_1_1timekeeper__t.html#a834495c624e39cfb3b3fef569d389312',1,'DS1307::timekeeper_t']]]
+  ['data',['data',['../d8/da0/namespacelogger.html#ae7d4c2c4a454d7cc1213481bacfa79e6',1,'logger']]],
+  ['data_5fmax',['DATA_MAX',['../d8/da0/namespacelogger.html#ae87435f596ea1c8ebd4de4efbb56a030',1,'logger']]],
+  ['default_5ffreq',['DEFAULT_FREQ',['../d1/deb/classTWI.html#ac79663bcac606334f608a8f204a55bba',1,'TWI']]]
 ];

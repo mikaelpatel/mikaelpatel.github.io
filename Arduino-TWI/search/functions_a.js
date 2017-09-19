@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['pcf8574',['PCF8574',['../d1/da6/classPCF8574.html#a2f0ab13b46768c81dfebf57b55f439de',1,'PCF8574::PCF8574(TWI &amp;twi, uint8_t subaddr=7)'],['../d1/da6/classPCF8574.html#ab9f0b49a32e6b45c12c20b52a7ea39cf',1,'PCF8574::PCF8574(TWI &amp;twi, uint8_t addr, uint8_t subaddr)']]],
-  ['pcf8574a',['PCF8574A',['../d5/d23/classPCF8574A.html#ae2b697a0e8507b84875b3e6c7270c961',1,'PCF8574A']]],
-  ['port',['port',['../d1/da6/classPCF8574.html#aa1ac81f3a53e3c73657fef2c0183c110',1,'PCF8574']]]
+  ['setup',['setup',['../de/d62/AT24CXX_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;AT24CXX.ino'],['../d3/d10/DS1307_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;DS1307.ino'],['../d8/da0/namespacelogger.html#afef815d1ff1f1d8f36344582550b9233',1,'logger::setup()'],['../d0/df3/Multitasking_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Multitasking.ino'],['../d1/ddb/PCF8574_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;PCF8574.ino'],['../dd/da4/Scanner_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Scanner.ino'],['../d3/d08/Si7021_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Si7021.ino']]],
+  ['si70xx',['Si70XX',['../dd/d1e/classSi70XX.html#aaa89d0c403035af5508d88d0c4fa38c1',1,'Si70XX']]],
+  ['start_5fcondition',['start_condition',['../d0/dd0/classSoftware_1_1TWI.html#af2b89c9cde7dd6c1246877b9b344619f',1,'Software::TWI']]],
+  ['stop_5fcondition',['stop_condition',['../d0/dd0/classSoftware_1_1TWI.html#a6b2199f5aa5d0c55b49d7578fee35bce',1,'Software::TWI']]]
 ];

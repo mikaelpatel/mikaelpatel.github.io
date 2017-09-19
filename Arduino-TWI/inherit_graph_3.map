@@ -1,3 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d7/d41/structDS1307_1_1timekeeper__t.html" title="DS1307::timekeeper_t" alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node1" href="$d4/d2d/classTWI_1_1Device.html" title="TWI::Device" alt="" coords="5,220,101,247"/>
+<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="AT24CXX" alt="" coords="149,132,231,159"/>
+<area shape="rect" id="node8" href="$d1/da6/classPCF8574.html" title="PCF8574" alt="" coords="151,220,229,247"/>
+<area shape="rect" id="node10" href="$dd/d1e/classSi70XX.html" title="Si70XX" alt="" coords="157,271,223,297"/>
+<area shape="rect" id="node3" href="$dd/ded/classAT24C128.html" title="AT24C128" alt="" coords="280,5,364,32"/>
+<area shape="rect" id="node4" href="$de/df6/classAT24C256.html" title="AT24C256" alt="" coords="280,56,364,83"/>
+<area shape="rect" id="node5" href="$d3/dc8/classAT24C32.html" title="AT24C32" alt="" coords="283,107,361,133"/>
+<area shape="rect" id="node6" href="$de/dec/classAT24C512.html" title="AT24C512" alt="" coords="280,157,364,184"/>
+<area shape="rect" id="node7" href="$df/d74/classAT24C64.html" title="AT24C64" alt="" coords="283,208,361,235"/>
+<area shape="rect" id="node9" href="$d5/d23/classPCF8574A.html" title="PCF8574A" alt="" coords="279,259,365,285"/>
 </map>

@@ -1,6 +1,3 @@
 <map id="examples/DS1307/DS1307.ino" name="examples/DS1307/DS1307.ino">
-<area shape="rect" id="node3" href="$de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="69,80,187,107"/>
-<area shape="rect" id="node7" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="263,80,377,107"/>
-<area shape="rect" id="node4" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="97,155,151,181"/>
-<area shape="rect" id="node5" href="$de/df7/time_8h.html" title="time.h" alt="" coords="176,155,235,181"/>
+<area shape="rect" id="node5" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="281,80,396,107"/>
 </map>

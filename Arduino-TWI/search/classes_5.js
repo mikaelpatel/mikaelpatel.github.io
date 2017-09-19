@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['iovec_5ft',['iovec_t',['../d1/db7/structiovec__t.html',1,'']]]
+  ['si70xx',['Si70XX',['../dd/d1e/classSi70XX.html',1,'']]]
 ];

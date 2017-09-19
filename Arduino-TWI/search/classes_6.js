@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['pcf8574',['PCF8574',['../d1/da6/classPCF8574.html',1,'']]],
-  ['pcf8574a',['PCF8574A',['../d5/d23/classPCF8574A.html',1,'']]]
+  ['twi',['TWI',['../dd/d1d/classHardware_1_1TWI.html',1,'Hardware']]],
+  ['twi',['TWI',['../d1/deb/classTWI.html',1,'']]],
+  ['twi',['TWI',['../d0/dd0/classSoftware_1_1TWI.html',1,'Software']]]
 ];

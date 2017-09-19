@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bcd_5ft',['bcd_t',['../d5/d24/structbcd__t.html',1,'']]]
+  ['device',['Device',['../d4/d2d/classTWI_1_1Device.html',1,'TWI']]]
 ];

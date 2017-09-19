@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bcd_5ft',['bcd_t',['../d5/d24/structbcd__t.html#aced2181c7ee8e5e04080f3cbb384f49b',1,'bcd_t::bcd_t()'],['../d5/d24/structbcd__t.html#a63e4cc292d4ce175b510eaeb3cbdf4f9',1,'bcd_t::bcd_t(uint8_t value)']]]
+  ['clock_5fstretching',['clock_stretching',['../d0/dd0/classSoftware_1_1TWI.html#a68acaf9768f1a70970daa41fead7af76',1,'Software::TWI']]],
+  ['crc_5fupdate',['crc_update',['../dd/d1e/classSi70XX.html#a32cf6a7f436c7d7d6af8cd8111f61c6f',1,'Si70XX']]]
 ];

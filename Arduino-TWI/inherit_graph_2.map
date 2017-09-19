@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d7/df4/structDS1307_1_1rtc__t.html" title="DS1307::rtc_t" alt="" coords="5,5,108,32"/>
+<area shape="rect" id="node1" href="$d1/deb/classTWI.html" title="TWI" alt="" coords="5,35,52,61"/>
+<area shape="rect" id="node2" href="$dd/d1d/classHardware_1_1TWI.html" title="Hardware::TWI" alt="" coords="118,5,229,32"/>
+<area shape="rect" id="node3" href="$d0/dd0/classSoftware_1_1TWI.html" title="Software::TWI\&lt; SDA\l_PIN, SCL_PIN \&gt;" alt="" coords="100,57,247,98"/>
 </map>
