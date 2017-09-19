@@ -1,0 +1,5 @@
+<map id="DS1307::timekeeper_t" name="DS1307::timekeeper_t">
+<area shape="rect" id="node2" href="$d7/df4/structDS1307_1_1rtc__t.html" title="{DS1307::rtc_t\n||}" alt="" coords="20,314,123,391"/>
+<area shape="rect" id="node3" href="$d5/d24/structbcd__t.html" title="{bcd_t\n||+ bcd_t()\l+ bcd_t()\l+ operator uint8_t()\l}" alt="" coords="5,5,137,112"/>
+<area shape="rect" id="node4" href="$d1/dde/unionDS1307_1_1control__t.html" title="{DS1307::control_t\n|+ as_uint8\l+ rs\l+ reserved1\l+ sqwe\l+ reserved2\l+ out\l+ @2\l|+ operator uint8_t()\l+ control_t()\l}" alt="" coords="147,263,279,443"/>
+</map>
