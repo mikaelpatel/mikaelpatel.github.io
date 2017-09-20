@@ -11,6 +11,8 @@ var Stream_8ino =
     [ "m3", "d9/dde/Stream_8ino.html#a62de708e7aea7132ba4f9d36846d18ab", null ],
     [ "m4", "d9/dde/Stream_8ino.html#a26e86ee5e3814fa0373ea98028dc3c56", null ],
     [ "m5", "d9/dde/Stream_8ino.html#ab8f8eb75e60718a887c47447a9f42fa9", null ],
+    [ "m6", "d9/dde/Stream_8ino.html#a62c630834a644c4876bac5ab582f6752", null ],
+    [ "m7", "d9/dde/Stream_8ino.html#a6b323856a3b7f51e5dabcc74078f6c2d", null ],
     [ "N", "d9/dde/Stream_8ino.html#ab2b6b0c222cd1ce70d6a831f57241e59", null ],
     [ "s0", "d9/dde/Stream_8ino.html#a74fff0698ae2c18acbc0eec1fb771459", null ],
     [ "spi", "d9/dde/Stream_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023", null ],

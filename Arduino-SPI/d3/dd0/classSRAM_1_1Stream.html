@@ -121,11 +121,15 @@ $(document).ready(function(){initNavTree('d3/dd0/classSRAM_1_1Stream.html','../.
 Inheritance diagram for SRAM&lt; SS_PIN, FREQ &gt;::Stream&lt; SIZE &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/dac/classSRAM_1_1Stream__inherit__graph.png" border="0" usemap="#SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_inherit__map" id="SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_inherit__map">
+</map>
 </div>
 <div class="dynheader">
 Collaboration diagram for SRAM&lt; SS_PIN, FREQ &gt;::Stream&lt; SIZE &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d0d/classSRAM_1_1Stream__coll__graph.png" border="0" usemap="#SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_coll__map" id="SRAM_3_01SS__PIN_00_01FREQ_01_4_1_1Stream_3_01SIZE_01_4_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -134,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2d7258bba95365814429f13676fcb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a858bab1b419f944820e2d8e199301214"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html#a858bab1b419f944820e2d8e199301214">write</a> (uint8_t byte)</td></tr>
 <tr class="separator:a858bab1b419f944820e2d8e199301214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9695e1433a62ebb9c009a278851f6c4"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html#af9695e1433a62ebb9c009a278851f6c4">write</a> (const uint8_t *buffer, size_t size)</td></tr>
+<tr class="separator:af9695e1433a62ebb9c009a278851f6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e2c59aef2c4eaed3fb5757e2dc3984"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html#a09e2c59aef2c4eaed3fb5757e2dc3984">available</a> ()</td></tr>
 <tr class="separator:a09e2c59aef2c4eaed3fb5757e2dc3984"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9daa4d05864824dc15161158cd8ca0a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html#aa9daa4d05864824dc15161158cd8ca0a">peek</a> ()</td></tr>
@@ -244,7 +250,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Returns number of bytes available for <a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html#a24a21f250bbb36a55643a9e087db3116">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bytes available. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00133">133</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00161">161</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +280,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Flush all data and reset stream. </p>
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00173">173</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00201">201</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -304,7 +310,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Return next byte to read if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00144">144</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00172">172</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -334,7 +340,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Return next byte if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00158">158</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00186">186</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -375,6 +381,54 @@ template&lt;uint16_t SIZE&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="af9695e1433a62ebb9c009a278851f6c4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
+<div class="memtemplate">
+template&lt;uint16_t SIZE&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual size_t <a class="el" href="../../d2/d57/classSRAM.html">SRAM</a>&lt; SS_PIN, FREQ &gt;::<a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html">Stream</a>&lt; SIZE &gt;::write </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Write given buffer and numbe of bytes to stream. Return number of bytes written. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bufffer</td><td>to write. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of byets to write. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00136">136</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a25f2dc2d360fed72c1a1d5ba08d8424d"></a>
 <div class="memitem">
@@ -398,7 +452,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00182">182</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00210">210</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +478,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00185">185</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00213">213</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +504,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00184">184</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00212">212</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -476,7 +530,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00183">183</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00211">211</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -502,7 +556,7 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00181">181</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/da9/SRAM_8h_source.html#l00209">209</a> of file <a class="el" href="../../d8/da9/SRAM_8h_source.html">SRAM.h</a>.</p>
 
 </div>
 </div>
@@ -515,7 +569,7 @@ template&lt;uint16_t SIZE&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d57/classSRAM.html">SRAM</a></li><li class="navelem"><a class="el" href="../../d3/dd0/classSRAM_1_1Stream.html">Stream</a></li>
-    <li class="footer">Generated on Wed Sep 20 2017 20:55:52 for Arduino-SPI by
+    <li class="footer">Generated on Wed Sep 20 2017 22:12:50 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

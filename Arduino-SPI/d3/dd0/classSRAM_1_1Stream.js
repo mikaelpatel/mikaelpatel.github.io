@@ -6,6 +6,7 @@ var classSRAM_1_1Stream =
     [ "peek", "d3/dd0/classSRAM_1_1Stream.html#aa9daa4d05864824dc15161158cd8ca0a", null ],
     [ "read", "d3/dd0/classSRAM_1_1Stream.html#a24a21f250bbb36a55643a9e087db3116", null ],
     [ "write", "d3/dd0/classSRAM_1_1Stream.html#a858bab1b419f944820e2d8e199301214", null ],
+    [ "write", "d3/dd0/classSRAM_1_1Stream.html#af9695e1433a62ebb9c009a278851f6c4", null ],
     [ "m_addr", "d3/dd0/classSRAM_1_1Stream.html#a25f2dc2d360fed72c1a1d5ba08d8424d", null ],
     [ "m_count", "d3/dd0/classSRAM_1_1Stream.html#a07c3b3a8ea08d1c5bf72a6cdfc196d1b", null ],
     [ "m_get", "d3/dd0/classSRAM_1_1Stream.html#a04c39a304a34596c13209f8b81a416bd", null ],

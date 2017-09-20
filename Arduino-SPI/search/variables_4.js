@@ -6,6 +6,8 @@ var searchData=
   ['m3',['m3',['../d9/dde/Stream_8ino.html#a62de708e7aea7132ba4f9d36846d18ab',1,'Stream.ino']]],
   ['m4',['m4',['../d9/dde/Stream_8ino.html#a26e86ee5e3814fa0373ea98028dc3c56',1,'Stream.ino']]],
   ['m5',['m5',['../d9/dde/Stream_8ino.html#ab8f8eb75e60718a887c47447a9f42fa9',1,'Stream.ino']]],
+  ['m6',['m6',['../d9/dde/Stream_8ino.html#a62c630834a644c4876bac5ab582f6752',1,'Stream.ino']]],
+  ['m7',['m7',['../d9/dde/Stream_8ino.html#a6b323856a3b7f51e5dabcc74078f6c2d',1,'Stream.ino']]],
   ['m_5faddr',['m_addr',['../d3/dd0/classSRAM_1_1Stream.html#a25f2dc2d360fed72c1a1d5ba08d8424d',1,'SRAM::Stream']]],
   ['m_5fbitorder',['m_bitorder',['../d1/de2/classSoftware_1_1SPI.html#a2d1d8734593bd915dd7fca8020ae3de9',1,'Software::SPI']]],
   ['m_5fbusy',['m_busy',['../d9/db9/classHardware_1_1SPI.html#a171dc0e343c9f1dc95573c87ee98b693',1,'Hardware::SPI::m_busy()'],['../d1/de2/classSoftware_1_1SPI.html#a5e2d4855c8e849bf1a89c58ea4d9a00f',1,'Software::SPI::m_busy()']]],
