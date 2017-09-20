@@ -1,5 +1,6 @@
 <map id="examples/RTC/RTC.ino" name="examples/RTC/RTC.ino">
-<area shape="rect" id="node2" href="$d4/d1a/RTC_8h.html" title="RTC.h" alt="" coords="56,80,117,107"/>
-<area shape="rect" id="node3" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="19,155,74,181"/>
-<area shape="rect" id="node4" href="$de/df7/time_8h.html" title="time.h" alt="" coords="99,155,157,181"/>
+<area shape="rect" id="node2" href="$d4/d1a/RTC_8h.html" title="RTC.h" alt="" coords="55,80,117,107"/>
+<area shape="rect" id="node8" href="$de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="141,80,260,107"/>
+<area shape="rect" id="node3" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="159,155,213,181"/>
+<area shape="rect" id="node4" href="$de/df7/time_8h.html" title="time.h" alt="" coords="63,155,122,181"/>
 </map>

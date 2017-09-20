@@ -1,8 +1,8 @@
 <map id="src/time.h" name="src/time.h">
 <area shape="rect" id="node2" href="$d1/d38/DS1302_8h.html" title="src/Driver/DS1302.h" alt="" coords="5,87,147,114"/>
-<area shape="rect" id="node4" href="$de/dba/DS1307_8h.html" title="src/Driver/DS1307.h" alt="" coords="171,87,312,114"/>
-<area shape="rect" id="node5" href="$df/d84/eu__dst_8h.html" title="src/eu_dst.h" alt="" coords="337,87,431,114"/>
-<area shape="rect" id="node6" href="$d4/d1a/RTC_8h.html" title="src/RTC.h" alt="" coords="456,87,539,114"/>
+<area shape="rect" id="node4" href="$de/dba/DS1307_8h.html" title="src/Driver/DS1307.h" alt="" coords="397,87,539,114"/>
+<area shape="rect" id="node6" href="$df/d84/eu__dst_8h.html" title="src/eu_dst.h" alt="" coords="278,87,373,114"/>
+<area shape="rect" id="node7" href="$d4/d1a/RTC_8h.html" title="src/RTC.h" alt="" coords="171,87,253,114"/>
 <area shape="rect" id="node8" href="$d9/d46/difftime_8cpp.html" title="src/time/difftime.cpp" alt="" coords="563,87,704,114"/>
 <area shape="rect" id="node9" href="$d5/dfc/gmtime__r_8cpp.html" title="src/time/gmtime_r.cpp" alt="" coords="728,87,880,114"/>
 <area shape="rect" id="node10" href="$dc/dd3/isotime__r_8cpp.html" title="src/time/isotime_r.cpp" alt="" coords="905,87,1055,114"/>
@@ -11,6 +11,6 @@
 <area shape="rect" id="node13" href="$dc/df4/mktime_8cpp.html" title="src/time/mktime.cpp" alt="" coords="1421,87,1563,114"/>
 <area shape="rect" id="node14" href="$de/dfa/set__dst_8cpp.html" title="src/time/set_dst.cpp" alt="" coords="1587,87,1728,114"/>
 <area shape="rect" id="node15" href="$d9/d55/usa__dst_8h.html" title="src/usa_dst.h" alt="" coords="1752,87,1853,114"/>
-<area shape="rect" id="node3" href="$d0/df5/RAM_8ino.html" title="examples/RAM/RAM.ino" alt="" coords="109,169,275,196"/>
-<area shape="rect" id="node7" href="$d5/df8/RTC_8ino.html" title="examples/RTC/RTC.ino" alt="" coords="416,169,579,196"/>
+<area shape="rect" id="node3" href="$d0/df5/RAM_8ino.html" title="examples/RAM/RAM.ino" alt="" coords="43,169,210,196"/>
+<area shape="rect" id="node5" href="$d5/df8/RTC_8ino.html" title="examples/RTC/RTC.ino" alt="" coords="336,169,499,196"/>
 </map>
