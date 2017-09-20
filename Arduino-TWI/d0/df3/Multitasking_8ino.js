@@ -1,7 +1,6 @@
 var Multitasking_8ino =
 [
     [ "USE_SOFTWARE_TWI", "d0/df3/Multitasking_8ino.html#a0fdcb186961daa060956c0efc0661ede", null ],
-    [ "isotime", "d0/df3/Multitasking_8ino.html#a285b410da1133c8fe3153803d7b369fa", null ],
     [ "loop", "d0/df3/Multitasking_8ino.html#a17fac73d0574dcbca7f470887a6dd609", null ],
     [ "loop", "d0/df3/Multitasking_8ino.html#ad174db111ed8b949684269ae55ef5b36", null ],
     [ "loop", "d0/df3/Multitasking_8ino.html#afe461d27b9c48d5921c00d521181f12f", null ],
