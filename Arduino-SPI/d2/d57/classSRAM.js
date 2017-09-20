@@ -1,5 +1,6 @@
 var classSRAM =
 [
+    [ "Stream", "d3/dd0/classSRAM_1_1Stream.html", "d3/dd0/classSRAM_1_1Stream" ],
     [ "READ", "d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a6983fee0b1981ac027beb264db1e0caa", null ],
     [ "WRITE", "d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a0e7dd0393ae5b7e085bc252c0826e919", null ],
     [ "RDMR", "d2/d57/classSRAM.html#a6b79da6bf17870a2e7a468920f7e7396a1192691135b217030267d5dfb13afd2c", null ],

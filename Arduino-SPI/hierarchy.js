@@ -7,5 +7,8 @@ var hierarchy =
       [ "Hardware::SPI", "d9/db9/classHardware_1_1SPI.html", null ],
       [ "Software::SPI< MOSI_PIN, MISO_PIN, SCK_PIN >", "d1/de2/classSoftware_1_1SPI.html", null ]
     ] ],
-    [ "SPI::Device< MODE, BITORDER, FREQ, SS_PIN >", "d5/d8d/classSPI_1_1Device.html", null ]
+    [ "SPI::Device< MODE, BITORDER, FREQ, SS_PIN >", "d5/d8d/classSPI_1_1Device.html", null ],
+    [ "Stream", null, [
+      [ "SRAM< SS_PIN, FREQ >::Stream< SIZE >", "d3/dd0/classSRAM_1_1Stream.html", null ]
+    ] ]
 ];
