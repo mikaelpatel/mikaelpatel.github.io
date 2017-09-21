@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ios',['ios',['../d9/dde/Stream_8ino.html#a313d0092c1a5102a3af625e1bb298091',1,'Stream.ino']]]
+  ['ios',['ios',['../d9/dde/Stream_8ino.html#a2ea6981caf0d9177d376c67a9f3fd0f0',1,'Stream.ino']]]
 ];

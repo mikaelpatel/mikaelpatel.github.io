@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('dd/d5e/classStorage.html','../../');})
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d4/db1/classStorage-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Storage Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -121,13 +122,14 @@ Inheritance diagram for Storage:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d6a/classStorage__inherit__graph.png" border="0" usemap="#Storage_inherit__map" alt="Inheritance graph"/></div>
 <map name="Storage_inherit__map" id="Storage_inherit__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="253,145,369,296"/>
-<area shape="rect" id="node8" href="../../d2/d5c/classMC23LC1024.html" title="{MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LC1024()\l+ read()\l+ write()\l}" alt="" coords="393,160,559,281"/>
-<area shape="rect" id="node3" href="../../dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,344,109,421"/>
-<area shape="rect" id="node4" href="../../de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,344,237,421"/>
-<area shape="rect" id="node5" href="../../d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,344,359,421"/>
-<area shape="rect" id="node6" href="../../de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,344,488,421"/>
-<area shape="rect" id="node7" href="../../df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,344,610,421"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="253,175,369,325"/>
+<area shape="rect" id="node8" href="../../dc/d83/classEEPROM.html" title="{EEPROM\n||+ read()\l+ write()\l}" alt="" coords="393,204,473,296"/>
+<area shape="rect" id="node9" href="../../d2/d5c/classMC23LC1024.html" title="{MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LC1024()\l+ read()\l+ write()\l}" alt="" coords="497,189,663,311"/>
+<area shape="rect" id="node3" href="../../dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,373,109,451"/>
+<area shape="rect" id="node4" href="../../de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,373,237,451"/>
+<area shape="rect" id="node5" href="../../d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,373,359,451"/>
+<area shape="rect" id="node6" href="../../de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,373,488,451"/>
+<area shape="rect" id="node7" href="../../df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,373,610,451"/>
 </map>
 </div>
 <div class="dynheader">
@@ -145,16 +147,85 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a80ef6af5e4c9fd4424ae16e808d05291"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a80ef6af5e4c9fd4424ae16e808d05291">Storage</a> ()</td></tr>
+<tr class="separator:a80ef6af5e4c9fd4424ae16e808d05291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ccf79c6a21d1942d99d246e95928e97"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a3ccf79c6a21d1942d99d246e95928e97">read</a> (void *dest, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)=0</td></tr>
 <tr class="separator:a3ccf79c6a21d1942d99d246e95928e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb2a49ba753cc912cd056cf750b99304"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#adb2a49ba753cc912cd056cf750b99304">write</a> (uint32_t dest, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)=0</td></tr>
 <tr class="separator:adb2a49ba753cc912cd056cf750b99304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
+<tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>External memory storage interface, data block read/write and streaming class. </p>
 
 <p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00026">26</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a80ef6af5e4c9fd4424ae16e808d05291"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Storage::Storage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create storage manager. </p>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00031">31</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a358bd9a1c65f88438e5c8cfbe72846f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::alloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a3ccf79c6a21d1942d99d246e95928e97"></a>
 <div class="memitem">
 <div class="memproto">
@@ -202,7 +273,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes read or negative error code. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d2/db3/classAT24CXX.html#afde87c546ffeec1d6df37fe1b1c77273">AT24CXX</a>, and <a class="el" href="../../d2/d5c/classMC23LC1024.html#ab1a8b0627b5001111c6c3b83661fc429">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/db3/classAT24CXX.html#a876f39269641e0fe43b9353956ed1524">AT24CXX</a>, <a class="el" href="../../d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>, and <a class="el" href="../../dc/d83/classEEPROM.html#af9a5fc57f436e7d6bdfbaf412143fe27">EEPROM</a>.</p>
 
 </div>
 </div>
@@ -253,7 +324,30 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d2/db3/classAT24CXX.html#acca4167c1e4122e8c250ce2e8052d58d">AT24CXX</a>, and <a class="el" href="../../d2/d5c/classMC23LC1024.html#a599b6b81743deb059a3e68e700b2afd8">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/db3/classAT24CXX.html#a749ee4971b670914cfd469a4ab44f8b9">AT24CXX</a>, <a class="el" href="../../d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>, and <a class="el" href="../../dc/d83/classEEPROM.html#ad77931d21b45892cdef51d665ca1dd7f">EEPROM</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a4067c420ed6e2a2a77c21100d5a2545a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::m_addr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -266,7 +360,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 17:55:28 for Arduino-Storage by
+    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

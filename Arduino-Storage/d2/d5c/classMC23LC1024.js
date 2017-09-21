@@ -5,7 +5,9 @@ var classMC23LC1024 =
     [ "RDMR", "d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa01ec4677b2e516621bcc62607b99badb", null ],
     [ "WRMR", "d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa4d2acd9918805f276d945388d9c54004", null ],
     [ "MC23LC1024", "d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2", null ],
-    [ "read", "d2/d5c/classMC23LC1024.html#ab1a8b0627b5001111c6c3b83661fc429", null ],
-    [ "write", "d2/d5c/classMC23LC1024.html#a599b6b81743deb059a3e68e700b2afd8", null ],
+    [ "alloc", "d2/d5c/classMC23LC1024.html#a358bd9a1c65f88438e5c8cfbe72846f6", null ],
+    [ "read", "d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d", null ],
+    [ "write", "d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414", null ],
+    [ "m_addr", "d2/d5c/classMC23LC1024.html#a4067c420ed6e2a2a77c21100d5a2545a", null ],
     [ "MAX_FREQ", "d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751", null ]
 ];

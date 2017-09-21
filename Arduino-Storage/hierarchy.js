@@ -11,11 +11,12 @@ var hierarchy =
         [ "AT24C512", "de/dec/classAT24C512.html", null ],
         [ "AT24C64", "df/d74/classAT24C64.html", null ]
       ] ],
+      [ "EEPROM", "dc/d83/classEEPROM.html", null ],
       [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ]
     ] ],
     [ "Storage::Block", "de/d4e/classStorage_1_1Block.html", null ],
     [ "Stream", null, [
-      [ "Storage::Stream< SIZE >", "dd/da0/classStorage_1_1Stream.html", null ]
+      [ "Storage::Stream", "dd/da0/classStorage_1_1Stream.html", null ]
     ] ],
     [ "Device", null, [
       [ "AT24CXX", "d2/db3/classAT24CXX.html", null ]

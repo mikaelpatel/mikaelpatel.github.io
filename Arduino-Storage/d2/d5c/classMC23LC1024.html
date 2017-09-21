@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('d2/d5c/classMC23LC1024.html','../../')
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/dc4/classMC23LC1024-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MC23LC1024&lt; SS_PIN, FREQ &gt; Class Template Reference</div>  </div>
@@ -122,7 +123,7 @@ Inheritance diagram for MC23LC1024&lt; SS_PIN, FREQ &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d43/classMC23LC1024__inherit__graph.png" border="0" usemap="#MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map" id="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n||+ read()\l+ write()\l}" alt="" coords="5,5,76,97"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
 </map>
 </div>
 <div class="dynheader">
@@ -130,7 +131,7 @@ Collaboration diagram for MC23LC1024&lt; SS_PIN, FREQ &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d4c/classMC23LC1024__coll__graph.png" border="0" usemap="#MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map" id="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n||+ read()\l+ write()\l}" alt="" coords="5,5,76,97"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -138,10 +139,12 @@ Collaboration diagram for MC23LC1024&lt; SS_PIN, FREQ &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac78ece707c44cab954d62b565f4a11d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2">MC23LC1024</a> (SPI &amp;<a class="el" href="../../d9/dde/Stream_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023">spi</a>)</td></tr>
 <tr class="separator:ac78ece707c44cab954d62b565f4a11d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a8b0627b5001111c6c3b83661fc429"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#ab1a8b0627b5001111c6c3b83661fc429">read</a> (void *dest, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:ab1a8b0627b5001111c6c3b83661fc429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a599b6b81743deb059a3e68e700b2afd8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#a599b6b81743deb059a3e68e700b2afd8">write</a> (uint32_t dest, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:a599b6b81743deb059a3e68e700b2afd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67d7281ba609ff299fe1f20182a131d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d">read</a> (void *dst, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:ab67d7281ba609ff299fe1f20182a131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742ebf794f42b976d50dd2f8ee589414"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414">write</a> (uint32_t dst, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a742ebf794f42b976d50dd2f8ee589414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -156,6 +159,11 @@ Protected Types</h2></td></tr>
 <a class="el" href="../../d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa4d2acd9918805f276d945388d9c54004">WRMR</a> = 0x01
  }</td></tr>
 <tr class="separator:a9e203ad6c9b2d96762a874c9a3d19e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
+<tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt;<br />
@@ -241,7 +249,40 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab1a8b0627b5001111c6c3b83661fc429"></a>
+<a class="anchor" id="a358bd9a1c65f88438e5c8cfbe72846f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::alloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab67d7281ba609ff299fe1f20182a131d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -254,7 +295,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
           <td class="memname">virtual int <a class="el" href="../../d2/d5c/classMC23LC1024.html">MC23LC1024</a>&lt; SS_PIN, FREQ &gt;::read </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
+          <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -282,7 +323,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </div><div class="memdoc">
 <p>Read count number of bytes from SRAM address to buffer. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>destination buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source memory address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to read from device. </td></tr>
   </table>
@@ -296,7 +337,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a599b6b81743deb059a3e68e700b2afd8"></a>
+<a class="anchor" id="a742ebf794f42b976d50dd2f8ee589414"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -309,7 +350,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
           <td class="memname">virtual int <a class="el" href="../../d2/d5c/classMC23LC1024.html">MC23LC1024</a>&lt; SS_PIN, FREQ &gt;::write </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
+          <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -337,7 +378,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </div><div class="memdoc">
 <p>Write count number of bytes to SRAM address from buffer. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination memory address on device. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>destination memory address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to write to device. </td></tr>
   </table>
@@ -352,6 +393,28 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a4067c420ed6e2a2a77c21100d5a2545a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::m_addr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0ede167d313aa0f26f25311d2aa93751"></a>
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +449,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d5c/classMC23LC1024.html">MC23LC1024</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 17:55:28 for Arduino-Storage by
+    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

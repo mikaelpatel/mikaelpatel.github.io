@@ -4,7 +4,7 @@ var Stream_8ino =
     [ "loop", "d9/dde/Stream_8ino.html#afe461d27b9c48d5921c00d521181f12f", null ],
     [ "setup", "d9/dde/Stream_8ino.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
     [ "count", "d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf", null ],
-    [ "ios", "d9/dde/Stream_8ino.html#a313d0092c1a5102a3af625e1bb298091", null ],
+    [ "ios", "d9/dde/Stream_8ino.html#a2ea6981caf0d9177d376c67a9f3fd0f0", null ],
     [ "m0", "d9/dde/Stream_8ino.html#a5e7838db0f281a80b8809ca51e3d628a", null ],
     [ "m1", "d9/dde/Stream_8ino.html#ace468ab88eff19247cff3e58fa2e6a34", null ],
     [ "m2", "d9/dde/Stream_8ino.html#a687e2d45157d2176783cb263b3b03557", null ],
@@ -17,5 +17,5 @@ var Stream_8ino =
     [ "s0", "d9/dde/Stream_8ino.html#a74fff0698ae2c18acbc0eec1fb771459", null ],
     [ "spi", "d9/dde/Stream_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023", null ],
     [ "sram", "d9/dde/Stream_8ino.html#aef8c241913a15952a15a40d816bb7268", null ],
-    [ "temps", "d9/dde/Stream_8ino.html#ad8251378464ad64327021cae0486eebf", null ]
+    [ "temps", "d9/dde/Stream_8ino.html#a1b7c088b4edfced036ffce55efca3dc9", null ]
 ];

@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('d3/dc8/classAT24C32.html','../../');})
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../de/d25/classAT24C32-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AT24C32 Class Reference</div>  </div>
@@ -121,8 +122,8 @@ Inheritance diagram for AT24C32:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/db1/classAT24C32__inherit__graph.png" border="0" usemap="#AT24C32_inherit__map" alt="Inheritance graph"/></div>
 <map name="AT24C32_inherit__map" id="AT24C32_inherit__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="36,145,152,296"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n||+ read()\l+ write()\l}" alt="" coords="5,5,76,97"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="48,175,164,325"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
 </map>
 </div>
 <div class="dynheader">
@@ -130,8 +131,8 @@ Collaboration diagram for AT24C32:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/de5/classAT24C32__coll__graph.png" border="0" usemap="#AT24C32_coll__map" alt="Collaboration graph"/></div>
 <map name="AT24C32_coll__map" id="AT24C32_coll__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="36,145,152,296"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n||+ read()\l+ write()\l}" alt="" coords="5,5,76,97"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="48,175,164,325"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -141,10 +142,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a81493fc8972e96875b5c8aacf1926c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f3a7d53b2e9380fc307584ff6b53393"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393">is_ready</a> ()</td></tr>
 <tr class="separator:a5f3a7d53b2e9380fc307584ff6b53393"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde87c546ffeec1d6df37fe1b1c77273"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#afde87c546ffeec1d6df37fe1b1c77273">read</a> (void *dest, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:afde87c546ffeec1d6df37fe1b1c77273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acca4167c1e4122e8c250ce2e8052d58d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#acca4167c1e4122e8c250ce2e8052d58d">write</a> (uint32_t dest, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:acca4167c1e4122e8c250ce2e8052d58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a876f39269641e0fe43b9353956ed1524"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a876f39269641e0fe43b9353956ed1524">read</a> (void *dst, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a876f39269641e0fe43b9353956ed1524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749ee4971b670914cfd469a4ab44f8b9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a749ee4971b670914cfd469a4ab44f8b9">write</a> (uint32_t dst, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a749ee4971b670914cfd469a4ab44f8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -154,9 +157,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad03674e83c5d5489f5fdbf2ec3533f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69631c0e4fcf1d79435d918b40fee717"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a69631c0e4fcf1d79435d918b40fee717">SIZE</a></td></tr>
 <tr class="separator:a69631c0e4fcf1d79435d918b40fee717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
+<tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> provides 32,768 bits of serial electrically erasable and programmable read only memory (EEPROM) organized as 4096 words of 8 bits each. 32-Byte page write mode.</p>
+<div class="textblock"><p>The <a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> provides 32,768 bits of serial electrically erasable and programmable read only memory (<a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a>) organized as 4096 words of 8 bits each. 32-Byte page write mode.</p>
 <p>See Atmel Product description (Rev. 0336K-SEEPR-7/03), www.atmel.com/images/doc0336.pdf </p>
 
 <p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00178">178</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
@@ -198,6 +206,39 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a358bd9a1c65f88438e5c8cfbe72846f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::alloc </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5f3a7d53b2e9380fc307584ff6b53393"></a>
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +265,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afde87c546ffeec1d6df37fe1b1c77273"></a>
+<a class="anchor" id="a876f39269641e0fe43b9353956ed1524"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -235,7 +276,7 @@ Public Attributes</h2></td></tr>
           <td class="memname">virtual int AT24CXX::read </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
+          <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -263,7 +304,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Read eeprom block with the given size into the buffer from the address. Return number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>buffer to read from eeprom. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>buffer to read from eeprom. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>address in eeprom to read from. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to read. </td></tr>
   </table>
@@ -277,7 +318,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="acca4167c1e4122e8c250ce2e8052d58d"></a>
+<a class="anchor" id="a749ee4971b670914cfd469a4ab44f8b9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -288,7 +329,7 @@ Public Attributes</h2></td></tr>
           <td class="memname">virtual int AT24CXX::write </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>dest</em>, </td>
+          <td class="paramname"><em>dst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -316,7 +357,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Write eeprom block at given address with the contents from the buffer. Return number of bytes written or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>address in eeprom to read write to. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>address in eeprom to read write to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>buffer to write to eeprom. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to write. </td></tr>
   </table>
@@ -331,6 +372,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a4067c420ed6e2a2a77c21100d5a2545a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::m_addr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad03674e83c5d5489f5fdbf2ec3533f34"></a>
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +472,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 17:55:28 for Arduino-Storage by
+    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

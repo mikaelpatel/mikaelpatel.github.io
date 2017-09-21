@@ -114,6 +114,7 @@ $(document).ready(function(){initNavTree('d5/dc1/Block_8ino.html','../../');});
 <div class="contents">
 <div class="textblock"><code>#include &quot;TWI.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/db0/EEPROM_8h_source.html">Driver/EEPROM.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d0b/AT24CXX_8h_source.html">Driver/AT24CXX.h</a>&quot;</code><br />
 <code>#include &quot;GPIO.h&quot;</code><br />
 <code>#include &quot;Software/TWI.h&quot;</code><br />
@@ -122,8 +123,9 @@ Include dependency graph for Block.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/db2/Block_8ino__incl.png" border="0" usemap="#examples_2Block_2Block_8ino" alt=""/></div>
 <map name="examples_2Block_2Block_8ino" id="examples_2Block_2Block_8ino">
-<area shape="rect" id="node3" href="../../db/d6f/Storage_8h.html" title="Storage.h" alt="" coords="145,155,223,181"/>
-<area shape="rect" id="node4" href="../../db/d0b/AT24CXX_8h.html" title="Driver/AT24CXX.h" alt="" coords="68,80,199,107"/>
+<area shape="rect" id="node3" href="../../db/d6f/Storage_8h.html" title="Storage.h" alt="" coords="153,155,232,181"/>
+<area shape="rect" id="node4" href="../../d6/db0/EEPROM_8h.html" title="Driver/EEPROM.h" alt="" coords="230,80,361,107"/>
+<area shape="rect" id="node5" href="../../db/d0b/AT24CXX_8h.html" title="Driver/AT24CXX.h" alt="" coords="25,80,155,107"/>
 </map>
 </div>
 </div>
@@ -145,14 +147,16 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a5f6c23e710f03466d326351c84e5a55b"><td class="memItemLeft" align="right" valign="top">Software::TWI&lt; BOARD::D6, BOARD::D7 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a></td></tr>
 <tr class="separator:a5f6c23e710f03466d326351c84e5a55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a98b829f397bd38433052ff220f8ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td></tr>
-<tr class="separator:a28a98b829f397bd38433052ff220f8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada6b9ebe246988bec77d2311f5a95fee"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#ada6b9ebe246988bec77d2311f5a95fee">v_addr</a> = eeprom.PAGE_MAX / 2</td></tr>
-<tr class="separator:ada6b9ebe246988bec77d2311f5a95fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae40ee5b281bc71dadd35aa219bcd60a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a></td></tr>
+<tr class="separator:ae40ee5b281bc71dadd35aa219bcd60a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b514c34c19f50c7b98c0513288fb9b7"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a> [32]</td></tr>
 <tr class="separator:a2b514c34c19f50c7b98c0513288fb9b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c54dbde92f9c30e48cb71555aabcb1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a4c54dbde92f9c30e48cb71555aabcb1c">v_eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#ada6b9ebe246988bec77d2311f5a95fee">v_addr</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>))</td></tr>
-<tr class="separator:a4c54dbde92f9c30e48cb71555aabcb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbccb92041c09e87eb40d313a53120b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#acbccb92041c09e87eb40d313a53120b7">v_eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>))</td></tr>
+<tr class="separator:acbccb92041c09e87eb40d313a53120b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5050b24e97a53282de14ca34e670cb25"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a5050b24e97a53282de14ca34e670cb25">w</a> [32]</td></tr>
+<tr class="separator:a5050b24e97a53282de14ca34e670cb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d2d9ac697a19becba9d2472d2261d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a15d2d9ac697a19becba9d2472d2261d6">w_eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a5050b24e97a53282de14ca34e670cb25">w</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a5050b24e97a53282de14ca34e670cb25">w</a>))</td></tr>
+<tr class="separator:a15d2d9ac697a19becba9d2472d2261d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a0fdcb186961daa060956c0efc0661ede"></a>
@@ -165,7 +169,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00005">5</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00006">6</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -183,7 +187,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00052">52</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00068">68</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -205,15 +209,17 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a28a98b829f397bd38433052ff220f8ec"></a>
+<a class="anchor" id="ae40ee5b281bc71dadd35aa219bcd60a7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td>
+          <td class="memname"><a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a> eeprom</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00026">26</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -227,7 +233,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00016">16</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00017">17</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -241,30 +247,42 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00030">30</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00029">29</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ada6b9ebe246988bec77d2311f5a95fee"></a>
+<a class="anchor" id="acbccb92041c09e87eb40d313a53120b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const uint32_t v_addr = eeprom.PAGE_MAX / 2</td>
+          <td class="memname"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a> v_eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00027">27</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a4c54dbde92f9c30e48cb71555aabcb1c"></a>
+<a class="anchor" id="a5050b24e97a53282de14ca34e670cb25"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a> v_eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#ada6b9ebe246988bec77d2311f5a95fee">v_addr</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7">v</a>))</td>
+          <td class="memname">char w[32]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00032">32</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15d2d9ac697a19becba9d2472d2261d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a> w_eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a5050b24e97a53282de14ca34e670cb25">w</a>, sizeof(<a class="el" href="../../d5/dc1/Block_8ino.html#a5050b24e97a53282de14ca34e670cb25">w</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -277,7 +295,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_58ba686cdd65e6952a19aa6d2ee4e90b.html">Block</a></li><li class="navelem"><a class="el" href="../../d5/dc1/Block_8ino.html">Block.ino</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 17:55:28 for Arduino-Storage by
+    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

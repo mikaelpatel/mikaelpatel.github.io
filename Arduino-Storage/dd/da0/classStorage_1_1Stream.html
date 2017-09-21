@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Arduino-Storage: Storage::Stream&lt; SIZE &gt; Class Template Reference</title>
+<title>Arduino-Storage: Storage::Stream Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,79 +111,73 @@ $(document).ready(function(){initNavTree('dd/da0/classStorage_1_1Stream.html','.
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../de/dd1/classStorage_1_1Stream-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Storage::Stream&lt; SIZE &gt; Class Template Reference</div>  </div>
+<div class="title">Storage::Stream Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Storage::Stream&lt; SIZE &gt;:</div>
+Inheritance diagram for Storage::Stream:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../df/d82/classStorage_1_1Stream__inherit__graph.png" border="0" usemap="#Storage_1_1Stream_3_01SIZE_01_4_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="../../df/d82/classStorage_1_1Stream__inherit__graph.png" border="0" usemap="#Storage_1_1Stream_inherit__map" alt="Inheritance graph"/></div>
 </div>
 <div class="dynheader">
-Collaboration diagram for Storage::Stream&lt; SIZE &gt;:</div>
+Collaboration diagram for Storage::Stream:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d0/dcc/classStorage_1_1Stream__coll__graph.png" border="0" usemap="#Storage_1_1Stream_3_01SIZE_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="Storage_1_1Stream_3_01SIZE_01_4_coll__map" id="Storage_1_1Stream_3_01SIZE_01_4_coll__map">
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n||+ read()\l+ write()\l}" alt="" coords="102,5,173,97"/>
+<div class="center"><img src="../../d0/dcc/classStorage_1_1Stream__coll__graph.png" border="0" usemap="#Storage_1_1Stream_coll__map" alt="Collaboration graph"/></div>
+<map name="Storage_1_1Stream_coll__map" id="Storage_1_1Stream_coll__map">
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="94,5,181,127"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2f9132f9d047e2a1295e8c42dc8698aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a2f9132f9d047e2a1295e8c42dc8698aa">Stream</a> (<a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;mem, uint32_t addr=0)</td></tr>
-<tr class="separator:a2f9132f9d047e2a1295e8c42dc8698aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc8b3b3fa288480f387d9c8251e53282"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#afc8b3b3fa288480f387d9c8251e53282">write</a> (uint8_t byte)</td></tr>
-<tr class="separator:afc8b3b3fa288480f387d9c8251e53282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6207a35f7c215881b86565708266462"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#af6207a35f7c215881b86565708266462">write</a> (const uint8_t *buffer, size_t size)</td></tr>
-<tr class="separator:af6207a35f7c215881b86565708266462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa33561b9e86f0825322a7d5ebe57165a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#aa33561b9e86f0825322a7d5ebe57165a">available</a> ()</td></tr>
-<tr class="separator:aa33561b9e86f0825322a7d5ebe57165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4db20667278121146f51b694c3e05ab"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ac4db20667278121146f51b694c3e05ab">peek</a> ()</td></tr>
-<tr class="separator:ac4db20667278121146f51b694c3e05ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba6b9fec38fe28698eb235e2549e58e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a4ba6b9fec38fe28698eb235e2549e58e">read</a> ()</td></tr>
-<tr class="separator:a4ba6b9fec38fe28698eb235e2549e58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb95895b4f14c751698fa1370e392fbe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#adb95895b4f14c751698fa1370e392fbe">flush</a> ()</td></tr>
-<tr class="separator:adb95895b4f14c751698fa1370e392fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3573924bb4a7884eaf707a365ed8055"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ac3573924bb4a7884eaf707a365ed8055">Stream</a> (<a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;mem, size_t size)</td></tr>
+<tr class="separator:ac3573924bb4a7884eaf707a365ed8055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af31fc6534faaddf6c973801c90ffd0b2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#af31fc6534faaddf6c973801c90ffd0b2">addr</a> ()</td></tr>
+<tr class="separator:af31fc6534faaddf6c973801c90ffd0b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8aebeb49f53166167c8f1103fb6930"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#adb8aebeb49f53166167c8f1103fb6930">write</a> (uint8_t byte)</td></tr>
+<tr class="separator:adb8aebeb49f53166167c8f1103fb6930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7f17105ff667eb402bca9b4d97d085"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#abf7f17105ff667eb402bca9b4d97d085">write</a> (const uint8_t *buffer, size_t size)</td></tr>
+<tr class="separator:abf7f17105ff667eb402bca9b4d97d085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e32a40c7a0d18e2b9bdb1c3d03d7ac"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ae7e32a40c7a0d18e2b9bdb1c3d03d7ac">available</a> ()</td></tr>
+<tr class="separator:ae7e32a40c7a0d18e2b9bdb1c3d03d7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a4eded333fbf727ef65fa74f0a65a8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a43a4eded333fbf727ef65fa74f0a65a8">peek</a> ()</td></tr>
+<tr class="separator:a43a4eded333fbf727ef65fa74f0a65a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b88525d62d431b6fe834e76e1706a32"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a0b88525d62d431b6fe834e76e1706a32">read</a> ()</td></tr>
+<tr class="separator:a0b88525d62d431b6fe834e76e1706a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef248ccd8747a5c97a17cc8ddad1dedf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#aef248ccd8747a5c97a17cc8ddad1dedf">flush</a> ()</td></tr>
+<tr class="separator:aef248ccd8747a5c97a17cc8ddad1dedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aeed4eb75c791ca345d7ed46979ce6fb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#aeed4eb75c791ca345d7ed46979ce6fb0">m_mem</a></td></tr>
-<tr class="separator:aeed4eb75c791ca345d7ed46979ce6fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed05db844384165cfbf74d574809d67"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a0ed05db844384165cfbf74d574809d67">m_addr</a></td></tr>
-<tr class="separator:a0ed05db844384165cfbf74d574809d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3dcbc65c48b978f008f76d04ca58f25"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ae3dcbc65c48b978f008f76d04ca58f25">m_put</a></td></tr>
-<tr class="separator:ae3dcbc65c48b978f008f76d04ca58f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae65d31c10e0d633238be650be4fbf312"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ae65d31c10e0d633238be650be4fbf312">m_get</a></td></tr>
-<tr class="separator:ae65d31c10e0d633238be650be4fbf312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e9c6bc3a47bd06c09fe03bd53fd8417"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a7e9c6bc3a47bd06c09fe03bd53fd8417">m_count</a></td></tr>
-<tr class="separator:a7e9c6bc3a47bd06c09fe03bd53fd8417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc31de755e676b9990a8a90eb523bcfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#afc31de755e676b9990a8a90eb523bcfa">m_mem</a></td></tr>
+<tr class="separator:afc31de755e676b9990a8a90eb523bcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e699148402ba2d866672e4133db7ff"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a82e699148402ba2d866672e4133db7ff">m_addr</a></td></tr>
+<tr class="separator:a82e699148402ba2d866672e4133db7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bccbc24cf36666e25a4f30bd913f97"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97">m_put</a></td></tr>
+<tr class="separator:af7bccbc24cf36666e25a4f30bd913f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab316699276586e80368fcd48f78e99c5"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#ab316699276586e80368fcd48f78e99c5">m_get</a></td></tr>
+<tr class="separator:ab316699276586e80368fcd48f78e99c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3650af918bd9f04074ca2adc874491fc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a3650af918bd9f04074ca2adc874491fc">m_count</a></td></tr>
+<tr class="separator:a3650af918bd9f04074ca2adc874491fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa144cb969fb8426428eae3498662dc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a3aa144cb969fb8426428eae3498662dc">m_size</a></td></tr>
+<tr class="separator:a3aa144cb969fb8426428eae3498662dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;uint16_t SIZE&gt;<br />
-class Storage::Stream&lt; SIZE &gt;</h3>
+<div class="textblock"><p><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a> of given size on given storage. Write/print intermediate data to the stream that may later be read and transfered. Multiple stream may be created on the same device by assigning start address and size. </p>
 
-<p><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a> of given size on given storage. Write/print intermediate data to the stream that may later be read and transfered. Multiple stream may be created on the same device by assigning start address and size. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">SIZE</td><td>number of bytes in stream. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00100">100</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00132">132</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a2f9132f9d047e2a1295e8c42dc8698aa"></a>
+<a class="anchor" id="ac3573924bb4a7884eaf707a365ed8055"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::<a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a> </td>
+          <td class="memname">Storage::Stream::Stream </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;&#160;</td>
           <td class="paramname"><em>mem</em>, </td>
@@ -191,8 +185,8 @@ template&lt;uint16_t SIZE&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>addr</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -209,27 +203,51 @@ template&lt;uint16_t SIZE&gt; </div>
 <p>Construct stream on given storage device at the given start address. The storage size of the stream is given as a template parameter. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mem</td><td>storage device for stream. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>start address for stream (default 0). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of bytes in stream. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00109">109</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00141">141</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa33561b9e86f0825322a7d5ebe57165a"></a>
+<a class="anchor" id="af31fc6534faaddf6c973801c90ffd0b2"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::available </td>
+          <td class="memname">uint32_t Storage::Stream::addr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns storage address. </p><dl class="section return"><dt>Returns</dt><dd>address. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00155">155</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7e32a40c7a0d18e2b9bdb1c3d03d7ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Storage::Stream::available </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -241,23 +259,21 @@ template&lt;uint16_t SIZE&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns number of bytes available for <a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a4ba6b9fec38fe28698eb235e2549e58e">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bytes available. </dd></dl>
+<p>Returns number of bytes available for <a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a0b88525d62d431b6fe834e76e1706a32">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bytes available. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00167">167</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00210">210</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="adb95895b4f14c751698fa1370e392fbe"></a>
+<a class="anchor" id="aef248ccd8747a5c97a17cc8ddad1dedf"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::flush </td>
+          <td class="memname">virtual void Storage::Stream::flush </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -271,21 +287,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Flush all data and reset stream. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00207">207</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00250">250</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac4db20667278121146f51b694c3e05ab"></a>
+<a class="anchor" id="a43a4eded333fbf727ef65fa74f0a65a8"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::peek </td>
+          <td class="memname">virtual int Storage::Stream::peek </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -299,21 +313,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Return next byte to read if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00178">178</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00221">221</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4ba6b9fec38fe28698eb235e2549e58e"></a>
+<a class="anchor" id="a0b88525d62d431b6fe834e76e1706a32"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::read </td>
+          <td class="memname">virtual int Storage::Stream::read </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -327,21 +339,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </div><div class="memdoc">
 <p>Return next byte if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00192">192</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00235">235</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afc8b3b3fa288480f387d9c8251e53282"></a>
+<a class="anchor" id="adb8aebeb49f53166167c8f1103fb6930"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::write </td>
+          <td class="memname">virtual size_t Storage::Stream::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>byte</em></td><td>)</td>
@@ -362,21 +372,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written(1). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00124">124</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00167">167</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af6207a35f7c215881b86565708266462"></a>
+<a class="anchor" id="abf7f17105ff667eb402bca9b4d97d085"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual size_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::write </td>
+          <td class="memname">virtual size_t Storage::Stream::write </td>
           <td>(</td>
           <td class="paramtype">const uint8_t *&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -408,22 +416,20 @@ template&lt;uint16_t SIZE&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00142">142</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00185">185</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a0ed05db844384165cfbf74d574809d67"></a>
+<a class="anchor" id="a82e699148402ba2d866672e4133db7ff"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::m_addr</td>
+          <td class="memname">const uint32_t Storage::Stream::m_addr</td>
         </tr>
       </table>
   </td>
@@ -433,21 +439,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00216">216</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00259">259</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7e9c6bc3a47bd06c09fe03bd53fd8417"></a>
+<a class="anchor" id="a3650af918bd9f04074ca2adc874491fc"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::m_count</td>
+          <td class="memname">uint16_t Storage::Stream::m_count</td>
         </tr>
       </table>
   </td>
@@ -457,21 +461,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00219">219</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00262">262</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae65d31c10e0d633238be650be4fbf312"></a>
+<a class="anchor" id="ab316699276586e80368fcd48f78e99c5"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::m_get</td>
+          <td class="memname">uint16_t Storage::Stream::m_get</td>
         </tr>
       </table>
   </td>
@@ -481,21 +483,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00218">218</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00261">261</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aeed4eb75c791ca345d7ed46979ce6fb0"></a>
+<a class="anchor" id="afc31de755e676b9990a8a90eb523bcfa"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a>&amp; <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::m_mem</td>
+          <td class="memname"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a>&amp; Storage::Stream::m_mem</td>
         </tr>
       </table>
   </td>
@@ -505,21 +505,19 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00215">215</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00258">258</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae3dcbc65c48b978f008f76d04ca58f25"></a>
+<a class="anchor" id="af7bccbc24cf36666e25a4f30bd913f97"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;uint16_t SIZE&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t <a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Storage::Stream</a>&lt; SIZE &gt;::m_put</td>
+          <td class="memname">uint16_t Storage::Stream::m_put</td>
         </tr>
       </table>
   </td>
@@ -529,7 +527,29 @@ template&lt;uint16_t SIZE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00217">217</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00260">260</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3aa144cb969fb8426428eae3498662dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Storage::Stream::m_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00263">263</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -542,7 +562,7 @@ template&lt;uint16_t SIZE&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a></li><li class="navelem"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 17:55:28 for Arduino-Storage by
+    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

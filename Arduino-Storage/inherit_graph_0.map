@@ -1,10 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d2/d5c/classMC23LC1024.html" title="MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="120,30,287,71"/>
-<area shape="rect" id="node3" href="$dd/d5e/classStorage.html" title="Storage" alt="" coords="5,77,72,104"/>
-<area shape="rect" id="node4" href="$d2/db3/classAT24CXX.html" title="AT24CXX" alt="" coords="163,107,244,133"/>
-<area shape="rect" id="node5" href="$dd/ded/classAT24C128.html" title="AT24C128" alt="" coords="335,5,419,32"/>
-<area shape="rect" id="node6" href="$de/df6/classAT24C256.html" title="AT24C256" alt="" coords="335,56,419,83"/>
-<area shape="rect" id="node7" href="$d3/dc8/classAT24C32.html" title="AT24C32" alt="" coords="338,107,415,133"/>
-<area shape="rect" id="node8" href="$de/dec/classAT24C512.html" title="AT24C512" alt="" coords="335,157,419,184"/>
-<area shape="rect" id="node9" href="$df/d74/classAT24C64.html" title="AT24C64" alt="" coords="338,208,415,235"/>
+<area shape="rect" id="node2" href="$d2/d5c/classMC23LC1024.html" title="MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="120,5,287,47"/>
+<area shape="rect" id="node3" href="$dd/d5e/classStorage.html" title="Storage" alt="" coords="5,71,72,98"/>
+<area shape="rect" id="node4" href="$d2/db3/classAT24CXX.html" title="AT24CXX" alt="" coords="163,122,244,149"/>
+<area shape="rect" id="node10" href="$dc/d83/classEEPROM.html" title="EEPROM" alt="" coords="163,71,243,98"/>
+<area shape="rect" id="node5" href="$dd/ded/classAT24C128.html" title="AT24C128" alt="" coords="335,21,419,47"/>
+<area shape="rect" id="node6" href="$de/df6/classAT24C256.html" title="AT24C256" alt="" coords="335,71,419,98"/>
+<area shape="rect" id="node7" href="$d3/dc8/classAT24C32.html" title="AT24C32" alt="" coords="338,122,415,149"/>
+<area shape="rect" id="node8" href="$de/dec/classAT24C512.html" title="AT24C512" alt="" coords="335,173,419,199"/>
+<area shape="rect" id="node9" href="$df/d74/classAT24C64.html" title="AT24C64" alt="" coords="338,223,415,250"/>
 </map>
