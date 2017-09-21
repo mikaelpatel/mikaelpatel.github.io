@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['loop',['loop',['../d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;ShiftOut.ino'],['../d1/ddd/SRAM_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;SRAM.ino'],['../d9/dde/Stream_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Stream.ino']]]
+  ['operator_3c_3c',['operator&lt;&lt;',['../da/d8d/classSPI.html#a21e72e9557cd021e416efbfcf64f8dee',1,'SPI']]],
+  ['operator_3e_3e',['operator&gt;&gt;',['../da/d8d/classSPI.html#a54acde13f4d0e2a179609391c2027875',1,'SPI']]]
 ];
