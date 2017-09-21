@@ -1,29 +1,6 @@
 var searchData=
 [
-  ['m_5faddr',['m_addr',['../d4/d2d/classTWI_1_1Device.html#af3ef9b77c22df556152c78e31a010791',1,'TWI::Device']]],
-  ['m_5fbusy',['m_busy',['../d1/deb/classTWI.html#abf04e1e808533a23e2092675828f4138',1,'TWI']]],
-  ['m_5fddr',['m_ddr',['../d1/da6/classPCF8574.html#ae8798e60532df9edf2facdef047d55ef',1,'PCF8574']]],
-  ['m_5fdev',['m_dev',['../d9/db3/classPCF8574_1_1GPIO.html#a86b6f676bb8d95b2078411940e3bf574',1,'PCF8574::GPIO']]],
-  ['m_5fport',['m_port',['../d1/da6/classPCF8574.html#af89e6720a90135e1314da3f1b6343bb8',1,'PCF8574']]],
-  ['m_5fscl',['m_scl',['../d0/dd0/classSoftware_1_1TWI.html#aed4a620aa26e18e8607675be02a861e2',1,'Software::TWI']]],
-  ['m_5fsda',['m_sda',['../d0/dd0/classSoftware_1_1TWI.html#a6a1b35807491e1f53af057d215402cfc',1,'Software::TWI']]],
-  ['m_5fstart',['m_start',['../dd/d1d/classHardware_1_1TWI.html#a128e62e15aac25233e1f6aa3a567a902',1,'Hardware::TWI::m_start()'],['../d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6',1,'Software::TWI::m_start()']]],
-  ['m_5ftwi',['m_twi',['../d4/d2d/classTWI_1_1Device.html#a97d00dd1ff7f2c3589761113a7261576',1,'TWI::Device']]],
-  ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
-  ['mask',['MASK',['../d9/db3/classPCF8574_1_1GPIO.html#aa738726a6b9d3a2a4c54ce6371a13d6f',1,'PCF8574::GPIO::MASK()'],['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a51e343a9de43e12648a246090be44239',1,'Hardware::TWI::MASK()']]],
-  ['measure_5fhumidity',['measure_humidity',['../dd/d1e/classSi70XX.html#a13ec5787a0217f3416c6631a5b08b0b5',1,'Si70XX']]],
-  ['measure_5frh_5fhold',['MEASURE_RH_HOLD',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea671466fe4c634ca8e4f5b6702c53bab3',1,'Si70XX']]],
-  ['measure_5frh_5fno_5fhold',['MEASURE_RH_NO_HOLD',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea1906b76db8364ef068659deba7a34b88',1,'Si70XX']]],
-  ['measure_5ftemp_5fhold',['MEASURE_TEMP_HOLD',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0eae5f07e089924e8fb89d5999cd4f1c8d1',1,'Si70XX']]],
-  ['measure_5ftemp_5fno_5fhold',['MEASURE_TEMP_NO_HOLD',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea54608845e034a49151695887d4ca900b',1,'Si70XX']]],
-  ['measure_5ftemperature',['measure_temperature',['../dd/d1e/classSi70XX.html#a1c15a83203f16a61665e06ec081f16d1',1,'Si70XX']]],
-  ['mr_5fdata_5fack',['MR_DATA_ACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a4f98ea86fdf7dd7b39b88aa444e3fcd0',1,'Hardware::TWI']]],
-  ['mr_5fdata_5fnack',['MR_DATA_NACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a697dc670acc631d0589dddbfa1fbd358',1,'Hardware::TWI']]],
-  ['mr_5fsla_5fack',['MR_SLA_ACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a8ae8c2f021246a9fc8fb91a8a5753dc9',1,'Hardware::TWI']]],
-  ['mr_5fsla_5fnack',['MR_SLA_NACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a684efbedcd3e45e85511473af5c7ca4f',1,'Hardware::TWI']]],
-  ['mt_5fdata_5fack',['MT_DATA_ACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a6fcea31e59f0a61b45ac234cbe96a1c0',1,'Hardware::TWI']]],
-  ['mt_5fdata_5fnack',['MT_DATA_NACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5ae2b5e3668ccede4abdfbf1ad78aea2fe',1,'Hardware::TWI']]],
-  ['mt_5fsla_5fack',['MT_SLA_ACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a6eeb9e150fdaeedfdb5159486c9f639b',1,'Hardware::TWI']]],
-  ['mt_5fsla_5fnack',['MT_SLA_NACK',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a6f614af1a5ddfd7b7f1563e8c3e9e527',1,'Hardware::TWI']]],
-  ['multitasking_2eino',['Multitasking.ino',['../d0/df3/Multitasking_8ino.html',1,'']]]
+  ['operator_20bool',['operator bool',['../d9/db3/classPCF8574_1_1GPIO.html#aa5fc3c70110cf8672672ceb619f14569',1,'PCF8574::GPIO']]],
+  ['operator_3d',['operator=',['../d9/db3/classPCF8574_1_1GPIO.html#a2ca62b9e13488329504df92132a46b07',1,'PCF8574::GPIO']]],
+  ['output',['output',['../d9/db3/classPCF8574_1_1GPIO.html#a0635dc76467531f754818d8a393f0551',1,'PCF8574::GPIO']]]
 ];

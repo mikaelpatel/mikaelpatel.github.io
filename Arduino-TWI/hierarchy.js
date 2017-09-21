@@ -7,13 +7,6 @@ var hierarchy =
       [ "Software::TWI< SDA_PIN, SCL_PIN >", "d0/dd0/classSoftware_1_1TWI.html", null ]
     ] ],
     [ "TWI::Device", "d4/d2d/classTWI_1_1Device.html", [
-      [ "AT24CXX", "d2/db3/classAT24CXX.html", [
-        [ "AT24C128", "dd/ded/classAT24C128.html", null ],
-        [ "AT24C256", "de/df6/classAT24C256.html", null ],
-        [ "AT24C32", "d3/dc8/classAT24C32.html", null ],
-        [ "AT24C512", "de/dec/classAT24C512.html", null ],
-        [ "AT24C64", "df/d74/classAT24C64.html", null ]
-      ] ],
       [ "PCF8574", "d1/da6/classPCF8574.html", [
         [ "PCF8574A", "d5/d23/classPCF8574A.html", null ]
       ] ],

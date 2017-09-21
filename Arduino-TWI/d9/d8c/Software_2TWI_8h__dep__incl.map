@@ -1,8 +1,5 @@
 <map id="src/Software/TWI.h" name="src/Software/TWI.h">
-<area shape="rect" id="node2" href="$de/d62/AT24CXX_8ino.html" title="examples/AT24CXX/AT24CXX.ino" alt="" coords="5,90,231,116"/>
-<area shape="rect" id="node3" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="255,90,456,116"/>
-<area shape="rect" id="node4" href="$d0/df3/Multitasking_8ino.html" title="examples/Multitasking\l/Multitasking.ino" alt="" coords="481,82,633,124"/>
-<area shape="rect" id="node5" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="657,90,875,116"/>
-<area shape="rect" id="node6" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="899,90,1102,116"/>
-<area shape="rect" id="node7" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="1126,90,1313,116"/>
+<area shape="rect" id="node2" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="5,81,223,108"/>
+<area shape="rect" id="node3" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="247,81,450,108"/>
+<area shape="rect" id="node4" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="474,81,661,108"/>
 </map>

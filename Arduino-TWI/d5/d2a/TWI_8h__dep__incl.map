@@ -1,11 +1,7 @@
 <map id="src/TWI.h" name="src/TWI.h">
-<area shape="rect" id="node2" href="$db/d0b/AT24CXX_8h.html" title="src/Driver/AT24CXX.h" alt="" coords="155,80,308,107"/>
-<area shape="rect" id="node3" href="$de/d62/AT24CXX_8ino.html" title="examples/AT24CXX/AT24CXX.ino" alt="" coords="5,162,231,189"/>
-<area shape="rect" id="node4" href="$d0/df3/Multitasking_8ino.html" title="examples/Multitasking\l/Multitasking.ino" alt="" coords="258,155,410,196"/>
-<area shape="rect" id="node5" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="383,80,533,107"/>
-<area shape="rect" id="node6" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="439,162,656,189"/>
-<area shape="rect" id="node7" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="607,80,746,107"/>
-<area shape="rect" id="node8" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="689,162,875,189"/>
-<area shape="rect" id="node9" href="$d3/d10/DS1307_8ino.html" title="examples/DS1307/DS1307.ino" alt="" coords="821,80,1023,107"/>
-<area shape="rect" id="node10" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="1047,80,1250,107"/>
+<area shape="rect" id="node2" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="15,80,165,107"/>
+<area shape="rect" id="node3" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="5,155,223,181"/>
+<area shape="rect" id="node4" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="239,80,378,107"/>
+<area shape="rect" id="node5" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="297,155,483,181"/>
+<area shape="rect" id="node6" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="453,80,655,107"/>
 </map>
