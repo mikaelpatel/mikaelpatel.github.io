@@ -1,10 +1,10 @@
 <map id="Storage" name="Storage">
-<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="253,175,369,325"/>
-<area shape="rect" id="node8" href="$dc/d83/classEEPROM.html" title="{EEPROM\n||+ read()\l+ write()\l}" alt="" coords="393,204,473,296"/>
-<area shape="rect" id="node9" href="$d2/d5c/classMC23LC1024.html" title="{MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LC1024()\l+ read()\l+ write()\l}" alt="" coords="497,189,663,311"/>
-<area shape="rect" id="node3" href="$dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,373,109,451"/>
-<area shape="rect" id="node4" href="$de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,373,237,451"/>
-<area shape="rect" id="node5" href="$d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,373,359,451"/>
-<area shape="rect" id="node6" href="$de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,373,488,451"/>
-<area shape="rect" id="node7" href="$df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,373,610,451"/>
+<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|# PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="232,219,389,384"/>
+<area shape="rect" id="node8" href="$dc/d83/classEEPROM.html" title="{EEPROM\n||+ EEPROM()\l+ read()\l+ write()\l}" alt="" coords="414,248,514,355"/>
+<area shape="rect" id="node9" href="$d2/d5c/classMC23LC1024.html" title="{MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LC1024()\l+ read()\l+ write()\l}" alt="" coords="538,241,705,362"/>
+<area shape="rect" id="node3" href="$dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,432,109,509"/>
+<area shape="rect" id="node4" href="$de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,432,237,509"/>
+<area shape="rect" id="node5" href="$d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,432,359,509"/>
+<area shape="rect" id="node6" href="$de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,432,488,509"/>
+<area shape="rect" id="node7" href="$df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,432,610,509"/>
 </map>

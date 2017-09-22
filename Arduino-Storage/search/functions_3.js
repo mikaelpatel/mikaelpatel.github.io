@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['is_5fready',['is_ready',['../d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393',1,'AT24CXX']]]
+  ['flush',['flush',['../dd/da0/classStorage_1_1Stream.html#aef248ccd8747a5c97a17cc8ddad1dedf',1,'Storage::Stream']]]
 ];

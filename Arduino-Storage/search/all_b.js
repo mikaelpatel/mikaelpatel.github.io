@@ -2,10 +2,10 @@ var searchData=
 [
   ['s0',['s0',['../d9/dde/Stream_8ino.html#a74fff0698ae2c18acbc0eec1fb771459',1,'Stream.ino']]],
   ['setup',['setup',['../d5/dc1/Block_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Block.ino'],['../d2/d5f/Storage_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Stream.ino']]],
-  ['size',['SIZE',['../d2/db3/classAT24CXX.html#a69631c0e4fcf1d79435d918b40fee717',1,'AT24CXX']]],
+  ['size',['size',['../dd/d5e/classStorage.html#a3384e1acee143132a47aaa1ff690ed1c',1,'Storage::size()'],['../de/d4e/classStorage_1_1Block.html#ab3f6d8ab3898487db8c64231bb4186de',1,'Storage::Block::size()']]],
   ['spi',['spi',['../d2/d5f/Storage_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023',1,'spi():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023',1,'spi():&#160;Stream.ino']]],
   ['sram',['sram',['../d2/d5f/Storage_8ino.html#aef8c241913a15952a15a40d816bb7268',1,'sram():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#aef8c241913a15952a15a40d816bb7268',1,'sram():&#160;Stream.ino']]],
-  ['storage',['Storage',['../dd/d5e/classStorage.html',1,'Storage'],['../dd/d5e/classStorage.html#a80ef6af5e4c9fd4424ae16e808d05291',1,'Storage::Storage()']]],
+  ['storage',['Storage',['../dd/d5e/classStorage.html',1,'Storage'],['../dd/d5e/classStorage.html#a25a136806804cd481303a4317b0a1152',1,'Storage::Storage()']]],
   ['storage_2eh',['Storage.h',['../db/d6f/Storage_8h.html',1,'']]],
   ['storage_2eino',['Storage.ino',['../d2/d5f/Storage_8ino.html',1,'']]],
   ['stream',['Stream',['../dd/da0/classStorage_1_1Stream.html#ac3573924bb4a7884eaf707a365ed8055',1,'Storage::Stream']]],

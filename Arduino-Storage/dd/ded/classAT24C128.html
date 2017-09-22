@@ -108,8 +108,8 @@ $(document).ready(function(){initNavTree('dd/ded/classAT24C128.html','../../');}
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="../../d8/dbc/classAT24C128-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AT24C128 Class Reference</div>  </div>
@@ -122,8 +122,8 @@ Inheritance diagram for AT24C128:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/da9/classAT24C128__inherit__graph.png" border="0" usemap="#AT24C128_inherit__map" alt="Inheritance graph"/></div>
 <map name="AT24C128_inherit__map" id="AT24C128_inherit__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="48,175,164,325"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|# PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,219,185,384"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -131,8 +131,8 @@ Collaboration diagram for AT24C128:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/d0d/classAT24C128__coll__graph.png" border="0" usemap="#AT24C128_coll__map" alt="Collaboration graph"/></div>
 <map name="AT24C128_coll__map" id="AT24C128_coll__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l+ PAGE_MASK\l+ SIZE\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="48,175,164,325"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|# PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,219,185,384"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -146,28 +146,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a876f39269641e0fe43b9353956ed1524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749ee4971b670914cfd469a4ab44f8b9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a749ee4971b670914cfd469a4ab44f8b9">write</a> (uint32_t dst, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a749ee4971b670914cfd469a4ab44f8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3384e1acee143132a47aaa1ff690ed1c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a3384e1acee143132a47aaa1ff690ed1c">size</a> ()</td></tr>
+<tr class="separator:a3384e1acee143132a47aaa1ff690ed1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc588747ce96b82d7023f58b11c99c0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4dc588747ce96b82d7023f58b11c99c0">room</a> ()</td></tr>
+<tr class="separator:a4dc588747ce96b82d7023f58b11c99c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
 <tr class="memitem:abe5d28d63ae6f3dc832ccd2373b2e3b0"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#abe5d28d63ae6f3dc832ccd2373b2e3b0">PAGE_MAX</a></td></tr>
 <tr class="separator:abe5d28d63ae6f3dc832ccd2373b2e3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad03674e83c5d5489f5fdbf2ec3533f34"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#ad03674e83c5d5489f5fdbf2ec3533f34">PAGE_MASK</a></td></tr>
 <tr class="separator:ad03674e83c5d5489f5fdbf2ec3533f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69631c0e4fcf1d79435d918b40fee717"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a69631c0e4fcf1d79435d918b40fee717">SIZE</a></td></tr>
-<tr class="separator:a69631c0e4fcf1d79435d918b40fee717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
 <tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
 <tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfa224749d10248965987da73649cb9"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a1bfa224749d10248965987da73649cb9">m_size</a></td></tr>
+<tr class="separator:a1bfa224749d10248965987da73649cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a97c26e187a08bf5be7a1e43fe67fd804"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#a97c26e187a08bf5be7a1e43fe67fd804">RETRY_MAX</a> = 20</td></tr>
+<tr class="separator:a97c26e187a08bf5be7a1e43fe67fd804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb1a734e37f2cf207b31fb7da7e7ebc"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db3/classAT24CXX.html#abcb1a734e37f2cf207b31fb7da7e7ebc">RETRY_DELAY_MS</a> = 1</td></tr>
+<tr class="separator:abcb1a734e37f2cf207b31fb7da7e7ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="../../dd/ded/classAT24C128.html">AT24C128</a> provides 131,072 bits of serial electrically erasable and programmable read only memory (<a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a>) organized as 16,384 words of 8 bits each. 64-Byte page write mode.</p>
 <p>See Atmel Product description (Rev. 0670T–SEEPR–3/07), <a href="http://www.atmel.com/Images/doc0670.pdf">http://www.atmel.com/Images/doc0670.pdf</a> </p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00208">208</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00189">189</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad64e2241b37c6049c29c5cb0c0cd669d"></a>
 <div class="memitem">
@@ -201,7 +209,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00210">210</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00191">191</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
@@ -227,15 +235,15 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Allocate block with given number of bytes on storage. Returns storage address if successful otherwise UINT32_MAX. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block, otherwise UINT32_MAX. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -261,7 +269,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return true(1) if the device is ready, write cycle is completed, otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00084">84</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +322,59 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#a3ccf79c6a21d1942d99d246e95928e97">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00101">101</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00076">76</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dc588747ce96b82d7023f58b11c99c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::room </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes that may be allocated. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3384e1acee143132a47aaa1ff690ed1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes on storage device. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00039">39</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +427,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#adb2a49ba753cc912cd056cf750b99304">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00128">128</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00103">103</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
@@ -389,8 +449,32 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Address of the next alloc. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00328">328</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bfa224749d10248965987da73649cb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t Storage::m_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of bytes on device. </p>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00331">331</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -407,13 +491,13 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Memory addres page mask. </p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00055">55</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00142">142</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
@@ -430,17 +514,17 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Number of bytes in max write page size. </p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00052">52</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00139">139</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a69631c0e4fcf1d79435d918b40fee717"></a>
+<a class="anchor" id="abcb1a734e37f2cf207b31fb7da7e7ebc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -448,18 +532,41 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const size_t AT24CXX::SIZE</td>
+          <td class="memname">const uint8_t AT24CXX::RETRY_DELAY_MS = 1</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Number of bytes on device. </p>
+<p>Retry delay time: 1 ms </p>
 
-<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00058">58</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00148">148</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97c26e187a08bf5be7a1e43fe67fd804"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t AT24CXX::RETRY_MAX = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum number of read/write page retries: 20 ms </p>
+
+<p>Definition at line <a class="el" href="../../db/d0b/AT24CXX_8h_source.html#l00145">145</a> of file <a class="el" href="../../db/d0b/AT24CXX_8h_source.html">AT24CXX.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +579,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/ded/classAT24C128.html">AT24C128</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
+    <li class="footer">Generated on Fri Sep 22 2017 02:10:18 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

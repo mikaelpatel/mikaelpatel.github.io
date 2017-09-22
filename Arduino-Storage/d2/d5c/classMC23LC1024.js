@@ -7,7 +7,10 @@ var classMC23LC1024 =
     [ "MC23LC1024", "d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2", null ],
     [ "alloc", "d2/d5c/classMC23LC1024.html#a358bd9a1c65f88438e5c8cfbe72846f6", null ],
     [ "read", "d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d", null ],
+    [ "room", "d2/d5c/classMC23LC1024.html#a4dc588747ce96b82d7023f58b11c99c0", null ],
+    [ "size", "d2/d5c/classMC23LC1024.html#a3384e1acee143132a47aaa1ff690ed1c", null ],
     [ "write", "d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414", null ],
     [ "m_addr", "d2/d5c/classMC23LC1024.html#a4067c420ed6e2a2a77c21100d5a2545a", null ],
+    [ "m_size", "d2/d5c/classMC23LC1024.html#a1bfa224749d10248965987da73649cb9", null ],
     [ "MAX_FREQ", "d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751", null ]
 ];

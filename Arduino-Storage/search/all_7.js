@@ -15,7 +15,7 @@ var searchData=
   ['m_5fmem',['m_mem',['../de/d4e/classStorage_1_1Block.html#a120b5e45bc3012f8bac12aab0b26211c',1,'Storage::Block::m_mem()'],['../dd/da0/classStorage_1_1Stream.html#afc31de755e676b9990a8a90eb523bcfa',1,'Storage::Stream::m_mem()']]],
   ['m_5fnmemb',['m_nmemb',['../de/d4e/classStorage_1_1Block.html#a20a39ef9c634cf3be4f7183809ad9c86',1,'Storage::Block']]],
   ['m_5fput',['m_put',['../dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97',1,'Storage::Stream']]],
-  ['m_5fsize',['m_size',['../de/d4e/classStorage_1_1Block.html#a6cbaeadd5e1754746aa3e18f7f2f6107',1,'Storage::Block::m_size()'],['../dd/da0/classStorage_1_1Stream.html#a3aa144cb969fb8426428eae3498662dc',1,'Storage::Stream::m_size()']]],
+  ['m_5fsize',['m_size',['../de/d4e/classStorage_1_1Block.html#a6cbaeadd5e1754746aa3e18f7f2f6107',1,'Storage::Block::m_size()'],['../dd/da0/classStorage_1_1Stream.html#a3aa144cb969fb8426428eae3498662dc',1,'Storage::Stream::m_size()'],['../dd/d5e/classStorage.html#a1bfa224749d10248965987da73649cb9',1,'Storage::m_size()']]],
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
   ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024']]],
   ['mc23lc1024',['MC23LC1024',['../d2/d5c/classMC23LC1024.html',1,'MC23LC1024&lt; SS_PIN, FREQ &gt;'],['../d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2',1,'MC23LC1024::MC23LC1024()']]],

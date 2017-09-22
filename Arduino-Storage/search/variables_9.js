@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['v',['v',['../d5/dc1/Block_8ino.html#a2b514c34c19f50c7b98c0513288fb9b7',1,'Block.ino']]],
-  ['v_5feeprom',['v_eeprom',['../d5/dc1/Block_8ino.html#acbccb92041c09e87eb40d313a53120b7',1,'Block.ino']]]
+  ['temps',['temps',['../d9/dde/Stream_8ino.html#a1b7c088b4edfced036ffce55efca3dc9',1,'Stream.ino']]],
+  ['twi',['twi',['../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'Block.ino']]]
 ];

@@ -121,7 +121,7 @@ Inheritance diagram for EEPROM:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d1b/classEEPROM__inherit__graph.png" border="0" usemap="#EEPROM_inherit__map" alt="Inheritance graph"/></div>
 <map name="EEPROM_inherit__map" id="EEPROM_inherit__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="12,5,99,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -129,16 +129,22 @@ Collaboration diagram for EEPROM:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/dd7/classEEPROM__coll__graph.png" border="0" usemap="#EEPROM_coll__map" alt="Collaboration graph"/></div>
 <map name="EEPROM_coll__map" id="EEPROM_coll__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="12,5,99,171"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a025ff5824e686e9c55ba5b46923f99d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d83/classEEPROM.html#a025ff5824e686e9c55ba5b46923f99d6">EEPROM</a> ()</td></tr>
+<tr class="separator:a025ff5824e686e9c55ba5b46923f99d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9a5fc57f436e7d6bdfbaf412143fe27"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d83/classEEPROM.html#af9a5fc57f436e7d6bdfbaf412143fe27">read</a> (void *dst, uint32_t src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:af9a5fc57f436e7d6bdfbaf412143fe27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad77931d21b45892cdef51d665ca1dd7f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d83/classEEPROM.html#ad77931d21b45892cdef51d665ca1dd7f">write</a> (uint32_t dst, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:ad77931d21b45892cdef51d665ca1dd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3384e1acee143132a47aaa1ff690ed1c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a3384e1acee143132a47aaa1ff690ed1c">size</a> ()</td></tr>
+<tr class="separator:a3384e1acee143132a47aaa1ff690ed1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc588747ce96b82d7023f58b11c99c0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4dc588747ce96b82d7023f58b11c99c0">room</a> ()</td></tr>
+<tr class="separator:a4dc588747ce96b82d7023f58b11c99c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,12 +152,41 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
 <tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfa224749d10248965987da73649cb9"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a1bfa224749d10248965987da73649cb9">m_size</a></td></tr>
+<tr class="separator:a1bfa224749d10248965987da73649cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Driver for internal <a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a>. </p>
+<div class="textblock"><p><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> device driver for the AVR internal <a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a>. </p>
 
 <p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00027">27</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a025ff5824e686e9c55ba5b46923f99d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EEPROM::EEPROM </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Construct <a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a> device driver with storage size. </p>
+
+<p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00032">32</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a358bd9a1c65f88438e5c8cfbe72846f6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -173,15 +208,15 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Allocate block with given number of bytes on storage. Returns storage address if successful otherwise UINT32_MAX. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block, otherwise UINT32_MAX. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -222,7 +257,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read eeprom block with the given size into the buffer from the address. Return number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read eeprom block with the given size into the buffer from the source address. Return number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>buffer to read from eeprom. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>address in eeprom to read from. </td></tr>
@@ -234,7 +269,59 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#a3ccf79c6a21d1942d99d246e95928e97">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00038">38</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00044">44</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dc588747ce96b82d7023f58b11c99c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::room </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes that may be allocated. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3384e1acee143132a47aaa1ff690ed1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes on storage device. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00039">39</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -275,7 +362,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write eeprom block at given address with the contents from the buffer. Return number of bytes written or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write eeprom block at given destination address with the contents from the buffer. Return number of bytes written or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>address in eeprom to read write to. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>buffer to write to eeprom. </td></tr>
@@ -287,7 +374,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#adb2a49ba753cc912cd056cf750b99304">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00053">53</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/db0/EEPROM_8h_source.html#l00060">60</a> of file <a class="el" href="../../d6/db0/EEPROM_8h_source.html">EEPROM.h</a>.</p>
 
 </div>
 </div>
@@ -309,8 +396,32 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Address of the next alloc. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00328">328</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bfa224749d10248965987da73649cb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t Storage::m_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of bytes on device. </p>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00331">331</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +434,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d83/classEEPROM.html">EEPROM</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
+    <li class="footer">Generated on Fri Sep 22 2017 02:10:18 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

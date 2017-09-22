@@ -123,7 +123,7 @@ Inheritance diagram for MC23LC1024&lt; SS_PIN, FREQ &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d43/classMC23LC1024__inherit__graph.png" border="0" usemap="#MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map" id="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -131,7 +131,7 @@ Collaboration diagram for MC23LC1024&lt; SS_PIN, FREQ &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d4c/classMC23LC1024__coll__graph.png" border="0" usemap="#MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map" id="MC23LC1024_3_01SS__PIN_00_01FREQ_01_4_coll__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l|+ Storage()\l+ read()\l+ write()\l+ alloc()\l}" alt="" coords="5,5,92,127"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -143,6 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab67d7281ba609ff299fe1f20182a131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a742ebf794f42b976d50dd2f8ee589414"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414">write</a> (uint32_t dst, const void *src, size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a742ebf794f42b976d50dd2f8ee589414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3384e1acee143132a47aaa1ff690ed1c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a3384e1acee143132a47aaa1ff690ed1c">size</a> ()</td></tr>
+<tr class="separator:a3384e1acee143132a47aaa1ff690ed1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc588747ce96b82d7023f58b11c99c0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4dc588747ce96b82d7023f58b11c99c0">room</a> ()</td></tr>
+<tr class="separator:a4dc588747ce96b82d7023f58b11c99c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -164,21 +168,24 @@ Protected Types</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a">m_addr</a></td></tr>
 <tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfa224749d10248965987da73649cb9"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a1bfa224749d10248965987da73649cb9">m_size</a></td></tr>
+<tr class="separator:a1bfa224749d10248965987da73649cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt;<br />
 class MC23LC1024&lt; SS_PIN, FREQ &gt;</h3>
 
-<p>Driver for the Microchip 23LC1024, 1M bit SPI Serial SRAM. </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> device driver for Microchip 23LC1024, 1M bit SPI Serial SRAM. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">SS_PIN</td><td>slave select board pin. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">FREQ</td><td>bus frequency (default 16 MHz). </td></tr>
   </table>
   </dd>
 </dl>
 <h1><a class="anchor" id="Circuit"></a>
 Circuit</h1>
 <div class="fragment"><div class="line">                         23LC1024</div><div class="line">                      +------------+</div><div class="line">(SS)----------------1-|CS   U   VCC|-8----------------(VCC)</div><div class="line">(MISO)--------------2-|SO      HOLD|-7---------(VCC/PULLUP)</div><div class="line">(VCC/PULLUP)--------3-|NU       SCK|-6----------------(SCK)</div><div class="line">(GND)---------------4-|VSS       SI|-5---------------(MOSI)</div><div class="line">                      +------------+</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00040">40</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00042">42</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a9e203ad6c9b2d96762a874c9a3d19e7a"></a>
 <div class="memitem">
@@ -214,7 +221,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00095">95</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00101">101</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
 
 </div>
 </div>
@@ -242,9 +249,9 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct and initiate device driver with given slave select board pin and bus manager. </p>
+<p>Construct and initiate device driver with given slave select board pin, max bus frequency, and bus manager. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00049">49</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00051">51</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
 
 </div>
 </div>
@@ -270,15 +277,15 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Allocate block with given number of bytes on storage. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Allocate block with given number of bytes on storage. Returns storage address if successful otherwise UINT32_MAX. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>address of allocated block. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>address of allocated block, otherwise UINT32_MAX. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -321,7 +328,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read count number of bytes from SRAM address to buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read given count number of bytes from SRAM source address to destination buffer. Returns number of bytes read, or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>destination buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source memory address on device. </td></tr>
@@ -333,7 +340,59 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#a3ccf79c6a21d1942d99d246e95928e97">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00062">62</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00066">66</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4dc588747ce96b82d7023f58b11c99c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::room </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes that may be allocated. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3384e1acee143132a47aaa1ff690ed1c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns number of bytes on storage device. </p><dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00039">39</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -376,7 +435,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write count number of bytes to SRAM address from buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write given count number of bytes to SRAM destination address from source buffer. Returns number of bytes written, or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dst</td><td>destination memory address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source buffer pointer. </td></tr>
@@ -388,7 +447,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 
 <p>Implements <a class="el" href="../../dd/d5e/classStorage.html#adb2a49ba753cc912cd056cf750b99304">Storage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00082">82</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00088">88</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
 
 </div>
 </div>
@@ -410,8 +469,32 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Address of the next alloc. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00267">267</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00328">328</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bfa224749d10248965987da73649cb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t Storage::m_size</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Number of bytes on device. </p>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00331">331</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -436,7 +519,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 </div><div class="memdoc">
 <p>Maximum device clock frequency. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00043">43</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html#l00045">45</a> of file <a class="el" href="../../d8/d06/MC23LC1024_8h_source.html">MC23LC1024.h</a>.</p>
 
 </div>
 </div>
@@ -449,7 +532,7 @@ template&lt;BOARD::pin_t SS_PIN, uint32_t FREQ = 16000000L&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d5c/classMC23LC1024.html">MC23LC1024</a></li>
-    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
+    <li class="footer">Generated on Fri Sep 22 2017 02:10:18 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

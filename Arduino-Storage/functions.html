@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="#index_a"><span>a</span></a></li>
       <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_f"><span>f</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>addr()
-: <a class="el" href="de/d4e/classStorage_1_1Block.html#ac30907bcdf0a62b84e56944b5fe86b9c">Storage::Block</a>
+: <a class="el" href="de/d4e/classStorage_1_1Block.html#ad164c58c7a455cea5eccbc1a50b2f942">Storage::Block</a>
 , <a class="el" href="dd/da0/classStorage_1_1Stream.html#af31fc6534faaddf6c973801c90ffd0b2">Storage::Stream</a>
 </li>
 <li>alloc()
@@ -164,6 +165,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>Block()
 : <a class="el" href="de/d4e/classStorage_1_1Block.html#adce6374901b510d71a28be1500bb953e">Storage::Block</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>EEPROM()
+: <a class="el" href="dc/d83/classEEPROM.html#a025ff5824e686e9c55ba5b46923f99d6">EEPROM</a>
 </li>
 </ul>
 
@@ -209,6 +217,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>m_size
 : <a class="el" href="de/d4e/classStorage_1_1Block.html#a6cbaeadd5e1754746aa3e18f7f2f6107">Storage::Block</a>
+, <a class="el" href="dd/d5e/classStorage.html#a1bfa224749d10248965987da73649cb9">Storage</a>
 , <a class="el" href="dd/da0/classStorage_1_1Stream.html#a3aa144cb969fb8426428eae3498662dc">Storage::Stream</a>
 </li>
 <li>MAX_FREQ
@@ -240,25 +249,35 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>read()
 : <a class="el" href="d2/db3/classAT24CXX.html#a876f39269641e0fe43b9353956ed1524">AT24CXX</a>
 , <a class="el" href="dc/d83/classEEPROM.html#af9a5fc57f436e7d6bdfbaf412143fe27">EEPROM</a>
+, <a class="el" href="d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
 </li>
 <li>READ
 : <a class="el" href="d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa8e0c1887efff9d50f3fb5923b7152032">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
 </li>
 <li>read()
-: <a class="el" href="d2/d5c/classMC23LC1024.html#ab67d7281ba609ff299fe1f20182a131d">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
-, <a class="el" href="de/d4e/classStorage_1_1Block.html#a300caa083ed02e9136d11be19249e329">Storage::Block</a>
+: <a class="el" href="de/d4e/classStorage_1_1Block.html#a300caa083ed02e9136d11be19249e329">Storage::Block</a>
 , <a class="el" href="dd/d5e/classStorage.html#a3ccf79c6a21d1942d99d246e95928e97">Storage</a>
 , <a class="el" href="dd/da0/classStorage_1_1Stream.html#a0b88525d62d431b6fe834e76e1706a32">Storage::Stream</a>
+</li>
+<li>RETRY_DELAY_MS
+: <a class="el" href="d2/db3/classAT24CXX.html#abcb1a734e37f2cf207b31fb7da7e7ebc">AT24CXX</a>
+</li>
+<li>RETRY_MAX
+: <a class="el" href="d2/db3/classAT24CXX.html#a97c26e187a08bf5be7a1e43fe67fd804">AT24CXX</a>
+</li>
+<li>room()
+: <a class="el" href="dd/d5e/classStorage.html#a4dc588747ce96b82d7023f58b11c99c0">Storage</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>SIZE
-: <a class="el" href="d2/db3/classAT24CXX.html#a69631c0e4fcf1d79435d918b40fee717">AT24CXX</a>
+<li>size()
+: <a class="el" href="de/d4e/classStorage_1_1Block.html#ab3f6d8ab3898487db8c64231bb4186de">Storage::Block</a>
+, <a class="el" href="dd/d5e/classStorage.html#a3384e1acee143132a47aaa1ff690ed1c">Storage</a>
 </li>
 <li>Storage()
-: <a class="el" href="dd/d5e/classStorage.html#a80ef6af5e4c9fd4424ae16e808d05291">Storage</a>
+: <a class="el" href="dd/d5e/classStorage.html#a25a136806804cd481303a4317b0a1152">Storage</a>
 </li>
 <li>Stream()
 : <a class="el" href="dd/da0/classStorage_1_1Stream.html#ac3573924bb4a7884eaf707a365ed8055">Storage::Stream</a>
@@ -270,13 +289,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>write()
 : <a class="el" href="d2/db3/classAT24CXX.html#a749ee4971b670914cfd469a4ab44f8b9">AT24CXX</a>
 , <a class="el" href="dc/d83/classEEPROM.html#ad77931d21b45892cdef51d665ca1dd7f">EEPROM</a>
+, <a class="el" href="d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
 </li>
 <li>WRITE
 : <a class="el" href="d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa7939b3c9e0bad4de026947601439ecaa">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
 </li>
 <li>write()
-: <a class="el" href="d2/d5c/classMC23LC1024.html#a742ebf794f42b976d50dd2f8ee589414">MC23LC1024&lt; SS_PIN, FREQ &gt;</a>
-, <a class="el" href="de/d4e/classStorage_1_1Block.html#ab7c33814563ca6d09ea70e771e6384e7">Storage::Block</a>
+: <a class="el" href="de/d4e/classStorage_1_1Block.html#ab7c33814563ca6d09ea70e771e6384e7">Storage::Block</a>
 , <a class="el" href="dd/da0/classStorage_1_1Stream.html#adb8aebeb49f53166167c8f1103fb6930">Storage::Stream</a>
 , <a class="el" href="dd/d5e/classStorage.html#adb2a49ba753cc912cd056cf750b99304">Storage</a>
 </li>
@@ -289,7 +308,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Sep 21 2017 22:33:00 for Arduino-Storage by
+    <li class="footer">Generated on Fri Sep 22 2017 02:10:18 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
