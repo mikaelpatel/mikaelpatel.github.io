@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['retry_5fdelay_5fms',['RETRY_DELAY_MS',['../d2/db3/classAT24CXX.html#abcb1a734e37f2cf207b31fb7da7e7ebc',1,'AT24CXX']]],
-  ['retry_5fmax',['RETRY_MAX',['../d2/db3/classAT24CXX.html#a97c26e187a08bf5be7a1e43fe67fd804',1,'AT24CXX']]]
+  ['page_5fmask',['PAGE_MASK',['../d2/db3/classAT24CXX.html#ad03674e83c5d5489f5fdbf2ec3533f34',1,'AT24CXX']]],
+  ['page_5fmax',['PAGE_MAX',['../d2/db3/classAT24CXX.html#abe5d28d63ae6f3dc832ccd2373b2e3b0',1,'AT24CXX']]]
 ];

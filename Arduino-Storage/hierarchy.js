@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "MC23LC1024< SS_PIN, FREQ >::header_t", "d7/d41/structMC23LC1024_1_1header__t.html", null ],
     [ "Device", null, [
       [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ]
     ] ],

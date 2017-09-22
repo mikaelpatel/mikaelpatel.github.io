@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['count',['count',['../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf',1,'Stream.ino']]]
+  ['buf',['buf',['../d2/d5f/Storage_8ino.html#af488b41188d3a5ab686e3adae2996c14',1,'Storage.ino']]],
+  ['buf_5fmax',['BUF_MAX',['../d2/d5f/Storage_8ino.html#a9fc2b530e1eac6f50c2e1077a1815722',1,'Storage.ino']]]
 ];

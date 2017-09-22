@@ -1,4 +1,4 @@
 <map id="AT24C32" name="AT24C32">
-<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|# PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,219,185,384"/>
-<area shape="rect" id="node3" href="$dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
+<area shape="rect" id="node2" href="$d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,204,185,369"/>
+<area shape="rect" id="node3" href="$dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,156"/>
 </map>

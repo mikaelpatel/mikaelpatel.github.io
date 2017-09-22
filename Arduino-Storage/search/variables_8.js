@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s0',['s0',['../d9/dde/Stream_8ino.html#a74fff0698ae2c18acbc0eec1fb771459',1,'Stream.ino']]],
-  ['spi',['spi',['../d2/d5f/Storage_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023',1,'spi():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023',1,'spi():&#160;Stream.ino']]],
-  ['sram',['sram',['../d2/d5f/Storage_8ino.html#aef8c241913a15952a15a40d816bb7268',1,'sram():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#aef8c241913a15952a15a40d816bb7268',1,'sram():&#160;Stream.ino']]]
+  ['retry_5fdelay_5fms',['RETRY_DELAY_MS',['../d2/db3/classAT24CXX.html#abcb1a734e37f2cf207b31fb7da7e7ebc',1,'AT24CXX']]],
+  ['retry_5fmax',['RETRY_MAX',['../d2/db3/classAT24CXX.html#a97c26e187a08bf5be7a1e43fe67fd804',1,'AT24CXX']]]
 ];

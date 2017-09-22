@@ -8,6 +8,6 @@ var classStorage_1_1Block =
     [ "m_addr", "de/d4e/classStorage_1_1Block.html#ab0dc2ec20664ad2e981ddf41e54cfa82", null ],
     [ "m_buf", "de/d4e/classStorage_1_1Block.html#aa8599110a07cb823dcc32a2a91c39d2e", null ],
     [ "m_mem", "de/d4e/classStorage_1_1Block.html#a120b5e45bc3012f8bac12aab0b26211c", null ],
-    [ "m_nmemb", "de/d4e/classStorage_1_1Block.html#a20a39ef9c634cf3be4f7183809ad9c86", null ],
-    [ "m_size", "de/d4e/classStorage_1_1Block.html#a6cbaeadd5e1754746aa3e18f7f2f6107", null ]
+    [ "NMEMB", "de/d4e/classStorage_1_1Block.html#aa2d96f5f7d1e2268da7389f08cc13de3", null ],
+    [ "SIZE", "de/d4e/classStorage_1_1Block.html#a407a5bfba3292fec7069f35931add532", null ]
 ];

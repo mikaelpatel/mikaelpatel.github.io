@@ -1,3 +1,3 @@
 <map id="AT24CXX" name="AT24CXX">
-<area shape="rect" id="node2" href="$dd/d5e/classStorage.html" title="{Storage\n|# m_addr\l# m_size\l|+ Storage()\l+ size()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
+<area shape="rect" id="node2" href="$dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,156"/>
 </map>

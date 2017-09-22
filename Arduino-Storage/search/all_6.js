@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['loop',['loop',['../d5/dc1/Block_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Block.ino'],['../d2/d5f/Storage_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Storage.ino'],['../d9/dde/Stream_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Stream.ino']]]
+  ['ios',['ios',['../d9/dde/Stream_8ino.html#a2ea6981caf0d9177d376c67a9f3fd0f0',1,'Stream.ino']]],
+  ['is_5fready',['is_ready',['../d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393',1,'AT24CXX']]]
 ];

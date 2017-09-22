@@ -5,6 +5,7 @@ var dir_e4835fadc71b9b2f9d6adbf1a4723c42 =
       [ "EEPROM", "dc/d83/classEEPROM.html", "dc/d83/classEEPROM" ]
     ] ],
     [ "MC23LC1024.h", "d8/d06/MC23LC1024_8h.html", [
-      [ "MC23LC1024", "d2/d5c/classMC23LC1024.html", "d2/d5c/classMC23LC1024" ]
+      [ "MC23LC1024", "d2/d5c/classMC23LC1024.html", "d2/d5c/classMC23LC1024" ],
+      [ "header_t", "d7/d41/structMC23LC1024_1_1header__t.html", "d7/d41/structMC23LC1024_1_1header__t" ]
     ] ]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['page_5fmask',['PAGE_MASK',['../d2/db3/classAT24CXX.html#ad03674e83c5d5489f5fdbf2ec3533f34',1,'AT24CXX']]],
-  ['page_5fmax',['PAGE_MAX',['../d2/db3/classAT24CXX.html#abe5d28d63ae6f3dc832ccd2373b2e3b0',1,'AT24CXX']]]
+  ['n',['N',['../d9/dde/Stream_8ino.html#ab2b6b0c222cd1ce70d6a831f57241e59',1,'Stream.ino']]],
+  ['nmemb',['NMEMB',['../de/d4e/classStorage_1_1Block.html#aa2d96f5f7d1e2268da7389f08cc13de3',1,'Storage::Block']]]
 ];

@@ -13,5 +13,5 @@ var classStorage_1_1Stream =
     [ "m_get", "dd/da0/classStorage_1_1Stream.html#ab316699276586e80368fcd48f78e99c5", null ],
     [ "m_mem", "dd/da0/classStorage_1_1Stream.html#afc31de755e676b9990a8a90eb523bcfa", null ],
     [ "m_put", "dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97", null ],
-    [ "m_size", "dd/da0/classStorage_1_1Stream.html#a3aa144cb969fb8426428eae3498662dc", null ]
+    [ "SIZE", "dd/da0/classStorage_1_1Stream.html#a8c5703b7c845fd92400d7a3f2ed65ecc", null ]
 ];
