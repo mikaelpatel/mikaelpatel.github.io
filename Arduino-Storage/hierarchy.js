@@ -1,6 +1,8 @@
 var hierarchy =
 [
+    [ "config_t", "d8/dc0/structconfig__t.html", null ],
     [ "MC23LC1024< SS_PIN, FREQ >::header_t", "d7/d41/structMC23LC1024_1_1header__t.html", null ],
+    [ "sample_t", "d1/d4b/structsample__t.html", null ],
     [ "Device", null, [
       [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ]
     ] ],

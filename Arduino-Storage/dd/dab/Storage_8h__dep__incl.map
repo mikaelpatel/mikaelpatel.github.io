@@ -1,10 +1,12 @@
 <map id="src/Storage.h" name="src/Storage.h">
-<area shape="rect" id="node2" href="$db/d0b/AT24CXX_8h.html" title="src/Driver/AT24CXX.h" alt="" coords="128,80,281,107"/>
+<area shape="rect" id="node2" href="$db/d0b/AT24CXX_8h.html" title="src/Driver/AT24CXX.h" alt="" coords="191,80,344,107"/>
 <area shape="rect" id="node3" href="$de/d62/AT24CXX_8ino.html" title="examples/Benchmarks\l/AT24CXX/AT24CXX.ino" alt="" coords="5,155,175,196"/>
 <area shape="rect" id="node4" href="$d5/dc1/Block_8ino.html" title="examples/Block/Block.ino" alt="" coords="199,162,373,189"/>
-<area shape="rect" id="node5" href="$d6/db0/EEPROM_8h.html" title="src/Driver/EEPROM.h" alt="" coords="357,80,509,107"/>
+<area shape="rect" id="node5" href="$d6/db0/EEPROM_8h.html" title="src/Driver/EEPROM.h" alt="" coords="419,80,571,107"/>
 <area shape="rect" id="node6" href="$d5/d74/EEPROM_8ino.html" title="examples/Benchmarks\l/EEPROM/EEPROM.ino" alt="" coords="397,155,564,196"/>
-<area shape="rect" id="node7" href="$d8/d06/MC23LC1024_8h.html" title="src/Driver/MC23LC1024.h" alt="" coords="635,80,809,107"/>
-<area shape="rect" id="node8" href="$d0/d30/MC23LC1024_8ino.html" title="examples/Benchmarks\l/MC23LC1024/MC23LC1024.ino" alt="" coords="587,155,798,196"/>
-<area shape="rect" id="node9" href="$d9/dde/Stream_8ino.html" title="examples/Stream/Stream.ino" alt="" coords="823,162,1013,189"/>
+<area shape="rect" id="node7" href="$d2/d75/Persistent_8ino.html" title="examples/Persistent\l/Persistent.ino" alt="" coords="589,155,730,196"/>
+<area shape="rect" id="node8" href="$d8/d06/MC23LC1024_8h.html" title="src/Driver/MC23LC1024.h" alt="" coords="797,80,972,107"/>
+<area shape="rect" id="node9" href="$d0/d30/MC23LC1024_8ino.html" title="examples/Benchmarks\l/MC23LC1024/MC23LC1024.ino" alt="" coords="754,155,965,196"/>
+<area shape="rect" id="node10" href="$d9/dde/Stream_8ino.html" title="examples/Stream/Stream.ino" alt="" coords="989,162,1180,189"/>
+<area shape="rect" id="node11" href="$d0/d11/Vector_8ino.html" title="examples/Vector/Vector.ino" alt="" coords="1204,162,1387,189"/>
 </map>

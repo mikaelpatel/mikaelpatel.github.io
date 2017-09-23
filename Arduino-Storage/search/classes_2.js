@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eeprom',['EEPROM',['../dc/d83/classEEPROM.html',1,'']]]
+  ['config_5ft',['config_t',['../d8/dc0/structconfig__t.html',1,'']]]
 ];
