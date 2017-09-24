@@ -15,5 +15,5 @@ var searchData=
   ['m_5fmem',['m_mem',['../de/d4e/classStorage_1_1Block.html#a120b5e45bc3012f8bac12aab0b26211c',1,'Storage::Block::m_mem()'],['../dd/da0/classStorage_1_1Stream.html#afc31de755e676b9990a8a90eb523bcfa',1,'Storage::Stream::m_mem()']]],
   ['m_5fput',['m_put',['../dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97',1,'Storage::Stream']]],
   ['mac',['mac',['../d8/dc0/structconfig__t.html#a011bf7e46d3fe845342ba3b764c235fd',1,'config_t::mac()'],['../d2/d75/Persistent_8ino.html#aedbb11685ebf12ce66e51aa2320f845f',1,'mac():&#160;Persistent.ino']]],
-  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024']]]
+  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024::MAX_FREQ()'],['../d1/d79/classMC23LC512.html#ab629af88c86bc580f278ba6f500beac7',1,'MC23LC512::MAX_FREQ()']]]
 ];

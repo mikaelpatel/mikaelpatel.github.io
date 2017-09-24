@@ -16,8 +16,10 @@ var searchData=
   ['m_5fput',['m_put',['../dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97',1,'Storage::Stream']]],
   ['mac',['mac',['../d8/dc0/structconfig__t.html#a011bf7e46d3fe845342ba3b764c235fd',1,'config_t::mac()'],['../d2/d75/Persistent_8ino.html#aedbb11685ebf12ce66e51aa2320f845f',1,'mac():&#160;Persistent.ino']]],
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
-  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024']]],
+  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024::MAX_FREQ()'],['../d1/d79/classMC23LC512.html#ab629af88c86bc580f278ba6f500beac7',1,'MC23LC512::MAX_FREQ()']]],
   ['mc23lc1024',['MC23LC1024',['../d2/d5c/classMC23LC1024.html',1,'MC23LC1024&lt; SS_PIN, FREQ &gt;'],['../d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2',1,'MC23LC1024::MC23LC1024()']]],
   ['mc23lc1024_2eh',['MC23LC1024.h',['../d8/d06/MC23LC1024_8h.html',1,'']]],
-  ['mc23lc1024_2eino',['MC23LC1024.ino',['../d0/d30/MC23LC1024_8ino.html',1,'']]]
+  ['mc23lc1024_2eino',['MC23LC1024.ino',['../d0/d30/MC23LC1024_8ino.html',1,'']]],
+  ['mc23lc512',['MC23LC512',['../d1/d79/classMC23LC512.html',1,'MC23LC512&lt; SS_PIN, FREQ &gt;'],['../d1/d79/classMC23LC512.html#ad455017174edaa4e41d728514d897cce',1,'MC23LC512::MC23LC512()']]],
+  ['mc23lc512_2eh',['MC23LC512.h',['../d2/dac/MC23LC512_8h.html',1,'']]]
 ];

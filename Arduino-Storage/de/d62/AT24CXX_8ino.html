@@ -132,9 +132,13 @@ Include dependency graph for AT24CXX.ino:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a248240da6ce45500d478b34487927df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a248240da6ce45500d478b34487927df7">USE_HARDWARE_TWI</a></td></tr>
 <tr class="separator:a248240da6ce45500d478b34487927df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;&#160;&#160;800000UL</td></tr>
+<tr class="separator:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6f4131351a07b4a24e28aa4ef507841a"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a> (<a class="el" href="../../de/d62/AT24CXX_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>)</td></tr>
+<tr class="separator:a6f4131351a07b4a24e28aa4ef507841a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
@@ -142,16 +146,32 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a614aca0c7128f96290b0a5f34e028a62"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a614aca0c7128f96290b0a5f34e028a62">twi</a></td></tr>
-<tr class="separator:a614aca0c7128f96290b0a5f34e028a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a98b829f397bd38433052ff220f8ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td></tr>
+<tr class="memitem:a28a98b829f397bd38433052ff220f8ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a> (<a class="el" href="../../de/d62/AT24CXX_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td></tr>
 <tr class="separator:a28a98b829f397bd38433052ff220f8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c5e811d9e9cbb60e86a5dc972ada58"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a51c5e811d9e9cbb60e86a5dc972ada58">BUF_MAX</a> = 1000</td></tr>
 <tr class="separator:a51c5e811d9e9cbb60e86a5dc972ada58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af488b41188d3a5ab686e3adae2996c14"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a> [<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#a51c5e811d9e9cbb60e86a5dc972ada58">BUF_MAX</a>]</td></tr>
+<tr class="memitem:af488b41188d3a5ab686e3adae2996c14"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a> [<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#a51c5e811d9e9cbb60e86a5dc972ada58">BUF_MAX</a>]</td></tr>
 <tr class="separator:af488b41188d3a5ab686e3adae2996c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea26a966636c020a3f7d4009c3887a02"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#aea26a966636c020a3f7d4009c3887a02">N_MAX</a> = 6</td></tr>
+<tr class="separator:aea26a966636c020a3f7d4009c3887a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1420229560ec25b82d854019b232006"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/AT24CXX_8ino.html#aa1420229560ec25b82d854019b232006">N</a> [<a class="el" href="../../de/d62/AT24CXX_8ino.html#aea26a966636c020a3f7d4009c3887a02">N_MAX</a>] = { 1, 10, eeprom.PAGE_MAX, eeprom.PAGE_MAX*2, 100, 1000 }</td></tr>
+<tr class="separator:aa1420229560ec25b82d854019b232006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a1b04ec1cde4d3032f558ed8ad05930a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FREQ&#160;&#160;&#160;800000UL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00064">64</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a248240da6ce45500d478b34487927df7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +182,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00022">22</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00054">54</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
 
 </div>
 </div>
@@ -180,7 +200,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00046">46</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00087">87</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
 
 </div>
 </div>
@@ -197,7 +217,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00040">40</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00081">81</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f4131351a07b4a24e28aa4ef507841a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Hardware::TWI twi </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d62/AT24CXX_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -205,22 +241,14 @@ Variables</h2></td></tr>
 <a class="anchor" id="af488b41188d3a5ab686e3adae2996c14"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">uint8_t buf[<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#a51c5e811d9e9cbb60e86a5dc972ada58">BUF_MAX</a>]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00038">38</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00075">75</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
 
 </div>
 </div>
@@ -234,7 +262,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00037">37</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00074">74</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
 
 </div>
 </div>
@@ -243,24 +271,38 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#a5f6c23e710f03466d326351c84e5a55b">twi</a>)</td>
+          <td class="memname"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> eeprom(<a class="el" href="../../de/d62/AT24CXX_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a614aca0c7128f96290b0a5f34e028a62"></a>
+<a class="anchor" id="aa1420229560ec25b82d854019b232006"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Hardware::TWI twi</td>
+          <td class="memname">const int N[<a class="el" href="../../de/d62/AT24CXX_8ino.html#aea26a966636c020a3f7d4009c3887a02">N_MAX</a>] = { 1, 10, eeprom.PAGE_MAX, eeprom.PAGE_MAX*2, 100, 1000 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00030">30</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00079">79</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea26a966636c020a3f7d4009c3887a02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int N_MAX = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d62/AT24CXX_8ino_source.html#l00078">78</a> of file <a class="el" href="../../de/d62/AT24CXX_8ino_source.html">AT24CXX.ino</a>.</p>
 
 </div>
 </div>
@@ -270,7 +312,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_8ffc05100fbb62cb2b6b874cb49e49e0.html">Benchmarks</a></li><li class="navelem"><a class="el" href="../../dir_75f069efe1201069fb48190a6cf1b2b0.html">AT24CXX</a></li><li class="navelem"><a class="el" href="../../de/d62/AT24CXX_8ino.html">AT24CXX.ino</a></li>
-    <li class="footer">Generated on Sat Sep 23 2017 15:28:24 for Arduino-Storage by
+    <li class="footer">Generated on Sun Sep 24 2017 10:18:54 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

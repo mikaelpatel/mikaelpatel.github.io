@@ -9,6 +9,7 @@ var annotated_dup =
     [ "config_t", "d8/dc0/structconfig__t.html", "d8/dc0/structconfig__t" ],
     [ "EEPROM", "dc/d83/classEEPROM.html", "dc/d83/classEEPROM" ],
     [ "MC23LC1024", "d2/d5c/classMC23LC1024.html", "d2/d5c/classMC23LC1024" ],
+    [ "MC23LC512", "d1/d79/classMC23LC512.html", "d1/d79/classMC23LC512" ],
     [ "sample_t", "d1/d4b/structsample__t.html", "d1/d4b/structsample__t" ],
     [ "Storage", "dd/d5e/classStorage.html", "dd/d5e/classStorage" ]
 ];
