@@ -123,8 +123,8 @@ Inheritance diagram for AT24C32:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/db1/classAT24C32__inherit__graph.png" border="0" usemap="#AT24C32_inherit__map" alt="Inheritance graph"/></div>
 <map name="AT24C32_inherit__map" id="AT24C32_inherit__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,204,185,369"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,156"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,219,185,384"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -132,8 +132,8 @@ Collaboration diagram for AT24C32:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/de5/classAT24C32__coll__graph.png" border="0" usemap="#AT24C32_coll__map" alt="Collaboration graph"/></div>
 <map name="AT24C32_coll__map" id="AT24C32_coll__map">
-<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,204,185,369"/>
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,156"/>
+<area shape="rect" id="node2" href="../../d2/db3/classAT24CXX.html" title="{AT24CXX\n|+ PAGE_MAX\l# PAGE_MASK\l# RETRY_MAX\l# RETRY_DELAY_MS\l|+ AT24CXX()\l+ is_ready()\l+ read()\l+ write()\l}" alt="" coords="27,219,185,384"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4dc588747ce96b82d7023f58b11c99c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a297f2c83ba5c95fef7a202f49f39eb5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a297f2c83ba5c95fef7a202f49f39eb5a">free</a> (uint32_t addr)</td></tr>
+<tr class="separator:a297f2c83ba5c95fef7a202f49f39eb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -246,6 +248,38 @@ Static Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>address of allocated block, otherwise UINT32_MAX. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00053">53</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a297f2c83ba5c95fef7a202f49f39eb5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Storage::free </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset allocation point to given address. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>address of allocated block. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00065">65</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +461,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Address of the next alloc. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00324">324</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00395">395</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -555,7 +589,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a></li>
-    <li class="footer">Generated on Sun Sep 24 2017 10:18:54 for Arduino-Storage by
+    <li class="footer">Generated on Sun Sep 24 2017 22:50:49 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

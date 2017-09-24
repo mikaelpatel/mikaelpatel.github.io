@@ -118,33 +118,39 @@ $(document).ready(function(){initNavTree('de/d4e/classStorage_1_1Block.html','..
 
 <p><code>#include &lt;<a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>&gt;</code></p>
 <div class="dynheader">
+Inheritance diagram for Storage::Block:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dc5/classStorage_1_1Block__inherit__graph.png" border="0" usemap="#Storage_1_1Block_inherit__map" alt="Inheritance graph"/></div>
+<map name="Storage_1_1Block_inherit__map" id="Storage_1_1Block_inherit__map">
+<area shape="rect" id="node2" href="../../db/d67/classStorage_1_1Cache.html" title="{Storage::Cache\n|+ MSIZE\l+ NMEMB\l# m_buf\l|+ Cache()\l+ addr()\l+ read()\l+ write()\l}" alt="" coords="5,219,119,369"/>
+</map>
+</div>
+<div class="dynheader">
 Collaboration diagram for Storage::Block:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/dbb/classStorage_1_1Block__coll__graph.png" border="0" usemap="#Storage_1_1Block_coll__map" alt="Collaboration graph"/></div>
 <map name="Storage_1_1Block_coll__map" id="Storage_1_1Block_coll__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="16,5,103,156"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="16,5,103,171"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adce6374901b510d71a28be1500bb953e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#adce6374901b510d71a28be1500bb953e">Block</a> (<a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;mem, void *<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a>, size_t <a class="el" href="../../de/d4e/classStorage_1_1Block.html#ab3f6d8ab3898487db8c64231bb4186de">size</a>, size_t nmemb=1)</td></tr>
-<tr class="separator:adce6374901b510d71a28be1500bb953e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3f6d8ab3898487db8c64231bb4186de"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ab3f6d8ab3898487db8c64231bb4186de">size</a> ()</td></tr>
-<tr class="separator:ab3f6d8ab3898487db8c64231bb4186de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad164c58c7a455cea5eccbc1a50b2f942"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ad164c58c7a455cea5eccbc1a50b2f942">addr</a> ()</td></tr>
-<tr class="separator:ad164c58c7a455cea5eccbc1a50b2f942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a300caa083ed02e9136d11be19249e329"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#a300caa083ed02e9136d11be19249e329">read</a> (size_t ix=0)</td></tr>
-<tr class="separator:a300caa083ed02e9136d11be19249e329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7c33814563ca6d09ea70e771e6384e7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ab7c33814563ca6d09ea70e771e6384e7">write</a> (size_t ix=0)</td></tr>
-<tr class="separator:ab7c33814563ca6d09ea70e771e6384e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77c7bf957a9d32155f0267148079c07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ac77c7bf957a9d32155f0267148079c07">Block</a> (<a class="el" href="../../dd/d5e/classStorage.html">Storage</a> &amp;mem, uint32_t size)</td></tr>
+<tr class="separator:ac77c7bf957a9d32155f0267148079c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4ee584d51fbe338e385f3c09a06771"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#aeb4ee584d51fbe338e385f3c09a06771">~Block</a> ()</td></tr>
+<tr class="separator:aeb4ee584d51fbe338e385f3c09a06771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30907bcdf0a62b84e56944b5fe86b9c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ac30907bcdf0a62b84e56944b5fe86b9c">addr</a> ()</td></tr>
+<tr class="separator:ac30907bcdf0a62b84e56944b5fe86b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4430fd214c9c01a601adbd388df77a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#a8e4430fd214c9c01a601adbd388df77a">read</a> (void *<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a>, uint32_t offset, size_t size)</td></tr>
+<tr class="separator:a8e4430fd214c9c01a601adbd388df77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54fd143dc657515ae32fd8f073fb8b1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#aa54fd143dc657515ae32fd8f073fb8b1">write</a> (uint32_t offset, const void *<a class="el" href="../../d0/d30/MC23LC1024_8ino.html#af488b41188d3a5ab686e3adae2996c14">buf</a>, size_t size)</td></tr>
+<tr class="separator:aa54fd143dc657515ae32fd8f073fb8b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a407a5bfba3292fec7069f35931add532"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#a407a5bfba3292fec7069f35931add532">SIZE</a></td></tr>
-<tr class="separator:a407a5bfba3292fec7069f35931add532"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2d96f5f7d1e2268da7389f08cc13de3"><td class="memItemLeft" align="right" valign="top">const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#aa2d96f5f7d1e2268da7389f08cc13de3">NMEMB</a></td></tr>
-<tr class="separator:aa2d96f5f7d1e2268da7389f08cc13de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a124a324cf35cf5fca88be5dcec136a2f"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#a124a324cf35cf5fca88be5dcec136a2f">SIZE</a></td></tr>
+<tr class="separator:a124a324cf35cf5fca88be5dcec136a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -152,15 +158,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a120b5e45bc3012f8bac12aab0b26211c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0dc2ec20664ad2e981ddf41e54cfa82"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#ab0dc2ec20664ad2e981ddf41e54cfa82">m_addr</a></td></tr>
 <tr class="separator:ab0dc2ec20664ad2e981ddf41e54cfa82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8599110a07cb823dcc32a2a91c39d2e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4e/classStorage_1_1Block.html#aa8599110a07cb823dcc32a2a91c39d2e">m_buf</a></td></tr>
-<tr class="separator:aa8599110a07cb823dcc32a2a91c39d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> <a class="el" href="../../de/d4e/classStorage_1_1Block.html">Block</a> for data; temporary or persistent external storage of data. </p>
+<div class="textblock"><p>Allocated block on memory on storage. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00083">83</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00091">91</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="adce6374901b510d71a28be1500bb953e"></a>
+<a class="anchor" id="ac77c7bf957a9d32155f0267148079c07"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -176,20 +180,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>nmemb</em> = <code>1</code>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -203,22 +195,19 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct block on given storage device with the given local buffer, member size and number of members. <a class="el" href="../../dd/d5e/classStorage.html">Storage</a> is allocated on the device for the total storage of the members. The buffer is assumed to only hold a single member. Default is a single member. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Construct block on given storage device. Memory is allocated on the device. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mem</td><td>storage device for block. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer address. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of bytes per member. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nmemb</td><td>number of members (default 1). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of bytes. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00096">96</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00099">99</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ad164c58c7a455cea5eccbc1a50b2f942"></a>
+<a class="anchor" id="aeb4ee584d51fbe338e385f3c09a06771"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -226,7 +215,33 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t Storage::Block::addr </td>
+          <td class="memname">Storage::Block::~Block </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00106">106</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac30907bcdf0a62b84e56944b5fe86b9c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Storage::Block::addr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -240,11 +255,11 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns storage address for the block. </p><dl class="section return"><dt>Returns</dt><dd>address. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00120">120</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00115">115</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a300caa083ed02e9136d11be19249e329"></a>
+<a class="anchor" id="a8e4430fd214c9c01a601adbd388df77a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -254,9 +269,25 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">int Storage::Block::read </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ix</em> = <code>0</code></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -265,45 +296,21 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read indexed storage block to buffer. Default index is the first member. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read given number of bytes from offset within block to given buffer. Returns number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ix</td><td>member index (default 0): </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>offset within block. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of bytes to read. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes read or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00131">131</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00128">128</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab3f6d8ab3898487db8c64231bb4186de"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t Storage::Block::size </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns storage total size (size * nmemb). </p><dl class="section return"><dt>Returns</dt><dd>address. </dd></dl>
-
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00109">109</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab7c33814563ca6d09ea70e771e6384e7"></a>
+<a class="anchor" id="aa54fd143dc657515ae32fd8f073fb8b1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -313,9 +320,25 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">int Storage::Block::write </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>ix</em> = <code>0</code></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -324,15 +347,17 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write buffer to indexed storage block. Default index is the first member. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write given number of bytes from buffer to given offset within block. Returns number of bytes written or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ix</td><td>member index (default 0): </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>offset within block. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>number of bytes to write. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00146">146</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00144">144</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -356,30 +381,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Address on storage device. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00166">166</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa8599110a07cb823dcc32a2a91c39d2e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void* Storage::Block::m_buf</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Buffer for data. </p>
-
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00169">169</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00159">159</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -402,37 +404,22 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> device from block. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00163">163</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa2d96f5f7d1e2268da7389f08cc13de3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const size_t Storage::Block::NMEMB</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Number of members. </p>
-
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00159">159</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a407a5bfba3292fec7069f35931add532"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const size_t Storage::Block::SIZE</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Size of member. </p>
-
 <p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00156">156</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a124a324cf35cf5fca88be5dcec136a2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t Storage::Block::SIZE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Size of block. </p>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00152">152</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -445,7 +432,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a></li><li class="navelem"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Block</a></li>
-    <li class="footer">Generated on Sun Sep 24 2017 10:18:55 for Arduino-Storage by
+    <li class="footer">Generated on Sun Sep 24 2017 22:50:49 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,0 +1,4 @@
+<map id="Storage::Cache" name="Storage::Cache">
+<area shape="rect" id="node2" href="$de/d4e/classStorage_1_1Block.html" title="{Storage::Block\n|+ SIZE\l# m_addr\l|+ Block()\l+ ~Block()\l+ addr()\l+ read()\l+ write()\l}" alt="" coords="8,233,116,384"/>
+<area shape="rect" id="node3" href="$dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="19,5,105,171"/>
+</map>

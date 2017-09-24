@@ -123,12 +123,12 @@ Inheritance diagram for AT24CXX:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/dfa/classAT24CXX__inherit__graph.png" border="0" usemap="#AT24CXX_inherit__map" alt="Inheritance graph"/></div>
 <map name="AT24CXX_inherit__map" id="AT24CXX_inherit__map">
-<area shape="rect" id="node4" href="../../dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,417,109,495"/>
-<area shape="rect" id="node5" href="../../de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,417,237,495"/>
-<area shape="rect" id="node6" href="../../d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,417,359,495"/>
-<area shape="rect" id="node7" href="../../de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,417,488,495"/>
-<area shape="rect" id="node8" href="../../df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,417,610,495"/>
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="210,5,297,156"/>
+<area shape="rect" id="node4" href="../../dd/ded/classAT24C128.html" title="{AT24C128\n||+ AT24C128()\l}" alt="" coords="5,432,109,509"/>
+<area shape="rect" id="node5" href="../../de/df6/classAT24C256.html" title="{AT24C256\n||+ AT24C256()\l}" alt="" coords="133,432,237,509"/>
+<area shape="rect" id="node6" href="../../d3/dc8/classAT24C32.html" title="{AT24C32\n||+ AT24C32()\l}" alt="" coords="262,432,359,509"/>
+<area shape="rect" id="node7" href="../../de/dec/classAT24C512.html" title="{AT24C512\n||+ AT24C512()\l}" alt="" coords="384,432,488,509"/>
+<area shape="rect" id="node8" href="../../df/d74/classAT24C64.html" title="{AT24C64\n||+ AT24C64()\l}" alt="" coords="513,432,610,509"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="210,5,297,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -136,7 +136,7 @@ Collaboration diagram for AT24CXX:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/d43/classAT24CXX__coll__graph.png" border="0" usemap="#AT24CXX_coll__map" alt="Collaboration graph"/></div>
 <map name="AT24CXX_coll__map" id="AT24CXX_coll__map">
-<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,156"/>
+<area shape="rect" id="node2" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="5,5,92,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -154,6 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4dc588747ce96b82d7023f58b11c99c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6">alloc</a> (size_t <a class="el" href="../../d9/dde/Stream_8ino.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:a358bd9a1c65f88438e5c8cfbe72846f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a297f2c83ba5c95fef7a202f49f39eb5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5e/classStorage.html#a297f2c83ba5c95fef7a202f49f39eb5a">free</a> (uint32_t addr)</td></tr>
+<tr class="separator:a297f2c83ba5c95fef7a202f49f39eb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -269,6 +271,38 @@ Static Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>address of allocated block, otherwise UINT32_MAX. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00053">53</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a297f2c83ba5c95fef7a202f49f39eb5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Storage::free </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reset allocation point to given address. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>address of allocated block. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00065">65</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +484,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Address of the next alloc. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00324">324</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00395">395</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -570,7 +604,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/db3/classAT24CXX.html">AT24CXX</a></li>
-    <li class="footer">Generated on Sun Sep 24 2017 10:18:55 for Arduino-Storage by
+    <li class="footer">Generated on Sun Sep 24 2017 22:50:49 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

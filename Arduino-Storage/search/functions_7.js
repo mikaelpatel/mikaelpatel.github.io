@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['peek',['peek',['../dd/da0/classStorage_1_1Stream.html#a43a4eded333fbf727ef65fa74f0a65a8',1,'Storage::Stream']]],
-  ['persistent_5fconfig',['persistent_config',['../d2/d75/Persistent_8ino.html#a34a367b51a6e4c00882e51feb837805f',1,'Persistent.ino']]],
-  ['persistent_5freset',['persistent_reset',['../d2/d75/Persistent_8ino.html#a911b78e21aea81786cae47b128a2b7ab',1,'Persistent.ino']]]
+  ['mc23lc1024',['MC23LC1024',['../d2/d5c/classMC23LC1024.html#ac78ece707c44cab954d62b565f4a11d2',1,'MC23LC1024']]],
+  ['mc23lc512',['MC23LC512',['../d1/d79/classMC23LC512.html#ad455017174edaa4e41d728514d897cce',1,'MC23LC512']]]
 ];

@@ -8,6 +8,6 @@ var AT24CXX_8ino =
     [ "buf", "de/d62/AT24CXX_8ino.html#af488b41188d3a5ab686e3adae2996c14", null ],
     [ "BUF_MAX", "de/d62/AT24CXX_8ino.html#a51c5e811d9e9cbb60e86a5dc972ada58", null ],
     [ "eeprom", "de/d62/AT24CXX_8ino.html#a28a98b829f397bd38433052ff220f8ec", null ],
-    [ "N", "de/d62/AT24CXX_8ino.html#aa1420229560ec25b82d854019b232006", null ],
+    [ "N", "de/d62/AT24CXX_8ino.html#a7170944b6ae2b851f188b6446912f625", null ],
     [ "N_MAX", "de/d62/AT24CXX_8ino.html#aea26a966636c020a3f7d4009c3887a02", null ]
 ];

@@ -127,7 +127,7 @@ Collaboration diagram for Storage::Stream:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/dcc/classStorage_1_1Stream__coll__graph.png" border="0" usemap="#Storage_1_1Stream_coll__map" alt="Collaboration graph"/></div>
 <map name="Storage_1_1Stream_coll__map" id="Storage_1_1Stream_coll__map">
-<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ read()\l+ write()\l}" alt="" coords="94,5,181,156"/>
+<area shape="rect" id="node3" href="../../dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="94,5,181,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -171,7 +171,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a> of given size on given storage. Write/print intermediate data to the stream that may later be read and transfered. Multiple stream may be created on the same device by assigning start address and size. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00178">178</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00249">249</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac3573924bb4a7884eaf707a365ed8055"></a>
 <div class="memitem">
@@ -212,7 +212,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00186">186</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00257">257</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -239,7 +239,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns storage address. </p><dl class="section return"><dt>Returns</dt><dd>address. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00200">200</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00271">271</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns number of bytes available for <a class="el" href="../../dd/da0/classStorage_1_1Stream.html#a0b88525d62d431b6fe834e76e1706a32">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bytes available. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00255">255</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00326">326</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Flush all data and reset stream. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00295">295</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00366">366</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -317,7 +317,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return next byte to read if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00266">266</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00337">337</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -343,7 +343,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Return next byte if available otherwise negative error code(-1). </p><dl class="section return"><dt>Returns</dt><dd>next byte or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00280">280</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00351">351</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -376,7 +376,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written(1). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00212">212</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00283">283</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -420,7 +420,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00230">230</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00301">301</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -444,7 +444,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Address on storage for the stream data. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00310">310</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00381">381</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Number of bytes available. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00319">319</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00390">390</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -490,7 +490,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Index for the next read. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00316">316</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00387">387</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -513,7 +513,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p><a class="el" href="../../dd/d5e/classStorage.html">Storage</a> device for the stream. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00307">307</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00378">378</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Index for the next write. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00313">313</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00384">384</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -551,7 +551,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Total size of the stream. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00303">303</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00374">374</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +564,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a></li><li class="navelem"><a class="el" href="../../dd/da0/classStorage_1_1Stream.html">Stream</a></li>
-    <li class="footer">Generated on Sun Sep 24 2017 10:18:55 for Arduino-Storage by
+    <li class="footer">Generated on Sun Sep 24 2017 22:50:49 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -7,6 +7,7 @@ var classMC23LC512 =
     [ "WRMR", "d1/d79/classMC23LC512.html#a656e0fe578db007f3e42b9e1962dbd0ca19a27430e0d404d3158494a47f2364d4", null ],
     [ "MC23LC512", "d1/d79/classMC23LC512.html#ad455017174edaa4e41d728514d897cce", null ],
     [ "alloc", "d1/d79/classMC23LC512.html#a358bd9a1c65f88438e5c8cfbe72846f6", null ],
+    [ "free", "d1/d79/classMC23LC512.html#a297f2c83ba5c95fef7a202f49f39eb5a", null ],
     [ "read", "d1/d79/classMC23LC512.html#ad3d82771cb2ee8ca88f41e7e5c66e250", null ],
     [ "room", "d1/d79/classMC23LC512.html#a4dc588747ce96b82d7023f58b11c99c0", null ],
     [ "write", "d1/d79/classMC23LC512.html#a5bf34ddd784b65e34dd0caf9e675045b", null ],

@@ -2,6 +2,7 @@ var classAT24CXX =
 [
     [ "AT24CXX", "d2/db3/classAT24CXX.html#a0e5a6d693bca7b3d9ad12c5289b4a183", null ],
     [ "alloc", "d2/db3/classAT24CXX.html#a358bd9a1c65f88438e5c8cfbe72846f6", null ],
+    [ "free", "d2/db3/classAT24CXX.html#a297f2c83ba5c95fef7a202f49f39eb5a", null ],
     [ "is_ready", "d2/db3/classAT24CXX.html#a5f3a7d53b2e9380fc307584ff6b53393", null ],
     [ "read", "d2/db3/classAT24CXX.html#a876f39269641e0fe43b9353956ed1524", null ],
     [ "room", "d2/db3/classAT24CXX.html#a4dc588747ce96b82d7023f58b11c99c0", null ],

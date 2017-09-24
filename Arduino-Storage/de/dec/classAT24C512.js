@@ -2,6 +2,7 @@ var classAT24C512 =
 [
     [ "AT24C512", "de/dec/classAT24C512.html#ad040533a7d05121378a07f389e8189be", null ],
     [ "alloc", "de/dec/classAT24C512.html#a358bd9a1c65f88438e5c8cfbe72846f6", null ],
+    [ "free", "de/dec/classAT24C512.html#a297f2c83ba5c95fef7a202f49f39eb5a", null ],
     [ "is_ready", "de/dec/classAT24C512.html#a5f3a7d53b2e9380fc307584ff6b53393", null ],
     [ "read", "de/dec/classAT24C512.html#a876f39269641e0fe43b9353956ed1524", null ],
     [ "room", "de/dec/classAT24C512.html#a4dc588747ce96b82d7023f58b11c99c0", null ],

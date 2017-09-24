@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flush',['flush',['../dd/da0/classStorage_1_1Stream.html#aef248ccd8747a5c97a17cc8ddad1dedf',1,'Storage::Stream']]]
+  ['eeprom',['EEPROM',['../dc/d83/classEEPROM.html#a025ff5824e686e9c55ba5b46923f99d6',1,'EEPROM']]]
 ];

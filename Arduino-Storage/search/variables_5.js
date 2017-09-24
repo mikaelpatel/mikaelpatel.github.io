@@ -9,11 +9,12 @@ var searchData=
   ['m6',['m6',['../d9/dde/Stream_8ino.html#a62c630834a644c4876bac5ab582f6752',1,'Stream.ino']]],
   ['m7',['m7',['../d9/dde/Stream_8ino.html#a6b323856a3b7f51e5dabcc74078f6c2d',1,'Stream.ino']]],
   ['m_5faddr',['m_addr',['../de/d4e/classStorage_1_1Block.html#ab0dc2ec20664ad2e981ddf41e54cfa82',1,'Storage::Block::m_addr()'],['../dd/da0/classStorage_1_1Stream.html#a82e699148402ba2d866672e4133db7ff',1,'Storage::Stream::m_addr()'],['../dd/d5e/classStorage.html#a4067c420ed6e2a2a77c21100d5a2545a',1,'Storage::m_addr()']]],
-  ['m_5fbuf',['m_buf',['../de/d4e/classStorage_1_1Block.html#aa8599110a07cb823dcc32a2a91c39d2e',1,'Storage::Block']]],
+  ['m_5fbuf',['m_buf',['../db/d67/classStorage_1_1Cache.html#a2049fc9b52085de1c37fff9a356ab8fe',1,'Storage::Cache']]],
   ['m_5fcount',['m_count',['../dd/da0/classStorage_1_1Stream.html#a3650af918bd9f04074ca2adc874491fc',1,'Storage::Stream']]],
   ['m_5fget',['m_get',['../dd/da0/classStorage_1_1Stream.html#ab316699276586e80368fcd48f78e99c5',1,'Storage::Stream']]],
   ['m_5fmem',['m_mem',['../de/d4e/classStorage_1_1Block.html#a120b5e45bc3012f8bac12aab0b26211c',1,'Storage::Block::m_mem()'],['../dd/da0/classStorage_1_1Stream.html#afc31de755e676b9990a8a90eb523bcfa',1,'Storage::Stream::m_mem()']]],
   ['m_5fput',['m_put',['../dd/da0/classStorage_1_1Stream.html#af7bccbc24cf36666e25a4f30bd913f97',1,'Storage::Stream']]],
   ['mac',['mac',['../d8/dc0/structconfig__t.html#a011bf7e46d3fe845342ba3b764c235fd',1,'config_t::mac()'],['../d2/d75/Persistent_8ino.html#aedbb11685ebf12ce66e51aa2320f845f',1,'mac():&#160;Persistent.ino']]],
-  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024::MAX_FREQ()'],['../d1/d79/classMC23LC512.html#ab629af88c86bc580f278ba6f500beac7',1,'MC23LC512::MAX_FREQ()']]]
+  ['max_5ffreq',['MAX_FREQ',['../d2/d5c/classMC23LC1024.html#a0ede167d313aa0f26f25311d2aa93751',1,'MC23LC1024::MAX_FREQ()'],['../d1/d79/classMC23LC512.html#ab629af88c86bc580f278ba6f500beac7',1,'MC23LC512::MAX_FREQ()']]],
+  ['msize',['MSIZE',['../db/d67/classStorage_1_1Cache.html#af0151ea9f1b9cb0667f7b5c175551458',1,'Storage::Cache']]]
 ];
