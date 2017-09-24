@@ -175,7 +175,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4067c420ed6e2a2a77c21100d5a2545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>External memory storage interface, data block read/write and streaming class. Handles linear allocation of storage blocks on the device. </p>
+<div class="textblock"><p>External memory storage interface, data block read/write, caching and streaming class. Handles linear allocation of storage blocks on the device. </p>
 
 <p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00027">27</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -314,7 +314,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read count number of bytes from storage address to buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read count number of bytes from storage address to buffer. Returns number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source memory address on device. </td></tr>
@@ -391,7 +391,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write count number of bytes to storage address from buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write count number of bytes to storage address from buffer. Returns number of bytes read or negative error code. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination memory address on device. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source buffer pointer. </td></tr>
@@ -423,9 +423,9 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Address of the next alloc. </p>
+<p>Address of the next allocation. </p>
 
-<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00395">395</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d6f/Storage_8h_source.html#l00398">398</a> of file <a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>.</p>
 
 </div>
 </div>
@@ -453,7 +453,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d5e/classStorage.html">Storage</a></li>
-    <li class="footer">Generated on Sun Sep 24 2017 22:58:34 for Arduino-Storage by
+    <li class="footer">Generated on Mon Sep 25 2017 00:45:10 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
