@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "BOARD", "d4/dbd/classBOARD.html", null ],
+    [ "Button< PIN >", "d1/d19/classButton.html", null ],
     [ "GPIO< PIN >", "d7/dde/classGPIO.html", null ],
     [ "GPIO< PIN >::gpio_reg_t", "d7/d59/structGPIO_1_1gpio__reg__t.html", null ],
     [ "GPIO< CLOCK_PIN >", "d7/dde/classGPIO.html", null ],

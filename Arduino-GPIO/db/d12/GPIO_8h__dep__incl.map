@@ -1,8 +1,10 @@
 <map id="src/GPIO.h" name="src/GPIO.h">
-<area shape="rect" id="node2" href="$d4/d2e/SRPI_8h.html" title="src/SRPI.h" alt="" coords="88,80,175,107"/>
-<area shape="rect" id="node4" href="$da/d9e/SRPIO_8h.html" title="src/SRPIO.h" alt="" coords="235,80,332,107"/>
-<area shape="rect" id="node6" href="$da/d82/SRPO_8h.html" title="src/SRPO.h" alt="" coords="394,80,487,107"/>
-<area shape="rect" id="node3" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="5,162,188,189"/>
-<area shape="rect" id="node5" href="$d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="213,155,354,196"/>
-<area shape="rect" id="node7" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="378,162,581,189"/>
+<area shape="rect" id="node2" href="$d0/d79/Button_8h.html" title="src/Button.h" alt="" coords="95,80,189,107"/>
+<area shape="rect" id="node4" href="$d4/d2e/SRPI_8h.html" title="src/SRPI.h" alt="" coords="277,80,364,107"/>
+<area shape="rect" id="node6" href="$da/d9e/SRPIO_8h.html" title="src/SRPIO.h" alt="" coords="423,80,520,107"/>
+<area shape="rect" id="node8" href="$da/d82/SRPO_8h.html" title="src/SRPO.h" alt="" coords="618,80,711,107"/>
+<area shape="rect" id="node3" href="$dd/d61/Button_8ino.html" title="examples/Button/Button.ino" alt="" coords="5,162,188,189"/>
+<area shape="rect" id="node5" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="212,162,395,189"/>
+<area shape="rect" id="node7" href="$d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="419,155,561,196"/>
+<area shape="rect" id="node9" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="585,162,787,189"/>
 </map>

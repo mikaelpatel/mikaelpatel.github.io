@@ -21,5 +21,6 @@ var searchData=
   ['d8',['D8',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976ac420bc41c4d540ef23dc2ec2927da51a',1,'BOARD']]],
   ['d9',['D9',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a08c4b12fca9fd3281e5fa1a4f46f5971',1,'BOARD']]],
   ['data_5fpin',['DATA_PIN',['../d5/df7/ShiftIn_8ino.html#adad67fe595ea440c8f8247ec2cddf070',1,'DATA_PIN():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070',1,'DATA_PIN():&#160;ShiftOut.ino']]],
-  ['ddr',['ddr',['../d7/d59/structGPIO_1_1gpio__reg__t.html#a923b8b0064434ffbe31816bd7b6e3f74',1,'GPIO::gpio_reg_t']]]
+  ['ddr',['ddr',['../d7/d59/structGPIO_1_1gpio__reg__t.html#a923b8b0064434ffbe31816bd7b6e3f74',1,'GPIO::gpio_reg_t']]],
+  ['debounce',['DEBOUNCE',['../d1/d19/classButton.html#a6a2b8acfe0555ba0341b9a7e456259ca',1,'Button']]]
 ];

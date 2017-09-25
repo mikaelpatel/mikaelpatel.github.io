@@ -1,11 +1,12 @@
 <map id="src/Hardware/SAM/Board.h" name="src/Hardware/SAM/Board.h">
-<area shape="rect" id="node2" href="$d0/d16/Hardware_2SAM_2GPIO_8h.html" title="src/Hardware/SAM/GPIO.h" alt="" coords="485,80,667,107"/>
+<area shape="rect" id="node2" href="$d0/d16/Hardware_2SAM_2GPIO_8h.html" title="src/Hardware/SAM/GPIO.h" alt="" coords="588,80,769,107"/>
 <area shape="rect" id="node3" href="$d7/dae/Serial_8h.html" title="src/Software/Serial.h" alt="" coords="5,162,149,189"/>
 <area shape="rect" id="node4" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="49,244,215,285"/>
 <area shape="rect" id="node5" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="225,155,373,196"/>
 <area shape="rect" id="node6" href="$d7/d9d/Blink_8ino.html" title="examples/Blink/Blink.ino" alt="" coords="397,162,563,189"/>
-<area shape="rect" id="node7" href="$d9/dd9/Pulse_8ino.html" title="examples/Pulse/Pulse.ino" alt="" coords="587,162,760,189"/>
-<area shape="rect" id="node8" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="785,162,967,189"/>
-<area shape="rect" id="node9" href="$d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="992,155,1133,196"/>
-<area shape="rect" id="node10" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="1157,162,1360,189"/>
+<area shape="rect" id="node7" href="$dd/d61/Button_8ino.html" title="examples/Button/Button.ino" alt="" coords="587,162,770,189"/>
+<area shape="rect" id="node8" href="$d9/dd9/Pulse_8ino.html" title="examples/Pulse/Pulse.ino" alt="" coords="795,162,968,189"/>
+<area shape="rect" id="node9" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="993,162,1175,189"/>
+<area shape="rect" id="node10" href="$d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="1200,155,1341,196"/>
+<area shape="rect" id="node11" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="1365,162,1568,189"/>
 </map>
