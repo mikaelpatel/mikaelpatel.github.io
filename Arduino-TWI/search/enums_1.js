@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rate',['Rate',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66',1,'DS1307']]]
+  ['mode',['Mode',['../db/d37/classBMP085.html#af09d3b2f3bf3705b5393f4890ce66a08',1,'BMP085']]]
 ];

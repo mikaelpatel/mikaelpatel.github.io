@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gpio',['GPIO',['../d9/db3/classPCF8574_1_1GPIO.html',1,'PCF8574']]],
-  ['gpio',['GPIO',['../d9/db3/classPCF8574_1_1GPIO.html#ae37414c71f196c49c156b061cd0b3772',1,'PCF8574::GPIO']]]
+  ['freq',['FREQ',['../d7/df2/BMP085_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'FREQ():&#160;BMP085.ino'],['../d1/ddb/PCF8574_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'FREQ():&#160;PCF8574.ino'],['../dd/da4/Scanner_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'FREQ():&#160;Scanner.ino'],['../d3/d08/Si7021_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'FREQ():&#160;Si7021.ino']]]
 ];

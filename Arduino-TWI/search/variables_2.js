@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['default_5ffreq',['DEFAULT_FREQ',['../d1/deb/classTWI.html#ac79663bcac606334f608a8f204a55bba',1,'TWI']]]
+  ['clock_5fstretching_5fretry_5fmax',['CLOCK_STRETCHING_RETRY_MAX',['../d0/dd0/classSoftware_1_1TWI.html#a0a33da213eb3240323be5896c40d52ea',1,'Software::TWI']]]
 ];

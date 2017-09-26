@@ -1,7 +1,9 @@
 <map id="src/TWI.h" name="src/TWI.h">
-<area shape="rect" id="node2" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="15,80,165,107"/>
-<area shape="rect" id="node3" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="5,155,223,181"/>
-<area shape="rect" id="node4" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="239,80,378,107"/>
-<area shape="rect" id="node5" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="297,155,483,181"/>
-<area shape="rect" id="node6" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="453,80,655,107"/>
+<area shape="rect" id="node2" href="$d1/d54/BMP085_8h.html" title="src/Driver/BMP085.h" alt="" coords="26,80,170,107"/>
+<area shape="rect" id="node3" href="$d7/df2/BMP085_8ino.html" title="examples/BMP085/BMP085.ino" alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node4" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="245,80,394,107"/>
+<area shape="rect" id="node5" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="257,155,475,181"/>
+<area shape="rect" id="node6" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="469,80,607,107"/>
+<area shape="rect" id="node7" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="541,155,727,181"/>
+<area shape="rect" id="node8" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="682,80,885,107"/>
 </map>

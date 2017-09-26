@@ -1,0 +1,5 @@
+<map id="BMP085" name="BMP085">
+<area shape="rect" id="node2" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="27,270,123,421"/>
+<area shape="rect" id="node3" href="$d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,5,144,171"/>
+<area shape="rect" id="node4" href="$dc/de8/structBMP085_1_1param__t.html" title="{BMP085::param_t\n|+ ac1\l+ ac2\l+ ac3\l+ ac4\l+ ac5\l+ ac6\l+ b1\l+ b2\l+ mb\l+ mc\l+ md\l|}" alt="" coords="147,233,274,457"/>
+</map>

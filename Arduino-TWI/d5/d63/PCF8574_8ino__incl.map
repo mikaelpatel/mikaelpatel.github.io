@@ -1,4 +1,4 @@
 <map id="examples/PCF8574/PCF8574.ino" name="examples/PCF8574/PCF8574.ino">
-<area shape="rect" id="node3" href="$db/dfe/PCF8574_8h.html" title="Driver/PCF8574.h" alt="" coords="24,80,151,107"/>
-<area shape="rect" id="node5" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="226,80,341,107"/>
+<area shape="rect" id="node3" href="$db/dfe/PCF8574_8h.html" title="Driver/PCF8574.h" alt="" coords="51,80,177,107"/>
+<area shape="rect" id="node4" href="$d9/dc9/Hardware_2TWI_8h.html" title="Hardware/TWI.h" alt="" coords="201,80,320,107"/>
 </map>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['measure_5fhumidity',['measure_humidity',['../dd/d1e/classSi70XX.html#a13ec5787a0217f3416c6631a5b08b0b5',1,'Si70XX']]],
-  ['measure_5ftemperature',['measure_temperature',['../dd/d1e/classSi70XX.html#a1c15a83203f16a61665e06ec081f16d1',1,'Si70XX']]]
+  ['loop',['loop',['../d7/df2/BMP085_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;BMP085.ino'],['../d1/ddb/PCF8574_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;PCF8574.ino'],['../dd/da4/Scanner_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Scanner.ino'],['../d3/d08/Si7021_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Si7021.ino']]]
 ];
