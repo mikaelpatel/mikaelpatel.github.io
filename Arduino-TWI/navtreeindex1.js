@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"dd/da4/Scanner_8ino.html#ad21d079e31d1cca74670c1629828f9d6":[3,0,0,2,0,3],
+"dd/da4/Scanner_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,2,0,1],
+"dd/da4/Scanner_8ino_source.html":[3,0,0,2,0],
 "df/dad/Software_2TWI_8h.html":[3,0,1,2,0],
 "df/dad/Software_2TWI_8h_source.html":[3,0,1,2,0],
 "dir_392e5fed41b2de721750e308647dcb9c.html":[3,0,1,1],

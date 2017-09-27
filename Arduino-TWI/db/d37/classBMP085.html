@@ -230,10 +230,10 @@ Static Protected Attributes</h2></td></tr>
 <tr class="separator:a1bbb8117a0e0921456d51103911a4e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Driver for the Bosch <a class="el" href="../../db/d37/classBMP085.html">BMP085</a> Digital Pressure Sensor.</p>
+<div class="textblock"><p><a class="el" href="../../d1/deb/classTWI.html">TWI</a> Device Driver for the Bosch <a class="el" href="../../db/d37/classBMP085.html">BMP085</a> Digital Pressure Sensor.</p>
 <h1><a class="anchor" id="Circuit"></a>
 Circuit</h1>
-<p>The GY-80 10DOF module with pull-up resistors (4K7) for <a class="el" href="../../d1/deb/classTWI.html">TWI</a> signals and 3V3 internal voltage converter. </p><div class="fragment"><div class="line">                          GY-80</div><div class="line">                      +------------+</div><div class="line">(VCC)---------------1-|VCC         |</div><div class="line">                    2-|3V3         |</div><div class="line">(GND)---------------3-|GND         |</div><div class="line">(A5/SCL)------------4-|SCL         |</div><div class="line">(A4/SDA)------------5-|SDA         |</div><div class="line">                    6-|M-DRDY      |</div><div class="line">                    7-|A-INT1      |</div><div class="line">                    8-|T-INT1      |</div><div class="line">                    9-|P-XCLR      |</div><div class="line">(Dn/EXTn)----------10-|P-EOC       |</div><div class="line">                      +------------+</div></div><!-- fragment --><h1><a class="anchor" id="References"></a>
+<p>The GY-80 10DOF module with pull-up resistors (4K7) for <a class="el" href="../../d1/deb/classTWI.html">TWI</a> signals and internal 3V3 voltage converter. </p><div class="fragment"><div class="line">                          GY-80</div><div class="line">                      +------------+</div><div class="line">(VCC)---------------1-|VCC         |</div><div class="line">                    2-|3V3         |</div><div class="line">(GND)---------------3-|GND         |</div><div class="line">(A5/SCL)------------4-|SCL         |</div><div class="line">(A4/SDA)------------5-|SDA         |</div><div class="line">                    6-|M-DRDY      |</div><div class="line">                    7-|A-INT1      |</div><div class="line">                    8-|T-INT1      |</div><div class="line">                    9-|P-XCLR      |</div><div class="line">(Dn/EXTn)----------10-|P-EOC       |</div><div class="line">                      +------------+</div></div><!-- fragment --><h1><a class="anchor" id="References"></a>
 References</h1>
 <ol type="1">
 <li><a href="http://media.digikey.com/pdf/Data%20Sheets/Bosch/BMP085.pdf">http://media.digikey.com/pdf/Data%20Sheets/Bosch/BMP085.pdf</a> BST-BMP085-DS000-03, Rev. 1.0, 01 July 2008. </li>
@@ -268,7 +268,7 @@ References</h1>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00324">324</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00325">325</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +327,7 @@ References</h1>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00315">315</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00316">316</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -382,7 +382,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Start transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00051">51</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00052">52</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -409,7 +409,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Initiate device driver. Load calibration coefficients from device. Return true(1) if successful otherwise false(0). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>oversampling mode (Default ULTRA_LOW_POWER). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>oversampling (Default ULTRA_LOW_POWER). </td></tr>
   </table>
   </dd>
 </dl>
@@ -441,7 +441,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Return latest calculated pressure from temperature and pressure raw sensor data. </p><dl class="section return"><dt>Returns</dt><dd>calculated pressure in steps of 1 Pa (0,01 hPa). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00284">284</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00285">285</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +485,7 @@ References</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes read or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00072">72</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +512,7 @@ References</h1>
 <p>Read the raw pressure sensor. Will wait for the conversion to complete. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 <p>Pressure conversion time max table (ms), index with mode. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00193">193</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00194">194</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Read the raw temperature sensor. Will wait for the conversion to complete. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00128">128</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00129">129</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +564,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Stop transaction. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00062">62</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +590,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Sample and read the raw temperature and pressure sensor. Return true(1) if successful otherwise false(0). Retrieve calculated values with <a class="el" href="../../db/d37/classBMP085.html#a98c9e98c9e01156f923457e9b7b2710b">temperature()</a> and <a class="el" href="../../db/d37/classBMP085.html#a4f5f5144e6fd56fc0226e25fb9a19483">pressure()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00263">263</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00264">264</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Sample and read the raw pressure sensor. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00251">251</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00252">252</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +642,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Issue a sample request of the raw pressure sensor. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00171">171</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00172">172</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -668,7 +668,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Sample the raw temperature sensor and read. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00161">161</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00162">162</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -694,7 +694,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Issue a sample raw temperature sensor request. Return true(1) if successful otherwise false. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00106">106</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00107">107</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Calculate temperature from the latest raw sensor reading. </p><dl class="section return"><dt>Returns</dt><dd>calculated temperature in steps of 0.1 C </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00273">273</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00274">274</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -764,7 +764,7 @@ References</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00083">83</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00084">84</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +797,7 @@ References</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00093">93</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00094">94</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Common intermediate temperature factor. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00342">342</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00343">343</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -844,7 +844,7 @@ References</h1>
 </div><div class="memdoc">
 <p><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> address. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00103">103</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00104">104</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -867,7 +867,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Currrent command. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00336">336</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00337">337</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -890,7 +890,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Pressure conversion mode. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00333">333</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00334">334</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -913,7 +913,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Device calibration data (from EEPROM data registers). </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00330">330</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00331">331</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -936,7 +936,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Latest calculated pressure. </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00345">345</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00346">346</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -959,7 +959,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Sample request start time (ms). </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00339">339</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00340">340</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -982,7 +982,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Two-Wire Interface Manager. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00100">100</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00101">101</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +1005,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Temperature conversion time max (ms). </p>
 
-<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00291">291</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d54/BMP085_8h_source.html#l00292">292</a> of file <a class="el" href="../../d1/d54/BMP085_8h_source.html">BMP085.h</a>.</p>
 
 </div>
 </div>
@@ -1018,7 +1018,7 @@ References</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d37/classBMP085.html">BMP085</a></li>
-    <li class="footer">Generated on Wed Sep 27 2017 00:33:55 for Arduino-TWI by
+    <li class="footer">Generated on Wed Sep 27 2017 11:55:08 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
