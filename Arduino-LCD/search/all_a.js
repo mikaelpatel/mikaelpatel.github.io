@@ -23,8 +23,9 @@ var searchData=
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
   ['max72xx',['MAX72XX',['../d0/dba/classMAX72XX.html',1,'MAX72XX&lt; SCE_PIN, SDIN_PIN, SCLK_PIN &gt;'],['../d0/dba/classMAX72XX.html#a7d6adeee79a40f02488f23a75dfb8990',1,'MAX72XX::MAX72XX()']]],
   ['max72xx_2eh',['MAX72XX.h',['../df/dcc/MAX72XX_8h.html',1,'']]],
-  ['mjkdz',['MJKDZ',['../d6/d6c/classLCD_1_1MJKDZ.html#a0724084cbbe8db035a27deae4f0e0e40',1,'LCD::MJKDZ']]],
+  ['measure',['MEASURE',['../d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd',1,'Benchmark.ino']]],
   ['mjkdz',['MJKDZ',['../d6/d6c/classLCD_1_1MJKDZ.html',1,'LCD']]],
+  ['mjkdz',['MJKDZ',['../d6/d6c/classLCD_1_1MJKDZ.html#a0724084cbbe8db035a27deae4f0e0e40',1,'LCD::MJKDZ']]],
   ['mjkdz_2eh',['MJKDZ.h',['../d6/d77/MJKDZ_8h.html',1,'']]],
   ['move_5fleft',['MOVE_LEFT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca6af0cd4b0e820567aa8d7061d4eb3709',1,'HD44780']]],
   ['move_5fright',['MOVE_RIGHT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca3f9ded8f98b17720964a6ef9bd01d3ce',1,'HD44780']]]

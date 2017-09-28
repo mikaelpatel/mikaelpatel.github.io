@@ -1,8 +1,9 @@
 <map id="src/LCD.h" name="src/LCD.h">
-<area shape="rect" id="node2" href="$d2/d69/DFRobot__IIC_8h.html" title="src/Adapter/DFRobot\l_IIC.h" alt="" coords="5,155,152,196"/>
-<area shape="rect" id="node3" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="151,244,329,271"/>
-<area shape="rect" id="node4" href="$d6/d77/MJKDZ_8h.html" title="src/Adapter/MJKDZ.h" alt="" coords="227,80,376,107"/>
-<area shape="rect" id="node6" href="$d1/d98/HD44780_8h.html" title="src/Driver/HD44780.h" alt="" coords="477,162,627,189"/>
-<area shape="rect" id="node7" href="$df/dcc/MAX72XX_8h.html" title="src/Driver/MAX72XX.h" alt="" coords="451,80,605,107"/>
-<area shape="rect" id="node5" href="$d8/d37/GY__IICLCD_8h.html" title="src/Adapter/GY_IICLCD.h" alt="" coords="278,162,453,189"/>
+<area shape="rect" id="node2" href="$d2/d69/DFRobot__IIC_8h.html" title="src/Adapter/DFRobot\l_IIC.h" alt="" coords="236,155,383,196"/>
+<area shape="rect" id="node3" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="50,244,198,285"/>
+<area shape="rect" id="node4" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="331,251,509,278"/>
+<area shape="rect" id="node5" href="$d6/d77/MJKDZ_8h.html" title="src/Adapter/MJKDZ.h" alt="" coords="129,80,279,107"/>
+<area shape="rect" id="node7" href="$d1/d98/HD44780_8h.html" title="src/Driver/HD44780.h" alt="" coords="457,162,607,189"/>
+<area shape="rect" id="node8" href="$df/dcc/MAX72XX_8h.html" title="src/Driver/MAX72XX.h" alt="" coords="681,80,836,107"/>
+<area shape="rect" id="node6" href="$d8/d37/GY__IICLCD_8h.html" title="src/Adapter/GY_IICLCD.h" alt="" coords="37,162,211,189"/>
 </map>
