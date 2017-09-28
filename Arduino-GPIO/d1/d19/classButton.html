@@ -122,8 +122,6 @@ $(document).ready(function(){initNavTree('d1/d19/classButton.html','../../');});
 Collaboration diagram for Button&lt; PIN &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/dbf/classButton__coll__graph.png" border="0" usemap="#Button_3_01PIN_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="Button_3_01PIN_01_4_coll__map" id="Button_3_01PIN_01_4_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -157,7 +155,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;BOARD::pin_t PIN&gt;<br />
 class Button&lt; PIN &gt;</h3>
 
-<p>Debounced input pin template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. Internal pullup resistor is used. The button/switch should be connected to ground. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Debounced Input Pin template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. The internal pullup resistor is used. The button/switch should be connected to ground. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">PIN</td><td>board pin for input signal. </td></tr>
   </table>
@@ -189,14 +187,14 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct debounced input pin (<a class="el" href="../../d1/d19/classButton.html">Button</a>) instance with given template parameters. Initiate <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a> pins input mode with pullup resistor. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Construct debounced input pin instance with given template parameters. Initiate <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a> pins input mode with pullup resistor. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ms</td><td>debouce time (Default 50 ms). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ms</td><td>debounce time limit (Default 50 ms). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00038">38</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -223,9 +221,9 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return true(1) if button change was detected, otherwise false(0). Rising or falling edge is determined by reading the debounced pin state. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if button change was detected, otherwise false(0). </dd></dl>
+<p>Return true(1) if a button state change was detected, otherwise false(0). Rising or falling edge is determined by reading the debounced pin state. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00052">52</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00051">51</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -253,7 +251,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return debounced pin state. Shorthand for <a class="el" href="../../d1/d19/classButton.html#a2cf3a6cf0995170c83a852ee58b2ae1c">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00078">78</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00077">77</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +279,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return debounced pin state. </p><dl class="section return"><dt>Returns</dt><dd>state. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00069">69</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00068">68</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +307,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return debounce timestamp. </p><dl class="section return"><dt>Returns</dt><dd>timestamp. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -327,7 +325,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Debounce time in milli-seconds. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00094">94</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -352,7 +350,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p><a class="el" href="../../d1/d19/classButton.html">Button</a> pin. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00098">98</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00097">97</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -375,9 +373,9 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Latest pin read. </p>
+<p>Latest pin read; debounced pin state. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00104">104</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00103">103</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -402,7 +400,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Timestamp for latest pin read. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00101">101</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00100">100</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -415,7 +413,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d19/classButton.html">Button</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 22:54:59 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 28 2017 11:18:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

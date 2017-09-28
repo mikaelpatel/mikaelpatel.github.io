@@ -132,6 +132,8 @@ Collaboration diagram for SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a053ec75a97204974ff9518813661ee33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33">SRPO</a> ()</td></tr>
 <tr class="separator:a053ec75a97204974ff9518813661ee33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05069406444ab9df6053f310e79019a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8f/classSRPO.html#a05069406444ab9df6053f310e79019a7">write</a> (uint8_t value)</td></tr>
+<tr class="separator:a05069406444ab9df6053f310e79019a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b4d008813b5c1ec2d7ceeba2b2c8496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d8f/classSRPO.html#a8b4d008813b5c1ec2d7ceeba2b2c8496">operator&lt;&lt;</a> (uint8_t value)</td></tr>
 <tr class="separator:a8b4d008813b5c1ec2d7ceeba2b2c8496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -148,9 +150,9 @@ class SRPO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;</h3>
 
 <p>Shift Register Parallel Output (<a class="el" href="../../de/d8f/classSRPO.html">SRPO</a>) template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">BITORDER</td><td>LSBFIRST or MSBFIRST. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">DATA_PIN</td><td>board pin for data output signal. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">CLOCK_PIN</td><td>board pin for clock output signal. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">BIT_ORDER</td><td>LSBFIRST or MSBFIRST. </td></tr>
   </table>
   </dd>
 </dl>
@@ -209,6 +211,40 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Serial output operator. Shorthand for <a class="el" href="../../de/d8f/classSRPO.html#a05069406444ab9df6053f310e79019a7">write()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to data output signal. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../da/d82/SRPO_8h_source.html#l00075">75</a> of file <a class="el" href="../../da/d82/SRPO_8h_source.html">SRPO.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05069406444ab9df6053f310e79019a7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../de/d8f/classSRPO.html">SRPO</a>&lt; BITORDER, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070">DATA_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8">CLOCK_PIN</a> &gt;::write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 <p>Serialize given value according to the template bit order parameter. Generate a positive clock pulse for each bit transfer. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to data output signal. </td></tr>
@@ -241,7 +277,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d82/SRPO_8h_source.html#l00073">73</a> of file <a class="el" href="../../da/d82/SRPO_8h_source.html">SRPO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d82/SRPO_8h_source.html#l00082">82</a> of file <a class="el" href="../../da/d82/SRPO_8h_source.html">SRPO.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +301,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d82/SRPO_8h_source.html#l00072">72</a> of file <a class="el" href="../../da/d82/SRPO_8h_source.html">SRPO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d82/SRPO_8h_source.html#l00081">81</a> of file <a class="el" href="../../da/d82/SRPO_8h_source.html">SRPO.h</a>.</p>
 
 </div>
 </div>
@@ -278,7 +314,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d8f/classSRPO.html">SRPO</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 22:54:59 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 28 2017 11:18:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

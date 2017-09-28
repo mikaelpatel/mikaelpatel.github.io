@@ -132,8 +132,12 @@ Collaboration diagram for SRPIO&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3dda5c16489a2132c56b6b853e255657"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classSRPIO.html#a3dda5c16489a2132c56b6b853e255657">SRPIO</a> ()</td></tr>
 <tr class="separator:a3dda5c16489a2132c56b6b853e255657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc5994b4e7a939cd19441cded717c347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classSRPIO.html#adc5994b4e7a939cd19441cded717c347">write</a> (uint8_t value)</td></tr>
+<tr class="separator:adc5994b4e7a939cd19441cded717c347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c361bd0f40e1c422faf8ce047cc5805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classSRPIO.html#a7c361bd0f40e1c422faf8ce047cc5805">operator&lt;&lt;</a> (uint8_t value)</td></tr>
 <tr class="separator:a7c361bd0f40e1c422faf8ce047cc5805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d4429173067a5ab92ed6c828c034258"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classSRPIO.html#a0d4429173067a5ab92ed6c828c034258">read</a> ()</td></tr>
+<tr class="separator:a0d4429173067a5ab92ed6c828c034258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c81a307d99a3baa079c3b962cce80b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d79/classSRPIO.html#a7c81a307d99a3baa079c3b962cce80b5">operator&gt;&gt;</a> (uint8_t &amp;value)</td></tr>
 <tr class="separator:a7c81a307d99a3baa079c3b962cce80b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -211,14 +215,14 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Serialize given value according to the template bit order parameter. Generate a positive clock pulse for each bit transfer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Serial output operator. Shorthand for <a class="el" href="../../dc/d79/classSRPIO.html#adc5994b4e7a939cd19441cded717c347">write()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to data output signal. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00050">50</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00077">77</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
 
 </div>
 </div>
@@ -245,14 +249,76 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return deserialized value according to the template bit order parameter. Generates a positive clock pulse for each bit transfer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Serial input operator. Shorthand for <a class="el" href="../../dc/d79/classSRPIO.html#a0d4429173067a5ab92ed6c828c034258">read()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>from data input signal. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00079">79</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00114">114</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d4429173067a5ab92ed6c828c034258"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t <a class="el" href="../../dc/d79/classSRPIO.html">SRPIO</a>&lt; BITORDER, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070">DATA_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8">CLOCK_PIN</a> &gt;::read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return deserialized value according to the template bit order parameter. Generates a positive clock pulse for each bit transfer. </p><dl class="section return"><dt>Returns</dt><dd>byte read from data input signal. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00088">88</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc5994b4e7a939cd19441cded717c347"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d79/classSRPIO.html">SRPIO</a>&lt; BITORDER, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070">DATA_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8">CLOCK_PIN</a> &gt;::write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Serialize given value according to the template bit order parameter. Generate a positive clock pulse for each bit transfer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to data output signal. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00050">50</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
 
 </div>
 </div>
@@ -277,7 +343,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00103">103</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00121">121</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +367,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00102">102</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d9e/SRPIO_8h_source.html#l00120">120</a> of file <a class="el" href="../../da/d9e/SRPIO_8h_source.html">SRPIO.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +380,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d79/classSRPIO.html">SRPIO</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 22:54:59 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 28 2017 11:18:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

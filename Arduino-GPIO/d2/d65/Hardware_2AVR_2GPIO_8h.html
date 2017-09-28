@@ -106,8 +106,7 @@ $(document).ready(function(){initNavTree('d2/d65/Hardware_2AVR_2GPIO_8h.html','.
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">GPIO.h File Reference</div>  </div>
 </div><!--header-->
@@ -130,14 +129,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/structGPIO_1_1gpio__reg__t.html">GPIO&lt; PIN &gt;::gpio_reg_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a4361c09e614edcad049046ed8a1f24e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/Hardware_2AVR_2GPIO_8h.html#a4361c09e614edcad049046ed8a1f24e0">GPIO_ATOMIC</a>(expr)</td></tr>
-<tr class="separator:a4361c09e614edcad049046ed8a1f24e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.5</dd></dl>
+<div class="textblock"><dl class="section version"><dt>Version</dt><dd>1.6</dd></dl>
 <h1><a class="anchor" id="License"></a>
 License</h1>
 <p>Copyright (C) 2017, Mikael Patel</p>
@@ -145,39 +139,13 @@ License</h1>
 <p>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details. </p>
 
 <p>Definition in file <a class="el" href="../../d2/d65/Hardware_2AVR_2GPIO_8h_source.html">GPIO.h</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a4361c09e614edcad049046ed8a1f24e0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GPIO_ATOMIC</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">expr</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                            \</div><div class="line">    if (PIN &lt; <a class="code" href="../../dc/dc6/AVR_2Board_8h.html#afdd933ece69e6d0feaff4431408230bb">GPIO_ATOMIC_MAX</a>) {                                \</div><div class="line">      expr;                                                     \</div><div class="line">    }                                                           \</div><div class="line">    else {                                                      \</div><div class="line">      uint8_t sreg = SREG;                                      \</div><div class="line">      __asm__ __volatile__(<span class="stringliteral">&quot;cli&quot;</span> ::: <span class="stringliteral">&quot;memory&quot;</span>);                 \</div><div class="line">      expr;                                                     \</div><div class="line">      SREG = sreg;                                              \</div><div class="line">      __asm__ __volatile__(<span class="stringliteral">&quot;&quot;</span> ::: <span class="stringliteral">&quot;memory&quot;</span>);                    \</div><div class="line">    }                                                           \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="AVR_2Board_8h_html_afdd933ece69e6d0feaff4431408230bb"><div class="ttname"><a href="../../dc/dc6/AVR_2Board_8h.html#afdd933ece69e6d0feaff4431408230bb">GPIO_ATOMIC_MAX</a></div><div class="ttdeci">#define GPIO_ATOMIC_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/AVR_2Board_8h_source.html#l00037">Board.h:37</a></div></div>
-</div><!-- fragment --><p>Forces given expression to be atomic. Higher port addresses cannot be accessed with a single instruction and require disabling of interrupts to become atomic. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">expr</td><td>expression to be atomic. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="../../d2/d65/Hardware_2AVR_2GPIO_8h_source.html#l00030">30</a> of file <a class="el" href="../../d2/d65/Hardware_2AVR_2GPIO_8h_source.html">GPIO.h</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dir_392e5fed41b2de721750e308647dcb9c.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dir_35b75a4071df61d87778de552386f338.html">AVR</a></li><li class="navelem"><a class="el" href="../../d2/d65/Hardware_2AVR_2GPIO_8h.html">GPIO.h</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 22:54:59 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 28 2017 11:18:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

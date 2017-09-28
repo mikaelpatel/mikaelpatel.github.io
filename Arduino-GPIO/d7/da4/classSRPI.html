@@ -132,6 +132,8 @@ Collaboration diagram for SRPI&lt; BITORDER, DATA_PIN, CLOCK_PIN &gt;:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cbca333ccc5d392f29e9bf26548bfbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/classSRPI.html#a3cbca333ccc5d392f29e9bf26548bfbb">SRPI</a> ()</td></tr>
 <tr class="separator:a3cbca333ccc5d392f29e9bf26548bfbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20233d907c6aaee41c2728c5f95bea41"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/classSRPI.html#a20233d907c6aaee41c2728c5f95bea41">read</a> ()</td></tr>
+<tr class="separator:a20233d907c6aaee41c2728c5f95bea41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7d9153b98f51e975fa8402a0713d68b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/classSRPI.html#ae7d9153b98f51e975fa8402a0713d68b">operator&gt;&gt;</a> (uint8_t &amp;value)</td></tr>
 <tr class="separator:ae7d9153b98f51e975fa8402a0713d68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -209,12 +211,40 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return deserialized value according to the template bit order parameter. Generates a positive clock pulse for each bit transfer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Serial input operator. Shorthand for <a class="el" href="../../d7/da4/classSRPI.html#a20233d907c6aaee41c2728c5f95bea41">read()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>from data input signal. </td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00078">78</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20233d907c6aaee41c2728c5f95bea41"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t <a class="el" href="../../d7/da4/classSRPI.html">SRPI</a>&lt; BITORDER, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#adad67fe595ea440c8f8247ec2cddf070">DATA_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a23b348310475af5d6544794f1a167ee8">CLOCK_PIN</a> &gt;::read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return deserialized value according to the template bit order parameter. Generates a positive clock pulse for each bit transfer. </p><dl class="section return"><dt>Returns</dt><dd>read byte. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00050">50</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
 
@@ -241,7 +271,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00074">74</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00085">85</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +295,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00073">73</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d2e/SRPI_8h_source.html#l00084">84</a> of file <a class="el" href="../../d4/d2e/SRPI_8h_source.html">SRPI.h</a>.</p>
 
 </div>
 </div>
@@ -278,7 +308,7 @@ template&lt;uint8_t BITORDER, BOARD::pin_t DATA_PIN, BOARD::pin_t CLOCK_PIN&gt; 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/da4/classSRPI.html">SRPI</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 22:54:59 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Sep 28 2017 11:18:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
