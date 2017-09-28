@@ -1,0 +1,3 @@
+<map id="LCD::DFRobot_IIC" name="LCD::DFRobot_IIC">
+<area shape="rect" id="node2" href="$df/d37/classHD44780_1_1Adapter.html" title="{HD44780::Adapter\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="5,5,136,156"/>
+</map>
