@@ -75,10 +75,8 @@ var NAVTREEINDEX0 =
 "d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd":[3,0,0,0,0,0],
 "d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,0,0,5],
 "d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,0,0,2],
-"d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b":[3,0,0,0,0,6],
-"d2/d24/Benchmark_8ino.html#a65fe0e35c124286b8ee147eab2048f9d":[3,0,0,0,0,4],
-"d2/d24/Benchmark_8ino.html#ab62795d0dce17019b8037b19185c21b1":[3,0,0,0,0,7],
 "d2/d24/Benchmark_8ino.html#abb72d6e19446d478a77c464cb55172c7":[3,0,0,0,0,3],
+"d2/d24/Benchmark_8ino.html#ada8893f231262646de1dcefb58108d16":[3,0,0,0,0,4],
 "d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,0,0,1],
 "d2/d24/Benchmark_8ino_source.html":[3,0,0,0,0],
 "d2/d69/DFRobot__IIC_8h.html":[3,0,1,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "dd/dd2/classHD44780.html#adb82c5cde099e21ee8306334c4bcb44daf2204ab96b2653bf1666930206632143":[2,0,1,14],
 "dd/dd2/classHD44780.html#ae645ccebc4b41c694b9349783b8618e5":[2,0,1,49],
 "dd/dd2/classHD44780.html#af20d1b5b5bc48de8bf7c78baa28aec3c":[2,0,1,81],
-"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a2e6e03ff7a3e43cbffb3b2a4a9882586":[2,0,1,29]
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a2e6e03ff7a3e43cbffb3b2a4a9882586":[2,0,1,29],
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a40577661c3e1c19090432f038fae1e7e":[2,0,1,34],
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a67ca0135af1c34126774a19fc36eca92":[2,0,1,35]
 };
