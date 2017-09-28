@@ -32,7 +32,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a6c70220835cf05a8fce0465509687666"
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a9fdd1178a33ae2fadd9c9a1d4925503c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

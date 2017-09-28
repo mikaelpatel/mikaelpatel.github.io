@@ -73,10 +73,9 @@ var NAVTREEINDEX0 =
 "d1/dad/namespaceLCD.html":[2,0,0],
 "d2/d24/Benchmark_8ino.html":[3,0,0,0,0],
 "d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd":[3,0,0,0,0,0],
-"d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,0,0,5],
+"d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,0,0,4],
 "d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,0,0,2],
-"d2/d24/Benchmark_8ino.html#abb72d6e19446d478a77c464cb55172c7":[3,0,0,0,0,3],
-"d2/d24/Benchmark_8ino.html#ada8893f231262646de1dcefb58108d16":[3,0,0,0,0,4],
+"d2/d24/Benchmark_8ino.html#ada8893f231262646de1dcefb58108d16":[3,0,0,0,0,3],
 "d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,0,0,1],
 "d2/d24/Benchmark_8ino_source.html":[3,0,0,0,0],
 "d2/d69/DFRobot__IIC_8h.html":[3,0,1,0,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "dd/dd2/classHD44780.html#af20d1b5b5bc48de8bf7c78baa28aec3c":[2,0,1,81],
 "dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a2e6e03ff7a3e43cbffb3b2a4a9882586":[2,0,1,29],
 "dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a40577661c3e1c19090432f038fae1e7e":[2,0,1,34],
-"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a67ca0135af1c34126774a19fc36eca92":[2,0,1,35]
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a67ca0135af1c34126774a19fc36eca92":[2,0,1,35],
+"dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a6c70220835cf05a8fce0465509687666":[2,0,1,32]
 };
