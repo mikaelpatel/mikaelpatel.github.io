@@ -20,5 +20,8 @@ var dir_5af6faee1e3de567d2d42561cd4ab828 =
     [ "SR3W.h", "df/dfd/SR3W_8h.html", [
       [ "SR3W", "de/df4/classLCD_1_1SR3W.html", "de/df4/classLCD_1_1SR3W" ],
       [ "port_t", "d3/d93/unionLCD_1_1SR3W_1_1port__t.html", "d3/d93/unionLCD_1_1SR3W_1_1port__t" ]
+    ] ],
+    [ "SR4W.h", "da/dad/SR4W_8h.html", [
+      [ "SR4W", "d4/db0/classLCD_1_1SR4W.html", "d4/db0/classLCD_1_1SR4W" ]
     ] ]
 ];
