@@ -6,10 +6,12 @@ var hierarchy =
       [ "LCD::MJKDZ", "d6/d6c/classLCD_1_1MJKDZ.html", [
         [ "LCD::GY_IICLCD", "d1/d46/classLCD_1_1GY__IICLCD.html", null ]
       ] ],
-      [ "LCD::Port4b< D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN >", "d6/d32/classLCD_1_1Port4b.html", null ]
+      [ "LCD::Port4b< D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN >", "d6/d32/classLCD_1_1Port4b.html", null ],
+      [ "LCD::SR3W< SDA_PIN, SCL_PIN, EN_PIN >", "de/df4/classLCD_1_1SR3W.html", null ]
     ] ],
     [ "LCD::DFRobot_IIC::port_t", "d7/d48/unionLCD_1_1DFRobot__IIC_1_1port__t.html", null ],
     [ "LCD::MJKDZ::port_t", "d6/d44/unionLCD_1_1MJKDZ_1_1port__t.html", null ],
+    [ "LCD::SR3W< SDA_PIN, SCL_PIN, EN_PIN >::port_t", "d3/d93/unionLCD_1_1SR3W_1_1port__t.html", null ],
     [ "PCF8574", null, [
       [ "LCD::DFRobot_IIC", "d9/def/classLCD_1_1DFRobot__IIC.html", null ],
       [ "LCD::MJKDZ", "d6/d6c/classLCD_1_1MJKDZ.html", null ]

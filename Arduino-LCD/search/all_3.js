@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['data',['data',['../d7/d48/unionLCD_1_1DFRobot__IIC_1_1port__t.html#a123dfbe093ed83f0327c986a25ff3c34',1,'LCD::DFRobot_IIC::port_t::data()'],['../d6/d44/unionLCD_1_1MJKDZ_1_1port__t.html#ada477b1255e45aa005af78cdc6b403e6',1,'LCD::MJKDZ::port_t::data()']]],
-  ['data_5flength_5f4bits',['DATA_LENGTH_4BITS',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a2e6e03ff7a3e43cbffb3b2a4a9882586',1,'HD44780']]],
-  ['data_5flength_5f8bits',['DATA_LENGTH_8BITS',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394af0656688e87043e7439d5b809525a327',1,'HD44780']]],
+  ['data',['data',['../d7/d48/unionLCD_1_1DFRobot__IIC_1_1port__t.html#a123dfbe093ed83f0327c986a25ff3c34',1,'LCD::DFRobot_IIC::port_t::data()'],['../d6/d44/unionLCD_1_1MJKDZ_1_1port__t.html#ada477b1255e45aa005af78cdc6b403e6',1,'LCD::MJKDZ::port_t::data()'],['../d3/d93/unionLCD_1_1SR3W_1_1port__t.html#ac1e982eca573e30da16c2afbc55f6c21',1,'LCD::SR3W::port_t::data()']]],
+  ['data_5flength_5f4bits',['DATA_LENGTH_4BITS',['../dd/dd2/classHD44780.html#abe66469bfe05ca6a75b2445a9db17ce9a2e6e03ff7a3e43cbffb3b2a4a9882586',1,'HD44780']]],
+  ['data_5flength_5f8bits',['DATA_LENGTH_8BITS',['../dd/dd2/classHD44780.html#abe66469bfe05ca6a75b2445a9db17ce9af0656688e87043e7439d5b809525a327',1,'HD44780']]],
   ['debug',['Debug',['../d7/da4/classLCD_1_1Debug.html',1,'LCD']]],
   ['debug_2eh',['Debug.h',['../d4/deb/Debug_8h.html',1,'']]],
   ['decode_5fmode',['DECODE_MODE',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca033b2d40a0a27a2b1a0213bd846a1cb6',1,'MAX72XX']]],
-  ['decrement',['DECREMENT',['../dd/dd2/classHD44780.html#a757de6e443a9356798f92ccbbb74066ba9e62ba05cb131f601e85c368e20dbadd',1,'HD44780']]],
+  ['decrement',['DECREMENT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca9e62ba05cb131f601e85c368e20dbadd',1,'HD44780']]],
   ['demo_2eino',['Demo.ino',['../de/d5e/Demo_8ino.html',1,'']]],
   ['device',['Device',['../d3/d6f/classLCD_1_1Device.html',1,'LCD']]],
   ['device',['Device',['../d3/d6f/classLCD_1_1Device.html#a4136c9c36e9bc29006fab6d4c0e909c6',1,'LCD::Device']]],
@@ -25,12 +25,12 @@ var searchData=
   ['display_5fcontrast',['display_contrast',['../d0/dba/classMAX72XX.html#a7cbbd242dcb743125bdc53630f1afc1f',1,'MAX72XX::display_contrast()'],['../d3/d6f/classLCD_1_1Device.html#a630f68d7c1b3f70f6ef1cae8e0fc832e',1,'LCD::Device::display_contrast()']]],
   ['display_5finverse',['display_inverse',['../d3/d6f/classLCD_1_1Device.html#a1aecc0071d2648f454d824e5ab368d49',1,'LCD::Device']]],
   ['display_5fmode',['DISPLAY_MODE',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca63cd0ba5c9614177056ee23b204864a1',1,'MAX72XX']]],
-  ['display_5fmove',['DISPLAY_MOVE',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca18e153aafc42adbaf6a9e3adaaf02192',1,'HD44780']]],
+  ['display_5fmove',['DISPLAY_MOVE',['../dd/dd2/classHD44780.html#a42f76bb975066653c185b374c3993b13a18e153aafc42adbaf6a9e3adaaf02192',1,'HD44780']]],
   ['display_5fnormal',['display_normal',['../d3/d6f/classLCD_1_1Device.html#ae645ccebc4b41c694b9349783b8618e5',1,'LCD::Device']]],
   ['display_5foff',['display_off',['../dd/dd2/classHD44780.html#ac7ec882fef3319290322dba82e7b8de1',1,'HD44780::display_off()'],['../d0/dba/classMAX72XX.html#ac8b2915ac999d4e2d53ce64b307295df',1,'MAX72XX::display_off()'],['../d3/d6f/classLCD_1_1Device.html#ade0bb03e573dfff210001264c4550fee',1,'LCD::Device::display_off()']]],
-  ['display_5fon',['display_on',['../dd/dd2/classHD44780.html#a28329e3fc9da9df19fa6be92ac9c70bc',1,'HD44780::display_on()'],['../d0/dba/classMAX72XX.html#a3033fc8ae93555d1d309148ae3c213b3',1,'MAX72XX::display_on()'],['../d3/d6f/classLCD_1_1Device.html#a744f18dffbe68647ab8f2838f889be75',1,'LCD::Device::display_on()'],['../dd/dd2/classHD44780.html#a1e7f0dc6eb95f180c16977b3e36c58d2a135716e4aab23be0af12b9fbb0b59da6',1,'HD44780::DISPLAY_ON()']]],
+  ['display_5fon',['DISPLAY_ON',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a135716e4aab23be0af12b9fbb0b59da6',1,'HD44780::DISPLAY_ON()'],['../dd/dd2/classHD44780.html#a28329e3fc9da9df19fa6be92ac9c70bc',1,'HD44780::display_on()'],['../d0/dba/classMAX72XX.html#a3033fc8ae93555d1d309148ae3c213b3',1,'MAX72XX::display_on()'],['../d3/d6f/classLCD_1_1Device.html#a744f18dffbe68647ab8f2838f889be75',1,'LCD::Device::display_on()']]],
   ['display_5fscroll_5fleft',['display_scroll_left',['../dd/dd2/classHD44780.html#a680e99712470f736701a7c9a3665dac0',1,'HD44780']]],
   ['display_5fscroll_5fright',['display_scroll_right',['../dd/dd2/classHD44780.html#af9f913b0a14038d5e9d7882ff9301259',1,'HD44780']]],
-  ['display_5fshift',['DISPLAY_SHIFT',['../dd/dd2/classHD44780.html#a757de6e443a9356798f92ccbbb74066ba367f7df6ef586bbac6e4907308c4ac3a',1,'HD44780']]],
+  ['display_5fshift',['DISPLAY_SHIFT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca367f7df6ef586bbac6e4907308c4ac3a',1,'HD44780']]],
   ['display_5ftest',['DISPLAY_TEST',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca85386d7e6331ee66e12cc3a01e9e8b74',1,'MAX72XX']]]
 ];

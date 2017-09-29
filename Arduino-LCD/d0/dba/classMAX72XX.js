@@ -1,11 +1,11 @@
 var classMAX72XX =
 [
-    [ "NO_DECODE", "d0/dba/classMAX72XX.html#ab9699b0a74a126d8d12ed30b12e3b231aa2a15d895014bc3985fae167580c37a4", null ],
-    [ "ALL_DECODE", "d0/dba/classMAX72XX.html#ab9699b0a74a126d8d12ed30b12e3b231a8765d57c3e79cfada2003e4a48560a90", null ],
-    [ "NORMAL_TEXT_MODE", "d0/dba/classMAX72XX.html#a3393d582ba2bb0ad3f55993f70b43e67a599336ecf4c5d6bcd8d0177f5fb87fa7", null ],
-    [ "INVERTED_TEXT_MODE", "d0/dba/classMAX72XX.html#a3393d582ba2bb0ad3f55993f70b43e67a1f4e77b13a81d76ac9ab1b793953316f", null ],
-    [ "SHUTDOWN_MODE", "d0/dba/classMAX72XX.html#a9b23f35493a4cad204ddcefb30f92839ae3e83920e64e28d40d799aabfb58458e", null ],
-    [ "NORMAL_OPERATION", "d0/dba/classMAX72XX.html#a9b23f35493a4cad204ddcefb30f92839a01f266ecd10148b7aa8a132d0888af68", null ],
+    [ "SHUTDOWN_MODE", "d0/dba/classMAX72XX.html#a49453f25eac9e59bb0259984583a3794ae3e83920e64e28d40d799aabfb58458e", null ],
+    [ "NORMAL_OPERATION", "d0/dba/classMAX72XX.html#a49453f25eac9e59bb0259984583a3794a01f266ecd10148b7aa8a132d0888af68", null ],
+    [ "NO_DECODE", "d0/dba/classMAX72XX.html#ae8fb767fa77a5ee975da30aa76ef9904aa2a15d895014bc3985fae167580c37a4", null ],
+    [ "ALL_DECODE", "d0/dba/classMAX72XX.html#ae8fb767fa77a5ee975da30aa76ef9904a8765d57c3e79cfada2003e4a48560a90", null ],
+    [ "NORMAL_TEXT_MODE", "d0/dba/classMAX72XX.html#a6546b87abe139e48ca53a10445463e3ba599336ecf4c5d6bcd8d0177f5fb87fa7", null ],
+    [ "INVERTED_TEXT_MODE", "d0/dba/classMAX72XX.html#a6546b87abe139e48ca53a10445463e3ba1f4e77b13a81d76ac9ab1b793953316f", null ],
     [ "Register", "d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0c", [
       [ "NOP", "d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca7b3bc3bac4eeb11a9e0eabcc18cb4468", null ],
       [ "DIGIT0", "d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca032705ff6f28235bf83611b37512069a", null ],

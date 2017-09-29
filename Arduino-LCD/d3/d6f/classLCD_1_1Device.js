@@ -1,7 +1,7 @@
 var classLCD_1_1Device =
 [
-    [ "NORMAL_TEXT_MODE", "d3/d6f/classLCD_1_1Device.html#a3393d582ba2bb0ad3f55993f70b43e67a599336ecf4c5d6bcd8d0177f5fb87fa7", null ],
-    [ "INVERTED_TEXT_MODE", "d3/d6f/classLCD_1_1Device.html#a3393d582ba2bb0ad3f55993f70b43e67a1f4e77b13a81d76ac9ab1b793953316f", null ],
+    [ "NORMAL_TEXT_MODE", "d3/d6f/classLCD_1_1Device.html#a6546b87abe139e48ca53a10445463e3ba599336ecf4c5d6bcd8d0177f5fb87fa7", null ],
+    [ "INVERTED_TEXT_MODE", "d3/d6f/classLCD_1_1Device.html#a6546b87abe139e48ca53a10445463e3ba1f4e77b13a81d76ac9ab1b793953316f", null ],
     [ "Device", "d3/d6f/classLCD_1_1Device.html#a4136c9c36e9bc29006fab6d4c0e909c6", null ],
     [ "backlight_off", "d3/d6f/classLCD_1_1Device.html#a6ca6de1d45febb8c0a0bb6955062c9a5", null ],
     [ "backlight_on", "d3/d6f/classLCD_1_1Device.html#ae02b86fcad03f35a540d79fd0c422d7e", null ],

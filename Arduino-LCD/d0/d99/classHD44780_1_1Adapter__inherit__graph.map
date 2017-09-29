@@ -3,5 +3,6 @@
 <area shape="rect" id="node3" href="$d9/def/classLCD_1_1DFRobot__IIC.html" title="{LCD::DFRobot_IIC\n|# m_port\l# TMP_MAX\l|+ DFRobot_IIC()\l+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="148,263,283,443"/>
 <area shape="rect" id="node4" href="$d6/d6c/classLCD_1_1MJKDZ.html" title="{LCD::MJKDZ\n|# m_port\l# TMP_MAX\l|+ MJKDZ()\l+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="307,263,425,443"/>
 <area shape="rect" id="node6" href="$d6/d32/classLCD_1_1Port4b.html" title="{LCD::Port4b\&lt; D0_PIN,\l D1_PIN, D2_PIN, D3\l_PIN, RS_PIN, EN_PIN,\l BT_PIN \&gt;\n|# m_d0\l# m_d1\l# m_d2\l# m_d3\l# m_rs\l# m_en\l# m_bt\l# SHORT_EXEC_TIME\l|+ Port4b()\l+ setup()\l+ write4b()\l+ write8b()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="450,204,621,501"/>
+<area shape="rect" id="node7" href="$de/df4/classLCD_1_1SR3W.html" title="{LCD::SR3W\&lt; SDA_PIN,\l SCL_PIN, EN_PIN \&gt;\n|# m_port\l# m_sda\l# m_scl\l# m_en\l# SHORT_EXEC_TIME\l|+ SR3W()\l+ setup()\l+ write4b()\l+ write8b()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="645,241,815,465"/>
 <area shape="rect" id="node5" href="$d1/d46/classLCD_1_1GY__IICLCD.html" title="{LCD::GY_IICLCD\n||+ GY_IICLCD()\l}" alt="" coords="302,549,430,627"/>
 </map>

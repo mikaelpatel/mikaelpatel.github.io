@@ -6,6 +6,5 @@ var searchData=
   ['text_5fmode',['text_mode',['../d3/d6f/classLCD_1_1Device.html#a64b0da0cef99e59d6f52c3c37a15f285',1,'LCD::Device::text_mode() const '],['../d3/d6f/classLCD_1_1Device.html#ac17e0f3cda25412c1022524cb99230e6',1,'LCD::Device::text_mode(uint8_t mode)']]],
   ['text_5fscroll_5fleft_5fadjust',['text_scroll_left_adjust',['../dd/dd2/classHD44780.html#a4952984ad7400e20d2ef5bfe24207b3e',1,'HD44780']]],
   ['text_5fscroll_5fright_5fadjust',['text_scroll_right_adjust',['../dd/dd2/classHD44780.html#a2ae5e14983f0844d9a6c04c1998ab651',1,'HD44780']]],
-  ['tmp_5fmax',['TMP_MAX',['../d9/def/classLCD_1_1DFRobot__IIC.html#a1b55dcec82657ffa0e5756cd26040f3d',1,'LCD::DFRobot_IIC::TMP_MAX()'],['../d6/d6c/classLCD_1_1MJKDZ.html#a10a6d81e660edb79171635ca7fa42a12',1,'LCD::MJKDZ::TMP_MAX()']]],
-  ['twi',['twi',['../de/d5e/Demo_8ino.html#abb72d6e19446d478a77c464cb55172c7',1,'Demo.ino']]]
+  ['tmp_5fmax',['TMP_MAX',['../d9/def/classLCD_1_1DFRobot__IIC.html#a1b55dcec82657ffa0e5756cd26040f3d',1,'LCD::DFRobot_IIC::TMP_MAX()'],['../d6/d6c/classLCD_1_1MJKDZ.html#a10a6d81e660edb79171635ca7fa42a12',1,'LCD::MJKDZ::TMP_MAX()']]]
 ];
