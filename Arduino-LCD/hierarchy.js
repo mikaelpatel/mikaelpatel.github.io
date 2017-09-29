@@ -6,7 +6,7 @@ var hierarchy =
       [ "LCD::MJKDZ", "d6/d6c/classLCD_1_1MJKDZ.html", [
         [ "LCD::GY_IICLCD", "d1/d46/classLCD_1_1GY__IICLCD.html", null ]
       ] ],
-      [ "LCD::Port4b< D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN >", "d6/d32/classLCD_1_1Port4b.html", null ],
+      [ "LCD::PP7W< D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN >", "dd/df4/classLCD_1_1PP7W.html", null ],
       [ "LCD::SR3W< SDA_PIN, SCL_PIN, EN_PIN >", "de/df4/classLCD_1_1SR3W.html", null ],
       [ "LCD::SR4W< SDA_PIN, SCL_PIN, EN_PIN, BT_PIN >", "d4/db0/classLCD_1_1SR4W.html", null ]
     ] ],
