@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ntp_5foffset',['NTP_OFFSET',['../de/df7/time_8h.html#aa7c3e93bff90674e9e74de6bdec85613',1,'time.h']]]
+  ['freq',['FREQ',['../d5/df8/RTC_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'RTC.ino']]]
 ];

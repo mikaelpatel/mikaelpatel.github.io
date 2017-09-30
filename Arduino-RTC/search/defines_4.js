@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['unix_5foffset',['UNIX_OFFSET',['../de/df7/time_8h.html#a0643a5b723dde6420363401dffc2e67e',1,'time.h']]],
-  ['use_5fds1307',['USE_DS1307',['../d5/df8/RTC_8ino.html#a1694601b34143bb5f0ca3285b46861b5',1,'RTC.ino']]]
+  ['one_5fday',['ONE_DAY',['../de/df7/time_8h.html#a44eb26d33eb6c5e235c6cbfa377f60ae',1,'time.h']]],
+  ['one_5fdegree',['ONE_DEGREE',['../de/df7/time_8h.html#a33af778316d8cac3769692c311825a52',1,'time.h']]],
+  ['one_5fhour',['ONE_HOUR',['../de/df7/time_8h.html#ae8dbeb3eda9f88f8f222adea789ec63d',1,'time.h']]]
 ];
