@@ -139,8 +139,6 @@ Collaboration diagram for LCD::PP7W&lt; D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, 
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c92ff7bbb060d884da41bae0ab30f30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html#a2c92ff7bbb060d884da41bae0ab30f30">PP7W</a> ()</td></tr>
 <tr class="separator:a2c92ff7bbb060d884da41bae0ab30f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7becd451bee02417c7153401ab70772"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html#ae7becd451bee02417c7153401ab70772">setup</a> ()</td></tr>
-<tr class="separator:ae7becd451bee02417c7153401ab70772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2efd015624c5c96aceb43f3945738219"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html#a2efd015624c5c96aceb43f3945738219">write4b</a> (uint8_t data)</td></tr>
 <tr class="separator:a2efd015624c5c96aceb43f3945738219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a268af9c614de7c4693946987896f1abb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html#a268af9c614de7c4693946987896f1abb">write8b</a> (uint8_t data)</td></tr>
@@ -149,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a424a94fa43bc573f8fde37f9de5a23b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a728032012ca1fe16be2bd2352ae4af53"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html#a728032012ca1fe16be2bd2352ae4af53">set_backlight</a> (uint8_t flag)</td></tr>
 <tr class="separator:a728032012ca1fe16be2bd2352ae4af53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa884e1bc56fc480644de59fce320dcd0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#aa884e1bc56fc480644de59fce320dcd0">setup</a> ()</td></tr>
+<tr class="separator:aa884e1bc56fc480644de59fce320dcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef8f89b1515abc4273b6a09c5744acb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#a1ef8f89b1515abc4273b6a09c5744acb">write8n</a> (const void *buf, size_t size)</td></tr>
 <tr class="separator:a1ef8f89b1515abc4273b6a09c5744acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -186,7 +186,7 @@ Static Protected Attributes</h2></td></tr>
 class LCD::PP7W&lt; D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN &gt;</h3>
 
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00072">72</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00073">73</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a2c92ff7bbb060d884da41bae0ab30f30"></a>
 <div class="memitem">
@@ -212,7 +212,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 </div><div class="memdoc">
 <p>Construct <a class="el" href="../../dd/dd2/classHD44780.html">HD44780</a> 7-wire parallel port connected to given command, enable and backlight pin. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00078">78</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00079">79</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +249,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Implements <a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#abaae8c418a861b9b923f37b7ac418434">HD44780::Adapter</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00153">153</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00144">144</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -285,21 +285,19 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Implements <a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#ab6db4a54afc0c06b5b9e41448dcf7a8a">HD44780::Adapter</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00143">143</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00134">134</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae7becd451bee02417c7153401ab70772"></a>
+<a class="anchor" id="aa884e1bc56fc480644de59fce320dcd0"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BOARD::pin_t D2_PIN = BOARD::D6, BOARD::pin_t D3_PIN = BOARD::D7, BOARD::pin_t RS_PIN = BOARD::D8, BOARD::pin_t EN_PIN = BOARD::D9, BOARD::pin_t BT_PIN = BOARD::D10&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool <a class="el" href="../../dd/df4/classLCD_1_1PP7W.html">LCD::PP7W</a>&lt; D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN &gt;::setup </td>
+          <td class="memname">virtual bool HD44780::Adapter::setup </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -307,15 +305,15 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Initiate 4-bit parallel port. Returns false. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+<p>Initiate IO port. Called by <a class="el" href="../../dd/dd2/classHD44780.html#a65b8e24eed45803953522d5d116d9270">HD44780::begin()</a>. Should return true(1) for 8-bit mode otherwise false for 4-bit mode. Default is 4-bit mode. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Implements <a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#a291294d67a2ced3907f9ec80e5b3e891">HD44780::Adapter</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d4/db0/classLCD_1_1SR4W.html#a49708cfffcac032511b2ea9d259ce1a9">LCD::SR4W&lt; SDA_PIN, SCL_PIN, EN_PIN, BT_PIN &gt;</a>, <a class="el" href="../../de/df4/classLCD_1_1SR3W.html#adbd7bd3e92cbfd0fb0d30de422b6b7d2">LCD::SR3W&lt; SDA_PIN, SCL_PIN, EN_PIN &gt;</a>, <a class="el" href="../../d9/def/classLCD_1_1DFRobot__IIC.html#a9aa3c1c31af75ffe15365f3a10eefc38">LCD::DFRobot_IIC</a>, <a class="el" href="../../d6/d6c/classLCD_1_1MJKDZ.html#ac2ef2ed1a3a816a74d541da23a49f113">LCD::MJKDZ</a>, and <a class="el" href="../../d7/da4/classLCD_1_1Debug.html#a29f8edcda62a263e9d4f88a35d737406">LCD::Debug</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00095">95</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d98/HD44780_8h_source.html#l00047">47</a> of file <a class="el" href="../../d1/d98/HD44780_8h_source.html">HD44780.h</a>.</p>
 
 </div>
 </div>
@@ -351,7 +349,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Implements <a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#a0030f77007de930a52964d219d8dcb30">HD44780::Adapter</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00105">105</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00096">96</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -387,7 +385,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Reimplemented from <a class="el" href="../../df/d37/classHD44780_1_1Adapter.html#a544fd5ac5a78ad81efa2da9726ef5ed1">HD44780::Adapter</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00120">120</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00111">111</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -432,7 +430,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Reimplemented in <a class="el" href="../../d9/def/classLCD_1_1DFRobot__IIC.html#a9c98716128429393b8df931c00d82c39">LCD::DFRobot_IIC</a>, and <a class="el" href="../../d6/d6c/classLCD_1_1MJKDZ.html#ae279a9546a81065caa4de30e3c0f6e2d">LCD::MJKDZ</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d1/d98/HD44780_8h_source.html#l00074">74</a> of file <a class="el" href="../../d1/d98/HD44780_8h_source.html">HD44780.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d98/HD44780_8h_source.html#l00076">76</a> of file <a class="el" href="../../d1/d98/HD44780_8h_source.html">HD44780.h</a>.</p>
 
 </div>
 </div>
@@ -459,7 +457,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Back-light control (0/on, 1/off). </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00168">168</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00159">159</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +483,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Data pin; d0. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00162">162</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00153">153</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +509,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Data pin; d1. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00163">163</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00154">154</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -537,7 +535,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Data pin; d2. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00164">164</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00155">155</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -563,7 +561,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Data pin; d3. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00165">165</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00156">156</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -589,7 +587,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Starts data read/write. </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00167">167</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00158">158</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -615,7 +613,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 
 <p>Register select (0/instruction, 1/data). </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00166">166</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00157">157</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -640,7 +638,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 </div><div class="memdoc">
 <p>Execution time delay (us). </p>
 
-<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00160">160</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/de1/PP7W_8h_source.html#l00151">151</a> of file <a class="el" href="../../d0/de1/PP7W_8h_source.html">PP7W.h</a>.</p>
 
 </div>
 </div>
@@ -653,7 +651,7 @@ template&lt;BOARD::pin_t D0_PIN = BOARD::D4, BOARD::pin_t D1_PIN = BOARD::D5, BO
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dad/namespaceLCD.html">LCD</a></li><li class="navelem"><a class="el" href="../../dd/df4/classLCD_1_1PP7W.html">PP7W</a></li>
-    <li class="footer">Generated on Fri Sep 29 2017 21:31:48 for Arduino-LCD by
+    <li class="footer">Generated on Sun Oct 1 2017 21:19:04 for Arduino-LCD by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

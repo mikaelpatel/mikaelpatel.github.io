@@ -1,4 +1,4 @@
 <map id="HD44780" name="HD44780">
-<area shape="rect" id="node2" href="$d3/d6f/classLCD_1_1Device.html" title="{LCD::Device\n|# m_x\l# m_y\l# m_tab\l# m_mode\l|+ Device()\l+ begin()\l+ end()\l+ backlight_on()\l+ backlight_off()\l+ display_contrast()\l+ display_on()\l+ display_off()\l+ display_normal()\l+ display_inverse()\land 7 more...\l}" alt="" coords="5,132,143,400"/>
+<area shape="rect" id="node2" href="$d3/d6f/classLCD_1_1Device.html" title="{LCD::Device\n|# m_x\l# m_y\l# m_tab\l# m_mode\l|+ Device()\l+ begin()\l+ end()\l+ backlight_on()\l+ backlight_off()\l+ display_contrast()\l+ display_on()\l+ display_off()\l+ display_normal()\l+ display_inverse()\land 12 more...\l}" alt="" coords="5,132,143,400"/>
 <area shape="rect" id="node4" href="$df/d37/classHD44780_1_1Adapter.html" title="{HD44780::Adapter\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="167,191,298,341"/>
 </map>

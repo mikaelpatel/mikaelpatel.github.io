@@ -1,3 +1,3 @@
 <map id="HD44780" name="HD44780">
-<area shape="rect" id="node2" href="$d3/d6f/classLCD_1_1Device.html" title="{LCD::Device\n|# m_x\l# m_y\l# m_tab\l# m_mode\l|+ Device()\l+ begin()\l+ end()\l+ backlight_on()\l+ backlight_off()\l+ display_contrast()\l+ display_on()\l+ display_off()\l+ display_normal()\l+ display_inverse()\land 7 more...\l}" alt="" coords="13,131,151,399"/>
+<area shape="rect" id="node2" href="$d3/d6f/classLCD_1_1Device.html" title="{LCD::Device\n|# m_x\l# m_y\l# m_tab\l# m_mode\l|+ Device()\l+ begin()\l+ end()\l+ backlight_on()\l+ backlight_off()\l+ display_contrast()\l+ display_on()\l+ display_off()\l+ display_normal()\l+ display_inverse()\land 12 more...\l}" alt="" coords="13,131,151,399"/>
 </map>

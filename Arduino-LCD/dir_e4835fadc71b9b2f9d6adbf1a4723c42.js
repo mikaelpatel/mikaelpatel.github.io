@@ -6,5 +6,6 @@ var dir_e4835fadc71b9b2f9d6adbf1a4723c42 =
     ] ],
     [ "MAX72XX.h", "df/dcc/MAX72XX_8h.html", [
       [ "MAX72XX", "d0/dba/classMAX72XX.html", "d0/dba/classMAX72XX" ]
-    ] ]
+    ] ],
+    [ "PCD8544.h", "d0/ddd/PCD8544_8h.html", "d0/ddd/PCD8544_8h" ]
 ];

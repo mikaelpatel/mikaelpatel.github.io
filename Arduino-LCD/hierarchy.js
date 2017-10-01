@@ -20,7 +20,8 @@ var hierarchy =
     [ "Print", null, [
       [ "LCD::Device", "d3/d6f/classLCD_1_1Device.html", [
         [ "HD44780", "dd/dd2/classHD44780.html", null ],
-        [ "MAX72XX< SCE_PIN, SDIN_PIN, SCLK_PIN >", "d0/dba/classMAX72XX.html", null ]
+        [ "MAX72XX< SCE_PIN, SDIN_PIN, SCLK_PIN >", "d0/dba/classMAX72XX.html", null ],
+        [ "PCD8544< RST_PIN, SCE_PIN, DC_PIN, SDIN_PIN, SCLK_PIN >", "da/d71/classPCD8544.html", null ]
       ] ]
     ] ]
 ];

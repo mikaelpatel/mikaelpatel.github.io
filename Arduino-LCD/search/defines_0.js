@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['measure',['MEASURE',['../d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd',1,'Benchmark.ino']]]
+  ['charbits',['CHARBITS',['../d0/ddd/PCD8544_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'PCD8544.h']]]
 ];

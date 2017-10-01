@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['get_5fcursor',['get_cursor',['../d3/d6f/classLCD_1_1Device.html#a4a843c4ad152b127ba52303c36f2426f',1,'LCD::Device']]],
-  ['gy_5fiiclcd',['GY_IICLCD',['../d1/d46/classLCD_1_1GY__IICLCD.html#a528c6dfb48eb513e7e369e6aa4fc43dd',1,'LCD::GY_IICLCD']]]
+  ['fill_5fscreen',['fill_screen',['../d2/d24/Benchmark_8ino.html#ae62418cf87ed1f04d6063996ddd7efb8',1,'Benchmark.ino']]]
 ];

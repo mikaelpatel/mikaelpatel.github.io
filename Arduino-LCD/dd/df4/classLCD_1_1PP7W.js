@@ -3,7 +3,7 @@ var classLCD_1_1PP7W =
     [ "PP7W", "dd/df4/classLCD_1_1PP7W.html#a2c92ff7bbb060d884da41bae0ab30f30", null ],
     [ "set_backlight", "dd/df4/classLCD_1_1PP7W.html#a728032012ca1fe16be2bd2352ae4af53", null ],
     [ "set_mode", "dd/df4/classLCD_1_1PP7W.html#a424a94fa43bc573f8fde37f9de5a23b6", null ],
-    [ "setup", "dd/df4/classLCD_1_1PP7W.html#ae7becd451bee02417c7153401ab70772", null ],
+    [ "setup", "dd/df4/classLCD_1_1PP7W.html#aa884e1bc56fc480644de59fce320dcd0", null ],
     [ "write4b", "dd/df4/classLCD_1_1PP7W.html#a2efd015624c5c96aceb43f3945738219", null ],
     [ "write8b", "dd/df4/classLCD_1_1PP7W.html#a268af9c614de7c4693946987896f1abb", null ],
     [ "write8n", "dd/df4/classLCD_1_1PP7W.html#a1ef8f89b1515abc4273b6a09c5744acb", null ],
