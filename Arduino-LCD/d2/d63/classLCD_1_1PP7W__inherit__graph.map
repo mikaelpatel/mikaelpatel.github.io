@@ -1,3 +1,4 @@
 <map id="LCD::PP7W&lt; D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN &gt;" name="LCD::PP7W&lt; D0_PIN, D1_PIN, D2_PIN, D3_PIN, RS_PIN, EN_PIN, BT_PIN &gt;">
-<area shape="rect" id="node2" href="$df/d37/classHD44780_1_1Adapter.html" title="{HD44780::Adapter\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="25,5,156,156"/>
+<area shape="rect" id="node3" href="$dd/df4/classLCD_1_1PP7W.html" title="{LCD::PP7W\&lt; BOARD::D4,\l BOARD::D5, BOARD::D6,\l BOARD::D7, BOARD::D8,\l BOARD::D9, BOARD::D10 \&gt;\n|# m_d0\l# m_d1\l# m_d2\l# m_d3\l# m_rs\l# m_en\l# m_bt\l# SHORT_EXEC_TIME\l|+ PP7W()\l+ write4b()\l+ write8b()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="5,595,204,877"/>
+<area shape="rect" id="node2" href="$df/d37/classHD44780_1_1Adapter.html" title="{HD44780::Adapter\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="39,5,170,156"/>
 </map>

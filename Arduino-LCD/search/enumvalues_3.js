@@ -12,11 +12,11 @@ var searchData=
   ['digit5',['DIGIT5',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0cac289698e966b23f97da75254790f0b89',1,'MAX72XX']]],
   ['digit6',['DIGIT6',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0cac23e3243c882f67b81cc3a9aee05742a',1,'MAX72XX']]],
   ['digit7',['DIGIT7',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca92a5104383bfb184bc47271135b63f46',1,'MAX72XX']]],
-  ['display_5fcntl',['DISPLAY_CNTL',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72ea0ee7a4d9b6c20b61a53e3ce0b596a9e7',1,'PCD8544']]],
+  ['display_5fcntl',['DISPLAY_CNTL',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72eaf8c0036e2716a194b0d19b95221e880e',1,'PCD8544']]],
   ['display_5fmode',['DISPLAY_MODE',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca63cd0ba5c9614177056ee23b204864a1',1,'MAX72XX']]],
   ['display_5fmove',['DISPLAY_MOVE',['../dd/dd2/classHD44780.html#a42f76bb975066653c185b374c3993b13a18e153aafc42adbaf6a9e3adaaf02192',1,'HD44780']]],
-  ['display_5foff',['DISPLAY_OFF',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72ea30e5ba0558cc08bcedf4cf9375a20c98',1,'PCD8544']]],
-  ['display_5fon',['DISPLAY_ON',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a135716e4aab23be0af12b9fbb0b59da6',1,'HD44780::DISPLAY_ON()'],['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72ea8daf5b10ebb43a5f56d52e204069562f',1,'PCD8544::DISPLAY_ON()']]],
+  ['display_5foff',['DISPLAY_OFF',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72eaa7f77b43b8b5cca5a615fcd4033ab32a',1,'PCD8544']]],
+  ['display_5fon',['DISPLAY_ON',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a135716e4aab23be0af12b9fbb0b59da6',1,'HD44780::DISPLAY_ON()'],['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72eaf4e392191a617254b2438b46eb3f943f',1,'PCD8544::DISPLAY_ON()']]],
   ['display_5fshift',['DISPLAY_SHIFT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca367f7df6ef586bbac6e4907308c4ac3a',1,'HD44780']]],
   ['display_5ftest',['DISPLAY_TEST',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca85386d7e6331ee66e12cc3a01e9e8b74',1,'MAX72XX']]]
 ];

@@ -4,6 +4,5 @@ var searchData=
   ['init0_5ftime',['INIT0_TIME',['../dd/dd2/classHD44780.html#ad9212e28d7621244c87fbce300ad05d5',1,'HD44780']]],
   ['init1_5ftime',['INIT1_TIME',['../dd/dd2/classHD44780.html#a53844f45cfc3c904780a1050be6557e4',1,'HD44780']]],
   ['intensity',['INTENSITY',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca0a33004a52c9ea7db9d5b11f2705bd35',1,'MAX72XX']]],
-  ['inverse_5fmode',['INVERSE_MODE',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72ea2480041bdea3dac4d91cc64fb02811ad',1,'PCD8544']]],
-  ['io',['io',['../d2/d24/Benchmark_8ino.html#a22787a00e8c85df121d10851258e865e',1,'io():&#160;Benchmark.ino'],['../de/d5e/Demo_8ino.html#acbf734e50e07306b28c0b3c6f61751de',1,'io():&#160;Demo.ino']]]
+  ['inverse_5fmode',['INVERSE_MODE',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72ea9887d02d07adb46129f7001a7c64ea49',1,'PCD8544']]]
 ];
