@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Arduino-GPIO: Button&lt; PIN &gt; Class Template Reference</title>
+<title>Arduino-GPIO: Button&lt; PIN, DEBOUNCE &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,75 +109,71 @@ $(document).ready(function(){initNavTree('d1/d19/classButton.html','../../');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/dea/classButton-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Button&lt; PIN &gt; Class Template Reference</div>  </div>
+<div class="title">Button&lt; PIN, DEBOUNCE &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>&gt;</code></p>
 <div class="dynheader">
-Collaboration diagram for Button&lt; PIN &gt;:</div>
+Collaboration diagram for Button&lt; PIN, DEBOUNCE &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d6/dbf/classButton__coll__graph.png" border="0" usemap="#Button_3_01PIN_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="../../d6/dbf/classButton__coll__graph.png" border="0" usemap="#Button_3_01PIN_00_01DEBOUNCE_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="Button_3_01PIN_00_01DEBOUNCE_01_4_coll__map" id="Button_3_01PIN_00_01DEBOUNCE_01_4_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a198fe1601e9ea65db81d5ac7451f6133"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a198fe1601e9ea65db81d5ac7451f6133">Button</a> (uint16_t ms=50)</td></tr>
-<tr class="separator:a198fe1601e9ea65db81d5ac7451f6133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae65480cdee21a75b1bce06f8f859619"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#aae65480cdee21a75b1bce06f8f859619">ischanged</a> ()</td></tr>
-<tr class="separator:aae65480cdee21a75b1bce06f8f859619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cf3a6cf0995170c83a852ee58b2ae1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a2cf3a6cf0995170c83a852ee58b2ae1c">read</a> ()</td></tr>
-<tr class="separator:a2cf3a6cf0995170c83a852ee58b2ae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73680ec22ca8bdb9b7bbc939d72cf4ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a73680ec22ca8bdb9b7bbc939d72cf4ac">operator bool</a> ()</td></tr>
-<tr class="separator:a73680ec22ca8bdb9b7bbc939d72cf4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a701f053fddf8d0a7065966eb16d48b7e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a701f053fddf8d0a7065966eb16d48b7e">timestamp</a> ()</td></tr>
-<tr class="separator:a701f053fddf8d0a7065966eb16d48b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6a2b8acfe0555ba0341b9a7e456259ca"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a6a2b8acfe0555ba0341b9a7e456259ca">DEBOUNCE</a></td></tr>
-<tr class="separator:a6a2b8acfe0555ba0341b9a7e456259ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d65cf5907b7d11d31865aac6a1153af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a4d65cf5907b7d11d31865aac6a1153af">Button</a> ()</td></tr>
+<tr class="separator:a4d65cf5907b7d11d31865aac6a1153af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139523361839b7b970a22ced5d0ac530"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a139523361839b7b970a22ced5d0ac530">ischanged</a> ()</td></tr>
+<tr class="separator:a139523361839b7b970a22ced5d0ac530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e2c123d93d921f4b6bc4e5d51e0bc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#ae2e2c123d93d921f4b6bc4e5d51e0bc9">read</a> ()</td></tr>
+<tr class="separator:ae2e2c123d93d921f4b6bc4e5d51e0bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddd399d1abc80f4d0a80d439201c3c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a2ddd399d1abc80f4d0a80d439201c3c5">operator bool</a> ()</td></tr>
+<tr class="separator:a2ddd399d1abc80f4d0a80d439201c3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a62912e3fdde45c79656b899d07c5fc"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a2a62912e3fdde45c79656b899d07c5fc">timestamp</a> ()</td></tr>
+<tr class="separator:a2a62912e3fdde45c79656b899d07c5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aa6ac2a2fd90cf51885506159e32d6d0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; PIN &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#aa6ac2a2fd90cf51885506159e32d6d0f">m_pin</a></td></tr>
-<tr class="separator:aa6ac2a2fd90cf51885506159e32d6d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b281a4ad99c59b989a942f687db5e69"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a8b281a4ad99c59b989a942f687db5e69">m_timestamp</a></td></tr>
-<tr class="separator:a8b281a4ad99c59b989a942f687db5e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a618da12c9c3793f30d7686fbc2beaeee"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a618da12c9c3793f30d7686fbc2beaeee">m_state</a></td></tr>
-<tr class="separator:a618da12c9c3793f30d7686fbc2beaeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2ff71bdbb6f3cf99af97053fcefc2bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; PIN &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#ac2ff71bdbb6f3cf99af97053fcefc2bd">m_pin</a></td></tr>
+<tr class="separator:ac2ff71bdbb6f3cf99af97053fcefc2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01c542d4ae9f98f414fdcc4d070c306"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#ac01c542d4ae9f98f414fdcc4d070c306">m_timestamp</a></td></tr>
+<tr class="separator:ac01c542d4ae9f98f414fdcc4d070c306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8ee74a2b8bfddd44772d1b5710529d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d19/classButton.html#a7d8ee74a2b8bfddd44772d1b5710529d">m_state</a></td></tr>
+<tr class="separator:a7d8ee74a2b8bfddd44772d1b5710529d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;BOARD::pin_t PIN&gt;<br />
-class Button&lt; PIN &gt;</h3>
+<div class="textblock"><h3>template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt;<br />
+class Button&lt; PIN, DEBOUNCE &gt;</h3>
 
 <p>Debounced Input Pin template class using <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>. The internal pullup resistor is used. The button/switch should be connected to ground. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">PIN</td><td>board pin for input signal. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">DEBOUNCE</td><td>time limit (Default 50 ms). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00030">30</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00031">31</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a198fe1601e9ea65db81d5ac7451f6133"></a>
+<a class="anchor" id="a4d65cf5907b7d11d31865aac6a1153af"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::<a class="el" href="../../d1/d19/classButton.html">Button</a> </td>
+          <td class="memname"><a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::<a class="el" href="../../d1/d19/classButton.html">Button</a> </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>ms</em> = <code>50</code></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -187,29 +183,24 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct debounced input pin instance with given template parameters. Initiate <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a> pins input mode with pullup resistor. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">ms</td><td>debounce time limit (Default 50 ms). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Construct debounced input pin instance with given template parameters. Initiate <a class="el" href="../../d7/dde/classGPIO.html">GPIO</a> pins input mode with pullup resistor. </p>
 
 <p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aae65480cdee21a75b1bce06f8f859619"></a>
+<a class="anchor" id="a139523361839b7b970a22ced5d0ac530"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::ischanged </td>
+          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::ischanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -223,21 +214,21 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return true(1) if a button state change was detected, otherwise false(0). Rising or falling edge is determined by reading the debounced pin state. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00051">51</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00050">50</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a73680ec22ca8bdb9b7bbc939d72cf4ac"></a>
+<a class="anchor" id="a2ddd399d1abc80f4d0a80d439201c3c5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::operator bool </td>
+          <td class="memname"><a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::operator bool </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -249,23 +240,23 @@ template&lt;BOARD::pin_t PIN&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return debounced pin state. Shorthand for <a class="el" href="../../d1/d19/classButton.html#a2cf3a6cf0995170c83a852ee58b2ae1c">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+<p>Return debounced pin state. Shorthand for <a class="el" href="../../d1/d19/classButton.html#ae2e2c123d93d921f4b6bc4e5d51e0bc9">read()</a>. </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00077">77</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00076">76</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2cf3a6cf0995170c83a852ee58b2ae1c"></a>
+<a class="anchor" id="ae2e2c123d93d921f4b6bc4e5d51e0bc9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::read </td>
+          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::read </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -279,21 +270,21 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return debounced pin state. </p><dl class="section return"><dt>Returns</dt><dd>state. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00068">68</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00067">67</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a701f053fddf8d0a7065966eb16d48b7e"></a>
+<a class="anchor" id="a2a62912e3fdde45c79656b899d07c5fc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::timestamp </td>
+          <td class="memname">uint16_t <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::timestamp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -307,39 +298,22 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Return debounce timestamp. </p><dl class="section return"><dt>Returns</dt><dd>timestamp. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00086">86</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6a2b8acfe0555ba0341b9a7e456259ca"></a>
+<a class="anchor" id="ac2ff71bdbb6f3cf99af97053fcefc2bd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint16_t <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::DEBOUNCE</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Debounce time in milli-seconds. </p>
-
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa6ac2a2fd90cf51885506159e32d6d0f"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt;PIN&gt; <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::m_pin</td>
+          <td class="memname"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt;PIN&gt; <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::m_pin</td>
         </tr>
       </table>
   </td>
@@ -350,21 +324,21 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p><a class="el" href="../../d1/d19/classButton.html">Button</a> pin. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00097">97</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a618da12c9c3793f30d7686fbc2beaeee"></a>
+<a class="anchor" id="a7d8ee74a2b8bfddd44772d1b5710529d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::m_state</td>
+          <td class="memname">bool <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::m_state</td>
         </tr>
       </table>
   </td>
@@ -375,21 +349,21 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Latest pin read; debounced pin state. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00103">103</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00099">99</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8b281a4ad99c59b989a942f687db5e69"></a>
+<a class="anchor" id="ac01c542d4ae9f98f414fdcc4d070c306"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;BOARD::pin_t PIN&gt; </div>
+template&lt;BOARD::pin_t PIN, uint16_t DEBOUNCE = 50&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN &gt;::m_timestamp</td>
+          <td class="memname">uint16_t <a class="el" href="../../d1/d19/classButton.html">Button</a>&lt; PIN, DEBOUNCE &gt;::m_timestamp</td>
         </tr>
       </table>
   </td>
@@ -400,7 +374,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Timestamp for latest pin read. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00100">100</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d79/Button_8h_source.html#l00096">96</a> of file <a class="el" href="../../d0/d79/Button_8h_source.html">Button.h</a>.</p>
 
 </div>
 </div>
@@ -413,7 +387,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d19/classButton.html">Button</a></li>
-    <li class="footer">Generated on Tue Oct 3 2017 21:19:02 for Arduino-GPIO by
+    <li class="footer">Generated on Tue Oct 3 2017 21:23:19 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
