@@ -8,6 +8,5 @@ var classLCD_1_1DFRobot__IIC =
     [ "write4b", "d9/def/classLCD_1_1DFRobot__IIC.html#a238ce3118e6cb168ce6b41f97d56da0e", null ],
     [ "write8b", "d9/def/classLCD_1_1DFRobot__IIC.html#a32d84283ed7b2ae92f0e32bf60f6ae45", null ],
     [ "write8n", "d9/def/classLCD_1_1DFRobot__IIC.html#a9c98716128429393b8df931c00d82c39", null ],
-    [ "m_port", "d9/def/classLCD_1_1DFRobot__IIC.html#a041697d48c026a6abedef8c5dc842739", null ],
-    [ "TMP_MAX", "d9/def/classLCD_1_1DFRobot__IIC.html#a1b55dcec82657ffa0e5756cd26040f3d", null ]
+    [ "m_port", "d9/def/classLCD_1_1DFRobot__IIC.html#a041697d48c026a6abedef8c5dc842739", null ]
 ];

@@ -32,8 +32,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"d6/d02/classLCD4884.html#a5f77ff57d502b2c3051aefe80b5887c6",
-"de/d2e/DS18B20_8ino.html"
+"d6/d02/classLCD4884.html#a5e96d160b53a6382e3b3788ec7397dee",
+"de/d2e/DS18B20_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

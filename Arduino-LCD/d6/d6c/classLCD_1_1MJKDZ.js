@@ -8,6 +8,5 @@ var classLCD_1_1MJKDZ =
     [ "write4b", "d6/d6c/classLCD_1_1MJKDZ.html#a0701fb92e5af036a72d8793d98c90e51", null ],
     [ "write8b", "d6/d6c/classLCD_1_1MJKDZ.html#aced95c612e8242ee21f16d791b5c523e", null ],
     [ "write8n", "d6/d6c/classLCD_1_1MJKDZ.html#ae279a9546a81065caa4de30e3c0f6e2d", null ],
-    [ "m_port", "d6/d6c/classLCD_1_1MJKDZ.html#af64bfe8e12a7eb76c3480c0794480b42", null ],
-    [ "TMP_MAX", "d6/d6c/classLCD_1_1MJKDZ.html#a10a6d81e660edb79171635ca7fa42a12", null ]
+    [ "m_port", "d6/d6c/classLCD_1_1MJKDZ.html#af64bfe8e12a7eb76c3480c0794480b42", null ]
 ];

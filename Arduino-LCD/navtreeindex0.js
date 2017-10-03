@@ -65,7 +65,6 @@ var NAVTREEINDEX0 =
 "d0/de1/PP7W_8h_source.html":[3,0,1,0,4],
 "d1/d46/classLCD_1_1GY__IICLCD.html":[2,0,0,3],
 "d1/d46/classLCD_1_1GY__IICLCD.html#a0701fb92e5af036a72d8793d98c90e51":[2,0,0,3,4],
-"d1/d46/classLCD_1_1GY__IICLCD.html#a10a6d81e660edb79171635ca7fa42a12":[2,0,0,3,8],
 "d1/d46/classLCD_1_1GY__IICLCD.html#a528c6dfb48eb513e7e369e6aa4fc43dd":[2,0,0,3,0],
 "d1/d46/classLCD_1_1GY__IICLCD.html#a866aa1f4232ae7358ba4eaabeca56c49":[2,0,0,3,1],
 "d1/d46/classLCD_1_1GY__IICLCD.html#ac2ef2ed1a3a816a74d541da23a49f113":[2,0,0,3,3],
@@ -86,8 +85,10 @@ var NAVTREEINDEX0 =
 "d1/dad/namespaceLCD.html":[2,0,0],
 "d2/d24/Benchmark_8ino.html":[3,0,0,0,0],
 "d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd":[3,0,0,0,0,0],
-"d2/d24/Benchmark_8ino.html#a1419e50189407d13ae9db4ee4f87f050":[3,0,0,0,0,4],
+"d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,0,0,5],
 "d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,0,0,3],
+"d2/d24/Benchmark_8ino.html#abdea18620531689aee52e8efd51bda9c":[3,0,0,0,0,6],
+"d2/d24/Benchmark_8ino.html#ad97b9d865a5a104d53bfe8ed497cc585":[3,0,0,0,0,4],
 "d2/d24/Benchmark_8ino.html#ae62418cf87ed1f04d6063996ddd7efb8":[3,0,0,0,0,1],
 "d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,0,0,2],
 "d2/d24/Benchmark_8ino_source.html":[3,0,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d6/d02/classLCD4884.html#a4550613eeb2a5f03a7effeb0cc94418d":[2,0,2,32],
 "d6/d02/classLCD4884.html#a45c97120a18faafd9e6d92880b7aad1c":[2,0,2,31],
 "d6/d02/classLCD4884.html#a46fdecb87853fec6df7fd9d608e3f2fe":[2,0,2,30],
-"d6/d02/classLCD4884.html#a558d62f7a4c34996a3be15d7c99b2ff6":[2,0,2,24],
-"d6/d02/classLCD4884.html#a5e96d160b53a6382e3b3788ec7397dee":[2,0,2,34]
+"d6/d02/classLCD4884.html#a558d62f7a4c34996a3be15d7c99b2ff6":[2,0,2,24]
 };

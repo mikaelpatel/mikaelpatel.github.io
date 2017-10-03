@@ -7,5 +7,5 @@ var searchData=
   ['text_5fnormal_5fmode',['text_normal_mode',['../d3/d6f/classLCD_1_1Device.html#aee590d5a20d171324e533ffd9cf35ddc',1,'LCD::Device']]],
   ['text_5fscroll_5fleft_5fadjust',['text_scroll_left_adjust',['../dd/dd2/classHD44780.html#a4952984ad7400e20d2ef5bfe24207b3e',1,'HD44780']]],
   ['text_5fscroll_5fright_5fadjust',['text_scroll_right_adjust',['../dd/dd2/classHD44780.html#a2ae5e14983f0844d9a6c04c1998ab651',1,'HD44780']]],
-  ['twi',['twi',['../de/d2e/DS18B20_8ino.html#abb72d6e19446d478a77c464cb55172c7',1,'DS18B20.ino']]]
+  ['twi',['twi',['../de/d5e/Demo_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'twi(100000UL):&#160;Demo.ino'],['../de/d2e/DS18B20_8ino.html#abb72d6e19446d478a77c464cb55172c7',1,'twi(400000UL):&#160;DS18B20.ino']]]
 ];

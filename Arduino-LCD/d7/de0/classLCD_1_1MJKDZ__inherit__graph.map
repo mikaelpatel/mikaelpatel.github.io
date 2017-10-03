@@ -1,4 +1,4 @@
 <map id="LCD::MJKDZ" name="LCD::MJKDZ">
-<area shape="rect" id="node4" href="$d1/d46/classLCD_1_1GY__IICLCD.html" title="{LCD::GY_IICLCD\n||+ GY_IICLCD()\l}" alt="" coords="71,432,199,509"/>
+<area shape="rect" id="node4" href="$d1/d46/classLCD_1_1GY__IICLCD.html" title="{LCD::GY_IICLCD\n||+ GY_IICLCD()\l}" alt="" coords="71,417,199,495"/>
 <area shape="rect" id="node2" href="$df/d37/classHD44780_1_1Adapter.html" title="{HD44780::Adapter\n||+ setup()\l+ write4b()\l+ write8b()\l+ write8n()\l+ set_mode()\l+ set_backlight()\l}" alt="" coords="5,5,136,156"/>
 </map>
