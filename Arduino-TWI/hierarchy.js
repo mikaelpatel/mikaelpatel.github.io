@@ -5,6 +5,7 @@ var hierarchy =
     [ "PCF8574::GPIO< PIN >", "d9/db3/classPCF8574_1_1GPIO.html", null ],
     [ "TWI", "d1/deb/classTWI.html", [
       [ "Hardware::TWI", "dd/d1d/classHardware_1_1TWI.html", null ],
+      [ "Hardware::TWI", "dd/d1d/classHardware_1_1TWI.html", null ],
       [ "Software::TWI< SDA_PIN, SCL_PIN >", "d0/dd0/classSoftware_1_1TWI.html", null ]
     ] ],
     [ "TWI::Device", "d4/d2d/classTWI_1_1Device.html", [
