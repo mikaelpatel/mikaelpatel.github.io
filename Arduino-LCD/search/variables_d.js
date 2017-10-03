@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['width',['WIDTH',['../dd/dd2/classHD44780.html#a56b7f0e83eb7a96408283f450c2eafe1',1,'HD44780::WIDTH()'],['../d0/dba/classMAX72XX.html#ab1b0fba0881e99d141242270699a6b59',1,'MAX72XX::WIDTH()'],['../da/d71/classPCD8544.html#ab54e7efbf57338638157785679bec896',1,'PCD8544::WIDTH()']]]
+  ['tmp_5fmax',['TMP_MAX',['../d9/def/classLCD_1_1DFRobot__IIC.html#a1b55dcec82657ffa0e5756cd26040f3d',1,'LCD::DFRobot_IIC::TMP_MAX()'],['../d6/d6c/classLCD_1_1MJKDZ.html#a10a6d81e660edb79171635ca7fa42a12',1,'LCD::MJKDZ::TMP_MAX()']]]
 ];
