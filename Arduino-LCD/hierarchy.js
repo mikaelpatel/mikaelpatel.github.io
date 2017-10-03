@@ -11,6 +11,10 @@ var hierarchy =
       [ "LCD::SR4W< SDA_PIN, SCL_PIN, EN_PIN, BT_PIN >", "d4/db0/classLCD_1_1SR4W.html", null ],
       [ "LCD::PP7W< BOARD::D4, BOARD::D5, BOARD::D6, BOARD::D7, BOARD::D8, BOARD::D9, BOARD::D10 >", "dd/df4/classLCD_1_1PP7W.html", null ]
     ] ],
+    [ "Keypad", null, [
+      [ "LCD4884", "d6/d02/classLCD4884.html", null ],
+      [ "LCD_Keypad", "d4/d94/classLCD__Keypad.html", null ]
+    ] ],
     [ "LCD::DFRobot_IIC::port_t", "d7/d48/unionLCD_1_1DFRobot__IIC_1_1port__t.html", null ],
     [ "LCD::MJKDZ::port_t", "d6/d44/unionLCD_1_1MJKDZ_1_1port__t.html", null ],
     [ "LCD::SR3W< SDA_PIN, SCL_PIN, EN_PIN >::port_t", "d3/d93/unionLCD_1_1SR3W_1_1port__t.html", null ],

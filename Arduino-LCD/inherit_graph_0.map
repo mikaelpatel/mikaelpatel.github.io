@@ -1,9 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d3/d6f/classLCD_1_1Device.html" title="LCD::Device" alt="" coords="103,97,201,124"/>
-<area shape="rect" id="node3" href="$dd/dd2/classHD44780.html" title="HD44780" alt="" coords="315,5,392,32"/>
-<area shape="rect" id="node5" href="$d0/dba/classMAX72XX.html" title="MAX72XX\&lt; SCE_PIN, SDIN\l_PIN, SCLK_PIN \&gt;" alt="" coords="256,57,451,98"/>
-<area shape="rect" id="node6" href="$da/d71/classPCD8544.html" title="PCD8544\&lt; SCE_PIN, DC\l_PIN, SDIN_PIN, SCLK_PIN \&gt;" alt="" coords="249,122,457,163"/>
-<area shape="rect" id="node7" href="$da/d71/classPCD8544.html" title="PCD8544\&lt; BOARD::D5,\l BOARD::D4, BOARD::D3,\l BOARD::D2 \&gt;" alt="" coords="261,187,445,243"/>
-<area shape="rect" id="node4" href="$d4/d94/classLCD__Keypad.html" title="LCD_Keypad" alt="" coords="505,5,605,32"/>
-<area shape="rect" id="node8" href="$d6/d02/classLCD4884.html" title="LCD4884" alt="" coords="517,201,594,228"/>
+<area shape="rect" id="node2" href="$d6/d02/classLCD4884.html" title="LCD4884" alt="" coords="517,153,594,180"/>
+<area shape="rect" id="node3" href="$d4/d94/classLCD__Keypad.html" title="LCD_Keypad" alt="" coords="505,31,605,57"/>
+<area shape="rect" id="node5" href="$d3/d6f/classLCD_1_1Device.html" title="LCD::Device" alt="" coords="103,148,201,175"/>
+<area shape="rect" id="node6" href="$dd/dd2/classHD44780.html" title="HD44780" alt="" coords="315,5,392,32"/>
+<area shape="rect" id="node7" href="$d0/dba/classMAX72XX.html" title="MAX72XX\&lt; SCE_PIN, SDIN\l_PIN, SCLK_PIN \&gt;" alt="" coords="256,107,451,149"/>
+<area shape="rect" id="node8" href="$da/d71/classPCD8544.html" title="PCD8544\&lt; SCE_PIN, DC\l_PIN, SDIN_PIN, SCLK_PIN \&gt;" alt="" coords="249,173,457,214"/>
+<area shape="rect" id="node9" href="$da/d71/classPCD8544.html" title="PCD8544\&lt; BOARD::D5,\l BOARD::D4, BOARD::D3,\l BOARD::D2 \&gt;" alt="" coords="261,237,445,293"/>
 </map>

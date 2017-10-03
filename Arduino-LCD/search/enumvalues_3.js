@@ -18,5 +18,6 @@ var searchData=
   ['display_5foff',['DISPLAY_OFF',['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72eaa7f77b43b8b5cca5a615fcd4033ab32a',1,'PCD8544']]],
   ['display_5fon',['DISPLAY_ON',['../dd/dd2/classHD44780.html#af44c4eeb0513defec84b32f39d741394a135716e4aab23be0af12b9fbb0b59da6',1,'HD44780::DISPLAY_ON()'],['../da/d71/classPCD8544.html#a57dcd05c7469a364f5fcaf664192d72eaf4e392191a617254b2438b46eb3f943f',1,'PCD8544::DISPLAY_ON()']]],
   ['display_5fshift',['DISPLAY_SHIFT',['../dd/dd2/classHD44780.html#ab624f17a53c7e26504b975a3856b6e9ca367f7df6ef586bbac6e4907308c4ac3a',1,'HD44780']]],
-  ['display_5ftest',['DISPLAY_TEST',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca85386d7e6331ee66e12cc3a01e9e8b74',1,'MAX72XX']]]
+  ['display_5ftest',['DISPLAY_TEST',['../d0/dba/classMAX72XX.html#addb7a2d45c0dc7ff4249acd440c09a0ca85386d7e6331ee66e12cc3a01e9e8b74',1,'MAX72XX']]],
+  ['down_5fkey',['DOWN_KEY',['../d6/d02/classLCD4884.html#a71d1d50cfc91aba3054cf203421d96baaf9cc42f91bd70ba725b5db66253a555a',1,'LCD4884::DOWN_KEY()'],['../d4/d94/classLCD__Keypad.html#a6db7e3153edc92f124c24a6be854b6caafd2947d13c17a5843804ee6a021870ad',1,'LCD_Keypad::DOWN_KEY()']]]
 ];

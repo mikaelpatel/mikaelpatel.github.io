@@ -4,5 +4,5 @@ var Benchmark_8ino =
     [ "fill_screen", "d2/d24/Benchmark_8ino.html#ae62418cf87ed1f04d6063996ddd7efb8", null ],
     [ "loop", "d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f", null ],
     [ "setup", "d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
-    [ "lcd", "d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100", null ]
+    [ "lcd", "d2/d24/Benchmark_8ino.html#a1419e50189407d13ae9db4ee4f87f050", null ]
 ];
