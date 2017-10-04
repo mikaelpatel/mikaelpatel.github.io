@@ -112,7 +112,9 @@ $(document).ready(function(){initNavTree('dd/d1d/classHardware_1_1TWI.html','../
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="../../d8/d9a/classHardware_1_1TWI-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Hardware::TWI Class Reference</div>  </div>
@@ -125,7 +127,7 @@ Inheritance diagram for Hardware::TWI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d2c/classHardware_1_1TWI__inherit__graph.png" border="0" usemap="#Hardware_1_1TWI_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hardware_1_1TWI_inherit__map" id="Hardware_1_1TWI_inherit__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,5,144,171"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="38,5,177,171"/>
 </map>
 </div>
 <div class="dynheader">
@@ -133,7 +135,7 @@ Collaboration diagram for Hardware::TWI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/ddf/classHardware_1_1TWI__coll__graph.png" border="0" usemap="#Hardware_1_1TWI_coll__map" alt="Collaboration graph"/></div>
 <map name="Hardware_1_1TWI_coll__map" id="Hardware_1_1TWI_coll__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,5,144,171"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="38,5,177,171"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -189,18 +191,41 @@ Protected Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ad05982b87a735c486425216b5ecc86f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da97ec1d63b4ad6be9edb39d7bae955"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955">state_t</a> { <a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955a8dba12708cefbe040773ce6c53246d87">IDLE_STATE</a>, 
+<a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955ab1cbaee985f2be1b018d27d316718b5a">BUSY_STATE</a>, 
+<a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955ac958f23cad5bbae3771892dffc857919">WRITE_STATE</a>
+ }</td></tr>
+<tr class="separator:a8da97ec1d63b4ad6be9edb39d7bae955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a955fa51bf77282dcf65062096ed1f2e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a955fa51bf77282dcf65062096ed1f2e8">iowait</a> (uint8_t status)</td></tr>
 <tr class="separator:a955fa51bf77282dcf65062096ed1f2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a93c6fccb0b695f01e2c95dbca26469d6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a93c6fccb0b695f01e2c95dbca26469d6">TWI_WaitTransferComplete</a> (Twi *<a class="el" href="../../d3/d08/Si7021_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a>, uint32_t retry)</td></tr>
+<tr class="separator:a93c6fccb0b695f01e2c95dbca26469d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c257dedf39b54635cfe3edf77bab068"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a6c257dedf39b54635cfe3edf77bab068">TWI_WaitByteSent</a> (Twi *<a class="el" href="../../d3/d08/Si7021_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a>, uint32_t retry)</td></tr>
+<tr class="separator:a6c257dedf39b54635cfe3edf77bab068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92c8cbc6847e353e142641da33dfe5c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#aa92c8cbc6847e353e142641da33dfe5c">TWI_WaitByteReceived</a> (Twi *<a class="el" href="../../d3/d08/Si7021_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a>, uint32_t retry)</td></tr>
+<tr class="separator:aa92c8cbc6847e353e142641da33dfe5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a128e62e15aac25233e1f6aa3a567a902"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a128e62e15aac25233e1f6aa3a567a902">m_start</a></td></tr>
 <tr class="separator:a128e62e15aac25233e1f6aa3a567a902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d01673dac4b66bf855fcce365a1db7b"><td class="memItemLeft" align="right" valign="top">Twi *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a1d01673dac4b66bf855fcce365a1db7b">m_twi</a></td></tr>
+<tr class="separator:a1d01673dac4b66bf855fcce365a1db7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09b85e690f6171ddc5540e850bc7695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955">state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#ac09b85e690f6171ddc5540e850bc7695">m_state</a></td></tr>
+<tr class="separator:ac09b85e690f6171ddc5540e850bc7695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf04e1e808533a23e2092675828f4138"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#abf04e1e808533a23e2092675828f4138">m_busy</a></td></tr>
 <tr class="separator:abf04e1e808533a23e2092675828f4138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a452e0e55f3755f0e7f149a65cb563b75"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a452e0e55f3755f0e7f149a65cb563b75">RETRY_MAX</a> = 100000</td></tr>
+<tr class="separator:a452e0e55f3755f0e7f149a65cb563b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -270,6 +295,37 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8da97ec1d63b4ad6be9edb39d7bae955"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955">Hardware::TWI::state_t</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Device driver states. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a8da97ec1d63b4ad6be9edb39d7bae955a8dba12708cefbe040773ce6c53246d87"></a>IDLE_STATE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8da97ec1d63b4ad6be9edb39d7bae955ab1cbaee985f2be1b018d27d316718b5a"></a>BUSY_STATE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a8da97ec1d63b4ad6be9edb39d7bae955ac958f23cad5bbae3771892dffc857919"></a>WRITE_STATE&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00179">179</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a8ff1296f56f816a4d850c20fff8ca51a"></a>
 <div class="memitem">
@@ -331,7 +387,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00034">34</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00036">36</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -360,7 +416,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a166919eaf46af070be947039fd95dccf">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00045">45</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00048">48</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +444,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a166919eaf46af070be947039fd95dccf">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00048">48</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00059">59</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +530,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00069">69</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00088">88</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -527,35 +583,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00088">88</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a51e70a1dcb51d76edc15c7bb5cca6a0b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Hardware::TWI::release </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Stop transaction. Mark the bus as available. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
-
-<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>.</p>
-
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00056">56</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00098">98</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -587,7 +615,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adfd8629a954f73471195ea3148cb61c3"></a>
+<a class="anchor" id="a51e70a1dcb51d76edc15c7bb5cca6a0b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -595,16 +623,44 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int Hardware::TWI::write </td>
+          <td class="memname">virtual bool Hardware::TWI::release </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>addr</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stop transaction. Mark the bus as available. Return true(1) if successful otherwise false(0). </p><dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
+
+<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00074">74</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa92c8cbc6847e353e142641da33dfe5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Hardware::TWI::TWI_WaitByteReceived </td>
+          <td>(</td>
+          <td class="paramtype">Twi *&#160;</td>
+          <td class="paramname"><em>twi</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/db7/structiovec__t.html">iovec_t</a> *&#160;</td>
-          <td class="paramname"><em>vp</em>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>retry</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -614,22 +670,84 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write data to device with from given io vector. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>device address. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">vp</td><td>io vector pointer. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
 
-<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00209">209</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00084">84</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a6c257dedf39b54635cfe3edf77bab068"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Hardware::TWI::TWI_WaitByteSent </td>
+          <td>(</td>
+          <td class="paramtype">Twi *&#160;</td>
+          <td class="paramname"><em>twi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>retry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00198">198</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93c6fccb0b695f01e2c95dbca26469d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Hardware::TWI::TWI_WaitTransferComplete </td>
+          <td>(</td>
+          <td class="paramtype">Twi *&#160;</td>
+          <td class="paramname"><em>twi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>retry</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00187">187</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -676,6 +794,52 @@ Protected Attributes</h2></td></tr>
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00126">126</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adfd8629a954f73471195ea3148cb61c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Hardware::TWI::write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/db7/structiovec__t.html">iovec_t</a> *&#160;</td>
+          <td class="paramname"><em>vp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Write data to device with from given io vector. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">addr</td><td>device address. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">vp</td><td>io vector pointer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of bytes written or negative error code. </dd></dl>
+
+<p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00135">135</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -800,6 +964,74 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac09b85e690f6171ddc5540e850bc7695"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955">state_t</a> Hardware::TWI::m_state</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00184">184</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d01673dac4b66bf855fcce365a1db7b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Twi* Hardware::TWI::m_twi</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">TWI</a> instance (libsam/twi). </p>
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00176">176</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a452e0e55f3755f0e7f149a65cb563b75"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t Hardware::TWI::RETRY_MAX = 100000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximum number of retries. </p>
+
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00173">173</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/Hardware/AVR/<a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a></li>
 </ul>
@@ -809,7 +1041,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">TWI</a></li>
-    <li class="footer">Generated on Tue Oct 3 2017 22:15:13 for Arduino-TWI by
+    <li class="footer">Generated on Wed Oct 4 2017 18:43:49 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

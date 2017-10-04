@@ -20,5 +20,6 @@ var searchData=
   ['rep_5fstart',['REP_START',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5aa532ec189e008ac33739ff5a3a18e90b',1,'Hardware::TWI']]],
   ['repeated_5fstart_5fcondition',['repeated_start_condition',['../d0/dd0/classSoftware_1_1TWI.html#ab58dd7ecc4291d69f38e3274195c963a',1,'Software::TWI']]],
   ['res_5freg',['RES_REG',['../db/d37/classBMP085.html#a607fb52a6eb7ba67172b1b20f745a84ba17bdb6b178507c85d59d52c52c786d10',1,'BMP085']]],
-  ['reset',['RESET',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea5555f8c9c255bd8a021664521c022885',1,'Si70XX']]]
+  ['reset',['RESET',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea5555f8c9c255bd8a021664521c022885',1,'Si70XX']]],
+  ['retry_5fmax',['RETRY_MAX',['../dd/d1d/classHardware_1_1TWI.html#a452e0e55f3755f0e7f149a65cb563b75',1,'Hardware::TWI']]]
 ];

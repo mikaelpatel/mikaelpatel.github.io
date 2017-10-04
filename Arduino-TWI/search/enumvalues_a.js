@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['write_5frht_5fuser_5freg_5f1',['WRITE_RHT_USER_REG_1',['../dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0eacc12d2f4afd2683dd18c20f70c992c8d',1,'Si70XX']]]
+  ['ultra_5fhigh_5fresolution',['ULTRA_HIGH_RESOLUTION',['../db/d37/classBMP085.html#af09d3b2f3bf3705b5393f4890ce66a08a33bbb027a27d3203aaabc54b10565cfd',1,'BMP085']]],
+  ['ultra_5flow_5fpower',['ULTRA_LOW_POWER',['../db/d37/classBMP085.html#af09d3b2f3bf3705b5393f4890ce66a08a768a326647c5a2bb607e6fd9290d339d',1,'BMP085']]]
 ];

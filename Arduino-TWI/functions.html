@@ -190,6 +190,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>BUS_ERROR
 : <a class="el" href="dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5ad3c04cbcc72dc66a4e8e09c843011a62">Hardware::TWI</a>
 </li>
+<li>BUSY_STATE
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955ab1cbaee985f2be1b018d27d316718b5a">Hardware::TWI</a>
+</li>
 </ul>
 
 
@@ -246,6 +249,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>IDLE_STATE
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955a8dba12708cefbe040773ce6c53246d87">Hardware::TWI</a>
+</li>
 <li>input()
 : <a class="el" href="d9/db3/classPCF8574_1_1GPIO.html#a9351c500b0a898f2f22c1727ec07ba35">PCF8574::GPIO&lt; PIN &gt;</a>
 </li>
@@ -297,8 +303,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a128e62e15aac25233e1f6aa3a567a902">Hardware::TWI</a>
 , <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a9de5d4653ccade6c076d344c6f277ae6">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
+<li>m_state
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#ac09b85e690f6171ddc5540e850bc7695">Hardware::TWI</a>
+</li>
 <li>m_twi
-: <a class="el" href="d4/d2d/classTWI_1_1Device.html#a97d00dd1ff7f2c3589761113a7261576">TWI::Device</a>
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a1d01673dac4b66bf855fcce365a1db7b">Hardware::TWI</a>
+, <a class="el" href="d4/d2d/classTWI_1_1Device.html#a97d00dd1ff7f2c3589761113a7261576">TWI::Device</a>
 </li>
 <li>MASK
 : <a class="el" href="dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a51e343a9de43e12648a246090be44239">Hardware::TWI</a>
@@ -467,6 +477,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>RESET
 : <a class="el" href="dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0ea5555f8c9c255bd8a021664521c022885">Si70XX</a>
 </li>
+<li>RETRY_MAX
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a452e0e55f3755f0e7f149a65cb563b75">Hardware::TWI</a>
+</li>
 </ul>
 
 
@@ -501,6 +514,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>start_condition()
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#af2b89c9cde7dd6c1246877b9b344619f">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
+<li>state_t
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955">Hardware::TWI</a>
+</li>
 <li>stop_condition()
 : <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#a6b2199f5aa5d0c55b49d7578fee35bce">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 </li>
@@ -527,6 +543,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a8ff1296f56f816a4d850c20fff8ca51a">Hardware::TWI</a>
 , <a class="el" href="d0/dd0/classSoftware_1_1TWI.html#ab9a13c9a05ac808975b13c854595c55b">Software::TWI&lt; SDA_PIN, SCL_PIN &gt;</a>
 , <a class="el" href="d1/deb/classTWI.html#a7042d7a8da6173d2a528ec7bd31162ae">TWI</a>
+</li>
+<li>TWI_WaitByteReceived()
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#aa92c8cbc6847e353e142641da33dfe5c">Hardware::TWI</a>
+</li>
+<li>TWI_WaitByteSent()
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a6c257dedf39b54635cfe3edf77bab068">Hardware::TWI</a>
+</li>
+<li>TWI_WaitTransferComplete()
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a93c6fccb0b695f01e2c95dbca26469d6">Hardware::TWI</a>
 </li>
 </ul>
 
@@ -559,13 +584,16 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>WRITE_RHT_USER_REG_1
 : <a class="el" href="dd/d1e/classSi70XX.html#aec25ddef72be6792ac3b2d1ba409ce0eacc12d2f4afd2683dd18c20f70c992c8d">Si70XX</a>
 </li>
+<li>WRITE_STATE
+: <a class="el" href="dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955ac958f23cad5bbae3771892dffc857919">Hardware::TWI</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Oct 3 2017 22:15:13 for Arduino-TWI by
+    <li class="footer">Generated on Wed Oct 4 2017 18:43:50 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
