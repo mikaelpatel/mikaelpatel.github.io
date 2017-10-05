@@ -17,5 +17,5 @@ var searchData=
   ['start',['START',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5a454b2fa5a3cee6ee68f2855a73a548ff',1,'Hardware::TWI']]],
   ['start_5fcondition',['start_condition',['../d0/dd0/classSoftware_1_1TWI.html#af2b89c9cde7dd6c1246877b9b344619f',1,'Software::TWI']]],
   ['state_5ft',['state_t',['../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955',1,'Hardware::TWI']]],
-  ['stop_5fcondition',['stop_condition',['../d0/dd0/classSoftware_1_1TWI.html#a6b2199f5aa5d0c55b49d7578fee35bce',1,'Software::TWI']]]
+  ['stop_5fcondition',['stop_condition',['../dd/d1d/classHardware_1_1TWI.html#a5e800267b651f8fce07b7ac3e01d7c3d',1,'Hardware::TWI::stop_condition()'],['../d0/dd0/classSoftware_1_1TWI.html#a6b2199f5aa5d0c55b49d7578fee35bce',1,'Software::TWI::stop_condition()']]]
 ];

@@ -1,4 +1,4 @@
 <map id="examples/BMP085/BMP085.ino" name="examples/BMP085/BMP085.ino">
-<area shape="rect" id="node3" href="$d1/d54/BMP085_8h.html" title="Driver/BMP085.h" alt="" coords="23,80,146,107"/>
-<area shape="rect" id="node5" href="$df/dad/Software_2TWI_8h.html" title="Software/TWI.h" alt="" coords="221,80,335,107"/>
+<area shape="rect" id="node3" href="$d1/d54/BMP085_8h.html" title="Driver/BMP085.h" alt="" coords="47,80,170,107"/>
+<area shape="rect" id="node4" href="$d9/dc9/Hardware_2TWI_8h.html" title="Hardware/TWI.h" alt="" coords="195,80,313,107"/>
 </map>
