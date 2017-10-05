@@ -13,6 +13,5 @@ var searchData=
   ['rom',['rom',['../d0/d7f/classOWI_1_1Device.html#a80c55460d809276c599fd9e1812d3fc3',1,'OWI::Device::rom(const uint8_t *rom)'],['../d0/d7f/classOWI_1_1Device.html#a486767bc3525d5bf23358d3ca80db5f0',1,'OWI::Device::rom()']]],
   ['rom_5fmax',['ROM_MAX',['../d7/d90/classOWI.html#a0a8ee40e70cfec5bc2fe6d3012e2ee39',1,'OWI']]],
   ['rom_5fp',['rom_P',['../d0/d7f/classOWI_1_1Device.html#adce5b7dfaccd3ffcb25e38bfa96e58ba',1,'OWI::Device']]],
-  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]],
-  ['rtc',['rtc',['../df/d65/Alarm_8ino.html#afa7e240c7456eaf5ef27ee8be3a23bd4',1,'Alarm.ino']]]
+  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]]
 ];
