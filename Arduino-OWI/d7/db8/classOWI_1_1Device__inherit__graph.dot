@@ -2,7 +2,7 @@ digraph "OWI::Device"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{OWI::Device\n|# m_owi\l# m_rom\l|+ Device()\l+ rom()\l+ rom()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="{OWI::Device\n|# m_owi\l# m_rom\l|+ Device()\l+ rom()\l+ rom_P()\l+ rom()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node2 [label="{DS18B20\n|+ FAMILY_CODE\l# m_scratchpad\l# m_start\l# m_converting\l# CONFIG_MAX\l# MAX_CONVERSION_TIME\l|+ DS18B20()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ read_scratchpad()\l+ write_scratchpad()\l+ copy_scratchpad()\l+ recall()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dc6/classDS18B20.html"];
+  Node2 [label="{DS18B20\n|+ FAMILY_CODE\l+ MAX_CONVERSION_TIME\l# m_scratchpad\l# m_start\l# m_converting\l# CONFIG_MAX\l|+ DS18B20()\l+ resolution()\l+ set_trigger()\l+ temperature()\l+ resolution()\l+ get_trigger()\l+ convert_request()\l+ read_scratchpad()\l+ write_scratchpad()\l+ copy_scratchpad()\l+ recall()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dc6/classDS18B20.html"];
 }

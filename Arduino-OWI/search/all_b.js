@@ -10,7 +10,9 @@ var searchData=
   ['reset',['reset',['../d7/d90/classOWI.html#a64c5131d928e654be07e4d224e72f0ee',1,'OWI::reset()'],['../d0/de1/classSoftware_1_1OWI.html#a18584a509600d256daa1fc7617faced6',1,'Software::OWI::reset()']]],
   ['reset_5fretry_5fmax',['RESET_RETRY_MAX',['../d7/d90/classOWI.html#af491d2fe16527f830ae557c121cf14c3',1,'OWI']]],
   ['resolution',['resolution',['../da/dc6/classDS18B20.html#a58e874baeca1d8df2888ccecececa507',1,'DS18B20::resolution(uint8_t bits)'],['../da/dc6/classDS18B20.html#a9be608530b7229fa9525ebef9d818782',1,'DS18B20::resolution() const ']]],
-  ['rom',['rom',['../d0/d7f/classOWI_1_1Device.html#a80c55460d809276c599fd9e1812d3fc3',1,'OWI::Device::rom(const uint8_t *rom)'],['../d0/d7f/classOWI_1_1Device.html#a4deab1eeeb85fce856a2b0a2d8fdf98e',1,'OWI::Device::rom()']]],
+  ['rom',['rom',['../d0/d7f/classOWI_1_1Device.html#a80c55460d809276c599fd9e1812d3fc3',1,'OWI::Device::rom(const uint8_t *rom)'],['../d0/d7f/classOWI_1_1Device.html#a486767bc3525d5bf23358d3ca80db5f0',1,'OWI::Device::rom()']]],
   ['rom_5fmax',['ROM_MAX',['../d7/d90/classOWI.html#a0a8ee40e70cfec5bc2fe6d3012e2ee39',1,'OWI']]],
-  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]]
+  ['rom_5fp',['rom_P',['../d0/d7f/classOWI_1_1Device.html#adce5b7dfaccd3ffcb25e38bfa96e58ba',1,'OWI::Device']]],
+  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]],
+  ['rtc',['rtc',['../df/d65/Alarm_8ino.html#afa7e240c7456eaf5ef27ee8be3a23bd4',1,'Alarm.ino']]]
 ];
