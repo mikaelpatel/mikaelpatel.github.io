@@ -16,10 +16,12 @@ var searchData=
   ['rs_5f32768_5fhz',['RS_32768_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66a0034a971f4da17f56c754e828b9a94ce',1,'DS1307']]],
   ['rs_5f4096_5fhz',['RS_4096_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66aaed4d633f55244ed6de62f59441f96ff',1,'DS1307']]],
   ['rs_5f8192_5fhz',['RS_8192_HZ',['../d8/da8/classDS1307.html#a60bcd6b72332697fae46a9f7f6ca4d66af5046e216fb39a639ff3aa4f14c6be3a',1,'DS1307']]],
-  ['rtc',['RTC',['../da/db3/classRTC.html',1,'RTC'],['../da/db3/classRTC.html#ada31c5120d18d2dd2863b3d440308da2',1,'RTC::RTC()'],['../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0',1,'DS1307::timekeeper_t::rtc()'],['../d0/df5/RAM_8ino.html#aea5ef97a9dc4f6617905e0bae8e9fc01',1,'rtc():&#160;RAM.ino'],['../d5/df8/RTC_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;RTC.ino']]],
+  ['rtc',['RTC',['../da/db3/classRTC.html',1,'RTC'],['../da/db3/classRTC.html#ada31c5120d18d2dd2863b3d440308da2',1,'RTC::RTC()'],['../da/db3/classRTC.html#ada31c5120d18d2dd2863b3d440308da2',1,'RTC::RTC()'],['../d7/d41/structDS1307_1_1timekeeper__t.html#aaa14277af44caeb9988233fc141a38e0',1,'DS1307::timekeeper_t::rtc()'],['../d0/df5/RAM_8ino.html#aea5ef97a9dc4f6617905e0bae8e9fc01',1,'rtc():&#160;RAM.ino'],['../d5/df8/RTC_8ino.html#a3a9c16151cfd477efca6fe27230dad0b',1,'rtc():&#160;RTC.ino']]],
+  ['rtc_2eh',['RTC.h',['../dd/d09/Hardware_2AVR_2RTC_8h.html',1,'']]],
   ['rtc_2eh',['RTC.h',['../d4/d1a/RTC_8h.html',1,'']]],
+  ['rtc_2eh',['RTC.h',['../d6/d37/Hardware_2SAM_2RTC_8h.html',1,'']]],
   ['rtc_2eino',['RTC.ino',['../d5/df8/RTC_8ino.html',1,'']]],
   ['rtc_5fburst',['RTC_BURST',['../de/d0d/classDS1302.html#ac9e32cfbd74383c826b2154d50626d38a4d41e075bec19948b968f46bce5c289c',1,'DS1302']]],
-  ['rtc_5ft',['rtc_t',['../d7/df4/structDS1307_1_1rtc__t.html',1,'DS1307']]],
-  ['rtc_5ft',['rtc_t',['../d6/d95/structDS1302_1_1rtc__t.html',1,'DS1302']]]
+  ['rtc_5ft',['rtc_t',['../d6/d95/structDS1302_1_1rtc__t.html',1,'DS1302']]],
+  ['rtc_5ft',['rtc_t',['../d7/df4/structDS1307_1_1rtc__t.html',1,'DS1307']]]
 ];

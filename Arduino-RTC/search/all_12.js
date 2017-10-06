@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['thursday',['THURSDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04ab4bfd6f883437c6cf31486dcf03ce0ff',1,'time.h']]],
-  ['tick',['tick',['../da/db3/classRTC.html#a3e7ed18e6f109b2e6de2376ea962c5c6',1,'RTC']]],
+  ['thursday',['THURSDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04ab4bfd6f883437c6cf31486dcf03ce0ff',1,'THURSDAY():&#160;time.h'],['../d6/d37/Hardware_2SAM_2RTC_8h.html#a61dadd085c1777f559549e05962b2c9eab4bfd6f883437c6cf31486dcf03ce0ff',1,'THURSDAY():&#160;RTC.h']]],
+  ['tick',['tick',['../da/db3/classRTC.html#a3e7ed18e6f109b2e6de2376ea962c5c6',1,'RTC::tick()'],['../da/db3/classRTC.html#a3e7ed18e6f109b2e6de2376ea962c5c6',1,'RTC::tick()']]],
   ['time_2eh',['time.h',['../de/df7/time_8h.html',1,'']]],
   ['time_5ft',['time_t',['../de/df7/time_8h.html#a3346b04b0420b32ccf6b706551b70762',1,'time.h']]],
   ['timekeeper_5ft',['timekeeper_t',['../d7/d41/structDS1307_1_1timekeeper__t.html',1,'DS1307']]],
@@ -15,6 +15,6 @@ var searchData=
   ['tm_5fwday',['tm_wday',['../d8/d5a/structtm.html#a1af9e9e3a8549405149f606b3816e326',1,'tm']]],
   ['tm_5fyday',['tm_yday',['../d8/d5a/structtm.html#afb378252c915ea4bcf888ff2c5c7f05c',1,'tm']]],
   ['tm_5fyear',['tm_year',['../d8/d5a/structtm.html#a933e733942822b2def4aa966ee811293',1,'tm']]],
-  ['tuesday',['TUESDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04a347c4455723bb1bc2709647607a2b282',1,'time.h']]],
-  ['twi',['twi',['../d5/df8/RTC_8ino.html#a6f4131351a07b4a24e28aa4ef507841a',1,'RTC.ino']]]
+  ['tuesday',['TUESDAY',['../de/df7/time_8h.html#abc6126af1d45847bc59afa0aa3216b04a347c4455723bb1bc2709647607a2b282',1,'TUESDAY():&#160;time.h'],['../d6/d37/Hardware_2SAM_2RTC_8h.html#a61dadd085c1777f559549e05962b2c9ea347c4455723bb1bc2709647607a2b282',1,'TUESDAY():&#160;RTC.h']]],
+  ['twi',['twi',['../d5/df8/RTC_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'RTC.ino']]]
 ];

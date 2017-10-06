@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ntp_5foffset',['NTP_OFFSET',['../de/df7/time_8h.html#aa7c3e93bff90674e9e74de6bdec85613',1,'time.h']]]
+  ['isotime_5fr',['isotime_r',['../d6/d37/Hardware_2SAM_2RTC_8h.html#a2950ae0f0cc60965d54edfad355cbcbb',1,'RTC.h']]]
 ];

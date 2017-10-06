@@ -1,6 +1,3 @@
 <map id="examples/RAM/RAM.ino" name="examples/RAM/RAM.ino">
-<area shape="rect" id="node3" href="$d4/d1a/RTC_8h.html" title="RTC.h" alt="" coords="215,80,276,107"/>
-<area shape="rect" id="node8" href="$d1/d38/DS1302_8h.html" title="Driver/DS1302.h" alt="" coords="71,80,190,107"/>
-<area shape="rect" id="node4" href="$d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="209,155,263,181"/>
-<area shape="rect" id="node5" href="$de/df7/time_8h.html" title="time.h" alt="" coords="109,155,168,181"/>
+<area shape="rect" id="node4" href="$d1/d38/DS1302_8h.html" title="Driver/DS1302.h" alt="" coords="73,80,191,107"/>
 </map>

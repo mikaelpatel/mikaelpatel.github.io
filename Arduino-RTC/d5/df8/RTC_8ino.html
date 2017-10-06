@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d5/df8/RTC_8ino.html','../../');});
 <div class="title">RTC.ino File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d1a/RTC_8h_source.html">RTC.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;RTC.h&quot;</code><br />
 <code>#include &quot;TWI.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/dba/DS1307_8h_source.html">Driver/DS1307.h</a>&quot;</code><br />
 <code>#include &quot;Hardware/TWI.h&quot;</code><br />
@@ -121,10 +121,7 @@ Include dependency graph for RTC.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/df9/RTC_8ino__incl.png" border="0" usemap="#examples_2RTC_2RTC_8ino" alt=""/></div>
 <map name="examples_2RTC_2RTC_8ino" id="examples_2RTC_2RTC_8ino">
-<area shape="rect" id="node2" href="../../d4/d1a/RTC_8h.html" title="RTC.h" alt="" coords="55,80,117,107"/>
-<area shape="rect" id="node8" href="../../de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="141,80,260,107"/>
-<area shape="rect" id="node3" href="../../d3/db0/bcd_8h.html" title="bcd.h" alt="" coords="159,155,213,181"/>
-<area shape="rect" id="node4" href="../../de/df7/time_8h.html" title="time.h" alt="" coords="63,155,122,181"/>
+<area shape="rect" id="node4" href="../../de/dba/DS1307_8h.html" title="Driver/DS1307.h" alt="" coords="67,80,186,107"/>
 </map>
 </div>
 </div>
@@ -134,13 +131,11 @@ Include dependency graph for RTC.ino:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a1694601b34143bb5f0ca3285b46861b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a1694601b34143bb5f0ca3285b46861b5">USE_DS1307</a></td></tr>
 <tr class="separator:a1694601b34143bb5f0ca3285b46861b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;&#160;&#160;100000UL</td></tr>
-<tr class="separator:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6f4131351a07b4a24e28aa4ef507841a"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a> (<a class="el" href="../../d5/df8/RTC_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>)</td></tr>
-<tr class="separator:a6f4131351a07b4a24e28aa4ef507841a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ae841c7cb82af8afbd2267149cc738"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#ac7ae841c7cb82af8afbd2267149cc738">twi</a> (100000UL)</td></tr>
+<tr class="separator:ac7ae841c7cb82af8afbd2267149cc738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
@@ -148,24 +143,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3a9c16151cfd477efca6fe27230dad0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a3a9c16151cfd477efca6fe27230dad0b">rtc</a> (<a class="el" href="../../d5/df8/RTC_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td></tr>
+<tr class="memitem:a3a9c16151cfd477efca6fe27230dad0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df8/RTC_8ino.html#a3a9c16151cfd477efca6fe27230dad0b">rtc</a> (<a class="el" href="../../d5/df8/RTC_8ino.html#ac7ae841c7cb82af8afbd2267149cc738">twi</a>)</td></tr>
 <tr class="separator:a3a9c16151cfd477efca6fe27230dad0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a1b04ec1cde4d3032f558ed8ad05930a4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define FREQ&#160;&#160;&#160;100000UL</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/df8/RTC_8ino_source.html#l00026">26</a> of file <a class="el" href="../../d5/df8/RTC_8ino_source.html">RTC.ino</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a1694601b34143bb5f0ca3285b46861b5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +175,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df8/RTC_8ino_source.html#l00053">53</a> of file <a class="el" href="../../d5/df8/RTC_8ino_source.html">RTC.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df8/RTC_8ino_source.html#l00052">52</a> of file <a class="el" href="../../d5/df8/RTC_8ino_source.html">RTC.ino</a>.</p>
 
 </div>
 </div>
@@ -211,18 +192,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df8/RTC_8ino_source.html#l00038">38</a> of file <a class="el" href="../../d5/df8/RTC_8ino_source.html">RTC.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df8/RTC_8ino_source.html#l00037">37</a> of file <a class="el" href="../../d5/df8/RTC_8ino_source.html">RTC.ino</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6f4131351a07b4a24e28aa4ef507841a"></a>
+<a class="anchor" id="ac7ae841c7cb82af8afbd2267149cc738"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Hardware::TWI twi </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/df8/RTC_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;</td>
+          <td class="paramtype">100000UL&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -237,7 +218,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> rtc(<a class="el" href="../../d5/df8/RTC_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td>
+          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> rtc(<a class="el" href="../../d5/df8/RTC_8ino.html#ac7ae841c7cb82af8afbd2267149cc738">twi</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -250,7 +231,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_f23e836c01686734171cb74fcc6cb85f.html">RTC</a></li><li class="navelem"><a class="el" href="../../d5/df8/RTC_8ino.html">RTC.ino</a></li>
-    <li class="footer">Generated on Sat Sep 30 2017 16:47:09 for Arduino-RTC by
+    <li class="footer">Generated on Fri Oct 6 2017 09:46:13 for Arduino-RTC by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

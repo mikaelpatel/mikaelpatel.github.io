@@ -2,7 +2,7 @@ var searchData=
 [
   ['date',['date',['../d6/d95/structDS1302_1_1rtc__t.html#a3f795465886f607d5841ea823ec3b263',1,'DS1302::rtc_t::date()'],['../d7/df4/structDS1307_1_1rtc__t.html#a803d274c5d57095c4f4edb6a1961a4b1',1,'DS1307::rtc_t::date()']]],
   ['day',['day',['../d6/d95/structDS1302_1_1rtc__t.html#aef44637434225500a065b5ece4e1cda0',1,'DS1302::rtc_t::day()'],['../d7/df4/structDS1307_1_1rtc__t.html#a6d96b266c02f1845a7f69079de7ebbbf',1,'DS1307::rtc_t::day()']]],
-  ['december',['DECEMBER',['../de/df7/time_8h.html#adc29c2ff13d900c2f185ee95427fb06ca823acaf8f57efe16924d4233a9547c03',1,'time.h']]],
+  ['december',['DECEMBER',['../de/df7/time_8h.html#adc29c2ff13d900c2f185ee95427fb06ca823acaf8f57efe16924d4233a9547c03',1,'DECEMBER():&#160;time.h'],['../d6/d37/Hardware_2SAM_2RTC_8h.html#a726ca809ffd3d67ab4b8476646f26635a823acaf8f57efe16924d4233a9547c03',1,'DECEMBER():&#160;RTC.h']]],
   ['difftime',['difftime',['../d9/d46/difftime_8cpp.html#ac233ae1d252999430f75e1272888d140',1,'difftime(time_t t1, time_t t2):&#160;difftime.cpp'],['../de/df7/time_8h.html#a1732c46d47837951d399755899af5240',1,'difftime(time_t time1, time_t time0):&#160;difftime.cpp']]],
   ['difftime_2ecpp',['difftime.cpp',['../d9/d46/difftime_8cpp.html',1,'']]],
   ['disable',['disable',['../d8/da8/classDS1307.html#aa2dfb1b98ed00f236341eeeeefd663ba',1,'DS1307']]],

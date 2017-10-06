@@ -1,7 +1,7 @@
 <map id="src/bcd.h" name="src/bcd.h">
-<area shape="rect" id="node2" href="$d1/d38/DS1302_8h.html" title="src/Driver/DS1302.h" alt="" coords="5,80,147,107"/>
-<area shape="rect" id="node4" href="$de/dba/DS1307_8h.html" title="src/Driver/DS1307.h" alt="" coords="277,80,419,107"/>
-<area shape="rect" id="node6" href="$d4/d1a/RTC_8h.html" title="src/RTC.h" alt="" coords="171,80,253,107"/>
-<area shape="rect" id="node3" href="$d0/df5/RAM_8ino.html" title="examples/RAM/RAM.ino" alt="" coords="13,155,179,181"/>
-<area shape="rect" id="node5" href="$d5/df8/RTC_8ino.html" title="examples/RTC/RTC.ino" alt="" coords="245,155,408,181"/>
+<area shape="rect" id="node2" href="$d4/d1a/RTC_8h.html" title="src/RTC.h" alt="" coords="196,80,279,107"/>
+<area shape="rect" id="node3" href="$d1/d38/DS1302_8h.html" title="src/Driver/DS1302.h" alt="" coords="5,155,147,181"/>
+<area shape="rect" id="node4" href="$d0/df5/RAM_8ino.html" title="examples/RAM/RAM.ino" alt="" coords="6,229,173,256"/>
+<area shape="rect" id="node5" href="$de/dba/DS1307_8h.html" title="src/Driver/DS1307.h" alt="" coords="221,155,363,181"/>
+<area shape="rect" id="node6" href="$d5/df8/RTC_8ino.html" title="examples/RTC/RTC.ino" alt="" coords="264,229,427,256"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['freq',['FREQ',['../d5/df8/RTC_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'RTC.ino']]]
+  ['get_5fzone',['get_zone',['../d6/d37/Hardware_2SAM_2RTC_8h.html#a19f972c6cb841bdd8d21d4a949a445dc',1,'RTC.h']]]
 ];
