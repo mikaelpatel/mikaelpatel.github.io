@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"de/df6/classAT24C256.html#a4067c420ed6e2a2a77c21100d5a2545a":[1,0,1,7],
 "de/df6/classAT24C256.html#a4ad1e0f1533467405d656455a5491ce1":[1,0,1,12],
 "de/df6/classAT24C256.html#a4dc588747ce96b82d7023f58b11c99c0":[1,0,1,5],
 "de/df6/classAT24C256.html#a5f3a7d53b2e9380fc307584ff6b53393":[1,0,1,3],

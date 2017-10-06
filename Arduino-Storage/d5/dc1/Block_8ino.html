@@ -115,8 +115,7 @@ $(document).ready(function(){initNavTree('d5/dc1/Block_8ino.html','../../');});
 <div class="textblock"><code>#include &quot;<a class="el" href="../../db/d6f/Storage_8h_source.html">Storage.h</a>&quot;</code><br />
 <code>#include &quot;TWI.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d0b/AT24CXX_8h_source.html">Driver/AT24CXX.h</a>&quot;</code><br />
-<code>#include &quot;GPIO.h&quot;</code><br />
-<code>#include &quot;Software/TWI.h&quot;</code><br />
+<code>#include &quot;Hardware/TWI.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Block.ino:</div>
 <div class="dyncontent">
@@ -131,13 +130,13 @@ Include dependency graph for Block.ino:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0fdcb186961daa060956c0efc0661ede"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a0fdcb186961daa060956c0efc0661ede">USE_SOFTWARE_TWI</a></td></tr>
-<tr class="separator:a0fdcb186961daa060956c0efc0661ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;&#160;&#160;800000UL</td></tr>
+<tr class="memitem:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;&#160;&#160;100000UL</td></tr>
 <tr class="separator:a1b04ec1cde4d3032f558ed8ad05930a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6f4131351a07b4a24e28aa4ef507841a"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a> (<a class="el" href="../../df/d9b/Cache_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>)</td></tr>
+<tr class="separator:a6f4131351a07b4a24e28aa4ef507841a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
 <tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
@@ -145,10 +144,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad21d079e31d1cca74670c1629828f9d6"><td class="memItemLeft" align="right" valign="top">Software::TWI&lt; BOARD::D18, BOARD::D19 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#ad21d079e31d1cca74670c1629828f9d6">twi</a></td></tr>
-<tr class="separator:ad21d079e31d1cca74670c1629828f9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47e4ed5068de3e8513cc6c30cf5347a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a47e4ed5068de3e8513cc6c30cf5347a3">eeprom</a> (<a class="el" href="../../de/d62/AT24CXX_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>, 7)</td></tr>
-<tr class="separator:a47e4ed5068de3e8513cc6c30cf5347a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a98b829f397bd38433052ff220f8ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a28a98b829f397bd38433052ff220f8ec">eeprom</a> (<a class="el" href="../../d5/dc1/Block_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td></tr>
+<tr class="separator:a28a98b829f397bd38433052ff220f8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a787b71e40772f3b05d1d21762fc3f5ee"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a787b71e40772f3b05d1d21762fc3f5ee">BLOCK_MAX</a> = 16*eeprom.PAGE_MAX</td></tr>
 <tr class="separator:a787b71e40772f3b05d1d21762fc3f5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cc620924d107d8c8e428351d92fa5f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d4e/classStorage_1_1Block.html">Storage::Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/Block_8ino.html#a5cc620924d107d8c8e428351d92fa5f9">block</a> (<a class="el" href="../../d2/d75/Persistent_8ino.html#ae40ee5b281bc71dadd35aa219bcd60a7">eeprom</a>, <a class="el" href="../../d5/dc1/Block_8ino.html#a787b71e40772f3b05d1d21762fc3f5ee">BLOCK_MAX</a>)</td></tr>
@@ -160,26 +157,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FREQ&#160;&#160;&#160;800000UL</td>
+          <td class="memname">#define FREQ&#160;&#160;&#160;100000UL</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00009">9</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0fdcb186961daa060956c0efc0661ede"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define USE_SOFTWARE_TWI</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00006">6</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00011">11</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -218,6 +201,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6f4131351a07b4a24e28aa4ef507841a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Hardware::TWI twi </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/Cache_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4">FREQ</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a5cc620924d107d8c8e428351d92fa5f9"></a>
 <div class="memitem">
@@ -245,29 +244,15 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a47e4ed5068de3e8513cc6c30cf5347a3"></a>
+<a class="anchor" id="a28a98b829f397bd38433052ff220f8ec"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> eeprom(<a class="el" href="../../de/d62/AT24CXX_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>, 7)</td>
+          <td class="memname"><a class="el" href="../../d3/dc8/classAT24C32.html">AT24C32</a> eeprom(<a class="el" href="../../d5/dc1/Block_8ino.html#a6f4131351a07b4a24e28aa4ef507841a">twi</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad21d079e31d1cca74670c1629828f9d6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Software::TWI&lt;BOARD::D18, BOARD::D19&gt; twi</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/dc1/Block_8ino_source.html#l00016">16</a> of file <a class="el" href="../../d5/dc1/Block_8ino_source.html">Block.ino</a>.</p>
 
 </div>
 </div>
@@ -277,7 +262,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_58ba686cdd65e6952a19aa6d2ee4e90b.html">Block</a></li><li class="navelem"><a class="el" href="../../d5/dc1/Block_8ino.html">Block.ino</a></li>
-    <li class="footer">Generated on Tue Sep 26 2017 13:52:05 for Arduino-Storage by
+    <li class="footer">Generated on Fri Oct 6 2017 09:50:03 for Arduino-Storage by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
