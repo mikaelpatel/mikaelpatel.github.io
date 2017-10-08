@@ -126,7 +126,7 @@ Inheritance diagram for Hardware::TWI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d2c/classHardware_1_1TWI__inherit__graph.png" border="0" usemap="#Hardware_1_1TWI_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hardware_1_1TWI_inherit__map" id="Hardware_1_1TWI_inherit__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,5,144,171"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,144,200"/>
 </map>
 </div>
 <div class="dynheader">
@@ -134,7 +134,7 @@ Collaboration diagram for Hardware::TWI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/ddf/classHardware_1_1TWI__coll__graph.png" border="0" usemap="#Hardware_1_1TWI_coll__map" alt="Collaboration graph"/></div>
 <map name="Hardware_1_1TWI_coll__map" id="Hardware_1_1TWI_coll__map">
-<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="5,5,144,171"/>
+<area shape="rect" id="node2" href="../../d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,144,200"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -202,6 +202,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a955fa51bf77282dcf65062096ed1f2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e800267b651f8fce07b7ac3e01d7c3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html#a5e800267b651f8fce07b7ac3e01d7c3d">stop_condition</a> ()</td></tr>
 <tr class="separator:a5e800267b651f8fce07b7ac3e01d7c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df0cec3b8c3c238fe965bae4f7740e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#a1df0cec3b8c3c238fe965bae4f7740e3">lock</a> ()</td></tr>
+<tr class="separator:a1df0cec3b8c3c238fe965bae4f7740e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1153bbd1ac8b8f5ee43290c5eebf9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/deb/classTWI.html#add1153bbd1ac8b8f5ee43290c5eebf9e">unlock</a> ()</td></tr>
+<tr class="separator:add1153bbd1ac8b8f5ee43290c5eebf9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -283,7 +287,7 @@ Static Protected Attributes</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00158">158</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00155">155</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +318,7 @@ Static Protected Attributes</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00181">181</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00180">180</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -469,7 +473,33 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00181">181</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00178">178</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1df0cec3b8c3c238fe965bae4f7740e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TWI::lock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Lock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00176">176</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -522,7 +552,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00088">88</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00085">85</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -575,7 +605,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#ab4d9151c40a7ecc133d2d31be11eb7be">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00095">95</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00094">94</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -603,7 +633,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00066">66</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00063">63</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -631,7 +661,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a4eb241d0dfad44dc8cfa4e979c77e5dc">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00074">74</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00073">73</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -656,7 +686,33 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00188">188</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00187">187</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add1153bbd1ac8b8f5ee43290c5eebf9e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TWI::unlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unlock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -702,7 +758,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00126">126</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00123">123</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -748,7 +804,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d1/deb/classTWI.html#a0ae60b6df020efb04493e50669c5969c">TWI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00135">135</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00134">134</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -844,7 +900,7 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p><a class="el" href="../../d4/d2d/classTWI_1_1Device.html">Device</a> driver semaphore. </p>
+<p>Bus manager semaphore. </p>
 
 <p>Definition at line <a class="el" href="../../d7/d67/TWI_8h_source.html#l00171">171</a> of file <a class="el" href="../../d7/d67/TWI_8h_source.html">TWI.h</a>.</p>
 
@@ -869,7 +925,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Start condition issued flag. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00188">188</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d8/d6b/Hardware_2AVR_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -891,7 +947,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00186">186</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -914,7 +970,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">TWI</a> instance (libsam/twi). </p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00178">178</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00177">177</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +993,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Maximum number of retries. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00175">175</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html#l00174">174</a> of file <a class="el" href="../../d5/d9e/Hardware_2SAM_2TWI_8h_source.html">TWI.h</a>.</p>
 
 </div>
 </div>
@@ -950,7 +1006,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../dd/d1d/classHardware_1_1TWI.html">TWI</a></li>
-    <li class="footer">Generated on Fri Oct 6 2017 09:42:52 for Arduino-TWI by
+    <li class="footer">Generated on Sun Oct 8 2017 21:41:08 for Arduino-TWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -1,5 +1,5 @@
 <map id="PCF8574::GPIO&lt; PIN &gt;" name="PCF8574::GPIO&lt; PIN &gt;">
-<area shape="rect" id="node2" href="$d1/da6/classPCF8574.html" title="{PCF8574\n|# m_ddr\l# m_port\l|+ PCF8574()\l+ ddr()\l+ ddr()\l+ read()\l+ port()\l+ write()\l+ write()\l# PCF8574()\l}" alt="" coords="39,433,137,628"/>
-<area shape="rect" id="node3" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="40,233,136,384"/>
-<area shape="rect" id="node4" href="$d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="19,5,157,171"/>
+<area shape="rect" id="node2" href="$d1/da6/classPCF8574.html" title="{PCF8574\n|# m_ddr\l# m_port\l|+ PCF8574()\l+ ddr()\l+ ddr()\l+ read()\l+ port()\l+ write()\l+ write()\l# PCF8574()\l}" alt="" coords="39,463,137,657"/>
+<area shape="rect" id="node3" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="40,263,136,413"/>
+<area shape="rect" id="node4" href="$d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="19,5,157,200"/>
 </map>
