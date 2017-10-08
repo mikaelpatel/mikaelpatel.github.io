@@ -13,7 +13,6 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
@@ -32,8 +31,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"d6/d02/classLCD4884.html#a5e96d160b53a6382e3b3788ec7397dee",
-"de/d2e/DS18B20_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678"
+"d4/dfc/Thermometer_8ino.html#afe461d27b9c48d5921c00d521181f12f",
+"dd/df4/classLCD_1_1PP7W.html#a268af9c614de7c4693946987896f1abb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

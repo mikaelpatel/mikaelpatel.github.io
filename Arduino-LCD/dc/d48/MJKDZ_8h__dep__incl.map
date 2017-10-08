@@ -1,6 +1,7 @@
 <map id="src/Adapter/MJKDZ.h" name="src/Adapter/MJKDZ.h">
-<area shape="rect" id="node2" href="$d8/d37/GY__IICLCD_8h.html" title="src/Adapter/GY_IICLCD.h" alt="" coords="157,80,332,107"/>
+<area shape="rect" id="node2" href="$d8/d37/GY__IICLCD_8h.html" title="src/Adapter/GY_IICLCD.h" alt="" coords="277,80,452,107"/>
 <area shape="rect" id="node3" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="5,155,153,196"/>
-<area shape="rect" id="node4" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="177,162,355,189"/>
-<area shape="rect" id="node5" href="$de/d2e/DS18B20_8ino.html" title="examples/DS18B20/DS18B20.ino" alt="" coords="379,162,598,189"/>
+<area shape="rect" id="node4" href="$d0/d32/Clock_8ino.html" title="examples/Clock/Clock.ino" alt="" coords="177,162,352,189"/>
+<area shape="rect" id="node5" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="376,162,553,189"/>
+<area shape="rect" id="node6" href="$d4/dfc/Thermometer_8ino.html" title="examples/Thermometer\l/Thermometer.ino" alt="" coords="577,155,736,196"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="src/Adapter/DFRobot_IIC.h" name="src/Adapter/DFRobot_IIC.h">
 <area shape="rect" id="node2" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="5,95,153,136"/>
-<area shape="rect" id="node3" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="177,102,355,129"/>
-<area shape="rect" id="node4" href="$de/d2e/DS18B20_8ino.html" title="examples/DS18B20/DS18B20.ino" alt="" coords="379,102,598,129"/>
+<area shape="rect" id="node3" href="$d0/d32/Clock_8ino.html" title="examples/Clock/Clock.ino" alt="" coords="177,102,352,129"/>
+<area shape="rect" id="node4" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="376,102,553,129"/>
+<area shape="rect" id="node5" href="$d4/dfc/Thermometer_8ino.html" title="examples/Thermometer\l/Thermometer.ino" alt="" coords="577,95,736,136"/>
 </map>

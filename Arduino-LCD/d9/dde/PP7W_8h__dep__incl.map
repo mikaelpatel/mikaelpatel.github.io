@@ -1,7 +1,8 @@
 <map id="src/Adapter/PP7W.h" name="src/Adapter/PP7W.h">
-<area shape="rect" id="node2" href="$d2/ddc/LCD__Keypad_8h.html" title="src/Shield/LCD_Keypad.h" alt="" coords="303,80,477,107"/>
+<area shape="rect" id="node2" href="$d2/ddc/LCD__Keypad_8h.html" title="src/Shield/LCD_Keypad.h" alt="" coords="387,80,561,107"/>
 <area shape="rect" id="node3" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="5,155,153,196"/>
-<area shape="rect" id="node4" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="177,162,355,189"/>
-<area shape="rect" id="node5" href="$de/d2e/DS18B20_8ino.html" title="examples/DS18B20/DS18B20.ino" alt="" coords="598,162,817,189"/>
-<area shape="rect" id="node6" href="$d1/d78/Keypad_8ino.html" title="examples/Keypad/Keypad.ino" alt="" coords="379,162,574,189"/>
+<area shape="rect" id="node4" href="$d0/d32/Clock_8ino.html" title="examples/Clock/Clock.ino" alt="" coords="177,162,352,189"/>
+<area shape="rect" id="node5" href="$de/d5e/Demo_8ino.html" title="examples/Demo/Demo.ino" alt="" coords="596,162,773,189"/>
+<area shape="rect" id="node7" href="$d4/dfc/Thermometer_8ino.html" title="examples/Thermometer\l/Thermometer.ino" alt="" coords="797,155,956,196"/>
+<area shape="rect" id="node6" href="$d1/d78/Keypad_8ino.html" title="examples/Keypad/Keypad.ino" alt="" coords="377,162,571,189"/>
 </map>
