@@ -1,0 +1,10 @@
+digraph "Hardware::OWI"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Hardware::OWI\n|# POLL_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l+ triplet()\l+ device_reset()\l+ device_config()\l+ set_read_pointer()\l+ channel_select()\l# read_bit()\l# write_bit()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d90/classOWI.html"];
+  Node3 -> Node1 [dir="back",color="darkgreen",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{TWI::Device\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

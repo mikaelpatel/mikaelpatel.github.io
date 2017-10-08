@@ -1,3 +1,4 @@
 <map id="OWI" name="OWI">
-<area shape="rect" id="node2" href="$d0/de1/classSoftware_1_1OWI.html" title="{Software::OWI\&lt; PIN \&gt;\n|# m_pin\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l}" alt="" coords="11,321,167,443"/>
+<area shape="rect" id="node2" href="$d3/d22/classHardware_1_1OWI.html" title="{Hardware::OWI\n|# POLL_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l+ triplet()\l+ device_reset()\l+ device_config()\l+ set_read_pointer()\l+ channel_select()\l# read_bit()\l# write_bit()\l}" alt="" coords="5,336,144,560"/>
+<area shape="rect" id="node3" href="$d0/de1/classSoftware_1_1OWI.html" title="{Software::OWI\&lt; PIN \&gt;\n|# m_pin\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l}" alt="" coords="169,387,325,509"/>
 </map>

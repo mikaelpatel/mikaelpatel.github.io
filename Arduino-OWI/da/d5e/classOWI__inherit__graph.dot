@@ -2,7 +2,9 @@ digraph "OWI"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node2 [label="{Software::OWI\< PIN \>\n|# m_pin\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de1/classSoftware_1_1OWI.html"];
+  Node2 [label="{Hardware::OWI\n|# POLL_MAX\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l+ triplet()\l+ device_reset()\l+ device_config()\l+ set_read_pointer()\l+ channel_select()\l# read_bit()\l# write_bit()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d22/classHardware_1_1OWI.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Software::OWI\< PIN \>\n|# m_pin\l|+ OWI()\l+ reset()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/de1/classSoftware_1_1OWI.html"];
 }

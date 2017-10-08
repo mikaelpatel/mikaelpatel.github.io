@@ -8,6 +8,8 @@ var classDS18B20 =
     [ "RECALL_E", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7bd61cce7bee12ccece0960c0d72a0ea", null ],
     [ "READ_POWER_SUPPLY", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7f28bcb523c0088cf8676ada071a1743", null ],
     [ "DS18B20", "da/dc6/classDS18B20.html#a107c6bb4fe7bb558f5d4eb598b1368b4", null ],
+    [ "conversion_time", "da/dc6/classDS18B20.html#aa1a183ed5d2e67d9aea4090a25e1321b", null ],
+    [ "convert_await", "da/dc6/classDS18B20.html#a5b4f36906020a9de4633be3cb747bf3f", null ],
     [ "convert_request", "da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b", null ],
     [ "copy_scratchpad", "da/dc6/classDS18B20.html#a07f86e205db14bb44b31dcefaaa4d59c", null ],
     [ "get_trigger", "da/dc6/classDS18B20.html#aba28369b59470f1b530a45cbc61b42dd", null ],

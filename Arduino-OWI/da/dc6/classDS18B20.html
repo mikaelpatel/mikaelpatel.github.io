@@ -134,9 +134,9 @@ Collaboration diagram for DS18B20:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d9e/classDS18B20__coll__graph.png" border="0" usemap="#DS18B20_coll__map" alt="Collaboration graph"/></div>
 <map name="DS18B20_coll__map" id="DS18B20_coll__map">
-<area shape="rect" id="node2" href="../../d0/d7f/classOWI_1_1Device.html" title="{OWI::Device\n|# m_rom\l|+ Device()\l+ rom()\l+ rom_P()\l+ rom()\l}" alt="" coords="39,351,138,472"/>
-<area shape="rect" id="node3" href="../../d7/d90/classOWI.html" title="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}" alt="" coords="5,5,172,273"/>
-<area shape="rect" id="node4" href="../../d4/d1f/structDS18B20_1_1scratchpad__t.html" title="{DS18B20::scratchpad_t\n|+ temperature\l+ high_trigger\l+ low_trigger\l+ configuration\l+ reserved\l+ crc\l|}" alt="" coords="163,336,324,487"/>
+<area shape="rect" id="node2" href="../../d0/d7f/classOWI_1_1Device.html" title="{OWI::Device\n|# m_rom\l|+ Device()\l+ rom()\l+ rom_P()\l+ rom()\l}" alt="" coords="39,365,138,487"/>
+<area shape="rect" id="node3" href="../../d7/d90/classOWI.html" title="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}" alt="" coords="5,5,172,288"/>
+<area shape="rect" id="node4" href="../../d4/d1f/structDS18B20_1_1scratchpad__t.html" title="{DS18B20::scratchpad_t\n|+ temperature\l+ high_trigger\l+ low_trigger\l+ configuration\l+ reserved\l+ crc\l|}" alt="" coords="163,351,324,501"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -161,6 +161,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aba28369b59470f1b530a45cbc61b42dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a812157da0d393f7b938aebbe58d1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b">convert_request</a> (bool broadcast=false)</td></tr>
 <tr class="separator:aa4a812157da0d393f7b938aebbe58d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a183ed5d2e67d9aea4090a25e1321b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/classDS18B20.html#aa1a183ed5d2e67d9aea4090a25e1321b">conversion_time</a> ()</td></tr>
+<tr class="separator:aa1a183ed5d2e67d9aea4090a25e1321b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4f36906020a9de4633be3cb747bf3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/classDS18B20.html#a5b4f36906020a9de4633be3cb747bf3f">convert_await</a> ()</td></tr>
+<tr class="separator:a5b4f36906020a9de4633be3cb747bf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad356c54bfe7e948f356bbf772ff78a1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e">read_scratchpad</a> (bool match=true)</td></tr>
 <tr class="separator:ad356c54bfe7e948f356bbf772ff78a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bf4e21bd3120548738092ecb19243e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/classDS18B20.html#a2bf4e21bd3120548738092ecb19243e4">write_scratchpad</a> ()</td></tr>
@@ -266,7 +270,7 @@ References</h1>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00201">201</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00218">218</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -302,7 +306,7 @@ References</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Construct a <a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a> device connected to the given 1-Wire bus. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Construct a <a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a> device connected to the given 1-Wire bus. Initiate with default resolution (12-bits) and triggers (70, 75), as hardware reset for device. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">owi</td><td>bus manager. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rom</td><td>code (default NULL). </td></tr>
@@ -310,11 +314,63 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00054">54</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00056">56</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa1a183ed5d2e67d9aea4090a25e1321b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t DS18B20::conversion_time </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Return remaining convertion time in milliseconds. </p><dl class="section return"><dt>Returns</dt><dd>milliseconds remaining. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00143">143</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b4f36906020a9de4633be3cb747bf3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DS18B20::convert_await </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Delay until the temperature conversion is completed. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00156">156</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa4a812157da0d393f7b938aebbe58d1b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +392,7 @@ References</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Initiate temperature conversion. Call with broadcast parameter true(1) to issue skip_rom(). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Initiate temperature conversion. Call with broadcast parameter true(1) to issue skip_rom() and issue to command to all devices. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">broadcast</td><td>flag (default false). </td></tr>
   </table>
@@ -344,7 +400,7 @@ References</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00122">122</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00125">125</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -370,7 +426,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Copy device scratchpad triggers and configuration data to device EEPROM. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00179">179</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00196">196</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -405,7 +461,7 @@ References</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get alarm trigger values; low and high threshold values. Use connect(), or <a class="el" href="../../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e">read_scratchpad()</a> to read values from device. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Get alarm trigger values; low and high threshold values. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">low</td><td>threshold. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">high</td><td>threshold. </td></tr>
@@ -413,7 +469,7 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00110">110</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00113">113</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -446,7 +502,7 @@ References</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00144">144</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00171">171</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +528,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Recall the alarm triggers and configuration from device EEPROM. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00190">190</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00207">207</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -504,7 +560,7 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00065">65</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00070">70</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -528,9 +584,9 @@ References</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get conversion resolution. Use connect(), or <a class="el" href="../../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e">read_scratchpad()</a> to read values from device before calling this method. </p><dl class="section return"><dt>Returns</dt><dd>number of bits. </dd></dl>
+<p>Get conversion resolution. </p><dl class="section return"><dt>Returns</dt><dd>number of bits. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00099">99</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00103">103</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -562,7 +618,7 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00190">190</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00218">218</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -588,7 +644,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Get device rom code. </p><dl class="section return"><dt>Returns</dt><dd>rom code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00208">208</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00236">236</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -620,7 +676,7 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00199">199</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00227">227</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -663,7 +719,7 @@ References</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00077">77</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00082">82</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -687,9 +743,9 @@ References</h1>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the latest temperature reading from the local memory scratchpad. Call <a class="el" href="../../da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b">convert_request()</a> and <a class="el" href="../../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e">read_scratchpad()</a> before accessing the scratchpad. </p><dl class="section return"><dt>Returns</dt><dd>temperature </dd></dl>
+<p>Get the latest temperature reading from the scratchpad copy. Call <a class="el" href="../../da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b">convert_request()</a>, <a class="el" href="../../da/dc6/classDS18B20.html#a5b4f36906020a9de4633be3cb747bf3f">convert_await()</a> and <a class="el" href="../../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e">read_scratchpad()</a> before accessing the scratchpad. </p><dl class="section return"><dt>Returns</dt><dd>temperature </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00089">89</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00094">94</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -715,7 +771,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Write the contents of the scratchpad triggers and configuration (3 bytes) to device. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00167">167</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00184">184</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -739,7 +795,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Size of configuration; high/low trigger and configuration byte. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00224">224</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00241">241</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -785,7 +841,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Convert request pending. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00230">230</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00247">247</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -808,7 +864,7 @@ References</h1>
 </div><div class="memdoc">
 <p>One-Wire Bus Manager. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00215">215</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00243">243</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -831,7 +887,7 @@ References</h1>
 </div><div class="memdoc">
 <p><a class="el" href="../../d0/d7f/classOWI_1_1Device.html">Device</a> rom idenity code. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00218">218</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00246">246</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -853,7 +909,7 @@ References</h1>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00221">221</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00238">238</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -876,7 +932,7 @@ References</h1>
 </div><div class="memdoc">
 <p>Watchdog millis on <a class="el" href="../../da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b">convert_request()</a>. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00227">227</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d9d/DS18B20_8h_source.html#l00244">244</a> of file <a class="el" href="../../d4/d9d/DS18B20_8h_source.html">DS18B20.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +968,7 @@ References</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dc6/classDS18B20.html">DS18B20</a></li>
-    <li class="footer">Generated on Fri Oct 6 2017 00:04:34 for Arduino-OWI by
+    <li class="footer">Generated on Sun Oct 8 2017 15:04:27 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

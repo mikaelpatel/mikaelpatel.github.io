@@ -1,0 +1,6 @@
+digraph "scratchpad_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{scratchpad_t\n|+ temperature\l+ high_trigger\l+ low_trigger\l+ configuration\l+ reserved\l+ crc\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}
