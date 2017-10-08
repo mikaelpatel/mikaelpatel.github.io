@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('d1/de2/classSoftware_1_1SPI.html','../
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../dd/daf/classSoftware_1_1SPI-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -123,7 +124,7 @@ Inheritance diagram for Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;:</div
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d58/classSoftware_1_1SPI__inherit__graph.png" border="0" usemap="#Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_inherit__map" id="Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_inherit__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="25,5,188,200"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="25,5,188,259"/>
 </map>
 </div>
 <div class="dynheader">
@@ -131,7 +132,7 @@ Collaboration diagram for Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;:</d
 <div class="dyncontent">
 <div class="center"><img src="../../d9/df7/classSoftware_1_1SPI__coll__graph.png" border="0" usemap="#Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_coll__map" id="Software_1_1SPI_3_01MOSI__PIN_00_01MISO__PIN_00_01SCK__PIN_01_4_coll__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="25,5,188,200"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="25,5,188,259"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -163,6 +164,13 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4650a6fc3d39fef0a063b2c929185650"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">MAX_FREQ</a> = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">MIN_CLOCK_SCALE</a></td></tr>
 <tr class="separator:a4650a6fc3d39fef0a063b2c929185650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aebc22af02b49a1c32cda9d6f96229c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#aebc22af02b49a1c32cda9d6f96229c7f">lock</a> ()</td></tr>
+<tr class="separator:aebc22af02b49a1c32cda9d6f96229c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9cebd3d29cad47ff741c0609efd219"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#add9cebd3d29cad47ff741c0609efd219">unlock</a> ()</td></tr>
+<tr class="separator:add9cebd3d29cad47ff741c0609efd219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a89191d9085f37f57fdba34f127d74a31"><td class="memItemLeft" align="right" valign="top">GPIO&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a">SCK_PIN</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a89191d9085f37f57fdba34f127d74a31">m_sck</a></td></tr>
@@ -171,12 +179,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae6a868643fd70e0d8e513dc520af5109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af40117891b131791a07f95c3378ee0a1"><td class="memItemLeft" align="right" valign="top">GPIO&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929">MISO_PIN</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#af40117891b131791a07f95c3378ee0a1">m_miso</a></td></tr>
 <tr class="separator:af40117891b131791a07f95c3378ee0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e2d4855c8e849bf1a89c58ea4d9a00f"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a5e2d4855c8e849bf1a89c58ea4d9a00f">m_busy</a></td></tr>
-<tr class="separator:a5e2d4855c8e849bf1a89c58ea4d9a00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266c1f262bb983d938f7d3ffd4a52d5c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a266c1f262bb983d938f7d3ffd4a52d5c">m_cpha</a></td></tr>
 <tr class="separator:a266c1f262bb983d938f7d3ffd4a52d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1d8734593bd915dd7fca8020ae3de9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a2d1d8734593bd915dd7fca8020ae3de9">m_bitorder</a></td></tr>
 <tr class="separator:a2d1d8734593bd915dd7fca8020ae3de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30194941106fe205740b689611707532"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a30194941106fe205740b689611707532">m_busy</a></td></tr>
+<tr class="separator:a30194941106fe205740b689611707532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&gt;<br />
@@ -268,6 +276,32 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 
 </div>
 </div>
+<a class="anchor" id="aebc22af02b49a1c32cda9d6f96229c7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::lock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Lock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00234">234</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a21e72e9557cd021e416efbfcf64f8dee"></a>
 <div class="memitem">
 <div class="memproto">
@@ -296,7 +330,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00073">73</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00081">81</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +362,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00070">70</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -371,9 +405,9 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e">Hardware::SPI</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e">Hardware::SPI</a>, and <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e">Hardware::SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00102">102</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00110">110</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -401,9 +435,9 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Release bus access. </p>
 
-<p>Implements <a class="el" href="../../da/d8d/classSPI.html#aa8753d4730ab2daa3a1f093ef5f88f82">SPI</a>.</p>
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#af227706716d29057dbab74f43465ca32">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00074">74</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00073">73</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -440,7 +474,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 
 <p>Implements <a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00086">86</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00085">85</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -490,9 +524,35 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">Hardware::SPI</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">Hardware::SPI</a>, and <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">Hardware::SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00088">88</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00096">96</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add9cebd3d29cad47ff741c0609efd219"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::unlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unlock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00243">243</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -535,9 +595,9 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">Hardware::SPI</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">Hardware::SPI</a>, and <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">Hardware::SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00115">115</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00123">123</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -563,32 +623,30 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Serial data bitorder flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00130">130</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00126">126</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5e2d4855c8e849bf1a89c58ea4d9a00f"></a>
+<a class="anchor" id="a30194941106fe205740b689611707532"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile bool <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">Software::SPI</a>&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a11338fccf824b29757c2b23edb0f690f">MOSI_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929">MISO_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a">SCK_PIN</a> &gt;::m_busy</td>
+          <td class="memname">volatile bool SPI::m_busy</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Bus manager semaphore. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00229">229</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -613,7 +671,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Clock phase flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00127">127</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00123">123</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +696,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Master Input Slave Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00121">121</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00120">120</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -663,7 +721,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Master Output Slave Input pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00118">118</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00117">117</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -688,7 +746,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Clock pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00115">115</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00114">114</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -747,7 +805,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">SPI</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 15:34:14 for Arduino-SPI by
+    <li class="footer">Generated on Sun Oct 8 2017 21:36:32 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

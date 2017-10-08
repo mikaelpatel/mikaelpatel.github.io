@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('d9/db9/classHardware_1_1SPI.html','../
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d4/de6/classHardware_1_1SPI-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -117,13 +118,13 @@ $(document).ready(function(){initNavTree('d9/db9/classHardware_1_1SPI.html','../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Hardware::SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d87/classHardware_1_1SPI__inherit__graph.png" border="0" usemap="#Hardware_1_1SPI_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hardware_1_1SPI_inherit__map" id="Hardware_1_1SPI_inherit__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="5,5,168,200"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,168,259"/>
 </map>
 </div>
 <div class="dynheader">
@@ -131,7 +132,7 @@ Collaboration diagram for Hardware::SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d5c/classHardware_1_1SPI__coll__graph.png" border="0" usemap="#Hardware_1_1SPI_coll__map" alt="Collaboration graph"/></div>
 <map name="Hardware_1_1SPI_coll__map" id="Hardware_1_1SPI_coll__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l|+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l}" alt="" coords="5,5,168,200"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,168,259"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -141,8 +142,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a38b42d9212b115433db927d355ab2238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a780978c715be1611803cca1c933e1834"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834">acquire</a> (uint8_t mode, uint8_t bitorder, uint8_t scale)</td></tr>
 <tr class="separator:a780978c715be1611803cca1c933e1834"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e8c242356ae6768b649fd68902f033"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a19e8c242356ae6768b649fd68902f033">release</a> ()</td></tr>
-<tr class="separator:a19e8c242356ae6768b649fd68902f033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d0e6a555efcce571777aaefe8b34cc"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc">transfer</a> (uint8_t value)</td></tr>
 <tr class="separator:a69d0e6a555efcce571777aaefe8b34cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ddcec32990bde2d5c7337c48a7ab4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
@@ -151,6 +150,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fd70c07aadea66eb0e2a6e0ba4bfa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7aa0ca5510923d53e8925106342711a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">write</a> (const void *buf, size_t count)</td></tr>
 <tr class="separator:ab7aa0ca5510923d53e8925106342711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b42d9212b115433db927d355ab2238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238">SPI</a> ()</td></tr>
+<tr class="separator:a38b42d9212b115433db927d355ab2238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780978c715be1611803cca1c933e1834"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834">acquire</a> (uint8_t mode, uint8_t bitorder, uint8_t scale)</td></tr>
+<tr class="separator:a780978c715be1611803cca1c933e1834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d0e6a555efcce571777aaefe8b34cc"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc">transfer</a> (uint8_t value)</td></tr>
+<tr class="separator:a69d0e6a555efcce571777aaefe8b34cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ddcec32990bde2d5c7337c48a7ab4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
+<tr class="separator:a99ddcec32990bde2d5c7337c48a7ab4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd70c07aadea66eb0e2a6e0ba4bfa5e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e">read</a> (void *buf, size_t count)</td></tr>
+<tr class="separator:a0fd70c07aadea66eb0e2a6e0ba4bfa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7aa0ca5510923d53e8925106342711a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#ab7aa0ca5510923d53e8925106342711a">write</a> (const void *buf, size_t count)</td></tr>
+<tr class="separator:ab7aa0ca5510923d53e8925106342711a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af227706716d29057dbab74f43465ca32"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#af227706716d29057dbab74f43465ca32">release</a> ()</td></tr>
+<tr class="separator:af227706716d29057dbab74f43465ca32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54acde13f4d0e2a179609391c2027875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a54acde13f4d0e2a179609391c2027875">operator&gt;&gt;</a> (uint8_t &amp;value)</td></tr>
 <tr class="separator:a54acde13f4d0e2a179609391c2027875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21e72e9557cd021e416efbfcf64f8dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a21e72e9557cd021e416efbfcf64f8dee">operator&lt;&lt;</a> (uint8_t value)</td></tr>
@@ -163,10 +176,15 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a4650a6fc3d39fef0a063b2c929185650"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">MAX_FREQ</a> = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">MIN_CLOCK_SCALE</a></td></tr>
 <tr class="separator:a4650a6fc3d39fef0a063b2c929185650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aebc22af02b49a1c32cda9d6f96229c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#aebc22af02b49a1c32cda9d6f96229c7f">lock</a> ()</td></tr>
+<tr class="separator:aebc22af02b49a1c32cda9d6f96229c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9cebd3d29cad47ff741c0609efd219"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#add9cebd3d29cad47ff741c0609efd219">unlock</a> ()</td></tr>
+<tr class="separator:add9cebd3d29cad47ff741c0609efd219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a171dc0e343c9f1dc95573c87ee98b693"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a171dc0e343c9f1dc95573c87ee98b693">m_busy</a></td></tr>
-<tr class="separator:a171dc0e343c9f1dc95573c87ee98b693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dfee161e4568b4c587755aca9d20908"><td class="memItemLeft" align="right" valign="top">GPIO&lt; BOARD::SS &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a9dfee161e4568b4c587755aca9d20908">m_ss</a></td></tr>
 <tr class="separator:a9dfee161e4568b4c587755aca9d20908"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb3e5da6aa40b452c1d02bf63b1dea33"><td class="memItemLeft" align="right" valign="top">GPIO&lt; BOARD::SCK &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#acb3e5da6aa40b452c1d02bf63b1dea33">m_sck</a></td></tr>
@@ -175,10 +193,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0e436733dd24b15d06cd86437ad2dcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5945ebda926033b58683de631363ac8b"><td class="memItemLeft" align="right" valign="top">GPIO&lt; BOARD::MISO &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a5945ebda926033b58683de631363ac8b">m_miso</a></td></tr>
 <tr class="separator:a5945ebda926033b58683de631363ac8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30194941106fe205740b689611707532"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a30194941106fe205740b689611707532">m_busy</a></td></tr>
+<tr class="separator:a30194941106fe205740b689611707532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00031">31</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00031">31</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a38b42d9212b115433db927d355ab2238"></a>
 <div class="memitem">
@@ -202,7 +222,33 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Serial Perpheral Interface (<a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a>) constructor. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00036">36</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00036">36</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38b42d9212b115433db927d355ab2238"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Hardware::SPI::SPI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Serial Perpheral Interface (<a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a>) constructor. </p>
+
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00035">35</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -255,7 +301,85 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../da/d8d/classSPI.html#a708df224799c2aa7d374a4728d9d7db8">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00052">52</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00044">44</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a780978c715be1611803cca1c933e1834"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Hardware::SPI::acquire </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bitorder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Acquire bus access. Yield until bus is released. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>of access. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bitorder</td><td>of serial data. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>clock frequency. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="../../da/d8d/classSPI.html#a708df224799c2aa7d374a4728d9d7db8">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00052">52</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aebc22af02b49a1c32cda9d6f96229c7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::lock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Lock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00234">234</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +411,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00073">73</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00081">81</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -319,7 +443,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00070">70</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -364,11 +488,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00131">131</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00083">83</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a19e8c242356ae6768b649fd68902f033"></a>
+<a class="anchor" id="a0fd70c07aadea66eb0e2a6e0ba4bfa5e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -376,10 +500,21 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Hardware::SPI::release </td>
+          <td class="memname">virtual void Hardware::SPI::read </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -388,11 +523,45 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Read given number of bytes from device and store in buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00121">121</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af227706716d29057dbab74f43465ca32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SPI::release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 <p>Release bus access. </p>
 
-<p>Implements <a class="el" href="../../da/d8d/classSPI.html#aa8753d4730ab2daa3a1f093ef5f88f82">SPI</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00080">80</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00053">53</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +596,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00091">91</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00057">57</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +648,120 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a83f8dcf090c3e97af7c1f0e228a4723f">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00108">108</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00072">72</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69d0e6a555efcce571777aaefe8b34cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint8_t Hardware::SPI::transfer </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Send given byte to device. Returns byte received from device. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to send to device. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>received value. </dd></dl>
+
+<p>Implements <a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00081">81</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99ddcec32990bde2d5c7337c48a7ab4b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Hardware::SPI::transfer </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Transfer given number of bytes from source buffer to device. Store received bytes in destination buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>destination buffer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td>source buffer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to transfer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a83f8dcf090c3e97af7c1f0e228a4723f">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00098">98</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add9cebd3d29cad47ff741c0609efd219"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SPI::unlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unlock bus manager. </p>
+
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00243">243</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -524,12 +806,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00152">152</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00094">94</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a171dc0e343c9f1dc95573c87ee98b693"></a>
+<a class="anchor" id="ab7aa0ca5510923d53e8925106342711a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -537,18 +818,64 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile bool Hardware::SPI::m_busy</td>
+          <td class="memname">virtual void Hardware::SPI::write </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Write given number of bytes from buffer to device. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00142">142</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a30194941106fe205740b689611707532"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile bool SPI::m_busy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>Bus manager semaphore. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00168">168</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00229">229</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -571,7 +898,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Master Input Slave Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00180">180</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00167">167</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -594,7 +921,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Master Output Slave Input pin. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00177">177</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00164">164</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -617,7 +944,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Clock pin. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00174">174</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00161">161</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -640,7 +967,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Slave select pin. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html#l00171">171</a> of file <a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00158">158</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -691,7 +1018,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/Hardware/<a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">SPI.h</a></li>
+<li>src/Hardware/AVR/<a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -699,7 +1026,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a></li>
-    <li class="footer">Generated on Mon Sep 25 2017 15:34:14 for Arduino-SPI by
+    <li class="footer">Generated on Sun Oct 8 2017 21:36:32 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
