@@ -47,7 +47,7 @@ var NAVTREEINDEX0 =
 "dc/d88/classDHT22.html#ac18ed22aafc9820f4a940b0612202c3a":[1,0,3,2],
 "dc/d88/classDHT22.html#ac632b221143ae0ce3fc520b19f1e0959":[1,0,3,0],
 "df/dc5/DHT11_8ino.html":[2,0,0,0,0],
-"df/dc5/DHT11_8ino.html#a428f5d9a20f2d46171a7aef6094b9be4":[2,0,0,0,0,2],
+"df/dc5/DHT11_8ino.html#a4199ee671411bb7979f85250b9bf09ad":[2,0,0,0,0,2],
 "df/dc5/DHT11_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[2,0,0,0,0,1],
 "df/dc5/DHT11_8ino.html#afe461d27b9c48d5921c00d521181f12f":[2,0,0,0,0,0],
 "df/dc5/DHT11_8ino_source.html":[2,0,0,0,0],
