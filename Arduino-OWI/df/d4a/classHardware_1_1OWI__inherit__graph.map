@@ -1,3 +1,3 @@
 <map id="Hardware::OWI" name="Hardware::OWI">
-<area shape="rect" id="node2" href="$d7/d90/classOWI.html" title="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# m_crc\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l# search()\l}" alt="" coords="5,5,172,288"/>
+<area shape="rect" id="node2" href="$d7/d90/classOWI.html" title="{OWI\n|+ ROM_MAX\l+ ROMBITS\l# RESET_RETRY_MAX\l|+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ search_rom()\l+ read_rom()\l+ match_rom()\l+ skip_rom()\l+ alarm_search()\l+ crc_update()\l# search()\l}" alt="" coords="5,5,172,288"/>
 </map>

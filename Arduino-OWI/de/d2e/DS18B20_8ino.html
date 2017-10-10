@@ -133,6 +133,8 @@ Include dependency graph for DS18B20.ino:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a0cde997b06d2e92df28aae52abe9d0ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2e/DS18B20_8ino.html#a0cde997b06d2e92df28aae52abe9d0ab">USE_SOFTWARE_OWI</a></td></tr>
 <tr class="separator:a0cde997b06d2e92df28aae52abe9d0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28301f76c53b643912da7c538f74e2c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2e/DS18B20_8ino.html#a28301f76c53b643912da7c538f74e2c6">ASSERT</a>(expr)</td></tr>
+<tr class="separator:a28301f76c53b643912da7c538f74e2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -149,6 +151,24 @@ Variables</h2></td></tr>
 <tr class="separator:abfe36d5bc9b35bf55b90e8b0d7be94cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a28301f76c53b643912da7c538f74e2c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">expr</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                                    \</div><div class="line">    if (!(expr)) {                                                      \</div><div class="line">      Serial.print(__LINE__);                                           \</div><div class="line">      Serial.println(F(<span class="stringliteral">&quot;:assert:&quot;</span> #expr));                              \</div><div class="line">      Serial.flush();                                                   \</div><div class="line">      exit(0);                                                          \</div><div class="line">    }                                                                   \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00032">32</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a0cde997b06d2e92df28aae52abe9d0ab"></a>
 <div class="memitem">
 <div class="memproto">
@@ -177,7 +197,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00033">33</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00048">48</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
 
 </div>
 </div>
@@ -194,7 +214,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00027">27</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d2e/DS18B20_8ino_source.html#l00042">42</a> of file <a class="el" href="../../de/d2e/DS18B20_8ino_source.html">DS18B20.ino</a>.</p>
 
 </div>
 </div>
@@ -231,7 +251,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_edc7f58e8c82682a6129433ec455bcd5.html">DS18B20</a></li><li class="navelem"><a class="el" href="../../de/d2e/DS18B20_8ino.html">DS18B20.ino</a></li>
-    <li class="footer">Generated on Mon Oct 9 2017 12:15:19 for Arduino-OWI by
+    <li class="footer">Generated on Tue Oct 10 2017 17:57:18 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

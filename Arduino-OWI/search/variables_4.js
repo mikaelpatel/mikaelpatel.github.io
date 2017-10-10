@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['high_5ftrigger',['high_trigger',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a3d71c9cea093bf3acd0b106fd0a257fd',1,'DS18B20::scratchpad_t::high_trigger()'],['../d1/d6c/structscratchpad__t.html#ab6dff36a91223c13d6adbfd2318e113c',1,'scratchpad_t::high_trigger()']]]
+  ['led',['led',['../dc/d26/DS1990A_8ino.html#a0bea83277ec38ec98f9ed010a9bbf10d',1,'DS1990A.ino']]],
+  ['low_5ftrigger',['low_trigger',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#aef9fac891cbda5b64dceb908c4e95e7e',1,'DS18B20::scratchpad_t']]]
 ];

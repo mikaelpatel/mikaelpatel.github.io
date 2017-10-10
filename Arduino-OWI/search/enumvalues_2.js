@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['device_5freset',['DEVICE_RESET',['../d3/d22/classHardware_1_1OWI.html#a5ab02bd0c9f4f7dd257c4a0eb58aa604abff43b00b50a1ee157851c5043b75263',1,'Hardware::OWI']]]
+  ['error',['ERROR',['../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a02edd924b451d01d2bc30e294a455f0d',1,'OWI']]]
 ];

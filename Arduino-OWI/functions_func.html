@@ -82,7 +82,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.html"><span>All</span></a></li>
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
-      <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
     </ul>
   </div>
@@ -143,9 +142,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>channel_select()
 : <a class="el" href="d3/d22/classHardware_1_1OWI.html#a6beb76a983ca25b2cb6e166d5dfa110b">Hardware::OWI</a>
 </li>
-<li>config_t()
-: <a class="el" href="dc/d6f/unionHardware_1_1OWI_1_1config__t.html#abef934c4a71773a4cbd5f10fb8fb3a65">Hardware::OWI::config_t</a>
-</li>
 <li>conversion_time()
 : <a class="el" href="da/dc6/classDS18B20.html#aa1a183ed5d2e67d9aea4090a25e1321b">DS18B20</a>
 </li>
@@ -158,6 +154,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>copy_scratchpad()
 : <a class="el" href="da/dc6/classDS18B20.html#a07f86e205db14bb44b31dcefaaa4d59c">DS18B20</a>
 </li>
+<li>crc_update()
+: <a class="el" href="d7/d90/classOWI.html#a1d6d7e409fbb94802843a91f1869c628">OWI</a>
+</li>
 </ul>
 
 
@@ -165,8 +164,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>Device()
 : <a class="el" href="d0/d7f/classOWI_1_1Device.html#aa140f34644dd1e3b11c7c9b97ba60426">OWI::Device</a>
 </li>
-<li>device_config()
-: <a class="el" href="d3/d22/classHardware_1_1OWI.html#a67642b11243d68da662624388f3d3918">Hardware::OWI</a>
+<li>device_configuration()
+: <a class="el" href="d3/d22/classHardware_1_1OWI.html#a0ebb979a29d1f8c1eaa100b3af77e8ad">Hardware::OWI</a>
 </li>
 <li>device_reset()
 : <a class="el" href="d3/d22/classHardware_1_1OWI.html#a8ec990238b258f83886e6e7789cda9b7">Hardware::OWI</a>
@@ -192,10 +191,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 
 
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
-<li>operator uint8_t()
-: <a class="el" href="dc/d6f/unionHardware_1_1OWI_1_1config__t.html#a1fbac4e920b62a69d0e2003dddebf7ef">Hardware::OWI::config_t</a>
-, <a class="el" href="d0/dae/unionHardware_1_1OWI_1_1status__t.html#a743c9dca6b04307e049eea52da169c77">Hardware::OWI::status_t</a>
-</li>
 <li>OWI()
 : <a class="el" href="d3/d22/classHardware_1_1OWI.html#a643713296e27e3ab8f8e59d2ba9c3c80">Hardware::OWI</a>
 , <a class="el" href="d0/de1/classSoftware_1_1OWI.html#af6061631fcd3381729020fd1ebbf6db0">Software::OWI&lt; PIN &gt;</a>
@@ -208,9 +203,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="d3/d22/classHardware_1_1OWI.html#aa5f6ced494c7e57232a6260523fc106f">Hardware::OWI</a>
 , <a class="el" href="d7/d90/classOWI.html#abe68bc356ee9335d057345b1e5a547c8">OWI</a>
 , <a class="el" href="d0/de1/classSoftware_1_1OWI.html#a97c3f34bfe99de42b6656089bb01683c">Software::OWI&lt; PIN &gt;</a>
-</li>
-<li>read_bit()
-: <a class="el" href="d3/d22/classHardware_1_1OWI.html#a48e3915c100d1befc5382585d5a4ee63">Hardware::OWI</a>
 </li>
 <li>read_rom()
 : <a class="el" href="d7/d90/classOWI.html#a40490a0bd3edb2422fb2bc2ef77f8474">OWI</a>
@@ -245,9 +237,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>search_rom()
 : <a class="el" href="d7/d90/classOWI.html#aecac50b0d8eb690536c5dda6f271fa19">OWI</a>
 </li>
-<li>set_read_pointer()
-: <a class="el" href="d3/d22/classHardware_1_1OWI.html#a14898ea032daa1053fe9e7419dd89353">Hardware::OWI</a>
-</li>
 <li>set_trigger()
 : <a class="el" href="da/dc6/classDS18B20.html#a6a3a402844c1be9288df3a8cf5329f39">DS18B20</a>
 </li>
@@ -274,9 +263,6 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 , <a class="el" href="d7/d90/classOWI.html#a1e3701a7c20800c4797b1c4bc30a3193">OWI</a>
 , <a class="el" href="d0/de1/classSoftware_1_1OWI.html#a1b229ba49a811c35fbaef5fd7e34f9b4">Software::OWI&lt; PIN &gt;</a>
 </li>
-<li>write_bit()
-: <a class="el" href="d3/d22/classHardware_1_1OWI.html#a3b9f1e9aa4d3e46ac646b46ebf7367e0">Hardware::OWI</a>
-</li>
 <li>write_scratchpad()
 : <a class="el" href="da/dc6/classDS18B20.html#a2bf4e21bd3120548738092ecb19243e4">DS18B20</a>
 </li>
@@ -286,7 +272,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 9 2017 12:15:19 for Arduino-OWI by
+    <li class="footer">Generated on Tue Oct 10 2017 17:57:18 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

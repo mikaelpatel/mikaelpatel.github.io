@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['owi',['OWI',['../d3/d22/classHardware_1_1OWI.html',1,'Hardware']]],
-  ['owi',['OWI',['../d0/de1/classSoftware_1_1OWI.html',1,'Software']]],
-  ['owi',['OWI',['../d7/d90/classOWI.html',1,'']]]
+  ['scratchpad_5ft',['scratchpad_t',['../d4/d1f/structDS18B20_1_1scratchpad__t.html',1,'DS18B20']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['family_5fcode',['FAMILY_CODE',['../da/dc6/classDS18B20.html#a10158e45c6a23b103b4cb2a966ce1c4a',1,'DS18B20']]]
+  ['key',['KEY',['../dc/d26/DS1990A_8ino.html#ac4f0e540d3c23651b2bb6a35b69301e0',1,'DS1990A.ino']]]
 ];

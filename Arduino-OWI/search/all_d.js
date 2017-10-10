@@ -1,21 +1,5 @@
 var searchData=
 [
-  ['read',['read',['../d3/d22/classHardware_1_1OWI.html#aa5f6ced494c7e57232a6260523fc106f',1,'Hardware::OWI::read()'],['../d7/d90/classOWI.html#abe68bc356ee9335d057345b1e5a547c8',1,'OWI::read(uint8_t bits=CHARBITS)=0'],['../d7/d90/classOWI.html#af9ff6fa238d55441da99dee11aec288a',1,'OWI::read(void *buf, size_t count)'],['../d0/de1/classSoftware_1_1OWI.html#a97c3f34bfe99de42b6656089bb01683c',1,'Software::OWI::read()']]],
-  ['read_5fbit',['read_bit',['../d3/d22/classHardware_1_1OWI.html#a48e3915c100d1befc5382585d5a4ee63',1,'Hardware::OWI']]],
-  ['read_5fdata_5fregister',['READ_DATA_REGISTER',['../d3/d22/classHardware_1_1OWI.html#a6f53e7081bf3c452b00fef9b9b16ec85a97b469920abc11e98d19eadd40951ab7',1,'Hardware::OWI']]],
-  ['read_5fpower_5fsupply',['READ_POWER_SUPPLY',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7f28bcb523c0088cf8676ada071a1743',1,'DS18B20']]],
-  ['read_5from',['READ_ROM',['../d7/d90/classOWI.html#accf800deb44d383437475a94d38657eda4699d501523897ead0e8e8cdca4a769c',1,'OWI::READ_ROM()'],['../d7/d90/classOWI.html#a40490a0bd3edb2422fb2bc2ef77f8474',1,'OWI::read_rom(uint8_t *code)']]],
-  ['read_5fscratchpad',['READ_SCRATCHPAD',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62aa3f3f086c604ba91aae12adeca7fc9e1',1,'DS18B20::READ_SCRATCHPAD()'],['../da/dc6/classDS18B20.html#ad356c54bfe7e948f356bbf772ff78a1e',1,'DS18B20::read_scratchpad(bool match=true)'],['../d0/d2e/DS2482_8ino.html#abed82baf7f470b522273a3e37c24c600a3b66d5a861d08cb8b32618183ca1d0a3',1,'READ_SCRATCHPAD():&#160;DS2482.ino']]],
-  ['recall',['recall',['../da/dc6/classDS18B20.html#aeae32522ee209783e51ba7e927cc0e8d',1,'DS18B20']]],
-  ['recall_5fe',['RECALL_E',['../da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7bd61cce7bee12ccece0960c0d72a0ea',1,'DS18B20']]],
-  ['register',['Register',['../d3/d22/classHardware_1_1OWI.html#a6f53e7081bf3c452b00fef9b9b16ec85',1,'Hardware::OWI']]],
-  ['reserved',['reserved',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a44b6580314aad6ab1c3e8b0cd7db4856',1,'DS18B20::scratchpad_t::reserved()'],['../d1/d6c/structscratchpad__t.html#ad31c6721b3dabd852e4444eec901eb67',1,'scratchpad_t::reserved()']]],
-  ['reset',['reset',['../d3/d22/classHardware_1_1OWI.html#a021d66ea718a93421111c7f3c970bc6d',1,'Hardware::OWI::reset()'],['../d7/d90/classOWI.html#a64c5131d928e654be07e4d224e72f0ee',1,'OWI::reset()'],['../d0/de1/classSoftware_1_1OWI.html#a18584a509600d256daa1fc7617faced6',1,'Software::OWI::reset()']]],
-  ['reset_5fretry_5fmax',['RESET_RETRY_MAX',['../d7/d90/classOWI.html#af491d2fe16527f830ae557c121cf14c3',1,'OWI']]],
-  ['resolution',['resolution',['../da/dc6/classDS18B20.html#a58e874baeca1d8df2888ccecececa507',1,'DS18B20::resolution(uint8_t bits)'],['../da/dc6/classDS18B20.html#a9be608530b7229fa9525ebef9d818782',1,'DS18B20::resolution() const ']]],
-  ['rom',['rom',['../d0/d7f/classOWI_1_1Device.html#a80c55460d809276c599fd9e1812d3fc3',1,'OWI::Device::rom(const uint8_t *rom)'],['../d0/d7f/classOWI_1_1Device.html#a486767bc3525d5bf23358d3ca80db5f0',1,'OWI::Device::rom()']]],
-  ['rom_5fmax',['ROM_MAX',['../d7/d90/classOWI.html#a0a8ee40e70cfec5bc2fe6d3012e2ee39',1,'OWI']]],
-  ['rom_5fp',['rom_P',['../d0/d7f/classOWI_1_1Device.html#adce5b7dfaccd3ffcb25e38bfa96e58ba',1,'OWI::Device']]],
-  ['rombits',['ROMBITS',['../d7/d90/classOWI.html#a00be71c838043bc18bd2199a736b842b',1,'OWI']]],
-  ['rst',['RST',['../d0/dae/unionHardware_1_1OWI_1_1status__t.html#a19c081d30a4b8d73d1fad9c8063811bf',1,'Hardware::OWI::status_t']]]
+  ['temperature',['temperature',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a8270b0c46aa5984a7ed16875801a4aee',1,'DS18B20::scratchpad_t::temperature()'],['../da/dc6/classDS18B20.html#ab73aa89ab63f7fd94fdf95b4e96029fb',1,'DS18B20::temperature()']]],
+  ['triplet',['triplet',['../d3/d22/classHardware_1_1OWI.html#aa19943e081b9e40260ff665fd73d27a9',1,'Hardware::OWI::triplet()'],['../d7/d90/classOWI.html#a94642d46462c0fb7f7c69d1785e18071',1,'OWI::triplet()']]]
 ];
