@@ -1,0 +1,4 @@
+<map id="DS2482" name="DS2482">
+<area shape="rect" id="node2" href="$d4/d2d/classTWI_1_1Device.html" title="{TWI::Device\n|# m_addr\l|+ Device()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l}" alt="" coords="38,263,134,413"/>
+<area shape="rect" id="node3" href="$d1/deb/classTWI.html" title="{TWI\n|+ DEFAULT_FREQ\l# m_busy\l|+ TWI()\l+ acquire()\l+ release()\l+ read()\l+ write()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="17,5,155,200"/>
+</map>

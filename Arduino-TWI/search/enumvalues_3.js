@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['high_5fresolution',['HIGH_RESOLUTION',['../db/d37/classBMP085.html#af09d3b2f3bf3705b5393f4890ce66a08abed239746c15d71698d0089d92894437',1,'BMP085']]]
+  ['device_5freset',['DEVICE_RESET',['../d4/d53/classDS2482.html#a2e5a06dab0794109836386024b074df2a8ad021c470ab3c6599ad0a0022466e6b',1,'DS2482']]]
 ];

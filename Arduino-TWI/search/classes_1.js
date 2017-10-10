@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['device',['Device',['../d4/d2d/classTWI_1_1Device.html',1,'TWI']]]
+  ['config_5ft',['config_t',['../dd/d98/unionDS2482_1_1config__t.html',1,'DS2482']]]
 ];

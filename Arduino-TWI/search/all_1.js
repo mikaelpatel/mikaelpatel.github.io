@@ -14,6 +14,6 @@ var searchData=
   ['bswap32',['bswap32',['../dc/df1/bswap_8h.html#a3e376c247d19427f3c01311e816f2574',1,'bswap.h']]],
   ['bswap64',['bswap64',['../dc/df1/bswap_8h.html#a69935d8b7d0238c6d27f46ed1c5d4050',1,'bswap.h']]],
   ['buf',['buf',['../d1/db7/structiovec__t.html#a9a9d9a989f6d3ce6f85ef1b84b44ba7f',1,'iovec_t']]],
-  ['bus_5ferror',['BUS_ERROR',['../dd/d1d/classHardware_1_1TWI.html#ad05982b87a735c486425216b5ecc86f5ad3c04cbcc72dc66a4e8e09c843011a62',1,'Hardware::TWI']]],
+  ['bus_5ferror',['BUS_ERROR',['../dd/d1d/classHardware_1_1TWI.html#a194d859b8523decffbc8fa8b4ef2cf19ad3c04cbcc72dc66a4e8e09c843011a62',1,'Hardware::TWI']]],
   ['busy_5fstate',['BUSY_STATE',['../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955ab1cbaee985f2be1b018d27d316718b5a',1,'Hardware::TWI']]]
 ];

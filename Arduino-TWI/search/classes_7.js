@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['rtc_5ft',['rtc_t',['../d7/df4/structDS1307_1_1rtc__t.html',1,'DS1307']]]
+  ['twi',['TWI',['../dd/d1d/classHardware_1_1TWI.html',1,'Hardware']]],
+  ['twi',['TWI',['../d1/deb/classTWI.html',1,'']]],
+  ['twi',['TWI',['../d0/dd0/classSoftware_1_1TWI.html',1,'Software']]]
 ];

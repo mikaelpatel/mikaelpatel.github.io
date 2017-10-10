@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['idle_5fstate',['IDLE_STATE',['../dd/d1d/classHardware_1_1TWI.html#a8da97ec1d63b4ad6be9edb39d7bae955a8dba12708cefbe040773ce6c53246d87',1,'Hardware::TWI']]]
+  ['high_5fresolution',['HIGH_RESOLUTION',['../db/d37/classBMP085.html#af09d3b2f3bf3705b5393f4890ce66a08abed239746c15d71698d0089d92894437',1,'BMP085']]]
 ];

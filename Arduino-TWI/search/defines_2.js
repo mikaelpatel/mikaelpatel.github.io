@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['freq',['FREQ',['../d1/ddb/PCF8574_8ino.html#a1b04ec1cde4d3032f558ed8ad05930a4',1,'PCF8574.ino']]]
+  ['charbits',['CHARBITS',['../d3/d67/Si70XX_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'Si70XX.h']]]
 ];

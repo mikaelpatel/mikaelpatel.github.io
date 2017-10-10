@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['year',['year',['../d7/df4/structDS1307_1_1rtc__t.html#a1e92ce495a7c5806bdea1bd700267771',1,'DS1307::rtc_t']]]
+  ['zero',['ZERO',['../dd/d98/unionDS2482_1_1config__t.html#aeec64d9c304735e50ec0771033109a9f',1,'DS2482::config_t']]]
 ];

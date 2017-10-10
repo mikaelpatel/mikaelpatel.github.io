@@ -1,10 +1,12 @@
 <map id="src/bswap.h" name="src/bswap.h">
-<area shape="rect" id="node2" href="$d7/d67/TWI_8h.html" title="src/TWI.h" alt="" coords="391,80,471,107"/>
-<area shape="rect" id="node3" href="$d1/d54/BMP085_8h.html" title="src/Driver/BMP085.h" alt="" coords="26,155,170,181"/>
+<area shape="rect" id="node2" href="$d7/d67/TWI_8h.html" title="src/TWI.h" alt="" coords="502,80,582,107"/>
+<area shape="rect" id="node3" href="$d1/d54/BMP085_8h.html" title="src/Driver/BMP085.h" alt="" coords="33,155,177,181"/>
 <area shape="rect" id="node4" href="$d7/df2/BMP085_8ino.html" title="examples/BMP085/BMP085.ino" alt="" coords="5,229,212,256"/>
-<area shape="rect" id="node5" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="245,155,394,181"/>
-<area shape="rect" id="node6" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="257,229,475,256"/>
-<area shape="rect" id="node7" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="469,155,607,181"/>
-<area shape="rect" id="node8" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="541,229,727,256"/>
-<area shape="rect" id="node9" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="682,155,885,181"/>
+<area shape="rect" id="node5" href="$d4/d40/DS2482_8h.html" title="src/Driver/DS2482.h" alt="" coords="251,155,393,181"/>
+<area shape="rect" id="node6" href="$d0/d2e/DS2482_8ino.html" title="examples/DS2482/DS2482.ino" alt="" coords="245,229,447,256"/>
+<area shape="rect" id="node7" href="$db/dfe/PCF8574_8h.html" title="src/Driver/PCF8574.h" alt="" coords="467,155,617,181"/>
+<area shape="rect" id="node8" href="$d1/ddb/PCF8574_8ino.html" title="examples/PCF8574/PCF8574.ino" alt="" coords="489,229,707,256"/>
+<area shape="rect" id="node9" href="$d3/d67/Si70XX_8h.html" title="src/Driver/Si70XX.h" alt="" coords="691,155,830,181"/>
+<area shape="rect" id="node10" href="$d3/d08/Si7021_8ino.html" title="examples/Si7021/Si7021.ino" alt="" coords="769,229,955,256"/>
+<area shape="rect" id="node11" href="$dd/da4/Scanner_8ino.html" title="examples/Scanner/Scanner.ino" alt="" coords="905,155,1107,181"/>
 </map>

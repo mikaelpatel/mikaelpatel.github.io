@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['gpio',['GPIO',['../d9/db3/classPCF8574_1_1GPIO.html',1,'PCF8574']]]
+  ['device',['Device',['../d4/d2d/classTWI_1_1Device.html',1,'TWI']]],
+  ['ds2482',['DS2482',['../d4/d53/classDS2482.html',1,'']]]
 ];

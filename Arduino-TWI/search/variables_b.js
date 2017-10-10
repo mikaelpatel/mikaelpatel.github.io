@@ -1,15 +1,8 @@
 var searchData=
 [
-  ['t1',['T1',['../d0/dd0/classSoftware_1_1TWI.html#a69d23e86a5efeb6f33cfd916665177cb',1,'Software::TWI']]],
-  ['t2',['T2',['../d0/dd0/classSoftware_1_1TWI.html#ac6c47be9464e91f6a1e1b6acc97f4498',1,'Software::TWI']]],
-  ['tm_5fhour',['tm_hour',['../d8/d5a/structtm.html#abf64a483b8212f2b39af13c6dd34d9aa',1,'tm']]],
-  ['tm_5fisdst',['tm_isdst',['../d8/d5a/structtm.html#a80da4505676f51d0c484412698284ae0',1,'tm']]],
-  ['tm_5fmday',['tm_mday',['../d8/d5a/structtm.html#a1e7dd5d99e96bf4f4020533f31d682db',1,'tm']]],
-  ['tm_5fmin',['tm_min',['../d8/d5a/structtm.html#ad4d915eb54b73168ff88c571dd694b58',1,'tm']]],
-  ['tm_5fmon',['tm_mon',['../d8/d5a/structtm.html#a2374030ea1f1258af15511202b0b4573',1,'tm']]],
-  ['tm_5fsec',['tm_sec',['../d8/d5a/structtm.html#ade8f02c5eb80f4d4d1ccf49fb2fcfb3d',1,'tm']]],
-  ['tm_5fwday',['tm_wday',['../d8/d5a/structtm.html#a1af9e9e3a8549405149f606b3816e326',1,'tm']]],
-  ['tm_5fyday',['tm_yday',['../d8/d5a/structtm.html#afb378252c915ea4bcf888ff2c5c7f05c',1,'tm']]],
-  ['tm_5fyear',['tm_year',['../d8/d5a/structtm.html#a933e733942822b2def4aa966ee811293',1,'tm']]],
-  ['twi',['twi',['../de/d62/AT24CXX_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;AT24CXX.ino'],['../d3/d10/DS1307_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;DS1307.ino'],['../d0/df3/Multitasking_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;Multitasking.ino'],['../d1/ddb/PCF8574_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;PCF8574.ino'],['../dd/da4/Scanner_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;Scanner.ino'],['../d3/d08/Si7021_8ino.html#a5f6c23e710f03466d326351c84e5a55b',1,'twi():&#160;Si7021.ino']]]
+  ['sbr',['SBR',['../d3/df2/unionDS2482_1_1status__t.html#af896627a943cda1cf4623a498bcf4687',1,'DS2482::status_t']]],
+  ['sd',['SD',['../d3/df2/unionDS2482_1_1status__t.html#ab2b711ddcf30e66ca01924ebf9407437',1,'DS2482::status_t']]],
+  ['sensor',['sensor',['../d3/d08/Si7021_8ino.html#a6c92e83da27ecea349c7a9e51b3742cb',1,'Si7021.ino']]],
+  ['size',['size',['../d1/db7/structiovec__t.html#aaecd17d0f007f544efa6f65b211cf8ca',1,'iovec_t']]],
+  ['spu',['SPU',['../dd/d98/unionDS2482_1_1config__t.html#af7158811770316e052a40c95d0bea78b',1,'DS2482::config_t']]]
 ];
