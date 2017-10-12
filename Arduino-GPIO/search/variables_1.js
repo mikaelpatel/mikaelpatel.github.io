@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ddr',['ddr',['../d7/d59/structGPIO_1_1gpio__reg__t.html#a923b8b0064434ffbe31816bd7b6e3f74',1,'GPIO::gpio_reg_t']]]
+  ['buf',['buf',['../d1/db7/structiovec__t.html#a9a9d9a989f6d3ce6f85ef1b84b44ba7f',1,'iovec_t']]],
+  ['button',['button',['../d2/d24/Benchmark_8ino.html#a7e6dcc2a24152eb8408999ee92c25729',1,'button():&#160;Benchmark.ino'],['../dd/d61/Button_8ino.html#aa957e8fbf455e2a79461eba5d66438bb',1,'button():&#160;Button.ino']]]
 ];

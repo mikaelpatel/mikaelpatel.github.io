@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['serial',['Serial',['../db/da5/classSoftware_1_1Serial.html#a694ade4d4f6390f2b2e509a23961b03a',1,'Software::Serial']]],
-  ['setup',['setup',['../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Benchmark.ino'],['../d7/d9d/Blink_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Blink.ino'],['../dd/d61/Button_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Button.ino'],['../d9/dd9/Pulse_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Pulse.ino'],['../d5/df7/ShiftIn_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftIn.ino'],['../d6/d1a/ShiftInOut_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftInOut.ino'],['../d1/d63/ShiftOut_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftOut.ino'],['../d8/d56/SoftwareSerial_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;SoftwareSerial.ino']]],
-  ['sfr',['SFR',['../d7/dde/classGPIO.html#af5aefd8d2cd0365fc5e8275a7bca3a9d',1,'GPIO::SFR()'],['../d7/dde/classGPIO.html#ad7ee0c04cfe951efe8db3e4e3c9c1451',1,'GPIO::SFR()']]],
-  ['srpi',['SRPI',['../d7/da4/classSRPI.html#a3cbca333ccc5d392f29e9bf26548bfbb',1,'SRPI']]],
-  ['srpio',['SRPIO',['../dc/d79/classSRPIO.html#a3dda5c16489a2132c56b6b853e255657',1,'SRPIO']]],
-  ['srpo',['SRPO',['../de/d8f/classSRPO.html#a053ec75a97204974ff9518813661ee33',1,'SRPO']]]
+  ['read',['read',['../d1/d19/classButton.html#ae2e2c123d93d921f4b6bc4e5d51e0bc9',1,'Button::read()'],['../d7/dde/classGPIO.html#a5ab3564d920a2f65aa1fd68ac4061146',1,'GPIO::read()'],['../d7/dde/classGPIO.html#a5ab3564d920a2f65aa1fd68ac4061146',1,'GPIO::read()'],['../db/da5/classSoftware_1_1Serial.html#ac25e583d87b35c880700ac81b414e0c6',1,'Software::Serial::read()'],['../d7/da4/classSRPI.html#a20233d907c6aaee41c2728c5f95bea41',1,'SRPI::read()'],['../dc/d79/classSRPIO.html#a0d4429173067a5ab92ed6c828c034258',1,'SRPIO::read()']]]
 ];

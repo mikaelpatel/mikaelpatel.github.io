@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['baseline',['baseline',['../d2/d24/Benchmark_8ino.html#a227241fe60e94562d708ee3cc6ca7f00',1,'Benchmark.ino']]],
-  ['button',['button',['../d2/d24/Benchmark_8ino.html#a7e6dcc2a24152eb8408999ee92c25729',1,'button():&#160;Benchmark.ino'],['../dd/d61/Button_8ino.html#aa957e8fbf455e2a79461eba5d66438bb',1,'button():&#160;Button.ino']]]
+  ['_5fbaseline',['_baseline',['../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d',1,'benchmark.h']]],
+  ['_5fbenchmark',['_benchmark',['../dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226',1,'benchmark.h']]],
+  ['_5fstart',['_start',['../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665',1,'benchmark.h']]]
 ];
