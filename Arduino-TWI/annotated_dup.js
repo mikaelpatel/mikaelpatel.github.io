@@ -4,7 +4,6 @@ var annotated_dup =
     [ "Software", "d3/db2/namespaceSoftware.html", "d3/db2/namespaceSoftware" ],
     [ "BMP085", "db/d37/classBMP085.html", "db/d37/classBMP085" ],
     [ "DS2482", "d4/d53/classDS2482.html", "d4/d53/classDS2482" ],
-    [ "iovec_t", "d1/db7/structiovec__t.html", "d1/db7/structiovec__t" ],
     [ "PCF8574", "d1/da6/classPCF8574.html", "d1/da6/classPCF8574" ],
     [ "PCF8574A", "d5/d23/classPCF8574A.html", "d5/d23/classPCF8574A" ],
     [ "scratchpad_t", "d1/d6c/structscratchpad__t.html", "d1/d6c/structscratchpad__t" ],

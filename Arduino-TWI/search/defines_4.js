@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trace',['TRACE',['../d0/d2e/DS2482_8ino.html#ad098207185ed56cc2d41984642ffb7a6',1,'DS2482.ino']]]
+  ['use_5fsoftware_5ftwi',['USE_SOFTWARE_TWI',['../dd/da4/Scanner_8ino.html#a0fdcb186961daa060956c0efc0661ede',1,'USE_SOFTWARE_TWI():&#160;Scanner.ino'],['../d3/d08/Si7021_8ino.html#a0fdcb186961daa060956c0efc0661ede',1,'USE_SOFTWARE_TWI():&#160;Si7021.ino']]]
 ];

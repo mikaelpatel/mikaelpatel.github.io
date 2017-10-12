@@ -16,7 +16,6 @@ var searchData=
   ['si7021_2eino',['Si7021.ino',['../d3/d08/Si7021_8ino.html',1,'']]],
   ['si70xx',['Si70XX',['../dd/d1e/classSi70XX.html',1,'Si70XX'],['../dd/d1e/classSi70XX.html#aaa89d0c403035af5508d88d0c4fa38c1',1,'Si70XX::Si70XX()']]],
   ['si70xx_2eh',['Si70XX.h',['../d3/d67/Si70XX_8h.html',1,'']]],
-  ['size',['size',['../d1/db7/structiovec__t.html#aaecd17d0f007f544efa6f65b211cf8ca',1,'iovec_t']]],
   ['skip_5from',['SKIP_ROM',['../d0/d2e/DS2482_8ino.html#a726ca809ffd3d67ab4b8476646f26635a7aadade4e18aa3fa43671e04a0338d01',1,'DS2482.ino']]],
   ['software',['Software',['../d3/db2/namespaceSoftware.html',1,'']]],
   ['spu',['SPU',['../dd/d98/unionDS2482_1_1config__t.html#af7158811770316e052a40c95d0bea78b',1,'DS2482::config_t']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['param_5ft',['param_t',['../dc/de8/structBMP085_1_1param__t.html',1,'BMP085']]],
-  ['pcf8574',['PCF8574',['../d1/da6/classPCF8574.html',1,'']]],
-  ['pcf8574a',['PCF8574A',['../d5/d23/classPCF8574A.html',1,'']]]
+  ['scratchpad_5ft',['scratchpad_t',['../d1/d6c/structscratchpad__t.html',1,'']]],
+  ['si70xx',['Si70XX',['../dd/d1e/classSi70XX.html',1,'']]],
+  ['status_5ft',['status_t',['../d3/df2/unionDS2482_1_1status__t.html',1,'DS2482']]]
 ];
