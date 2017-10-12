@@ -124,7 +124,7 @@ Inheritance diagram for Hardware::SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../da/d87/classHardware_1_1SPI__inherit__graph.png" border="0" usemap="#Hardware_1_1SPI_inherit__map" alt="Inheritance graph"/></div>
 <map name="Hardware_1_1SPI_inherit__map" id="Hardware_1_1SPI_inherit__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,168,259"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ prescale()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="6,5,113,259"/>
 </map>
 </div>
 <div class="dynheader">
@@ -132,7 +132,7 @@ Collaboration diagram for Hardware::SPI:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/d5c/classHardware_1_1SPI__coll__graph.png" border="0" usemap="#Hardware_1_1SPI_coll__map" alt="Collaboration graph"/></div>
 <map name="Hardware_1_1SPI_coll__map" id="Hardware_1_1SPI_coll__map">
-<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MIN_CLOCK_SCALE\l+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="5,5,168,259"/>
+<area shape="rect" id="node2" href="../../da/d8d/classSPI.html" title="{SPI\n|+ MAX_FREQ\l# m_busy\l|+ SPI()\l+ prescale()\l+ acquire()\l+ release()\l+ transfer()\l+ operator\&gt;\&gt;()\l+ operator\&lt;\&lt;()\l+ transfer()\l+ read()\l+ write()\l# lock()\l# unlock()\l}" alt="" coords="6,5,113,259"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -140,8 +140,10 @@ Collaboration diagram for Hardware::SPI:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38b42d9212b115433db927d355ab2238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238">SPI</a> ()</td></tr>
 <tr class="separator:a38b42d9212b115433db927d355ab2238"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a780978c715be1611803cca1c933e1834"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a780978c715be1611803cca1c933e1834">acquire</a> (uint8_t mode, uint8_t bitorder, uint8_t scale)</td></tr>
-<tr class="separator:a780978c715be1611803cca1c933e1834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5662a79a29c53c26be9eb635efaffc9a"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a5662a79a29c53c26be9eb635efaffc9a">prescale</a> (uint32_t frequency)</td></tr>
+<tr class="separator:a5662a79a29c53c26be9eb635efaffc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adde2825a258744fd699eb6ffdf0e7660"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#adde2825a258744fd699eb6ffdf0e7660">acquire</a> (uint8_t mode, uint8_t bitorder, uint8_t <a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a5662a79a29c53c26be9eb635efaffc9a">prescale</a>)</td></tr>
+<tr class="separator:adde2825a258744fd699eb6ffdf0e7660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d0e6a555efcce571777aaefe8b34cc"><td class="memItemLeft" align="right" valign="top">virtual uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a69d0e6a555efcce571777aaefe8b34cc">transfer</a> (uint8_t value)</td></tr>
 <tr class="separator:a69d0e6a555efcce571777aaefe8b34cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ddcec32990bde2d5c7337c48a7ab4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html#a99ddcec32990bde2d5c7337c48a7ab4b">transfer</a> (void *dest, const void *src, size_t count)</td></tr>
@@ -171,9 +173,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa29c7be50aa3b115d41cdfad641853b0"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">MIN_CLOCK_SCALE</a> = 2</td></tr>
-<tr class="separator:aa29c7be50aa3b115d41cdfad641853b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4650a6fc3d39fef0a063b2c929185650"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">MAX_FREQ</a> = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">MIN_CLOCK_SCALE</a></td></tr>
+<tr class="memitem:a4650a6fc3d39fef0a063b2c929185650"><td class="memItemLeft" align="right" valign="top">static const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">MAX_FREQ</a> = F_CPU / 2</td></tr>
 <tr class="separator:a4650a6fc3d39fef0a063b2c929185650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -299,13 +299,13 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../da/d8d/classSPI.html#a708df224799c2aa7d374a4728d9d7db8">SPI</a>.</p>
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#ac3a3570e7c66afc7e3357e934d17bc37">SPI</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html#l00044">44</a> of file <a class="el" href="../../d2/da5/Hardware_2SAM_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a780978c715be1611803cca1c933e1834"></a>
+<a class="anchor" id="adde2825a258744fd699eb6ffdf0e7660"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -328,7 +328,7 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>scale</em>&#160;</td>
+          <td class="paramname"><em>prescale</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -346,14 +346,14 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>of access. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">bitorder</td><td>of serial data. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>clock frequency. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">prescale</td><td>clock prescale. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../da/d8d/classSPI.html#a708df224799c2aa7d374a4728d9d7db8">SPI</a>.</p>
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#ac3a3570e7c66afc7e3357e934d17bc37">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00052">52</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00070">70</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Lock bus manager. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00234">234</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00252">252</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -411,7 +411,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00081">81</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00095">95</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -443,7 +443,42 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00070">70</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00084">84</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5662a79a29c53c26be9eb635efaffc9a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint8_t Hardware::SPI::prescale </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>frequency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculate bus prescale from device frequency. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">frequency</td><td>device access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>prescale </dd></dl>
+
+<p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a784019b97dee131599d87c1401b63272">SPI</a>.</p>
+
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00051">51</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -533,7 +568,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00121">121</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00130">130</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -561,7 +596,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f">Software::SPI&lt; MOSI_PIN, MISO_PIN, SCK_PIN &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00053">53</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00067">67</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -683,7 +718,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../da/d8d/classSPI.html#af406d08c6c5234634daaf1e590997e32">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00081">81</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -735,7 +770,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a83f8dcf090c3e97af7c1f0e228a4723f">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00098">98</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00107">107</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -761,7 +796,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Unlock bus manager. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00243">243</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00262">262</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -851,7 +886,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../da/d8d/classSPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf">SPI</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00142">142</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00151">151</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -875,7 +910,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Bus manager semaphore. </p>
 
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00229">229</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00247">247</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -898,7 +933,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Master Input Slave Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00167">167</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00176">176</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -921,7 +956,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Master Output Slave Input pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00164">164</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00173">173</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -944,7 +979,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Clock pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00161">161</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00170">170</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -967,7 +1002,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Slave select pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00158">158</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html#l00167">167</a> of file <a class="el" href="../../dc/d51/Hardware_2AVR_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1014,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const uint32_t SPI::MAX_FREQ = F_CPU / <a class="el" href="../../da/d8d/classSPI.html#aa29c7be50aa3b115d41cdfad641853b0">MIN_CLOCK_SCALE</a></td>
+          <td class="memname">const uint32_t SPI::MAX_FREQ = F_CPU / 2</td>
         </tr>
       </table>
   </td>
@@ -989,29 +1024,6 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Maximum clock frequency. </p>
-
-<p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00033">33</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa29c7be50aa3b115d41cdfad641853b0"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint8_t SPI::MIN_CLOCK_SCALE = 2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Minimum clock frequency scale. </p>
 
 <p>Definition at line <a class="el" href="../../df/d73/SPI_8h_source.html#l00030">30</a> of file <a class="el" href="../../df/d73/SPI_8h_source.html">SPI.h</a>.</p>
 
@@ -1026,7 +1038,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">SPI</a></li>
-    <li class="footer">Generated on Sun Oct 8 2017 21:36:32 for Arduino-SPI by
+    <li class="footer">Generated on Thu Oct 12 2017 23:16:10 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

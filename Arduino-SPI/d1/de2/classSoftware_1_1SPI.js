@@ -5,6 +5,7 @@ var classSoftware_1_1SPI =
     [ "lock", "d1/de2/classSoftware_1_1SPI.html#aebc22af02b49a1c32cda9d6f96229c7f", null ],
     [ "operator<<", "d1/de2/classSoftware_1_1SPI.html#a21e72e9557cd021e416efbfcf64f8dee", null ],
     [ "operator>>", "d1/de2/classSoftware_1_1SPI.html#a54acde13f4d0e2a179609391c2027875", null ],
+    [ "prescale", "d1/de2/classSoftware_1_1SPI.html#a784019b97dee131599d87c1401b63272", null ],
     [ "read", "d1/de2/classSoftware_1_1SPI.html#a800703e9e3bc12de9577e32e44988a78", null ],
     [ "release", "d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f", null ],
     [ "transfer", "d1/de2/classSoftware_1_1SPI.html#afea27059321cecddf3adda5f7b9687b5", null ],
@@ -17,6 +18,5 @@ var classSoftware_1_1SPI =
     [ "m_miso", "d1/de2/classSoftware_1_1SPI.html#af40117891b131791a07f95c3378ee0a1", null ],
     [ "m_mosi", "d1/de2/classSoftware_1_1SPI.html#ae6a868643fd70e0d8e513dc520af5109", null ],
     [ "m_sck", "d1/de2/classSoftware_1_1SPI.html#a89191d9085f37f57fdba34f127d74a31", null ],
-    [ "MAX_FREQ", "d1/de2/classSoftware_1_1SPI.html#a4650a6fc3d39fef0a063b2c929185650", null ],
-    [ "MIN_CLOCK_SCALE", "d1/de2/classSoftware_1_1SPI.html#aa29c7be50aa3b115d41cdfad641853b0", null ]
+    [ "MAX_FREQ", "d1/de2/classSoftware_1_1SPI.html#a4650a6fc3d39fef0a063b2c929185650", null ]
 ];

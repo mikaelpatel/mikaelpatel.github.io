@@ -116,13 +116,14 @@ $(document).ready(function(){initNavTree('d5/df7/ShiftIn_8ino.html','../../');})
 <div class="textblock"><code>#include &quot;GPIO.h&quot;</code><br />
 <code>#include &quot;SRPI.h&quot;</code><br />
 <code>#include &quot;SPI.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">Software/SPI.h</a>&quot;</code><br />
+<code>#include &quot;benchmark.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d36/Hardware_2SPI_8h_source.html">Hardware/SPI.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ShiftIn.ino:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/de5/ShiftIn_8ino__incl.png" border="0" usemap="#examples_2ShiftIn_2ShiftIn_8ino" alt=""/></div>
 <map name="examples_2ShiftIn_2ShiftIn_8ino" id="examples_2ShiftIn_2ShiftIn_8ino">
-<area shape="rect" id="node5" href="../../dc/dbb/Software_2SPI_8h.html" title="Software/SPI.h" alt="" coords="191,80,301,107"/>
+<area shape="rect" id="node6" href="../../d4/d36/Hardware_2SPI_8h.html" title="Hardware/SPI.h" alt="" coords="387,80,501,107"/>
 </map>
 </div>
 </div>
@@ -130,8 +131,6 @@ Include dependency graph for ShiftIn.ino:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:adc58bc95f1a1e044149d907287cb79a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#adc58bc95f1a1e044149d907287cb79a1">USE_SOFTWARE_SPI</a></td></tr>
-<tr class="separator:adc58bc95f1a1e044149d907287cb79a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c48e5d83a8ef6757e77a2c4f90e874d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>&#160;&#160;&#160;MSBFIRST</td></tr>
 <tr class="separator:a8c48e5d83a8ef6757e77a2c4f90e874d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11338fccf824b29757c2b23edb0f690f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#a11338fccf824b29757c2b23edb0f690f">MOSI_PIN</a>&#160;&#160;&#160;11</td></tr>
@@ -152,9 +151,9 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a545d39fae72355bf30e756ce6aa62a2f"><td class="memItemLeft" align="right" valign="top">GPIO&lt; BOARD::D10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#a545d39fae72355bf30e756ce6aa62a2f">ss</a></td></tr>
 <tr class="separator:a545d39fae72355bf30e756ce6aa62a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac803679f5c7e5d1bdd8927a7638326f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">Software::SPI</a>&lt; BOARD::D11, BOARD::D12, BOARD::D13 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4">spi</a></td></tr>
-<tr class="separator:ac803679f5c7e5d1bdd8927a7638326f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5258be81b4718a7ef0d8e80e7123b58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">SPI::Device</a>&lt; 0, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>, <a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">SPI::MAX_FREQ</a>, BOARD::D10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#a5258be81b4718a7ef0d8e80e7123b58b">dev</a> (<a class="el" href="../../d1/d63/ShiftOut_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4">spi</a>)</td></tr>
+<tr class="memitem:ac0e1be38ad3a41ab7c94305d36d31023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">Hardware::SPI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023">spi</a></td></tr>
+<tr class="separator:ac0e1be38ad3a41ab7c94305d36d31023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5258be81b4718a7ef0d8e80e7123b58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">SPI::Device</a>&lt; 0, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>, <a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">SPI::MAX_FREQ</a>, BOARD::D10 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#a5258be81b4718a7ef0d8e80e7123b58b">dev</a> (<a class="el" href="../../d1/d63/ShiftOut_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023">spi</a>)</td></tr>
 <tr class="separator:a5258be81b4718a7ef0d8e80e7123b58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af11dbe15b34bd1e8dff41868d7943113"><td class="memItemLeft" align="right" valign="top">SRPI&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>, BOARD::D12, BOARD::D13 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df7/ShiftIn_8ino.html#af11dbe15b34bd1e8dff41868d7943113">srpi</a></td></tr>
 <tr class="separator:af11dbe15b34bd1e8dff41868d7943113"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,7 +183,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00038">38</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00040">40</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -198,7 +197,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00037">37</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00039">39</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -212,21 +211,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00039">39</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adc58bc95f1a1e044149d907287cb79a1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define USE_SOFTWARE_SPI</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00006">6</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00041">41</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -244,7 +229,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00048">48</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00053">53</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -261,7 +246,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00042">42</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00044">44</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -271,24 +256,24 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">SPI::Device</a>&lt;0, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>, <a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">SPI::MAX_FREQ</a>, BOARD::D10&gt; dev(<a class="el" href="../../d1/d63/ShiftOut_8ino.html#ac803679f5c7e5d1bdd8927a7638326f4">spi</a>)</td>
+          <td class="memname"><a class="el" href="../../d5/d8d/classSPI_1_1Device.html">SPI::Device</a>&lt;0, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a8c48e5d83a8ef6757e77a2c4f90e874d">BITORDER</a>, <a class="el" href="../../da/d8d/classSPI.html#a4650a6fc3d39fef0a063b2c929185650">SPI::MAX_FREQ</a>, BOARD::D10&gt; dev(<a class="el" href="../../d1/d63/ShiftOut_8ino.html#ac0e1be38ad3a41ab7c94305d36d31023">spi</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="ac803679f5c7e5d1bdd8927a7638326f4"></a>
+<a class="anchor" id="ac0e1be38ad3a41ab7c94305d36d31023"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">Software::SPI</a>&lt;BOARD::D11, BOARD::D12, BOARD::D13&gt; spi</td>
+          <td class="memname"><a class="el" href="../../d9/db9/classHardware_1_1SPI.html">Hardware::SPI</a> spi</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00020">20</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00029">29</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -302,7 +287,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00022">22</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00031">31</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -316,7 +301,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00019">19</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html#l00028">28</a> of file <a class="el" href="../../d5/df7/ShiftIn_8ino_source.html">ShiftIn.ino</a>.</p>
 
 </div>
 </div>
@@ -326,7 +311,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_7bc3442bf75c7387d015bca600bd78ec.html">ShiftIn</a></li><li class="navelem"><a class="el" href="../../d5/df7/ShiftIn_8ino.html">ShiftIn.ino</a></li>
-    <li class="footer">Generated on Sun Oct 8 2017 21:36:32 for Arduino-SPI by
+    <li class="footer">Generated on Thu Oct 12 2017 23:16:10 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

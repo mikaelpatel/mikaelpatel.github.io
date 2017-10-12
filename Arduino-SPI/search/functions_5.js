@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['setup',['setup',['../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;Benchmark.ino'],['../d5/df7/ShiftIn_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftIn.ino'],['../d1/d63/ShiftOut_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;ShiftOut.ino']]],
-  ['spi',['SPI',['../d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238',1,'Hardware::SPI::SPI()'],['../d9/db9/classHardware_1_1SPI.html#a38b42d9212b115433db927d355ab2238',1,'Hardware::SPI::SPI()'],['../d1/de2/classSoftware_1_1SPI.html#a8edf7c4f3ebb9f42972c396ffcbc8032',1,'Software::SPI::SPI()'],['../da/d8d/classSPI.html#a2ba081c29fbdecc704c6bf00b24d5205',1,'SPI::SPI()']]]
+  ['read',['read',['../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e',1,'Hardware::SPI::read(void *buf, size_t count)'],['../d9/db9/classHardware_1_1SPI.html#a0fd70c07aadea66eb0e2a6e0ba4bfa5e',1,'Hardware::SPI::read(void *buf, size_t count)'],['../da/d8d/classSPI.html#a800703e9e3bc12de9577e32e44988a78',1,'SPI::read()'],['../d5/d8d/classSPI_1_1Device.html#ac228d803780060c8e0ba325cc8be5170',1,'SPI::Device::read()']]],
+  ['release',['release',['../d1/de2/classSoftware_1_1SPI.html#a7b8e93719d90db69f8fdbef8a55fbd3f',1,'Software::SPI::release()'],['../da/d8d/classSPI.html#af227706716d29057dbab74f43465ca32',1,'SPI::release()'],['../d5/d8d/classSPI_1_1Device.html#a131393b556e6591565dc7e8cfad4213a',1,'SPI::Device::release()']]]
 ];
