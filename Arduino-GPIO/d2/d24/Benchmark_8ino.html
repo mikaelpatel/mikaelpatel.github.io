@@ -128,6 +128,8 @@ Macros</h2></td></tr>
 <tr class="separator:ab4553be4db9860d940f81d7447173b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc2ad14f0789907024ac765711ffd3da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#abc2ad14f0789907024ac765711ffd3da">BUTTON_PIN</a>&#160;&#160;&#160;12</td></tr>
 <tr class="separator:abc2ad14f0789907024ac765711ffd3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee5fee79556de9d32c290d9c9537969"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#afee5fee79556de9d32c290d9c9537969">BENCHMARK</a>(descr)</td></tr>
+<tr class="separator:afee5fee79556de9d32c290d9c9537969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -144,8 +146,38 @@ Variables</h2></td></tr>
 <tr class="separator:a7e6dcc2a24152eb8408999ee92c25729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc52b46aca2195a82434767345fd45e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/classGPIO.html">GPIO</a>&lt; <a class="el" href="../../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a7d830e58cf1b33a4206a3ed961595c40">BOARD::D11</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a6bc52b46aca2195a82434767345fd45e">ss</a></td></tr>
 <tr class="separator:a6bc52b46aca2195a82434767345fd45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61eb63d26b2fa6c2971603ceccffb14b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b">start</a></td></tr>
+<tr class="separator:a61eb63d26b2fa6c2971603ceccffb14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227241fe60e94562d708ee3cc6ca7f00"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a227241fe60e94562d708ee3cc6ca7f00">baseline</a></td></tr>
+<tr class="separator:a227241fe60e94562d708ee3cc6ca7f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="afee5fee79556de9d32c290d9c9537969"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BENCHMARK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">descr</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">Serial.print(F(descr <span class="stringliteral">&quot;: &quot;</span>));                                            \</div><div class="line">  Serial.flush();                                                       <a class="code" href="../../d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b">\</a></div><div class="line"><a class="code" href="../../d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b">  start</a> = micros();                                                     \</div><div class="line">  for (<span class="keywordtype">int</span> _i = 1; _i; _i--, Serial.println(micros() - <a class="code" href="../../d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b">start</a> - <a class="code" href="../../d2/d24/Benchmark_8ino.html#a227241fe60e94562d708ee3cc6ca7f00">baseline</a>))</div><div class="ttc" id="Benchmark_8ino_html_a227241fe60e94562d708ee3cc6ca7f00"><div class="ttname"><a href="../../d2/d24/Benchmark_8ino.html#a227241fe60e94562d708ee3cc6ca7f00">baseline</a></div><div class="ttdeci">uint32_t baseline</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/Benchmark_8ino_source.html#l00020">Benchmark.ino:20</a></div></div>
+<div class="ttc" id="Benchmark_8ino_html_a61eb63d26b2fa6c2971603ceccffb14b"><div class="ttname"><a href="../../d2/d24/Benchmark_8ino.html#a61eb63d26b2fa6c2971603ceccffb14b">start</a></div><div class="ttdeci">uint32_t start</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/Benchmark_8ino_source.html#l00020">Benchmark.ino:20</a></div></div>
+</div><!-- fragment --><p>Benchmark support macros. Use in the form: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;BENCHMARK(&quot;description&quot;) statement</div></div><!-- fragment --><p> Prints description message and time to execute the statement in micro-seconds. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">descr</td><td>description of the benchmark. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00031">31</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="abc2ad14f0789907024ac765711ffd3da"></a>
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +188,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00014">14</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00016">16</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -170,7 +202,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00013">13</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00015">15</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -188,7 +220,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00027">27</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00057">57</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -205,11 +237,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00017">17</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00037">37</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a227241fe60e94562d708ee3cc6ca7f00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t baseline</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00020">20</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a7e6dcc2a24152eb8408999ee92c25729"></a>
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +266,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00011">11</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00013">13</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -234,7 +280,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00010">10</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00012">12</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -248,7 +294,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00012">12</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00014">14</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61eb63d26b2fa6c2971603ceccffb14b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Benchmark timestamp variables. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00020">20</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -258,7 +319,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_57865dd379b9744e2314c42289a7a619.html">Benchmark</a></li><li class="navelem"><a class="el" href="../../d2/d24/Benchmark_8ino.html">Benchmark.ino</a></li>
-    <li class="footer">Generated on Mon Oct 9 2017 02:02:42 for Arduino-GPIO by
+    <li class="footer">Generated on Thu Oct 12 2017 14:45:18 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

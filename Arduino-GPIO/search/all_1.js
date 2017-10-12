@@ -1,6 +1,8 @@
 var searchData=
 [
+  ['baseline',['baseline',['../d2/d24/Benchmark_8ino.html#a227241fe60e94562d708ee3cc6ca7f00',1,'Benchmark.ino']]],
   ['begin',['begin',['../db/da5/classSoftware_1_1Serial.html#aacf522e85b27f8edbccfdb1d187fdea5',1,'Software::Serial']]],
+  ['benchmark',['BENCHMARK',['../d2/d24/Benchmark_8ino.html#afee5fee79556de9d32c290d9c9537969',1,'Benchmark.ino']]],
   ['benchmark_2eino',['Benchmark.ino',['../d2/d24/Benchmark_8ino.html',1,'']]],
   ['blink_2eino',['Blink.ino',['../d7/d9d/Blink_8ino.html',1,'']]],
   ['board',['BOARD',['../d4/dbd/classBOARD.html',1,'']]],
