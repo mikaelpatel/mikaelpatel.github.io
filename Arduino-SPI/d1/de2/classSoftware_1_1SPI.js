@@ -14,7 +14,7 @@ var classSoftware_1_1SPI =
     [ "write", "d1/de2/classSoftware_1_1SPI.html#a3848c8f7c74e59e9f14ebf50a4ce8dcf", null ],
     [ "m_bitorder", "d1/de2/classSoftware_1_1SPI.html#a2d1d8734593bd915dd7fca8020ae3de9", null ],
     [ "m_busy", "d1/de2/classSoftware_1_1SPI.html#a30194941106fe205740b689611707532", null ],
-    [ "m_cpha", "d1/de2/classSoftware_1_1SPI.html#a266c1f262bb983d938f7d3ffd4a52d5c", null ],
+    [ "m_cpha", "d1/de2/classSoftware_1_1SPI.html#aea0f72fc6e734ab57217be70620042f1", null ],
     [ "m_miso", "d1/de2/classSoftware_1_1SPI.html#af40117891b131791a07f95c3378ee0a1", null ],
     [ "m_mosi", "d1/de2/classSoftware_1_1SPI.html#ae6a868643fd70e0d8e513dc520af5109", null ],
     [ "m_sck", "d1/de2/classSoftware_1_1SPI.html#a89191d9085f37f57fdba34f127d74a31", null ],

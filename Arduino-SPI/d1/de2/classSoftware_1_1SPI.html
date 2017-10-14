@@ -179,8 +179,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae6a868643fd70e0d8e513dc520af5109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af40117891b131791a07f95c3378ee0a1"><td class="memItemLeft" align="right" valign="top">GPIO&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929">MISO_PIN</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#af40117891b131791a07f95c3378ee0a1">m_miso</a></td></tr>
 <tr class="separator:af40117891b131791a07f95c3378ee0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266c1f262bb983d938f7d3ffd4a52d5c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a266c1f262bb983d938f7d3ffd4a52d5c">m_cpha</a></td></tr>
-<tr class="separator:a266c1f262bb983d938f7d3ffd4a52d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0f72fc6e734ab57217be70620042f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#aea0f72fc6e734ab57217be70620042f1">m_cpha</a></td></tr>
+<tr class="separator:aea0f72fc6e734ab57217be70620042f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1d8734593bd915dd7fca8020ae3de9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html#a2d1d8734593bd915dd7fca8020ae3de9">m_bitorder</a></td></tr>
 <tr class="separator:a2d1d8734593bd915dd7fca8020ae3de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30194941106fe205740b689611707532"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d8d/classSPI.html#a30194941106fe205740b689611707532">m_busy</a></td></tr>
@@ -658,7 +658,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Serial data bitorder flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00126">126</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00128">128</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -685,7 +685,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 
 </div>
 </div>
-<a class="anchor" id="a266c1f262bb983d938f7d3ffd4a52d5c"></a>
+<a class="anchor" id="aea0f72fc6e734ab57217be70620042f1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -695,7 +695,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">Software::SPI</a>&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a11338fccf824b29757c2b23edb0f690f">MOSI_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929">MISO_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a">SCK_PIN</a> &gt;::m_cpha</td>
+          <td class="memname">bool <a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">Software::SPI</a>&lt; <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a11338fccf824b29757c2b23edb0f690f">MOSI_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#aecb75580e6d96b71a64123aee5bd3929">MISO_PIN</a>, <a class="el" href="../../d1/d63/ShiftOut_8ino.html#a01153037fca70cfac03c8d67f17d766a">SCK_PIN</a> &gt;::m_cpha</td>
         </tr>
       </table>
   </td>
@@ -706,7 +706,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Clock phase flag. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00123">123</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00125">125</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -731,7 +731,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Master Input Slave Output pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00120">120</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00122">122</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -756,7 +756,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Master Output Slave Input pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00117">117</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00119">119</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -781,7 +781,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 </div><div class="memdoc">
 <p>Clock pin. </p>
 
-<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00114">114</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html#l00116">116</a> of file <a class="el" href="../../dc/dbb/Software_2SPI_8h_source.html">SPI.h</a>.</p>
 
 </div>
 </div>
@@ -817,7 +817,7 @@ template&lt;BOARD::pin_t MOSI_PIN, BOARD::pin_t MISO_PIN, BOARD::pin_t SCK_PIN&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../d1/de2/classSoftware_1_1SPI.html">SPI</a></li>
-    <li class="footer">Generated on Thu Oct 12 2017 23:16:10 for Arduino-SPI by
+    <li class="footer">Generated on Sat Oct 14 2017 03:10:55 for Arduino-SPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
