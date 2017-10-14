@@ -7,5 +7,5 @@ digraph "examples/Alarm" {
   dir_2ac0c8aa260d699f7a3c5d8ce1687c7e [shape=box, label="Alarm", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2ac0c8aa260d699f7a3c5d8ce1687c7e.html"];
   }
   dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
-  dir_2ac0c8aa260d699f7a3c5d8ce1687c7e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000001_000007.html"];
+  dir_2ac0c8aa260d699f7a3c5d8ce1687c7e->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000001_000019.html"];
 }

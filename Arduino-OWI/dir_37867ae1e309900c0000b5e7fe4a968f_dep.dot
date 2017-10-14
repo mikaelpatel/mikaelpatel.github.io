@@ -1,0 +1,11 @@
+digraph "examples/ATtiny/Search" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e3548b98a238b359892c99435f102440 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ATtiny" fontname="Helvetica", fontsize="10", URL="dir_e3548b98a238b359892c99435f102440.html"]
+  dir_37867ae1e309900c0000b5e7fe4a968f [shape=box, label="Search", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_37867ae1e309900c0000b5e7fe4a968f.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_37867ae1e309900c0000b5e7fe4a968f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000014_000019.html"];
+}

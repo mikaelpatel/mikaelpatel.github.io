@@ -1,0 +1,11 @@
+digraph "examples/ATtiny/Scanner" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e3548b98a238b359892c99435f102440 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ATtiny" fontname="Helvetica", fontsize="10", URL="dir_e3548b98a238b359892c99435f102440.html"]
+  dir_842e04b64f4c7748ef4e6703a3e5dbf0 [shape=box, label="Scanner", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_842e04b64f4c7748ef4e6703a3e5dbf0.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_842e04b64f4c7748ef4e6703a3e5dbf0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000011_000019.html"];
+}
