@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"dc/de8/structBMP085_1_1param__t.html#a95653a25afde5246d6398fe1c41b10fc":[2,0,2,0,2],
-"dc/de8/structBMP085_1_1param__t.html#a9df6fb828eaa7b8b7c62c1813fa67806":[2,0,2,0,4],
 "dc/de8/structBMP085_1_1param__t.html#abaebbd12fb80bfc1bd38653c9645c9ba":[2,0,2,0,7],
 "dc/de8/structBMP085_1_1param__t.html#ac0bc6811355077addfaa145886d202f8":[2,0,2,0,6],
 "dd/d1d/classHardware_1_1TWI.html":[2,0,0,0],

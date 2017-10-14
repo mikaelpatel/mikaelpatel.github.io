@@ -1,8 +1,6 @@
 var DS2482_8ino =
 [
     [ "scratchpad_t", "d1/d6c/structscratchpad__t.html", "d1/d6c/structscratchpad__t" ],
-    [ "ASSERT", "d0/d2e/DS2482_8ino.html#a28301f76c53b643912da7c538f74e2c6", null ],
-    [ "TRACE", "d0/d2e/DS2482_8ino.html#ad098207185ed56cc2d41984642ffb7a6", null ],
     [ "SEARCH_ROM", "d0/d2e/DS2482_8ino.html#a726ca809ffd3d67ab4b8476646f26635a3fd1c22ab8be802749f22a3202ea548f", null ],
     [ "READ_ROM", "d0/d2e/DS2482_8ino.html#a726ca809ffd3d67ab4b8476646f26635a440b78da4b83b06eaa5b02fd7e2d81c5", null ],
     [ "MATCH_ROM", "d0/d2e/DS2482_8ino.html#a726ca809ffd3d67ab4b8476646f26635ae50aca2852a3bcbf63888da57e28ed21", null ],

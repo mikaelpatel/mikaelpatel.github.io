@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['assert',['ASSERT',['../d0/d2e/DS2482_8ino.html#a28301f76c53b643912da7c538f74e2c6',1,'DS2482.ino']]]
+  ['charbits',['CHARBITS',['../d3/d67/Si70XX_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'Si70XX.h']]]
 ];

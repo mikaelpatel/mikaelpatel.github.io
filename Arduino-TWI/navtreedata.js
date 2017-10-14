@@ -33,7 +33,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"dc/de8/structBMP085_1_1param__t.html#a95653a25afde5246d6398fe1c41b10fc"
+"dc/de8/structBMP085_1_1param__t.html#abaebbd12fb80bfc1bd38653c9645c9ba"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
