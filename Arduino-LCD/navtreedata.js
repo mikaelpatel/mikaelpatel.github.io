@@ -31,7 +31,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"d4/dfc/Thermometer_8ino.html#afe461d27b9c48d5921c00d521181f12f",
+"d6/d02/classLCD4884.html",
 "dd/df4/classLCD_1_1PP7W.html#a268af9c614de7c4693946987896f1abb"
 ];
 

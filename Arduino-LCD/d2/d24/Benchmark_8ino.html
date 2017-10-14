@@ -115,8 +115,8 @@ $(document).ready(function(){initNavTree('d2/d24/Benchmark_8ino.html','../../');
 <div class="contents">
 <div class="textblock"><code>#include &quot;GPIO.h&quot;</code><br />
 <code>#include &quot;TWI.h&quot;</code><br />
-<code>#include &quot;Hardware/TWI.h&quot;</code><br />
 <code>#include &quot;Software/TWI.h&quot;</code><br />
+<code>#include &quot;Hardware/TWI.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/dac/LCD_8h_source.html">LCD.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/ddd/PCD8544_8h_source.html">Driver/PCD8544.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d98/HD44780_8h_source.html">Driver/HD44780.h</a>&quot;</code><br />
@@ -156,8 +156,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac7ae841c7cb82af8afbd2267149cc738"><td class="memItemLeft" align="right" valign="top">Hardware::TWI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#ac7ae841c7cb82af8afbd2267149cc738">twi</a> (100000UL)</td></tr>
-<tr class="separator:ac7ae841c7cb82af8afbd2267149cc738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae62418cf87ed1f04d6063996ddd7efb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#ae62418cf87ed1f04d6063996ddd7efb8">fill_screen</a> ()</td></tr>
 <tr class="separator:ae62418cf87ed1f04d6063996ddd7efb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
@@ -167,10 +165,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a65fe0e35c124286b8ee147eab2048f9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d46/classLCD_1_1GY__IICLCD.html">LCD::GY_IICLCD</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a65fe0e35c124286b8ee147eab2048f9d">io</a> (<a class="el" href="../../d4/dfc/Thermometer_8ino.html#abb72d6e19446d478a77c464cb55172c7">twi</a>)</td></tr>
-<tr class="separator:a65fe0e35c124286b8ee147eab2048f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d4cd744e4e9b22579a64e2a7d724678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dd2/classHD44780.html">HD44780</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678">lcd</a> (<a class="el" href="../../d4/dfc/Thermometer_8ino.html#a65fe0e35c124286b8ee147eab2048f9d">io</a>)</td></tr>
-<tr class="separator:a0d4cd744e4e9b22579a64e2a7d724678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b47a392b340a5e9ce7b3a5ca211c100"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d94/classLCD__Keypad.html">LCD_Keypad</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100">lcd</a></td></tr>
+<tr class="separator:a1b47a392b340a5e9ce7b3a5ca211c100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a06490f969e4bf338140f5e5aaf050efd"></a>
@@ -186,10 +182,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                            \</div><div class="line">    Serial.flush();                             \</div><div class="line">    start = micros();                           \</div><div class="line">    expr;                                       \</div><div class="line">    stop = micros();                            \</div><div class="line">    Serial.print(nr++);                         \</div><div class="line">    Serial.print(F(<span class="stringliteral">&quot;: &quot;</span> #expr <span class="stringliteral">&quot;: &quot;</span>));           \</div><div class="line">    Serial.println(stop - start);               \</div><div class="line">    delay(500);                                 <a class="code" href="../../d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678">\</a></div><div class="line"><a class="code" href="../../d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678">    lcd</a>.<a class="code" href="../../dd/dd2/classHD44780.html#a5123f34281f8b8a3163c84844624a83d">display_clear</a>();                        \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="classHD44780_html_a5123f34281f8b8a3163c84844624a83d"><div class="ttname"><a href="../../dd/dd2/classHD44780.html#a5123f34281f8b8a3163c84844624a83d">HD44780::display_clear</a></div><div class="ttdeci">virtual void display_clear()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d98/HD44780_8h_source.html#l00212">HD44780.h:212</a></div></div>
-<div class="ttc" id="Benchmark_8ino_html_a0d4cd744e4e9b22579a64e2a7d724678"><div class="ttname"><a href="../../d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678">lcd</a></div><div class="ttdeci">HD44780 lcd(io)</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                            \</div><div class="line">    Serial.flush();                             \</div><div class="line">    start = micros();                           \</div><div class="line">    expr;                                       \</div><div class="line">    stop = micros();                            \</div><div class="line">    Serial.print(nr++);                         \</div><div class="line">    Serial.print(F(<span class="stringliteral">&quot;: &quot;</span> #expr <span class="stringliteral">&quot;: &quot;</span>));           \</div><div class="line">    Serial.println(stop - start);               \</div><div class="line">    delay(500);                                 <a class="code" href="../../d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100">\</a></div><div class="line"><a class="code" href="../../d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100">    lcd</a>.<a class="code" href="../../dd/dd2/classHD44780.html#a5123f34281f8b8a3163c84844624a83d">display_clear</a>();                        \</div><div class="line">  } <span class="keywordflow">while</span> (0)</div><div class="ttc" id="Benchmark_8ino_html_a1b47a392b340a5e9ce7b3a5ca211c100"><div class="ttname"><a href="../../d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100">lcd</a></div><div class="ttdeci">LCD_Keypad lcd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/Benchmark_8ino_source.html#l00034">Benchmark.ino:34</a></div></div>
+<div class="ttc" id="classHD44780_html_a5123f34281f8b8a3163c84844624a83d"><div class="ttname"><a href="../../dd/dd2/classHD44780.html#a5123f34281f8b8a3163c84844624a83d">HD44780::display_clear</a></div><div class="ttdeci">virtual void display_clear()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d98/HD44780_8h_source.html#l00212">HD44780.h:212</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00035">35</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00036">36</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -207,7 +203,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00048">48</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00049">49</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -224,7 +220,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00061">61</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00062">62</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -241,48 +237,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00055">55</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac7ae841c7cb82af8afbd2267149cc738"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Hardware::TWI twi </td>
-          <td>(</td>
-          <td class="paramtype">100000UL&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00056">56</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a65fe0e35c124286b8ee147eab2048f9d"></a>
+<a class="anchor" id="a1b47a392b340a5e9ce7b3a5ca211c100"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d46/classLCD_1_1GY__IICLCD.html">LCD::GY_IICLCD</a> io(<a class="el" href="../../d4/dfc/Thermometer_8ino.html#abb72d6e19446d478a77c464cb55172c7">twi</a>)</td>
+          <td class="memname"><a class="el" href="../../d4/d94/classLCD__Keypad.html">LCD_Keypad</a> lcd</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a0d4cd744e4e9b22579a64e2a7d724678"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/dd2/classHD44780.html">HD44780</a> lcd(<a class="el" href="../../d4/dfc/Thermometer_8ino.html#a65fe0e35c124286b8ee147eab2048f9d">io</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../d2/d24/Benchmark_8ino_source.html#l00034">34</a> of file <a class="el" href="../../d2/d24/Benchmark_8ino_source.html">Benchmark.ino</a>.</p>
 
 </div>
 </div>
@@ -292,7 +262,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_d28a4824dc47e487b107a5db32ef43c4.html">examples</a></li><li class="navelem"><a class="el" href="../../dir_57865dd379b9744e2314c42289a7a619.html">Benchmark</a></li><li class="navelem"><a class="el" href="../../d2/d24/Benchmark_8ino.html">Benchmark.ino</a></li>
-    <li class="footer">Generated on Sun Oct 8 2017 22:54:10 for Arduino-LCD by
+    <li class="footer">Generated on Sat Oct 14 2017 03:06:11 for Arduino-LCD by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

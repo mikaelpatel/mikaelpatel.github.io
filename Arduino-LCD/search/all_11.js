@@ -8,5 +8,5 @@ var searchData=
   ['text_5fscroll_5fleft_5fadjust',['text_scroll_left_adjust',['../dd/dd2/classHD44780.html#a4952984ad7400e20d2ef5bfe24207b3e',1,'HD44780']]],
   ['text_5fscroll_5fright_5fadjust',['text_scroll_right_adjust',['../dd/dd2/classHD44780.html#a2ae5e14983f0844d9a6c04c1998ab651',1,'HD44780']]],
   ['thermometer_2eino',['Thermometer.ino',['../d4/dfc/Thermometer_8ino.html',1,'']]],
-  ['twi',['twi',['../d0/d32/Clock_8ino.html#ad21d079e31d1cca74670c1629828f9d6',1,'twi():&#160;Clock.ino'],['../d2/d24/Benchmark_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'twi(100000UL):&#160;Benchmark.ino'],['../de/d5e/Demo_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'twi(100000UL):&#160;Demo.ino'],['../d4/dfc/Thermometer_8ino.html#abb72d6e19446d478a77c464cb55172c7',1,'twi(400000UL):&#160;Thermometer.ino']]]
+  ['twi',['twi',['../d0/d32/Clock_8ino.html#a16ace878033483694996407cd01cab91',1,'twi():&#160;Clock.ino'],['../de/d5e/Demo_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'twi(100000UL):&#160;Demo.ino'],['../d4/dfc/Thermometer_8ino.html#ac7ae841c7cb82af8afbd2267149cc738',1,'twi(100000UL):&#160;Thermometer.ino']]]
 ];

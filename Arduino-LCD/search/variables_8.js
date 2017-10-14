@@ -15,6 +15,7 @@ var searchData=
   ['m_5flatest',['m_latest',['../d0/dba/classMAX72XX.html#a62eb16fe8ce445f313176408cf37ab14',1,'MAX72XX']]],
   ['m_5fmode',['m_mode',['../dd/dd2/classHD44780.html#a51dead561087c68b5431c6a9d35fe92b',1,'HD44780::m_mode()'],['../d3/d6f/classLCD_1_1Device.html#a26784fdc875108acd67a586281439fff',1,'LCD::Device::m_mode()']]],
   ['m_5foffset',['m_offset',['../dd/dd2/classHD44780.html#a60126309a0e64381fe4aeac6aa1e7270',1,'HD44780']]],
+  ['m_5fos',['m_os',['../d7/da4/classLCD_1_1Debug.html#ae5437413ad7fbb5951b0196362c7c858',1,'LCD::Debug']]],
   ['m_5fport',['m_port',['../d9/def/classLCD_1_1DFRobot__IIC.html#a041697d48c026a6abedef8c5dc842739',1,'LCD::DFRobot_IIC::m_port()'],['../d6/d6c/classLCD_1_1MJKDZ.html#af64bfe8e12a7eb76c3480c0794480b42',1,'LCD::MJKDZ::m_port()'],['../de/df4/classLCD_1_1SR3W.html#aea33ffbeeecec97abcd7f398c5a67a6f',1,'LCD::SR3W::m_port()']]],
   ['m_5frs',['m_rs',['../dd/df4/classLCD_1_1PP7W.html#aafc510ea34c0ec15113e0076381e6e87',1,'LCD::PP7W::m_rs()'],['../d4/db0/classLCD_1_1SR4W.html#ab34b8c97aab915780fce4e7652ff6d70',1,'LCD::SR4W::m_rs()']]],
   ['m_5frst',['m_rst',['../d6/d02/classLCD4884.html#a6e5b9de6bc44e75d7591edadb0bb8179',1,'LCD4884']]],

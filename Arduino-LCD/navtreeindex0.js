@@ -5,10 +5,10 @@ var NAVTREEINDEX0 =
 "classes.html":[2,1],
 "d0/d32/Clock_8ino.html":[3,0,0,1,0],
 "d0/d32/Clock_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,1,0,4],
+"d0/d32/Clock_8ino.html#a16ace878033483694996407cd01cab91":[3,0,0,1,0,5],
 "d0/d32/Clock_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,1,0,2],
 "d0/d32/Clock_8ino.html#a65fe0e35c124286b8ee147eab2048f9d":[3,0,0,1,0,3],
 "d0/d32/Clock_8ino.html#a7eb0258692009625e1672a9e1964a350":[3,0,0,1,0,1],
-"d0/d32/Clock_8ino.html#ad21d079e31d1cca74670c1629828f9d6":[3,0,0,1,0,5],
 "d0/d32/Clock_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,1,0,0],
 "d0/d32/Clock_8ino_source.html":[3,0,0,1,0],
 "d0/dba/classMAX72XX.html":[2,0,4],
@@ -91,10 +91,8 @@ var NAVTREEINDEX0 =
 "d1/dad/namespaceLCD.html":[2,0,0],
 "d2/d24/Benchmark_8ino.html":[3,0,0,0,0],
 "d2/d24/Benchmark_8ino.html#a06490f969e4bf338140f5e5aaf050efd":[3,0,0,0,0,0],
-"d2/d24/Benchmark_8ino.html#a0d4cd744e4e9b22579a64e2a7d724678":[3,0,0,0,0,6],
+"d2/d24/Benchmark_8ino.html#a1b47a392b340a5e9ce7b3a5ca211c100":[3,0,0,0,0,4],
 "d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,0,0,3],
-"d2/d24/Benchmark_8ino.html#a65fe0e35c124286b8ee147eab2048f9d":[3,0,0,0,0,5],
-"d2/d24/Benchmark_8ino.html#ac7ae841c7cb82af8afbd2267149cc738":[3,0,0,0,0,4],
 "d2/d24/Benchmark_8ino.html#ae62418cf87ed1f04d6063996ddd7efb8":[3,0,0,0,0,1],
 "d2/d24/Benchmark_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,0,0,2],
 "d2/d24/Benchmark_8ino_source.html":[3,0,0,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "d4/dfc/Thermometer_8ino.html#a65fe0e35c124286b8ee147eab2048f9d":[3,0,0,4,0,4],
 "d4/dfc/Thermometer_8ino.html#a7bf606ed3113c48745e35749699cdb26":[3,0,0,4,0,6],
 "d4/dfc/Thermometer_8ino.html#a7dfa7837bab75697b8605e257ea68058":[3,0,0,4,0,1],
-"d4/dfc/Thermometer_8ino.html#abb72d6e19446d478a77c464cb55172c7":[3,0,0,4,0,3]
+"d4/dfc/Thermometer_8ino.html#ac7ae841c7cb82af8afbd2267149cc738":[3,0,0,4,0,3],
+"d4/dfc/Thermometer_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,4,0,0],
+"d4/dfc/Thermometer_8ino_source.html":[3,0,0,4,0]
 };
