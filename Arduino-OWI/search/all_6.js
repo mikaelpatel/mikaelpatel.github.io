@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hardware',['Hardware',['../dd/d27/namespaceHardware.html',1,'']]],
-  ['high_5ftrigger',['high_trigger',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a3d71c9cea093bf3acd0b106fd0a257fd',1,'DS18B20::scratchpad_t']]]
+  ['get_5ftrigger',['get_trigger',['../da/dc6/classDS18B20.html#aba28369b59470f1b530a45cbc61b42dd',1,'DS18B20']]]
 ];

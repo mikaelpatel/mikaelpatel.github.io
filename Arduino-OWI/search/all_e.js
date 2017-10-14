@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['use_5fsoftware_5fowi',['USE_SOFTWARE_OWI',['../df/d65/Alarm_8ino.html#a0cde997b06d2e92df28aae52abe9d0ab',1,'USE_SOFTWARE_OWI():&#160;Alarm.ino'],['../de/d2e/DS18B20_8ino.html#a0cde997b06d2e92df28aae52abe9d0ab',1,'USE_SOFTWARE_OWI():&#160;DS18B20.ino'],['../dd/da4/Scanner_8ino.html#a0cde997b06d2e92df28aae52abe9d0ab',1,'USE_SOFTWARE_OWI():&#160;Scanner.ino'],['../dd/d18/Search_8ino.html#a0cde997b06d2e92df28aae52abe9d0ab',1,'USE_SOFTWARE_OWI():&#160;Search.ino']]]
+  ['temperature',['temperature',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a8270b0c46aa5984a7ed16875801a4aee',1,'DS18B20::scratchpad_t::temperature()'],['../da/dc6/classDS18B20.html#ab73aa89ab63f7fd94fdf95b4e96029fb',1,'DS18B20::temperature()']]],
+  ['triplet',['triplet',['../d3/d22/classHardware_1_1OWI.html#aa19943e081b9e40260ff665fd73d27a9',1,'Hardware::OWI::triplet()'],['../d7/d90/classOWI.html#a94642d46462c0fb7f7c69d1785e18071',1,'OWI::triplet()']]]
 ];

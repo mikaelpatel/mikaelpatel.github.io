@@ -141,19 +141,19 @@ Collaboration diagram for Hardware::OWI:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae441131fd8ca8cd8159f5b1bf4e95290"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a> = -1, 
-<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a02edd924b451d01d2bc30e294a455f0d">ERROR</a> = -1, 
-<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a33c7ef9da9af1a29724205a00da5263e">LAST</a> = ROMBITS
+<tr class="memitem:ae441131fd8ca8cd8159f5b1bf4e95290"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a67165b5f95ba99fc2ca1f25fc904d6cf">SEARCH_ROM</a> = 0xF0, 
+<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4699d501523897ead0e8e8cdca4a769c">READ_ROM</a> = 0x33, 
+<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4df3ab7ec6e4d1dce0dc3300dd0e7629">MATCH_ROM</a> = 0x55, 
+<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a13a2b7bd603c8b2fdcb70e0af2b6d423">SKIP_ROM</a> = 0xCC, 
+<br />
+&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805">ALARM_SEARCH</a> = 0xEC
+<br />
  }</td></tr>
 <tr class="separator:ae441131fd8ca8cd8159f5b1bf4e95290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2acca13a46ffefb818317605b498d35"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a67165b5f95ba99fc2ca1f25fc904d6cf">SEARCH_ROM</a> = 0xF0, 
-<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4699d501523897ead0e8e8cdca4a769c">READ_ROM</a> = 0x33, 
-<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4df3ab7ec6e4d1dce0dc3300dd0e7629">MATCH_ROM</a> = 0x55, 
-<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a13a2b7bd603c8b2fdcb70e0af2b6d423">SKIP_ROM</a> = 0xCC, 
-<br />
-&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a37fdeca070e4931fbf129f7657975805">ALARM_SEARCH</a> = 0xEC
-<br />
+<tr class="memitem:ae2acca13a46ffefb818317605b498d35"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a> = -1, 
+<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a02edd924b451d01d2bc30e294a455f0d">ERROR</a> = -1, 
+<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a33c7ef9da9af1a29724205a00da5263e">LAST</a> = ROMBITS
  }</td></tr>
 <tr class="separator:ae2acca13a46ffefb818317605b498d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -177,9 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6beb76a983ca25b2cb6e166d5dfa110b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9ff6fa238d55441da99dee11aec288a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#af9ff6fa238d55441da99dee11aec288a">read</a> (void *buf, size_t count)</td></tr>
 <tr class="separator:af9ff6fa238d55441da99dee11aec288a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a004419df398d4fa9977b989681c8647e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a004419df398d4fa9977b989681c8647e">write</a> (uint8_t value, const void *buf, size_t count)</td></tr>
-<tr class="separator:a004419df398d4fa9977b989681c8647e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecac50b0d8eb690536c5dda6f271fa19"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#aecac50b0d8eb690536c5dda6f271fa19">search_rom</a> (uint8_t family, uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
+<tr class="memitem:ac8c9cebcea8de8619d4aa054a67d78ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#ac8c9cebcea8de8619d4aa054a67d78ed">write</a> (uint8_t cmd, const void *buf, size_t count)</td></tr>
+<tr class="separator:ac8c9cebcea8de8619d4aa054a67d78ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecac50b0d8eb690536c5dda6f271fa19"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#aecac50b0d8eb690536c5dda6f271fa19">search_rom</a> (uint8_t family, uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
 <tr class="separator:aecac50b0d8eb690536c5dda6f271fa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40490a0bd3edb2422fb2bc2ef77f8474"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a40490a0bd3edb2422fb2bc2ef77f8474">read_rom</a> (uint8_t *code)</td></tr>
 <tr class="separator:a40490a0bd3edb2422fb2bc2ef77f8474"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,7 +187,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33307e25e12076f81e0f415d438062ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a5bf3ad423315606d9f5a7acbc70c5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#ac4a5bf3ad423315606d9f5a7acbc70c5">skip_rom</a> ()</td></tr>
 <tr class="separator:ac4a5bf3ad423315606d9f5a7acbc70c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a891b237aabcf367875cedefe7fe7768a"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a891b237aabcf367875cedefe7fe7768a">alarm_search</a> (uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
+<tr class="memitem:a891b237aabcf367875cedefe7fe7768a"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a891b237aabcf367875cedefe7fe7768a">alarm_search</a> (uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
 <tr class="separator:a891b237aabcf367875cedefe7fe7768a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -204,7 +204,7 @@ Static Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0e91f3dc8944870dc0f878957e61ab28"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a0e91f3dc8944870dc0f878957e61ab28">search</a> (uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
+<tr class="memitem:a0e91f3dc8944870dc0f878957e61ab28"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/classOWI.html#a0e91f3dc8944870dc0f878957e61ab28">search</a> (uint8_t *code, int8_t last=<a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a>)</td></tr>
 <tr class="separator:a0e91f3dc8944870dc0f878957e61ab28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -238,20 +238,26 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Search position and return values. </p>
+<p>Standard 1-Wire ROM Commands. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2"></a>FIRST&#160;</td><td class="fielddoc">
-<p>Start position of search. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a67165b5f95ba99fc2ca1f25fc904d6cf"></a>SEARCH_ROM&#160;</td><td class="fielddoc">
+<p>Initiate device search. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a02edd924b451d01d2bc30e294a455f0d"></a>ERROR&#160;</td><td class="fielddoc">
-<p>Error during search. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a4699d501523897ead0e8e8cdca4a769c"></a>READ_ROM&#160;</td><td class="fielddoc">
+<p>Read device family code and serial number. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a33c7ef9da9af1a29724205a00da5263e"></a>LAST&#160;</td><td class="fielddoc">
-<p>Last position, search completed. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a4df3ab7ec6e4d1dce0dc3300dd0e7629"></a>MATCH_ROM&#160;</td><td class="fielddoc">
+<p>Select device with 64-bit rom code. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a13a2b7bd603c8b2fdcb70e0af2b6d423"></a>SKIP_ROM&#160;</td><td class="fielddoc">
+<p>Broadcast or single device. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805"></a>ALARM_SEARCH&#160;</td><td class="fielddoc">
+<p>Initiate device alarm search. </p>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00125">125</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00128">128</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -272,26 +278,20 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Standard ROM Commands. </p>
+<p>Search position and return values. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a67165b5f95ba99fc2ca1f25fc904d6cf"></a>SEARCH_ROM&#160;</td><td class="fielddoc">
-<p>Initiate device search. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2"></a>FIRST&#160;</td><td class="fielddoc">
+<p>Start position of search. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a4699d501523897ead0e8e8cdca4a769c"></a>READ_ROM&#160;</td><td class="fielddoc">
-<p>Read device family code and serial number. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a02edd924b451d01d2bc30e294a455f0d"></a>ERROR&#160;</td><td class="fielddoc">
+<p>Error during search. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a4df3ab7ec6e4d1dce0dc3300dd0e7629"></a>MATCH_ROM&#160;</td><td class="fielddoc">
-<p>Select device with 64-bit rom code. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a13a2b7bd603c8b2fdcb70e0af2b6d423"></a>SKIP_ROM&#160;</td><td class="fielddoc">
-<p>Broadcast or single device. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a37fdeca070e4931fbf129f7657975805"></a>ALARM_SEARCH&#160;</td><td class="fielddoc">
-<p>Initiate device alarm search. </p>
+<tr><td class="fieldname"><a class="anchor" id="ae2acca13a46ffefb818317605b498d35a33c7ef9da9af1a29724205a00da5263e"></a>LAST&#160;</td><td class="fielddoc">
+<p>Last position, search completed. </p>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00256">256</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00154">154</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -357,7 +357,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
+          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -380,7 +380,7 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00194">194</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00223">223</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -448,9 +448,9 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Optimized Dallas (now Maxim) iButton 8-bit CRC calculation. Polynomial: x^8 + x^5 + x^4 + 1 (0x8C) Initial value: 0x0 See <a href="http://www.maxim-ic.com/appnotes.cfm/appnote_number/27">http://www.maxim-ic.com/appnotes.cfm/appnote_number/27</a> </p>
+<p>Optimized Dallas/Maxim iButton 8-bit Cyclic Redundancy Check calculation. Polynomial: x^8 + x^5 + x^4 + 1 (0x8C). See <a href="http://www.maxim-ic.com/appnotes.cfm/appnote_number/27">http://www.maxim-ic.com/appnotes.cfm/appnote_number/27</a> </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00269">269</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00141">141</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +560,7 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00169">169</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00198">198</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -630,16 +630,16 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Read given number of bytes from one wire bus (device) to given buffer. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Read given number of bytes from one wire bus (device) to given buffer. Calculates 8-bit Cyclic Redundancy Check sum and return result of check. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to read. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true(1) if correctly read otherwise false(0). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true(1) if check sum is correct otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00061">61</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00062">62</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -672,7 +672,7 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00155">155</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00184">184</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -721,7 +721,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
+          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -744,7 +744,7 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00292">292</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00293">293</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +771,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
+          <td class="paramname"><em>last</em> = <code><a class="el" href="../../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2">FIRST</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -795,7 +795,7 @@ Static Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00139">139</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00168">168</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -821,7 +821,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Skip device rom for boardcast or single device access. <a class="el" href="../../d0/d7f/classOWI_1_1Device.html">Device</a> specific function command should follow. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00181">181</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00210">210</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -905,7 +905,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a004419df398d4fa9977b989681c8647e"></a>
+<a class="anchor" id="ac8c9cebcea8de8619d4aa054a67d78ed"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -916,7 +916,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">void OWI::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
+          <td class="paramname"><em>cmd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -942,16 +942,16 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Write the given value and given number of bytes from buffer to the one wire bus (device). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Write the given command and given number of bytes from buffer to the one wire bus (device). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>to write. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cmd</td><td>command to write. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>buffer pointer. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">count</td><td>number of bytes to write. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00089">89</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00090">90</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -997,7 +997,7 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Maximum number of reset retries. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00283">283</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00284">284</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -1056,7 +1056,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d27/namespaceHardware.html">Hardware</a></li><li class="navelem"><a class="el" href="../../d3/d22/classHardware_1_1OWI.html">OWI</a></li>
-    <li class="footer">Generated on Tue Oct 10 2017 17:57:18 for Arduino-OWI by
+    <li class="footer">Generated on Sat Oct 14 2017 03:07:48 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

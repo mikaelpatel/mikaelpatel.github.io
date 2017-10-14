@@ -11,11 +11,13 @@ digraph "src/Software/OWI.h"
   Node4 [label="examples/DS18B20/DS18B20.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d2e/DS18B20_8ino.html"];
   Node1 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="examples/DS1990A/DS1990A.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d26/DS1990A_8ino.html"];
+  Node5 [label="examples/Benchmark\l/Benchmark.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d24/Benchmark_8ino.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="examples/Scanner/Scanner.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da4/Scanner_8ino.html"];
+  Node6 [label="examples/DS1990A/DS1990A.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d26/DS1990A_8ino.html"];
   Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="examples/Search/Search.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d18/Search_8ino.html"];
+  Node7 [label="examples/Scanner/Scanner.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da4/Scanner_8ino.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="examples/Search/Search.ino",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d18/Search_8ino.html"];
 }
