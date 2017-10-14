@@ -27,7 +27,7 @@ var time_8h =
     [ "NOVEMBER", "de/df7/time_8h.html#adc29c2ff13d900c2f185ee95427fb06ca3356ccc34e34421d48e6c4b1e68515fe", null ],
     [ "DECEMBER", "de/df7/time_8h.html#adc29c2ff13d900c2f185ee95427fb06ca823acaf8f57efe16924d4233a9547c03", null ],
     [ "difftime", "de/df7/time_8h.html#a1732c46d47837951d399755899af5240", null ],
-    [ "get_zone", "de/df7/time_8h.html#a7d8c0d02b798a8e578ac5fc5d1102fdb", null ],
+    [ "get_zone", "de/df7/time_8h.html#a8f2114fa6aeec4749440fd006ef65550", null ],
     [ "gmtime_r", "de/df7/time_8h.html#a51fb768287b76c01d4032140557b236c", null ],
     [ "is_leap_year", "de/df7/time_8h.html#a70762b48818b0b5bfde86973cbdd6c86", null ],
     [ "isotime_r", "de/df7/time_8h.html#a9b615b3fdaa04c3289a5293d5b7e4a1b", null ],
