@@ -1,0 +1,17 @@
+<map id="examples/ATtiny" name="examples/ATtiny">
+<area shape="rect" id="node2" href="dir_858d6b255900d41d0f49830923f6094d.html" title="Benchmark" alt="" coords="624,63,712,111"/>
+<area shape="rect" id="node9" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="240,159,312,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000002_000017.html" title="2" alt="" coords="327,183,335,198"/>
+<area shape="rect" id="node3" href="dir_6502a67d2303f2860949488d9f9e6e7b.html" title="Blink" alt="" coords="528,63,600,111"/>
+<area shape="rect" id="node4" href="dir_3334a46ec419e104387b64beca107537.html" title="Button" alt="" coords="432,63,504,111"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000006_000017.html" title="2" alt="" coords="328,170,336,184"/>
+<area shape="rect" id="node5" href="dir_0d60fb41f256b61f5d82d27562c41a5d.html" title="Pulse" alt="" coords="336,63,408,111"/>
+<area shape="rect" id="node6" href="dir_74ff2507a53a606459d4b556808111a8.html" title="ShiftIn" alt="" coords="240,63,312,111"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000010_000017.html" title="3" alt="" coords="280,133,288,148"/>
+<area shape="rect" id="node7" href="dir_12887babe1b4db91b4823a6d24181b12.html" title="ShiftInOut" alt="" coords="134,63,215,111"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000012_000017.html" title="3" alt="" coords="240,133,248,147"/>
+<area shape="rect" id="node8" href="dir_5cff7040f54433b6fd0a8cbee65dc0c0.html" title="ShiftOut" alt="" coords="37,63,109,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000014_000017.html" title="3" alt="" coords="220,154,228,169"/>
+<area shape="rect" id="clust2" href="dir_e3548b98a238b359892c99435f102440.html" alt="" coords="27,52,819,121"/>
+<area shape="rect" id="clust1" href="dir_d28a4824dc47e487b107a5db32ef43c4.html" title="examples" alt="" coords="16,16,829,132"/>
+</map>

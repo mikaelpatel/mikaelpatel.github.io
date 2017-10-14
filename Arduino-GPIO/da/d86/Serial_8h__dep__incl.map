@@ -1,3 +1,8 @@
 <map id="src/Software/Serial.h" name="src/Software/Serial.h">
-<area shape="rect" id="node2" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="5,80,172,121"/>
+<area shape="rect" id="node2" href="$de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html" title="examples/ATtiny/Benchmark\l/Benchmark.ino" alt="" coords="5,80,196,121"/>
+<area shape="rect" id="node3" href="$d3/ddd/ATtiny_2Button_2Button_8ino.html" title="examples/ATtiny/Button\l/Button.ino" alt="" coords="221,80,383,121"/>
+<area shape="rect" id="node4" href="$dd/d65/ATtiny_2ShiftIn_2ShiftIn_8ino.html" title="examples/ATtiny/ShiftIn\l/ShiftIn.ino" alt="" coords="407,80,570,121"/>
+<area shape="rect" id="node5" href="$d3/d0e/ATtiny_2ShiftInOut_2ShiftInOut_8ino.html" title="examples/ATtiny/ShiftInOut\l/ShiftInOut.ino" alt="" coords="595,80,777,121"/>
+<area shape="rect" id="node6" href="$d4/df3/ATtiny_2ShiftOut_2ShiftOut_8ino.html" title="examples/ATtiny/ShiftOut\l/ShiftOut.ino" alt="" coords="801,80,973,121"/>
+<area shape="rect" id="node7" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="997,80,1164,121"/>
 </map>

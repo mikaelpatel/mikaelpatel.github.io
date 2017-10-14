@@ -1,12 +1,19 @@
 <map id="src/Hardware/SAM/Board.h" name="src/Hardware/SAM/Board.h">
-<area shape="rect" id="node2" href="$d0/d16/Hardware_2SAM_2GPIO_8h.html" title="src/Hardware/SAM/GPIO.h" alt="" coords="588,80,769,107"/>
-<area shape="rect" id="node3" href="$d7/dae/Serial_8h.html" title="src/Software/Serial.h" alt="" coords="5,162,149,189"/>
-<area shape="rect" id="node4" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="49,244,215,285"/>
-<area shape="rect" id="node5" href="$d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="225,155,373,196"/>
-<area shape="rect" id="node6" href="$d7/d9d/Blink_8ino.html" title="examples/Blink/Blink.ino" alt="" coords="397,162,563,189"/>
-<area shape="rect" id="node7" href="$dd/d61/Button_8ino.html" title="examples/Button/Button.ino" alt="" coords="587,162,770,189"/>
-<area shape="rect" id="node8" href="$d9/dd9/Pulse_8ino.html" title="examples/Pulse/Pulse.ino" alt="" coords="795,162,968,189"/>
-<area shape="rect" id="node9" href="$d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="993,162,1175,189"/>
-<area shape="rect" id="node10" href="$d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="1200,155,1341,196"/>
-<area shape="rect" id="node11" href="$d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="1365,162,1568,189"/>
+<area shape="rect" id="node2" href="$d0/d16/Hardware_2SAM_2GPIO_8h.html" title="src/Hardware/SAM/GPIO.h" alt="" coords="911,80,1093,107"/>
+<area shape="rect" id="node3" href="$d7/dae/Serial_8h.html" title="src/Software/Serial.h" alt="" coords="515,162,659,189"/>
+<area shape="rect" id="node4" href="$de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html" title="examples/ATtiny/Benchmark\l/Benchmark.ino" alt="" coords="5,244,196,285"/>
+<area shape="rect" id="node5" href="$d3/ddd/ATtiny_2Button_2Button_8ino.html" title="examples/ATtiny/Button\l/Button.ino" alt="" coords="221,244,383,285"/>
+<area shape="rect" id="node6" href="$dd/d65/ATtiny_2ShiftIn_2ShiftIn_8ino.html" title="examples/ATtiny/ShiftIn\l/ShiftIn.ino" alt="" coords="407,244,570,285"/>
+<area shape="rect" id="node7" href="$d3/d0e/ATtiny_2ShiftInOut_2ShiftInOut_8ino.html" title="examples/ATtiny/ShiftInOut\l/ShiftInOut.ino" alt="" coords="595,244,777,285"/>
+<area shape="rect" id="node8" href="$d4/df3/ATtiny_2ShiftOut_2ShiftOut_8ino.html" title="examples/ATtiny/ShiftOut\l/ShiftOut.ino" alt="" coords="801,244,973,285"/>
+<area shape="rect" id="node9" href="$d8/d56/SoftwareSerial_8ino.html" title="examples/SoftwareSerial\l/SoftwareSerial.ino" alt="" coords="997,244,1164,285"/>
+<area shape="rect" id="node10" href="$d4/dce/ATtiny_2Blink_2Blink_8ino.html" title="examples/ATtiny/Blink\l/Blink.ino" alt="" coords="836,155,989,196"/>
+<area shape="rect" id="node11" href="$d5/def/ATtiny_2Pulse_2Pulse_8ino.html" title="examples/ATtiny/Pulse\l/Pulse.ino" alt="" coords="1014,155,1171,196"/>
+<area shape="rect" id="node12" href="$db/d3f/Benchmark_2Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="1196,155,1344,196"/>
+<area shape="rect" id="node13" href="$dd/d76/Blink_2Blink_8ino.html" title="examples/Blink/Blink.ino" alt="" coords="1369,162,1534,189"/>
+<area shape="rect" id="node14" href="$dc/d5c/Button_2Button_8ino.html" title="examples/Button/Button.ino" alt="" coords="1559,162,1741,189"/>
+<area shape="rect" id="node15" href="$df/dd2/Pulse_2Pulse_8ino.html" title="examples/Pulse/Pulse.ino" alt="" coords="1766,162,1939,189"/>
+<area shape="rect" id="node16" href="$d9/d24/ShiftIn_2ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="1964,162,2147,189"/>
+<area shape="rect" id="node17" href="$d9/dea/ShiftInOut_2ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="2171,155,2313,196"/>
+<area shape="rect" id="node18" href="$df/d77/ShiftOut_2ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="2337,162,2539,189"/>
 </map>

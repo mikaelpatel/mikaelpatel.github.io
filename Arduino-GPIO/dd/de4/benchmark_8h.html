@@ -118,10 +118,14 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/db1/benchmark_8h__dep__incl.png" border="0" usemap="#src_2benchmark_8hdep" alt=""/></div>
 <map name="src_2benchmark_8hdep" id="src_2benchmark_8hdep">
-<area shape="rect" id="node2" href="../../d2/d24/Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="5,80,153,121"/>
-<area shape="rect" id="node3" href="../../d5/df7/ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="177,87,360,114"/>
-<area shape="rect" id="node4" href="../../d6/d1a/ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="385,80,526,121"/>
-<area shape="rect" id="node5" href="../../d1/d63/ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="550,87,753,114"/>
+<area shape="rect" id="node2" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html" title="examples/ATtiny/Benchmark\l/Benchmark.ino" alt="" coords="5,80,196,121"/>
+<area shape="rect" id="node3" href="../../dd/d65/ATtiny_2ShiftIn_2ShiftIn_8ino.html" title="examples/ATtiny/ShiftIn\l/ShiftIn.ino" alt="" coords="221,80,383,121"/>
+<area shape="rect" id="node4" href="../../d3/d0e/ATtiny_2ShiftInOut_2ShiftInOut_8ino.html" title="examples/ATtiny/ShiftInOut\l/ShiftInOut.ino" alt="" coords="408,80,591,121"/>
+<area shape="rect" id="node5" href="../../d4/df3/ATtiny_2ShiftOut_2ShiftOut_8ino.html" title="examples/ATtiny/ShiftOut\l/ShiftOut.ino" alt="" coords="615,80,787,121"/>
+<area shape="rect" id="node6" href="../../db/d3f/Benchmark_2Benchmark_8ino.html" title="examples/Benchmark\l/Benchmark.ino" alt="" coords="811,80,959,121"/>
+<area shape="rect" id="node7" href="../../d9/d24/ShiftIn_2ShiftIn_8ino.html" title="examples/ShiftIn/ShiftIn.ino" alt="" coords="983,87,1165,114"/>
+<area shape="rect" id="node8" href="../../d9/dea/ShiftInOut_2ShiftInOut_8ino.html" title="examples/ShiftInOut\l/ShiftInOut.ino" alt="" coords="1190,80,1331,121"/>
+<area shape="rect" id="node9" href="../../df/d77/ShiftOut_2ShiftOut_8ino.html" title="examples/ShiftOut/ShiftOut.ino" alt="" coords="1355,87,1558,114"/>
 </map>
 </div>
 </div>
@@ -183,18 +187,20 @@ License</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">Serial.print(F(msg <span class="stringliteral">&quot;: &quot;</span>));                                              \</div><div class="line">  Serial.flush();                                                       <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">\</a></div><div class="line"><a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">  _start</a> = micros();                                                    \</div><div class="line">  for (<span class="keywordtype">int</span> _i = 1; _i; _i--, <a class="code" href="../../dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226">_benchmark</a> = micros() - <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a> - <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a>,\</div><div class="line">         Serial.println(_benchmark / (<span class="keywordtype">float</span>) scale, 3))                 \</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> _j = scale; _j; _j--, <a class="code" href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a>())</div><div class="ttc" id="benchmark_8h_html_ad6cb650a662c1adf2620e98474051226"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226">_benchmark</a></div><div class="ttdeci">static uint32_t _benchmark</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00024">benchmark.h:24</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">Serial</a>.print(F(msg <span class="stringliteral">&quot;: &quot;</span>));                                              <a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">\</a></div><div class="line"><a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">  Serial</a>.flush();                                                       <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">\</a></div><div class="line"><a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">  _start</a> = micros();                                                    \</div><div class="line">  for (<span class="keywordtype">int</span> _i = 1; _i; _i--, <a class="code" href="../../dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226">_benchmark</a> = micros() - <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a> - <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a>,<a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">\</a></div><div class="line"><a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">	 Serial</a>.println(_benchmark / (<span class="keywordtype">float</span>) scale, 3))                        \</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> _j = scale; _j; _j--, <a class="code" href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a>())</div><div class="ttc" id="benchmark_8h_html_ad6cb650a662c1adf2620e98474051226"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226">_benchmark</a></div><div class="ttdeci">static uint32_t _benchmark</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00024">benchmark.h:24</a></div></div>
 <div class="ttc" id="benchmark_8h_html_ab194d6a1222672c314ea39b78aad8fd0"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a></div><div class="ttdeci">void noop()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00028">benchmark.h:28</a></div></div>
 <div class="ttc" id="benchmark_8h_html_aaae9c5608af481f3d3b95a5343139665"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a></div><div class="ttdeci">static uint32_t _start</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
+<div class="ttc" id="ATtiny_2Benchmark_2Benchmark_8ino_html_abfc93f39451aa419814accd59dafa13a"><div class="ttname"><a href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">Serial</a></div><div class="ttdeci">Software::Serial&lt; BOARD::D0 &gt; Serial</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino_source.html#l00005">Benchmark.ino:5</a></div></div>
 <div class="ttc" id="benchmark_8h_html_a78931913ec1adbfe8b4f4010ebff205d"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a></div><div class="ttdeci">static uint32_t _baseline</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
 </div><!-- fragment --><p>Benchmark support macro. Use in the form: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;BENCHMARK(&quot;description&quot;) statement</div></div><!-- fragment --><p> Prints description message and time to execute the statement in micro-seconds. The maximum resolution depends on micros() and is typically 4 us (F_CPU is 16 MHz). Message strings are stored in program memory. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td>description of the benchmark. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>number of block executions. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00050">50</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00052">52</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
 
 </div>
 </div>
@@ -211,12 +217,18 @@ License</h1>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">Serial.flush();                                                 <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">\</a></div><div class="line"><a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">  _start</a> = micros();                                                    \</div><div class="line">  for (<span class="keywordtype">int</span> _i = 1; _i; _i--, <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a> = micros() - <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a> - <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a>) \</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> _j = scale; _j; _j--, <a class="code" href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a>())</div><div class="ttc" id="benchmark_8h_html_ab194d6a1222672c314ea39b78aad8fd0"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a></div><div class="ttdeci">void noop()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00028">benchmark.h:28</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">Serial</a>.flush();                                                 <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">\</a></div><div class="line"><a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">  _start</a> = micros();                                                    \</div><div class="line">  for (<span class="keywordtype">int</span> _i = 1; _i; _i--, <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a> = micros() - <a class="code" href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a> - <a class="code" href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a>) \</div><div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> _j = scale; _j; _j--, <a class="code" href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a>())</div><div class="ttc" id="benchmark_8h_html_ab194d6a1222672c314ea39b78aad8fd0"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a></div><div class="ttdeci">void noop()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00028">benchmark.h:28</a></div></div>
 <div class="ttc" id="benchmark_8h_html_aaae9c5608af481f3d3b95a5343139665"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a></div><div class="ttdeci">static uint32_t _start</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
+<div class="ttc" id="ATtiny_2Benchmark_2Benchmark_8ino_html_abfc93f39451aa419814accd59dafa13a"><div class="ttname"><a href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abfc93f39451aa419814accd59dafa13a">Serial</a></div><div class="ttdeci">Software::Serial&lt; BOARD::D0 &gt; Serial</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino_source.html#l00005">Benchmark.ino:5</a></div></div>
 <div class="ttc" id="benchmark_8h_html_a78931913ec1adbfe8b4f4010ebff205d"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a></div><div class="ttdeci">static uint32_t _baseline</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
-</div><!-- fragment --><p>Calculate and set benchmark baseline. Should be called in <a class="el" href="../../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a>. </p>
+</div><!-- fragment --><p>Calculate and set benchmark baseline. Should be called in <a class="el" href="../../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">scale</td><td>number of block executions. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00033">33</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00034">34</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
 
 </div>
 </div>
@@ -240,7 +252,7 @@ License</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00068">68</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00070">70</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
 
 </div>
 </div>
@@ -345,7 +357,7 @@ License</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dd/de4/benchmark_8h.html">benchmark.h</a></li>
-    <li class="footer">Generated on Sat Oct 14 2017 03:04:38 for Arduino-GPIO by
+    <li class="footer">Generated on Sat Oct 14 2017 16:03:22 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

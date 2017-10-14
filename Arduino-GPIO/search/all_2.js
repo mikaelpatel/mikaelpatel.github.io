@@ -5,9 +5,11 @@ var searchData=
   ['begin',['begin',['../db/da5/classSoftware_1_1Serial.html#aacf522e85b27f8edbccfdb1d187fdea5',1,'Software::Serial']]],
   ['benchmark',['BENCHMARK',['../dd/de4/benchmark_8h.html#a701f687b306a88873f11c4ba0b766403',1,'benchmark.h']]],
   ['benchmark_2eh',['benchmark.h',['../dd/de4/benchmark_8h.html',1,'']]],
-  ['benchmark_2eino',['Benchmark.ino',['../d2/d24/Benchmark_8ino.html',1,'']]],
+  ['benchmark_2eino',['Benchmark.ino',['../db/d3f/Benchmark_2Benchmark_8ino.html',1,'']]],
+  ['benchmark_2eino',['Benchmark.ino',['../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html',1,'']]],
   ['benchmark_5fbaseline',['BENCHMARK_BASELINE',['../dd/de4/benchmark_8h.html#ac900b31bdce3cb2b95e1178015aa7d0f',1,'benchmark.h']]],
-  ['blink_2eino',['Blink.ino',['../d7/d9d/Blink_8ino.html',1,'']]],
+  ['blink_2eino',['Blink.ino',['../d4/dce/ATtiny_2Blink_2Blink_8ino.html',1,'']]],
+  ['blink_2eino',['Blink.ino',['../dd/d76/Blink_2Blink_8ino.html',1,'']]],
   ['board',['BOARD',['../d4/dbd/classBOARD.html',1,'']]],
   ['board_2eh',['Board.h',['../dc/dc6/AVR_2Board_8h.html',1,'']]],
   ['board_2eh',['Board.h',['../d4/dbe/SAM_2Board_8h.html',1,'']]],
@@ -17,8 +19,9 @@ var searchData=
   ['bswap32',['bswap32',['../dc/df1/bswap_8h.html#a3e376c247d19427f3c01311e816f2574',1,'bswap.h']]],
   ['bswap64',['bswap64',['../dc/df1/bswap_8h.html#a69935d8b7d0238c6d27f46ed1c5d4050',1,'bswap.h']]],
   ['buf',['buf',['../d1/db7/structiovec__t.html#a9a9d9a989f6d3ce6f85ef1b84b44ba7f',1,'iovec_t']]],
-  ['button',['Button',['../d1/d19/classButton.html',1,'Button&lt; PIN, DEBOUNCE &gt;'],['../d1/d19/classButton.html#a4d65cf5907b7d11d31865aac6a1153af',1,'Button::Button()'],['../d2/d24/Benchmark_8ino.html#a7e6dcc2a24152eb8408999ee92c25729',1,'button():&#160;Benchmark.ino'],['../dd/d61/Button_8ino.html#aa957e8fbf455e2a79461eba5d66438bb',1,'button():&#160;Button.ino']]],
+  ['button',['Button',['../d1/d19/classButton.html',1,'Button&lt; PIN, DEBOUNCE &gt;'],['../d1/d19/classButton.html#a4d65cf5907b7d11d31865aac6a1153af',1,'Button::Button()'],['../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#a0c22d1c7bf24880baaabee69dffdd21b',1,'button():&#160;Benchmark.ino'],['../d3/ddd/ATtiny_2Button_2Button_8ino.html#ac0f0ede64e606dbbecf01c0470e320c8',1,'button():&#160;Button.ino'],['../db/d3f/Benchmark_2Benchmark_8ino.html#a7e6dcc2a24152eb8408999ee92c25729',1,'button():&#160;Benchmark.ino'],['../dc/d5c/Button_2Button_8ino.html#aa957e8fbf455e2a79461eba5d66438bb',1,'button():&#160;Button.ino']]],
   ['button_2eh',['Button.h',['../d0/d79/Button_8h.html',1,'']]],
-  ['button_2eino',['Button.ino',['../dd/d61/Button_8ino.html',1,'']]],
-  ['button_5fpin',['BUTTON_PIN',['../d2/d24/Benchmark_8ino.html#abc2ad14f0789907024ac765711ffd3da',1,'Benchmark.ino']]]
+  ['button_2eino',['Button.ino',['../dc/d5c/Button_2Button_8ino.html',1,'']]],
+  ['button_2eino',['Button.ino',['../d3/ddd/ATtiny_2Button_2Button_8ino.html',1,'']]],
+  ['button_5fpin',['BUTTON_PIN',['../de/db9/ATtiny_2Benchmark_2Benchmark_8ino.html#abc2ad14f0789907024ac765711ffd3da',1,'BUTTON_PIN():&#160;Benchmark.ino'],['../db/d3f/Benchmark_2Benchmark_8ino.html#abc2ad14f0789907024ac765711ffd3da',1,'BUTTON_PIN():&#160;Benchmark.ino']]]
 ];
