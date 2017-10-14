@@ -214,12 +214,13 @@ var NAVTREEINDEX0 =
 "dd/d61/Button_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,2,0,0],
 "dd/d61/Button_8ino_source.html":[3,0,0,2,0],
 "dd/de4/benchmark_8h.html":[3,0,1,4],
+"dd/de4/benchmark_8h.html#a06490f969e4bf338140f5e5aaf050efd":[3,0,1,4,2],
 "dd/de4/benchmark_8h.html#a701f687b306a88873f11c4ba0b766403":[3,0,1,4,0],
-"dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d":[3,0,1,4,3],
-"dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665":[3,0,1,4,5],
-"dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0":[3,0,1,4,2],
+"dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d":[3,0,1,4,4],
+"dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665":[3,0,1,4,6],
+"dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0":[3,0,1,4,3],
 "dd/de4/benchmark_8h.html#ac900b31bdce3cb2b95e1178015aa7d0f":[3,0,1,4,1],
-"dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226":[3,0,1,4,4],
+"dd/de4/benchmark_8h.html#ad6cb650a662c1adf2620e98474051226":[3,0,1,4,5],
 "dd/de4/benchmark_8h_source.html":[3,0,1,4],
 "de/d8f/classSRPO.html":[2,0,9],
 "de/d8f/classSRPO.html#a05069406444ab9df6053f310e79019a7":[2,0,9,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "functions_func.html":[2,3,1],
 "functions_vars.html":[2,3,2],
 "globals.html":[3,1,0],
-"globals_defs.html":[3,1,3],
-"globals_func.html":[3,1,1]
+"globals_defs.html":[3,1,3]
 };

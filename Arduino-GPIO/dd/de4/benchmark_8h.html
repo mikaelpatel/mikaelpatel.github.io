@@ -133,6 +133,8 @@ Macros</h2></td></tr>
 <tr class="separator:ac900b31bdce3cb2b95e1178015aa7d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a701f687b306a88873f11c4ba0b766403"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de4/benchmark_8h.html#a701f687b306a88873f11c4ba0b766403">BENCHMARK</a>(msg,  scale)</td></tr>
 <tr class="separator:a701f687b306a88873f11c4ba0b766403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06490f969e4bf338140f5e5aaf050efd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de4/benchmark_8h.html#a06490f969e4bf338140f5e5aaf050efd">MEASURE</a>(expr)&#160;&#160;&#160;<a class="el" href="../../dd/de4/benchmark_8h.html#a701f687b306a88873f11c4ba0b766403">BENCHMARK</a>(#expr,1) expr</td></tr>
+<tr class="separator:a06490f969e4bf338140f5e5aaf050efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -185,7 +187,7 @@ License</h1>
 <div class="ttc" id="benchmark_8h_html_ab194d6a1222672c314ea39b78aad8fd0"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#ab194d6a1222672c314ea39b78aad8fd0">noop</a></div><div class="ttdeci">void noop()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00028">benchmark.h:28</a></div></div>
 <div class="ttc" id="benchmark_8h_html_aaae9c5608af481f3d3b95a5343139665"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#aaae9c5608af481f3d3b95a5343139665">_start</a></div><div class="ttdeci">static uint32_t _start</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
 <div class="ttc" id="benchmark_8h_html_a78931913ec1adbfe8b4f4010ebff205d"><div class="ttname"><a href="../../dd/de4/benchmark_8h.html#a78931913ec1adbfe8b4f4010ebff205d">_baseline</a></div><div class="ttdeci">static uint32_t _baseline</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de4/benchmark_8h_source.html#l00023">benchmark.h:23</a></div></div>
-</div><!-- fragment --><p>Benchmark support macros. Use in the form: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;BENCHMARK(&quot;description&quot;) statement</div></div><!-- fragment --><p> Prints description message and time to execute the statement in micro-seconds. The maximum resolution depends on micros() and is typically 4 us (F_CPU=16 MHz). Message strings are stored in program memory. </p><dl class="params"><dt>Parameters</dt><dd>
+</div><!-- fragment --><p>Benchmark support macro. Use in the form: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;BENCHMARK(&quot;description&quot;) statement</div></div><!-- fragment --><p> Prints description message and time to execute the statement in micro-seconds. The maximum resolution depends on micros() and is typically 4 us (F_CPU is 16 MHz). Message strings are stored in program memory. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">msg</td><td>description of the benchmark. </td></tr>
   </table>
@@ -215,6 +217,30 @@ License</h1>
 </div><!-- fragment --><p>Calculate and set benchmark baseline. Should be called in <a class="el" href="../../d2/d24/Benchmark_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a>. </p>
 
 <p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00033">33</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a06490f969e4bf338140f5e5aaf050efd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MEASURE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">expr</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../dd/de4/benchmark_8h.html#a701f687b306a88873f11c4ba0b766403">BENCHMARK</a>(#expr,1) expr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Execution time measurement support macro. Use in the form: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;MEASURE(expr)</div></div><!-- fragment --><p> Executes given expression and prints time to execute micro- seconds. The maximum resolution depends on micros() and is typically 4 us (F_CPU is 16 MHz). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">expr</td><td>expression to execute and measure. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../dd/de4/benchmark_8h_source.html#l00068">68</a> of file <a class="el" href="../../dd/de4/benchmark_8h_source.html">benchmark.h</a>.</p>
 
 </div>
 </div>
@@ -319,7 +345,7 @@ License</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../dd/de4/benchmark_8h.html">benchmark.h</a></li>
-    <li class="footer">Generated on Fri Oct 13 2017 11:08:20 for Arduino-GPIO by
+    <li class="footer">Generated on Sat Oct 14 2017 03:04:38 for Arduino-GPIO by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

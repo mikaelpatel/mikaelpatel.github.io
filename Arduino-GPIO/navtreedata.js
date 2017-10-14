@@ -32,7 +32,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"globals_vars.html"
+"globals_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

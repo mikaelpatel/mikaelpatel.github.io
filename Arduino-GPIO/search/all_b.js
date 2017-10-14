@@ -11,6 +11,7 @@ var searchData=
   ['m_5ftx',['m_tx',['../db/da5/classSoftware_1_1Serial.html#a3e044da32e5bc5a8b5c70e9e27c12ada',1,'Software::Serial']]],
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
   ['mask',['MASK',['../d7/dde/classGPIO.html#a4fcdf6f25ea9cddbd2508145cc9a4076',1,'GPIO::MASK()'],['../d7/dde/classGPIO.html#acfa6bc17cc21e97d6e2dd3232295653a',1,'GPIO::MASK()']]],
+  ['measure',['MEASURE',['../dd/de4/benchmark_8h.html#a06490f969e4bf338140f5e5aaf050efd',1,'benchmark.h']]],
   ['miso',['MISO',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976a2b5a415a6bbd16abdbca1a218e96eb7e',1,'BOARD']]],
   ['mosi',['MOSI',['../d4/dbd/classBOARD.html#a235abfbfff551f9a390b6144fcb53976aed876c3551f302a08143a028096d3eac',1,'BOARD']]]
 ];
