@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"de/df6/classAT24C256.html#a4067c420ed6e2a2a77c21100d5a2545a":[1,0,1,7],
 "de/df6/classAT24C256.html#a4ad1e0f1533467405d656455a5491ce1":[1,0,1,12],
 "de/df6/classAT24C256.html#a4dc588747ce96b82d7023f58b11c99c0":[1,0,1,5],
 "de/df6/classAT24C256.html#a5f3a7d53b2e9380fc307584ff6b53393":[1,0,1,3],
@@ -47,9 +48,9 @@ var NAVTREEINDEX1 =
 "dir_8c0ce9be3a090eaafcb8bd2af38e96e8.html":[2,0,0,0,1],
 "dir_8ffc05100fbb62cb2b6b874cb49e49e0.html":[2,0,0,0],
 "dir_927357d0d042f131fef351249e4c33c6.html":[2,0,0,3],
+"dir_92fd1244964cf01783b6849910a32d46.html":[2,0,0,0,2],
 "dir_d28a4824dc47e487b107a5db32ef43c4.html":[2,0,0],
 "dir_e4835fadc71b9b2f9d6adbf1a4723c42.html":[2,0,1,0],
-"dir_e92d82776a66b8b846f8f7178a9bf11d.html":[2,0,0,0,2],
 "files.html":[2,0],
 "functions.html":[1,3,0],
 "functions_eval.html":[1,3,3],

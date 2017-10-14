@@ -1,12 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d2/d5c/classMC23LC1024.html" title="MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="120,5,287,47"/>
-<area shape="rect" id="node3" href="$d1/d79/classMC23LC512.html" title="MC23LC512\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="124,71,283,112"/>
-<area shape="rect" id="node4" href="$dd/d5e/classStorage.html" title="Storage" alt="" coords="5,106,72,133"/>
-<area shape="rect" id="node5" href="$d2/db3/classAT24CXX.html" title="AT24CXX" alt="" coords="163,187,244,214"/>
-<area shape="rect" id="node11" href="$dc/d83/classEEPROM.html" title="EEPROM" alt="" coords="163,137,243,163"/>
-<area shape="rect" id="node6" href="$dd/ded/classAT24C128.html" title="AT24C128" alt="" coords="335,86,419,113"/>
-<area shape="rect" id="node7" href="$de/df6/classAT24C256.html" title="AT24C256" alt="" coords="335,137,419,163"/>
-<area shape="rect" id="node8" href="$d3/dc8/classAT24C32.html" title="AT24C32" alt="" coords="338,187,415,214"/>
-<area shape="rect" id="node9" href="$de/dec/classAT24C512.html" title="AT24C512" alt="" coords="335,238,419,265"/>
-<area shape="rect" id="node10" href="$df/d74/classAT24C64.html" title="AT24C64" alt="" coords="338,289,415,315"/>
+<area shape="rect" id="node2" href="$de/d55/classMC23LCXXX.html" title="MC23LCXXX\&lt; KBYTE, SS\l_PIN, FREQ \&gt;" alt="" coords="122,5,305,47"/>
+<area shape="rect" id="node3" href="$de/d55/classMC23LCXXX.html" title="MC23LCXXX\&lt; 128, SS\l_PIN, FREQ \&gt;" alt="" coords="133,71,293,112"/>
+<area shape="rect" id="node5" href="$de/d55/classMC23LCXXX.html" title="MC23LCXXX\&lt; 64, SS_PIN,\l FREQ \&gt;" alt="" coords="120,136,307,177"/>
+<area shape="rect" id="node4" href="$d2/d5c/classMC23LC1024.html" title="MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="355,71,521,112"/>
+<area shape="rect" id="node6" href="$d1/d79/classMC23LC512.html" title="MC23LC512\&lt; SS_PIN,\l FREQ \&gt;" alt="" coords="359,136,517,177"/>
+<area shape="rect" id="node7" href="$dd/d5e/classStorage.html" title="Storage" alt="" coords="5,143,72,170"/>
+<area shape="rect" id="node8" href="$d2/db3/classAT24CXX.html" title="AT24CXX" alt="" coords="173,278,254,305"/>
+<area shape="rect" id="node14" href="$dc/d83/classEEPROM.html" title="EEPROM" alt="" coords="173,202,253,229"/>
+<area shape="rect" id="node9" href="$dd/ded/classAT24C128.html" title="AT24C128" alt="" coords="396,253,480,279"/>
+<area shape="rect" id="node10" href="$de/df6/classAT24C256.html" title="AT24C256" alt="" coords="396,303,480,330"/>
+<area shape="rect" id="node11" href="$d3/dc8/classAT24C32.html" title="AT24C32" alt="" coords="399,354,477,381"/>
+<area shape="rect" id="node12" href="$de/dec/classAT24C512.html" title="AT24C512" alt="" coords="396,405,480,431"/>
+<area shape="rect" id="node13" href="$df/d74/classAT24C64.html" title="AT24C64" alt="" coords="399,202,477,229"/>
 </map>

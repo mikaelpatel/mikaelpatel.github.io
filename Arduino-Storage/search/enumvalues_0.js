@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['rdmr',['RDMR',['../d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa01ec4677b2e516621bcc62607b99badb',1,'MC23LC1024::RDMR()'],['../d1/d79/classMC23LC512.html#a656e0fe578db007f3e42b9e1962dbd0caf1333a4457f05f9658b4d0485e4a636b',1,'MC23LC512::RDMR()']]],
-  ['read',['READ',['../d2/d5c/classMC23LC1024.html#a9e203ad6c9b2d96762a874c9a3d19e7aa8e0c1887efff9d50f3fb5923b7152032',1,'MC23LC1024::READ()'],['../d1/d79/classMC23LC512.html#a656e0fe578db007f3e42b9e1962dbd0ca1b8922d586b32fb141d5368d47184940',1,'MC23LC512::READ()']]]
+  ['rdmr',['RDMR',['../de/d55/classMC23LCXXX.html#ac1a853a9aed33c513840c31cfad2a67da3f71bc751333f2b0830bda906ac4ba32',1,'MC23LCXXX']]],
+  ['read',['READ',['../de/d55/classMC23LCXXX.html#ac1a853a9aed33c513840c31cfad2a67dad565ce76d4ab5f0b370c828ea5f1d09e',1,'MC23LCXXX']]]
 ];

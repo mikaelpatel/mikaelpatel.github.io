@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addr',['addr',['../d7/d41/structMC23LC1024_1_1header__t.html#ad26fd51a16813a1afac51fb9ce840c6f',1,'MC23LC1024::header_t::addr()'],['../dd/d66/structMC23LC512_1_1header__t.html#a0129a89ffa95c96a519d2d89b88b6700',1,'MC23LC512::header_t::addr()'],['../de/d4e/classStorage_1_1Block.html#ac30907bcdf0a62b84e56944b5fe86b9c',1,'Storage::Block::addr()'],['../db/d67/classStorage_1_1Cache.html#a7b6a793439957a63f2e4181af28a9e5c',1,'Storage::Cache::addr()'],['../dd/da0/classStorage_1_1Stream.html#af31fc6534faaddf6c973801c90ffd0b2',1,'Storage::Stream::addr()']]],
+  ['addr',['addr',['../d3/d23/structMC23LCXXX_1_1header__t.html#ac226cb2db425d34c75ccc7d1c4a1bb3b',1,'MC23LCXXX::header_t::addr()'],['../de/d4e/classStorage_1_1Block.html#ac30907bcdf0a62b84e56944b5fe86b9c',1,'Storage::Block::addr()'],['../db/d67/classStorage_1_1Cache.html#a7b6a793439957a63f2e4181af28a9e5c',1,'Storage::Cache::addr()'],['../dd/da0/classStorage_1_1Stream.html#af31fc6534faaddf6c973801c90ffd0b2',1,'Storage::Stream::addr()']]],
   ['alloc',['alloc',['../dd/d5e/classStorage.html#a358bd9a1c65f88438e5c8cfbe72846f6',1,'Storage']]],
   ['at24c128',['AT24C128',['../dd/ded/classAT24C128.html',1,'AT24C128'],['../dd/ded/classAT24C128.html#ad64e2241b37c6049c29c5cb0c0cd669d',1,'AT24C128::AT24C128()']]],
   ['at24c256',['AT24C256',['../de/df6/classAT24C256.html',1,'AT24C256'],['../de/df6/classAT24C256.html#ab6ce1536a43cf2c57bdb2cfb8d57668e',1,'AT24C256::AT24C256()']]],

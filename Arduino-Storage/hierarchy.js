@@ -1,12 +1,16 @@
 var hierarchy =
 [
     [ "config_t", "d8/dc0/structconfig__t.html", null ],
-    [ "MC23LC1024< SS_PIN, FREQ >::header_t", "d7/d41/structMC23LC1024_1_1header__t.html", null ],
-    [ "MC23LC512< SS_PIN, FREQ >::header_t", "dd/d66/structMC23LC512_1_1header__t.html", null ],
+    [ "MC23LCXXX< KBYTE, SS_PIN, FREQ >::header_t", "d3/d23/structMC23LCXXX_1_1header__t.html", null ],
     [ "sample_t", "d1/d4b/structsample__t.html", null ],
     [ "Device", null, [
-      [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ],
-      [ "MC23LC512< SS_PIN, FREQ >", "d1/d79/classMC23LC512.html", null ]
+      [ "MC23LCXXX< KBYTE, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", null ],
+      [ "MC23LCXXX< 128, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", [
+        [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ]
+      ] ],
+      [ "MC23LCXXX< 64, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", [
+        [ "MC23LC512< SS_PIN, FREQ >", "d1/d79/classMC23LC512.html", null ]
+      ] ]
     ] ],
     [ "Storage", "dd/d5e/classStorage.html", [
       [ "AT24CXX", "d2/db3/classAT24CXX.html", [
@@ -17,8 +21,9 @@ var hierarchy =
         [ "AT24C64", "df/d74/classAT24C64.html", null ]
       ] ],
       [ "EEPROM", "dc/d83/classEEPROM.html", null ],
-      [ "MC23LC1024< SS_PIN, FREQ >", "d2/d5c/classMC23LC1024.html", null ],
-      [ "MC23LC512< SS_PIN, FREQ >", "d1/d79/classMC23LC512.html", null ]
+      [ "MC23LCXXX< KBYTE, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", null ],
+      [ "MC23LCXXX< 128, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", null ],
+      [ "MC23LCXXX< 64, SS_PIN, FREQ >", "de/d55/classMC23LCXXX.html", null ]
     ] ],
     [ "Storage::Block", "de/d4e/classStorage_1_1Block.html", [
       [ "Storage::Cache", "db/d67/classStorage_1_1Cache.html", null ]

@@ -1,0 +1,7 @@
+<map id="MC23LCXXX&lt; KBYTE, SS_PIN, FREQ &gt;" name="MC23LCXXX&lt; KBYTE, SS_PIN, FREQ &gt;">
+<area shape="rect" id="node4" href="$de/d55/classMC23LCXXX.html" title="{MC23LCXXX\&lt; 64, SS_PIN,\l FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LCXXX()\l+ read()\l+ write()\l}" alt="" coords="5,404,192,525"/>
+<area shape="rect" id="node6" href="$de/d55/classMC23LCXXX.html" title="{MC23LCXXX\&lt; 128, SS\l_PIN, FREQ \&gt;\n|+ MAX_FREQ\l|+ MC23LCXXX()\l+ read()\l+ write()\l}" alt="" coords="216,404,376,525"/>
+<area shape="rect" id="node2" href="$dd/d5e/classStorage.html" title="{Storage\n|+ SIZE\l# m_addr\l|+ Storage()\l+ room()\l+ alloc()\l+ free()\l+ read()\l+ write()\l}" alt="" coords="66,5,153,171"/>
+<area shape="rect" id="node5" href="$d1/d79/classMC23LC512.html" title="{MC23LC512\&lt; SS_PIN,\l FREQ \&gt;\n||+ MC23LC512()\l}" alt="" coords="19,575,178,667"/>
+<area shape="rect" id="node7" href="$d2/d5c/classMC23LC1024.html" title="{MC23LC1024\&lt; SS_PIN,\l FREQ \&gt;\n||+ MC23LC1024()\l}" alt="" coords="213,575,379,667"/>
+</map>
