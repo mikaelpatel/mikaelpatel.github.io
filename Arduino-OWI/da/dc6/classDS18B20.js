@@ -22,7 +22,7 @@ var classDS18B20 =
     [ "rom_P", "da/dc6/classDS18B20.html#adce5b7dfaccd3ffcb25e38bfa96e58ba", null ],
     [ "set_trigger", "da/dc6/classDS18B20.html#a6a3a402844c1be9288df3a8cf5329f39", null ],
     [ "temperature", "da/dc6/classDS18B20.html#ab73aa89ab63f7fd94fdf95b4e96029fb", null ],
-    [ "write_scratchpad", "da/dc6/classDS18B20.html#a2bf4e21bd3120548738092ecb19243e4", null ],
+    [ "write_scratchpad", "da/dc6/classDS18B20.html#aef1f3809cb5db61bb15b447c47eb25df", null ],
     [ "CONFIG_MAX", "da/dc6/classDS18B20.html#a1b05e9aeb0b55ca2f973306439a339c7", null ],
     [ "FAMILY_CODE", "da/dc6/classDS18B20.html#a10158e45c6a23b103b4cb2a966ce1c4a", null ],
     [ "m_converting", "da/dc6/classDS18B20.html#ac85e044f16b0628d1db638dfd72e6a93", null ],

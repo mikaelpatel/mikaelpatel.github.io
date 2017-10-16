@@ -1,0 +1,11 @@
+digraph "examples/Slave/Master" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0b1b5459e01e8c427262ee0b5497150a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Slave" fontname="Helvetica", fontsize="10", URL="dir_0b1b5459e01e8c427262ee0b5497150a.html"]
+  dir_dd40ad2f09a424a8f431853da4a312b6 [shape=box, label="Master", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_dd40ad2f09a424a8f431853da4a312b6.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_dd40ad2f09a424a8f431853da4a312b6->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000021_000023.html"];
+}

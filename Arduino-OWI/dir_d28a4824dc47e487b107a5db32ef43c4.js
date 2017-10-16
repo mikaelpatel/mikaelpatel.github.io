@@ -7,5 +7,6 @@ var dir_d28a4824dc47e487b107a5db32ef43c4 =
     [ "DS1990A", "dir_8c1bb936615844b522f4b0b799130dfa.html", "dir_8c1bb936615844b522f4b0b799130dfa" ],
     [ "DS2482", "dir_0cf9e2383f6a43ce957518394740e070.html", "dir_0cf9e2383f6a43ce957518394740e070" ],
     [ "Scanner", "dir_3c255463df23486bbba0dcefb1196b0f.html", "dir_3c255463df23486bbba0dcefb1196b0f" ],
-    [ "Search", "dir_248e8ef9f6f04c4f5605684854d1c790.html", "dir_248e8ef9f6f04c4f5605684854d1c790" ]
+    [ "Search", "dir_248e8ef9f6f04c4f5605684854d1c790.html", "dir_248e8ef9f6f04c4f5605684854d1c790" ],
+    [ "Slave", "dir_0b1b5459e01e8c427262ee0b5497150a.html", "dir_0b1b5459e01e8c427262ee0b5497150a" ]
 ];

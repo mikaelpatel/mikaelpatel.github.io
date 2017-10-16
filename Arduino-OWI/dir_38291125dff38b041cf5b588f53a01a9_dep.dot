@@ -7,5 +7,5 @@ digraph "examples/ATtiny/DS18B20" {
   dir_38291125dff38b041cf5b588f53a01a9 [shape=box, label="DS18B20", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_38291125dff38b041cf5b588f53a01a9.html"];
   }
   dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
-  dir_38291125dff38b041cf5b588f53a01a9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000006_000019.html"];
+  dir_38291125dff38b041cf5b588f53a01a9->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000006_000023.html"];
 }

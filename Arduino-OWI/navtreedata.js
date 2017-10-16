@@ -22,6 +22,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -31,7 +32,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "License.html",
-"dir_392e5fed41b2de721750e308647dcb9c.html"
+"dd/d5a/DS2482_2Alarm_2Alarm_8ino.html#a4fc01d736fe50cf5b977f755b675f11d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

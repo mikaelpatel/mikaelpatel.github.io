@@ -1,0 +1,6 @@
+<map id="examples/Slave/DS18B20" name="examples/Slave/DS18B20">
+<area shape="rect" id="node1" href="dir_1f2023218e49fb1b666c7c6028af7e0b.html" title="DS18B20" alt="" coords="27,52,106,100"/>
+<area shape="rect" id="node2" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html" title="src" alt="" coords="31,148,103,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000010_000023.html" title="1" alt="" coords="71,122,79,137"/>
+<area shape="rect" id="clust1" href="dir_0b1b5459e01e8c427262ee0b5497150a.html" title="Slave" alt="" coords="16,16,117,111"/>
+</map>

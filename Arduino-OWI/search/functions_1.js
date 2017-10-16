@@ -5,5 +5,5 @@ var searchData=
   ['convert_5fawait',['convert_await',['../da/dc6/classDS18B20.html#a5b4f36906020a9de4633be3cb747bf3f',1,'DS18B20']]],
   ['convert_5frequest',['convert_request',['../da/dc6/classDS18B20.html#aa4a812157da0d393f7b938aebbe58d1b',1,'DS18B20']]],
   ['copy_5fscratchpad',['copy_scratchpad',['../da/dc6/classDS18B20.html#a07f86e205db14bb44b31dcefaaa4d59c',1,'DS18B20']]],
-  ['crc_5fupdate',['crc_update',['../d7/d90/classOWI.html#a1d6d7e409fbb94802843a91f1869c628',1,'OWI']]]
+  ['crc_5fupdate',['crc_update',['../d7/d90/classOWI.html#a1d6d7e409fbb94802843a91f1869c628',1,'OWI::crc_update()'],['../de/dad/classSlave_1_1OWI.html#a93e7154f640644fff558edc4661524de',1,'Slave::OWI::crc_update()']]]
 ];
