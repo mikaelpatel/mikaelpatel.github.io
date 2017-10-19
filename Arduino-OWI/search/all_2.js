@@ -1,7 +1,7 @@
 var searchData=
 [
   ['channel_5fselect',['channel_select',['../d3/d22/classHardware_1_1OWI.html#a6beb76a983ca25b2cb6e166d5dfa110b',1,'Hardware::OWI']]],
-  ['charbits',['CHARBITS',['../d5/d27/OWI_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'CHARBITS():&#160;OWI.h'],['../d1/d4f/Slave_2OWI_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'CHARBITS():&#160;OWI.h']]],
+  ['charbits',['CHARBITS',['../d5/d27/OWI_8h.html#ac838e0319f2484c292a41e9f130e2bb7',1,'OWI.h']]],
   ['config_5fmax',['CONFIG_MAX',['../da/dc6/classDS18B20.html#a1b05e9aeb0b55ca2f973306439a339c7',1,'DS18B20']]],
   ['configuration',['configuration',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#af5e1fccfab9e8252cf3273fde6724f98',1,'DS18B20::scratchpad_t::configuration()'],['../d1/d6c/structscratchpad__t.html#aac3665d66be11ad8a71b3b0df3dbd28d',1,'scratchpad_t::configuration()']]],
   ['conversion_5ftime',['conversion_time',['../da/dc6/classDS18B20.html#aa1a183ed5d2e67d9aea4090a25e1321b',1,'DS18B20']]],

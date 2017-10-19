@@ -38,7 +38,6 @@ var NAVTREEINDEX0 =
 "d0/de1/classSoftware_1_1OWI.html#af6061631fcd3381729020fd1ebbf6db0":[2,0,2,0,8],
 "d0/de1/classSoftware_1_1OWI.html#af9ff6fa238d55441da99dee11aec288a":[2,0,2,0,12],
 "d1/d4f/Slave_2OWI_8h.html":[3,0,1,2,0],
-"d1/d4f/Slave_2OWI_8h.html#ac838e0319f2484c292a41e9f130e2bb7":[3,0,1,2,0,1],
 "d1/d4f/Slave_2OWI_8h_source.html":[3,0,1,2,0],
 "d1/d6c/structscratchpad__t.html":[2,0,6],
 "d1/d6c/structscratchpad__t.html#aa393d2b2b986c0ff202833b868136fd5":[2,0,6,2],
@@ -82,8 +81,8 @@ var NAVTREEINDEX0 =
 "d3/d22/classHardware_1_1OWI.html#aecac50b0d8eb690536c5dda6f271fa19":[2,0,0,0,20],
 "d3/d22/classHardware_1_1OWI.html#af491d2fe16527f830ae557c121cf14c3":[2,0,0,0,26],
 "d3/d22/classHardware_1_1OWI.html#af9ff6fa238d55441da99dee11aec288a":[2,0,0,0,16],
-"d3/db2/namespaceSoftware.html":[1,0,2],
 "d3/db2/namespaceSoftware.html":[2,0,2],
+"d3/db2/namespaceSoftware.html":[1,0,2],
 "d3/dea/Alarm_2Alarm_8ino.html":[3,0,0,0,0],
 "d3/dea/Alarm_2Alarm_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,0,0,1],
 "d3/dea/Alarm_2Alarm_8ino.html#a7bf606ed3113c48745e35749699cdb26":[3,0,0,0,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "dd/d27/namespaceHardware.html":[1,0,0],
 "dd/d27/namespaceHardware.html":[2,0,0],
 "dd/d5a/DS2482_2Alarm_2Alarm_8ino.html":[3,0,0,5,0,0],
-"dd/d5a/DS2482_2Alarm_2Alarm_8ino.html#a34602fd2476c2fdbfca51a7a9fef214f":[3,0,0,5,0,0,2]
+"dd/d5a/DS2482_2Alarm_2Alarm_8ino.html#a34602fd2476c2fdbfca51a7a9fef214f":[3,0,0,5,0,0,2],
+"dd/d5a/DS2482_2Alarm_2Alarm_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,5,0,0,1]
 };
