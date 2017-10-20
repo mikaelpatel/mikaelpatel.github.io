@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pin',['pin',['../df/d45/Slave_2DS18B20_2DS18B20_8ino.html#aeabac9491522ec7f68102bfeab33d5c1',1,'DS18B20.ino']]]
+  ['pin',['pin',['../df/d45/Slave_2DS18B20_2DS18B20_8ino.html#ac86ab61d2192250321b5877b0af1084c',1,'DS18B20.ino']]]
 ];

@@ -6,6 +6,8 @@ var classOWI =
     [ "MATCH_ROM", "d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4df3ab7ec6e4d1dce0dc3300dd0e7629", null ],
     [ "SKIP_ROM", "d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a13a2b7bd603c8b2fdcb70e0af2b6d423", null ],
     [ "ALARM_SEARCH", "d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805", null ],
+    [ "LABEL_ROM", "d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290afb3e7bb4d88af088e589e950804c292c", null ],
+    [ "MATCH_LABEL", "d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a6596b466aeb7e5ac769f6f9912f8dcf2", null ],
     [ "FIRST", "d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4c8ec5f48b1aefb91d12ce633b4c06c2", null ],
     [ "ERROR", "d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a02edd924b451d01d2bc30e294a455f0d", null ],
     [ "LAST", "d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a33c7ef9da9af1a29724205a00da5263e", null ],

@@ -2,5 +2,5 @@ digraph "Slave::OWI&lt; PIN &gt;"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{Slave::OWI\< PIN \>\n|+ ROM_MAX\l+ ROMBITS\l# m_pin\l# m_timestamp\l# m_rom\l# m_alarm\l# m_crc\l|+ OWI()\l+ alarm()\l+ alarm()\l+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ rom_command()\l+ crc_update()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="{Slave::OWI\< PIN \>\n|+ ROM_MAX\l+ ROMBITS\l# m_pin\l# m_timestamp\l# m_rom\l# m_label\l# m_alarm\l# m_crc\l|+ OWI()\l+ alarm()\l+ alarm()\l+ reset()\l+ read()\l+ read()\l+ write()\l+ write()\l+ triplet()\l+ rom_command()\l+ crc_update()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
 }

@@ -147,7 +147,9 @@ Public Types</h2></td></tr>
 <a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a4df3ab7ec6e4d1dce0dc3300dd0e7629">MATCH_ROM</a> = 0x55, 
 <a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a13a2b7bd603c8b2fdcb70e0af2b6d423">SKIP_ROM</a> = 0xCC, 
 <br />
-&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805">ALARM_SEARCH</a> = 0xEC
+&#160;&#160;<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805">ALARM_SEARCH</a> = 0xEC, 
+<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290afb3e7bb4d88af088e589e950804c292c">LABEL_ROM</a> = 0x15, 
+<a class="el" href="../../d7/d90/classOWI.html#ae441131fd8ca8cd8159f5b1bf4e95290a6596b466aeb7e5ac769f6f9912f8dcf2">MATCH_LABEL</a> = 0x51
 <br />
  }</td></tr>
 <tr class="separator:ae441131fd8ca8cd8159f5b1bf4e95290"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +254,12 @@ class Software::OWI&lt; PIN &gt;</h3>
 <tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a37fdeca070e4931fbf129f7657975805"></a>ALARM_SEARCH&#160;</td><td class="fielddoc">
 <p>Initiate device alarm search. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290afb3e7bb4d88af088e589e950804c292c"></a>LABEL_ROM&#160;</td><td class="fielddoc">
+<p>Set short address (8-bit). </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae441131fd8ca8cd8159f5b1bf4e95290a6596b466aeb7e5ac769f6f9912f8dcf2"></a>MATCH_LABEL&#160;</td><td class="fielddoc">
+<p>Select device with 8-bit short address. </p>
+</td></tr>
 </table>
 
 <p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00128">128</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
@@ -288,7 +296,7 @@ class Software::OWI&lt; PIN &gt;</h3>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00155">155</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00157">157</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -362,7 +370,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00224">224</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00226">226</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +407,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Optimized Dallas/Maxim iButton 8-bit Cyclic Redundancy Check calculation. Polynomial: x^8 + x^5 + x^4 + 1 (0x8C). See <a href="http://www.maxim-ic.com/appnotes.cfm/appnote_number/27">http://www.maxim-ic.com/appnotes.cfm/appnote_number/27</a> </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00141">141</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00143">143</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -432,7 +440,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00199">199</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00201">201</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +554,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00185">185</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00187">187</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -620,7 +628,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00294">294</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00296">296</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -671,7 +679,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>position of difference or negative error code. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00169">169</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00171">171</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -697,7 +705,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Skip device rom for boardcast or single device access. <a class="el" href="../../d0/d7f/classOWI_1_1Device.html">Device</a> specific function command should follow. </p><dl class="section return"><dt>Returns</dt><dd>true(1) if successful otherwise false(0). </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00211">211</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00213">213</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -878,7 +886,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 </div><div class="memdoc">
 <p>Maximum number of reset retries. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00285">285</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d27/OWI_8h_source.html#l00287">287</a> of file <a class="el" href="../../d5/d27/OWI_8h_source.html">OWI.h</a>.</p>
 
 </div>
 </div>
@@ -937,7 +945,7 @@ template&lt;BOARD::pin_t PIN&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db2/namespaceSoftware.html">Software</a></li><li class="navelem"><a class="el" href="../../d0/de1/classSoftware_1_1OWI.html">OWI</a></li>
-    <li class="footer">Generated on Thu Oct 19 2017 14:52:51 for Arduino-OWI by
+    <li class="footer">Generated on Fri Oct 20 2017 15:16:29 for Arduino-OWI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
