@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key',['KEY',['../d9/de5/ATtiny_2DS1990A_2DS1990A_8ino.html#ac4f0e540d3c23651b2bb6a35b69301e0',1,'KEY():&#160;DS1990A.ino'],['../d5/d07/DS1990A_2DS1990A_8ino.html#ac4f0e540d3c23651b2bb6a35b69301e0',1,'KEY():&#160;DS1990A.ino']]]
+  ['high_5ftrigger',['high_trigger',['../d4/d1f/structDS18B20_1_1scratchpad__t.html#a3d71c9cea093bf3acd0b106fd0a257fd',1,'DS18B20::scratchpad_t::high_trigger()'],['../d1/d6c/structscratchpad__t.html#ab6dff36a91223c13d6adbfd2318e113c',1,'scratchpad_t::high_trigger()']]]
 ];

@@ -7,5 +7,5 @@ digraph "examples/Slave/DS18B20" {
   dir_1f2023218e49fb1b666c7c6028af7e0b [shape=box, label="DS18B20", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1f2023218e49fb1b666c7c6028af7e0b.html"];
   }
   dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
-  dir_1f2023218e49fb1b666c7c6028af7e0b->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000010_000023.html"];
+  dir_1f2023218e49fb1b666c7c6028af7e0b->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000012_000024.html"];
 }

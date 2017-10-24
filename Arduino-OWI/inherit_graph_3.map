@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$d8/d2f/structres__t.html" title="res_t" alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node1" href="$d0/d7f/classOWI_1_1Device.html" title="OWI::Device" alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$d7/d7d/classArduino.html" title="Arduino" alt="" coords="158,5,225,32"/>
+<area shape="rect" id="node3" href="$da/dc6/classDS18B20.html" title="DS18B20" alt="" coords="152,56,231,83"/>
 </map>

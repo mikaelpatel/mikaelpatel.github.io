@@ -1,12 +1,12 @@
 var classDS18B20 =
 [
     [ "scratchpad_t", "d4/d1f/structDS18B20_1_1scratchpad__t.html", "d4/d1f/structDS18B20_1_1scratchpad__t" ],
-    [ "CONVERT_T", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62ac68925766b90b62e444745f7d338cab1", null ],
-    [ "READ_SCRATCHPAD", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62aa3f3f086c604ba91aae12adeca7fc9e1", null ],
-    [ "WRITE_SCRATCHPAD", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62abcd65828b4fd22dc74b858c49fe9a67d", null ],
-    [ "COPY_SCRATCHPAD", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7879c2dce992ebc0d4bff54ce7d0a26c", null ],
-    [ "RECALL_E", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7bd61cce7bee12ccece0960c0d72a0ea", null ],
-    [ "READ_POWER_SUPPLY", "da/dc6/classDS18B20.html#a9069c1d4983def749e3f1fd4b1725b62a7f28bcb523c0088cf8676ada071a1743", null ],
+    [ "CONVERT_T", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85bac68925766b90b62e444745f7d338cab1", null ],
+    [ "READ_SCRATCHPAD", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85baa3f3f086c604ba91aae12adeca7fc9e1", null ],
+    [ "WRITE_SCRATCHPAD", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85babcd65828b4fd22dc74b858c49fe9a67d", null ],
+    [ "COPY_SCRATCHPAD", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85ba7879c2dce992ebc0d4bff54ce7d0a26c", null ],
+    [ "RECALL_E", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85ba7bd61cce7bee12ccece0960c0d72a0ea", null ],
+    [ "READ_POWER_SUPPLY", "da/dc6/classDS18B20.html#a6f7ae095a5988c621dc03db13c81d85ba7f28bcb523c0088cf8676ada071a1743", null ],
     [ "DS18B20", "da/dc6/classDS18B20.html#a107c6bb4fe7bb558f5d4eb598b1368b4", null ],
     [ "conversion_time", "da/dc6/classDS18B20.html#aa1a183ed5d2e67d9aea4090a25e1321b", null ],
     [ "convert_await", "da/dc6/classDS18B20.html#a5b4f36906020a9de4633be3cb747bf3f", null ],

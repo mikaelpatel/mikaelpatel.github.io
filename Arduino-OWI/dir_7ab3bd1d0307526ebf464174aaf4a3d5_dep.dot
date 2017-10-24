@@ -7,5 +7,5 @@ digraph "examples/DS2482/Scanner" {
   dir_7ab3bd1d0307526ebf464174aaf4a3d5 [shape=box, label="Scanner", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7ab3bd1d0307526ebf464174aaf4a3d5.html"];
   }
   dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
-  dir_7ab3bd1d0307526ebf464174aaf4a3d5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000014_000023.html"];
+  dir_7ab3bd1d0307526ebf464174aaf4a3d5->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000016_000024.html"];
 }

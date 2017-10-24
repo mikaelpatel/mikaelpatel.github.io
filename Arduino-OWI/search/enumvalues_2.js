@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['digital_5fread',['DIGITAL_READ',['../d6/d23/Master_8ino.html#a61dadd085c1777f559549e05962b2c9eaac04d06f7282fb49b502902c5f4b0a0f',1,'DIGITAL_READ():&#160;Master.ino'],['../db/d35/Slave_8ino.html#a726ca809ffd3d67ab4b8476646f26635aac04d06f7282fb49b502902c5f4b0a0f',1,'DIGITAL_READ():&#160;Slave.ino']]],
-  ['digital_5fwrite',['DIGITAL_WRITE',['../d6/d23/Master_8ino.html#a61dadd085c1777f559549e05962b2c9ea0e2f9924efb5f0d6f51df5cf3cc833fb',1,'DIGITAL_WRITE():&#160;Master.ino'],['../db/d35/Slave_8ino.html#a726ca809ffd3d67ab4b8476646f26635a0e2f9924efb5f0d6f51df5cf3cc833fb',1,'DIGITAL_WRITE():&#160;Slave.ino']]]
+  ['digital_5fpins',['DIGITAL_PINS',['../d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a5efdc987d291aa101eeb81208f50c206',1,'Arduino']]],
+  ['digital_5fread',['DIGITAL_READ',['../d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a277e45d92494da26de823a4640db5278',1,'Arduino']]],
+  ['digital_5fwrite',['DIGITAL_WRITE',['../d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a196706dfb3f75b269c5eef091d05a337',1,'Arduino']]]
 ];
