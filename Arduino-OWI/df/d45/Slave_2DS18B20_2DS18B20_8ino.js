@@ -11,8 +11,7 @@ var Slave_2DS18B20_2DS18B20_8ino =
     [ "setup", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#a4fc01d736fe50cf5b977f755b675f11d", null ],
     [ "FAMILY_CODE", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#a5d3b07ca399d1bebb77263dbc1621287", null ],
     [ "led", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#a0bea83277ec38ec98f9ed010a9bbf10d", null ],
-    [ "owi", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#ab9fe6a05c6cd1f8091739cbb2c066437", null ],
+    [ "owi", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#a3d7f260e080a48fb83f84c562c766b38", null ],
     [ "pin", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#ac86ab61d2192250321b5877b0af1084c", null ],
-    [ "ROM", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#ae24bab0d287bc1f122978dab7ff56c16", null ],
     [ "scratchpad", "df/d45/Slave_2DS18B20_2DS18B20_8ino.html#a7808668e5acf9e2134432626708e3ce9", null ]
 ];

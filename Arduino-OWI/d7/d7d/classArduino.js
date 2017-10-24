@@ -28,7 +28,7 @@ var classArduino =
     [ "rom", "d7/d7d/classArduino.html#a80c55460d809276c599fd9e1812d3fc3", null ],
     [ "rom", "d7/d7d/classArduino.html#a486767bc3525d5bf23358d3ca80db5f0", null ],
     [ "rom_P", "d7/d7d/classArduino.html#adce5b7dfaccd3ffcb25e38bfa96e58ba", null ],
-    [ "FAMILY", "d7/d7d/classArduino.html#a61739976fb840eb2e99fd34136f6a851", null ],
+    [ "FAMILY_CODE", "d7/d7d/classArduino.html#a4ece179b7c174d6aefb7004a03bd50f6", null ],
     [ "m_label", "d7/d7d/classArduino.html#a06fb726719cb9ad2ecd2433685271c16", null ],
     [ "m_owi", "d7/d7d/classArduino.html#a3d4f88f6e4b1f2eb6bb848f53158824f", null ],
     [ "m_rom", "d7/d7d/classArduino.html#abce3e7aab0a3bdfbdde5f816b6feb001", null ]

@@ -9,6 +9,7 @@ var classSlave_1_1OWI =
     [ "READ_LABEL", "de/dad/classSlave_1_1OWI.html#a904515404fc9819bde7d1aaa241a1f61adb7385e5a716e90d1c78ffb646af2c4c", null ],
     [ "MATCH_LABEL", "de/dad/classSlave_1_1OWI.html#a904515404fc9819bde7d1aaa241a1f61a08df9f33e7515e64fcbd49cc152be401", null ],
     [ "OWI", "de/dad/classSlave_1_1OWI.html#aad796ee8a51b3a947f18cd486143f2a6", null ],
+    [ "OWI", "de/dad/classSlave_1_1OWI.html#a4b3b99842ccedf5dab132bfcd8fd5eef", null ],
     [ "alarm", "de/dad/classSlave_1_1OWI.html#a74572157d9a74f24756ffb27a6a20230", null ],
     [ "alarm", "de/dad/classSlave_1_1OWI.html#af24c2bb96b79840e96efea2ffb95d7a2", null ],
     [ "crc", "de/dad/classSlave_1_1OWI.html#ab5a026da56305ebb35feea57e0477043", null ],

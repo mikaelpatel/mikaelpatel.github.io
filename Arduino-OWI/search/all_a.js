@@ -14,6 +14,6 @@ var searchData=
   ['mainpage_2edox',['mainpage.dox',['../d5/d4d/mainpage_8dox.html',1,'']]],
   ['match',['MATCH',['../de/df0/Arduino_8h.html#aa029e561c8ca751e2c159a62b7124f0d',1,'Arduino.h']]],
   ['match_5flabel',['match_label',['../d7/d90/classOWI.html#aa3c1b17da721339af201278a5d3d8859',1,'OWI::match_label(uint8_t label)'],['../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a6596b466aeb7e5ac769f6f9912f8dcf2',1,'OWI::MATCH_LABEL()'],['../de/dad/classSlave_1_1OWI.html#a904515404fc9819bde7d1aaa241a1f61a08df9f33e7515e64fcbd49cc152be401',1,'Slave::OWI::MATCH_LABEL()']]],
-  ['match_5from',['MATCH_ROM',['../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4df3ab7ec6e4d1dce0dc3300dd0e7629',1,'OWI::MATCH_ROM()'],['../de/dad/classSlave_1_1OWI.html#a904515404fc9819bde7d1aaa241a1f61a07fe74f4786ba4ecac08662cd07b499e',1,'Slave::OWI::MATCH_ROM()'],['../d7/d90/classOWI.html#a33307e25e12076f81e0f415d438062ef',1,'OWI::match_rom()']]],
+  ['match_5from',['match_rom',['../d7/d90/classOWI.html#a33307e25e12076f81e0f415d438062ef',1,'OWI::match_rom(uint8_t *code)'],['../d7/d90/classOWI.html#ae2acca13a46ffefb818317605b498d35a4df3ab7ec6e4d1dce0dc3300dd0e7629',1,'OWI::MATCH_ROM()'],['../de/dad/classSlave_1_1OWI.html#a904515404fc9819bde7d1aaa241a1f61a07fe74f4786ba4ecac08662cd07b499e',1,'Slave::OWI::MATCH_ROM()']]],
   ['max_5fconversion_5ftime',['MAX_CONVERSION_TIME',['../da/dc6/classDS18B20.html#a0daca5c6e0da9ba8c0fdf6292f694aed',1,'DS18B20']]]
 ];

@@ -116,9 +116,8 @@ var NAVTREEINDEX0 =
 "d4/d1f/structDS18B20_1_1scratchpad__t.html#aef9fac891cbda5b64dceb908c4e95e7e":[2,0,4,0,3],
 "d4/d1f/structDS18B20_1_1scratchpad__t.html#af5e1fccfab9e8252cf3273fde6724f98":[2,0,4,0,0],
 "d4/d90/Slave_2Arduino_2Arduino_8ino.html":[3,0,0,10,0,0],
+"d4/d90/Slave_2Arduino_2Arduino_8ino.html#a08eae498ea491f35313e2f16837ab958":[3,0,0,10,0,0,2],
 "d4/d90/Slave_2Arduino_2Arduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d":[3,0,0,10,0,0,1],
-"d4/d90/Slave_2Arduino_2Arduino_8ino.html#ab9fe6a05c6cd1f8091739cbb2c066437":[3,0,0,10,0,0,2],
-"d4/d90/Slave_2Arduino_2Arduino_8ino.html#ae24bab0d287bc1f122978dab7ff56c16":[3,0,0,10,0,0,3],
 "d4/d90/Slave_2Arduino_2Arduino_8ino.html#afe461d27b9c48d5921c00d521181f12f":[3,0,0,10,0,0,0],
 "d4/d90/Slave_2Arduino_2Arduino_8ino_source.html":[3,0,0,10,0,0],
 "d4/d9d/DS18B20_8h.html":[3,0,1,0,1],
@@ -164,7 +163,7 @@ var NAVTREEINDEX0 =
 "d7/d7d/classArduino.html#a3d4f88f6e4b1f2eb6bb848f53158824f":[2,0,3,30],
 "d7/d7d/classArduino.html#a486767bc3525d5bf23358d3ca80db5f0":[2,0,3,26],
 "d7/d7d/classArduino.html#a486aa7cd6a334e587e604eae9f2bb947":[2,0,3,23],
-"d7/d7d/classArduino.html#a61739976fb840eb2e99fd34136f6a851":[2,0,3,28],
+"d7/d7d/classArduino.html#a4ece179b7c174d6aefb7004a03bd50f6":[2,0,3,28],
 "d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a182b6c9b2324c7821dadf5a4b1635885":[2,0,3,4],
 "d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a196706dfb3f75b269c5eef091d05a337":[2,0,3,3],
 "d7/d7d/classArduino.html#a6c1c22a985e99b06d1ba000d02b81b95a277e45d92494da26de823a4640db5278":[2,0,3,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "da/dc6/classDS18B20.html#a3b7fee99909b73677e5caf1a87b82612":[2,0,4,12],
 "da/dc6/classDS18B20.html#a3d4f88f6e4b1f2eb6bb848f53158824f":[2,0,4,27],
 "da/dc6/classDS18B20.html#a3efed1d58ebb4901c3645029007c09b0":[2,0,4,15],
-"da/dc6/classDS18B20.html#a486767bc3525d5bf23358d3ca80db5f0":[2,0,4,19]
+"da/dc6/classDS18B20.html#a486767bc3525d5bf23358d3ca80db5f0":[2,0,4,19],
+"da/dc6/classDS18B20.html#a58e874baeca1d8df2888ccecececa507":[2,0,4,16]
 };
